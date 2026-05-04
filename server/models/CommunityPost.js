@@ -1,0 +1,26 @@
+import mongoose from 'mongoose';
+
+const communityPostSchema = new mongoose.Schema(
+  {
+    parentName: {
+      type: String,
+      required: true,
+      trim: true,
+      minlength: 2,
+      maxlength: 80,
+    },
+    content: {
+      type: String,
+      required: true,
+      trim: true,
+      minlength: 5,
+      maxlength: 1000,
+    },
+  },
+  {
+    timestamps: true,
+    versionKey: false,
+  },
+);
+
+export const CommunityPost = mongoose.model('CommunityPost', communityPostSchema);
