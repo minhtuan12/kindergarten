@@ -30,4 +30,5 @@ const teacherMessageSchema = new mongoose.Schema(
   },
 );
 
-export const TeacherMessage = mongoose.model('TeacherMessage', teacherMessageSchema);
+export const TeacherMessage =
+  mongoose.models.TeacherMessage || mongoose.model('TeacherMessage', teacherMessageSchema);

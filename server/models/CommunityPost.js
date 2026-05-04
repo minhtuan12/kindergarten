@@ -23,4 +23,5 @@ const communityPostSchema = new mongoose.Schema(
   },
 );
 
-export const CommunityPost = mongoose.model('CommunityPost', communityPostSchema);
+export const CommunityPost =
+  mongoose.models.CommunityPost || mongoose.model('CommunityPost', communityPostSchema);

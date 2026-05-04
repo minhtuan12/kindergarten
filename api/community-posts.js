@@ -11,7 +11,8 @@ export default async function handler(req, res) {
     }
 
     if (req.method === 'POST') {
-      const { parentName, content } = req.body ?? {};
+      const body = typeof req.body === 'string' ? JSON.parse(req.body || '{}') : (req.body ?? {});
+      const { parentName, content } = body;
       if (!parentName || !content) {
         return res.status(400).json({ message: 'parentName and content are required.' });
       }
@@ -25,6 +26,10 @@ export default async function handler(req, res) {
 
     return res.status(405).json({ message: 'Method Not Allowed' });
   } catch (error) {
+    if (error?.name === 'ValidationError') {
+      return res.status(400).json({ message: error.message });
+    }
+    console.error('community-posts api error:', error);
     return res.status(500).json({ message: 'Internal Server Error' });
   }
 }
