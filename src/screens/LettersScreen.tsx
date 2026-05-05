@@ -16,12 +16,37 @@ export default function LettersScreen({ onBack }: { onBack: () => void }) {
   const next = () => setCurrentIndex((prev) => (prev + 1) % ALPHABET.length);
   const prev = () => setCurrentIndex((prev) => (prev - 1 + ALPHABET.length) % ALPHABET.length);
 
-  const speak = (text: string) => {
+  const speak = async (text: string) => {
     if ('speechSynthesis' in window) {
+      const synth = window.speechSynthesis;
+      let voices = synth.getVoices();
+      if (voices.length === 0) {
+        voices = await new Promise<SpeechSynthesisVoice[]>((resolve) => {
+          const timer = window.setTimeout(() => resolve(synth.getVoices()), 800);
+          const onVoicesChanged = () => {
+            window.clearTimeout(timer);
+            synth.removeEventListener('voiceschanged', onVoicesChanged);
+            resolve(synth.getVoices());
+          };
+          synth.addEventListener('voiceschanged', onVoicesChanged);
+        });
+      }
+
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(text);
+      const viVoices = voices.filter((v) => v.lang.toLowerCase().startsWith('vi'));
+      const femaleHints = [
+        'hoaimy', 'hoai my', 'female', 'woman', 'girl', 'linh', 'mai', 'hanh', 'thao', 'ngoc', 'hoa', 'zira', 'susan', 'katja'
+      ];
+      const viFemaleVoice = viVoices.find((v) => {
+        const name = v.name.toLowerCase();
+        return femaleHints.some((hint) => name.includes(hint));
+      });
+      const viVoice = viFemaleVoice || viVoices.find((v) => v.lang.toLowerCase() === 'vi-vn') || viVoices[0] || null;
+      utterance.voice = viVoice;
       utterance.lang = 'vi-VN';
-      utterance.rate = 0.85;
+      utterance.rate = 0.9;
+      utterance.pitch = 1.02;
       window.speechSynthesis.speak(utterance);
     }
   };

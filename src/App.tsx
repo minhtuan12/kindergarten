@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+﻿import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Volume2, ArrowLeft, X, Sparkles, Trophy, Star, Mic, Square, Video, Image as ImageIcon } from 'lucide-react';
 import {
@@ -9,6 +9,26 @@ import { GoogleGenAI } from '@google/genai';
 import { MATH_GAMES_DATA } from './constants/mathData';
 import MathGame from './components/MathGame';
 import ParentDashboard from './screens/ParentDashboard';
+
+type BrowserSpeechRecognition = {
+  lang: string;
+  continuous: boolean;
+  interimResults: boolean;
+  onresult: ((event: any) => void) | null;
+  onerror: ((event: any) => void) | null;
+  onend: (() => void) | null;
+  start: () => void;
+  stop: () => void;
+};
+
+type BrowserSpeechRecognitionConstructor = new () => BrowserSpeechRecognition;
+
+declare global {
+  interface Window {
+    SpeechRecognition?: BrowserSpeechRecognitionConstructor;
+    webkitSpeechRecognition?: BrowserSpeechRecognitionConstructor;
+  }
+}
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
@@ -557,6 +577,26 @@ const ENCOURAGE_PHRASES = [
 let audioCtx: AudioContext | null = null;
 let activeHtmlAudio: HTMLAudioElement | null = null;
 let activeBufferSource: AudioBufferSourceNode | null = null;
+let speechLoadingCounter = 0;
+
+const emitSpeechLoading = (isLoading: boolean) => {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(new CustomEvent('speech-loading', { detail: { isLoading } }));
+};
+
+const beginSpeechLoading = () => {
+  speechLoadingCounter += 1;
+  if (speechLoadingCounter === 1) {
+    emitSpeechLoading(true);
+  }
+};
+
+const endSpeechLoading = () => {
+  speechLoadingCounter = Math.max(0, speechLoadingCounter - 1);
+  if (speechLoadingCounter === 0) {
+    emitSpeechLoading(false);
+  }
+};
 
 const stopCurrentAudio = () => {
   if (activeHtmlAudio) {
@@ -574,19 +614,31 @@ const stopCurrentAudio = () => {
   }
 };
 
-const playExclusiveAudio = async (audioUrl: string): Promise<void> => {
+const playExclusiveAudio = async (audioUrl: string): Promise<boolean> => {
   stopCurrentAudio();
   const audio = new Audio(audioUrl);
   activeHtmlAudio = audio;
 
+  audio.onended = () => {
+    if (activeHtmlAudio === audio) {
+      activeHtmlAudio = null;
+    }
+  };
+  audio.onerror = () => {
+    if (activeHtmlAudio === audio) {
+      activeHtmlAudio = null;
+    }
+  };
+
   try {
     await audio.play();
-  } finally {
-    audio.onended = () => {
-      if (activeHtmlAudio === audio) {
-        activeHtmlAudio = null;
-      }
-    };
+    return true;
+  } catch (error) {
+    if (activeHtmlAudio === audio) {
+      activeHtmlAudio = null;
+    }
+    console.error("Audio play failed", error);
+    return false;
   }
 };
 
@@ -627,13 +679,88 @@ const playBase64PCM = async (base64Data: string): Promise<void> => {
       }
       resolve();
     };
+    source.playbackRate.value = 1.08;
     source.start();
   });
 };
 
 const speak = async (text: string, isPraise = false, lang = 'vi'): Promise<void> => {
-  // Automatic speech removed by user request
-  return Promise.resolve();
+  if (process.env.GEMINI_API_KEY) {
+    beginSpeechLoading();
+    try {
+      let promptText = '';
+      let voiceName = 'Kore'; // Kore is a good female-sounding voice
+
+      if (lang === 'en') {
+        promptText = isPraise
+          ? `Read in English, cheerful female voice, praising a child: ${text}`
+          : `Read in English, gentle female voice, clear for a child, slightly faster pace: ${text}`;
+        voiceName = 'Puck'; // Puck is a clear voice for English
+      } else {
+        promptText = isPraise
+          ? `Đọc bằng tiếng Việt, giọng nữ ngọt ngào, đáng yêu, vui vẻ, khen ngợi bé, tốc độ nhanh hơn một chút: ${text}`
+          : `Đọc bằng tiếng Việt, giọng nữ ngọt ngào, đáng yêu, nhẹ nhàng, truyền cảm, rõ ràng cho trẻ mầm non, tốc độ nhanh hơn một chút: ${text}`;
+      }
+
+      const response = await ai.models.generateContent({
+        model: "gemini-3.1-flash-lite-preview",
+        contents: [{ parts: [{ text: promptText }] }],
+        config: {
+          responseModalities: ['AUDIO'],
+          speechConfig: {
+            voiceConfig: {
+              prebuiltVoiceConfig: { voiceName },
+            },
+          },
+        },
+      });
+
+      const base64Audio = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
+      if (base64Audio) {
+        return await playBase64PCM(base64Audio);
+      }
+    } catch (e) {
+      console.error("Gemini TTS failed, falling back to browser TTS", e);
+    } finally {
+      endSpeechLoading();
+    }
+  }
+
+  if ('speechSynthesis' in window) {
+    return new Promise<void>((resolve) => {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = lang === 'en' ? 'vi-VN' : 'vi-VN';
+
+      // Try to find a female Vietnamese voice
+      const voices = window.speechSynthesis.getVoices();
+      if (lang === 'vi' || !lang) {
+        const viFemaleVoice = voices.find(v =>
+          v.lang.includes('vi') &&
+          (v.name.toLowerCase().includes('female') ||
+            v.name.toLowerCase().includes('nữ') ||
+            v.name.toLowerCase().includes('hoai-my') ||
+            v.name.toLowerCase().includes('linh'))
+        );
+        if (viFemaleVoice) utterance.voice = viFemaleVoice;
+      } else if (lang === 'en') {
+        const enFemaleVoice = voices.find(v =>
+          v.lang.includes('en') &&
+          (v.name.toLowerCase().includes('female') ||
+            v.name.toLowerCase().includes('zira') ||
+            v.name.toLowerCase().includes('samantha') ||
+            v.name.toLowerCase().includes('victoria'))
+        );
+        if (enFemaleVoice) utterance.voice = enFemaleVoice;
+      }
+
+      utterance.rate = 0.95;
+      utterance.pitch = 1.1;
+      utterance.onend = () => resolve();
+      utterance.onerror = () => resolve();
+      window.speechSynthesis.speak(utterance);
+    });
+  }
 };
 
 const getCurrentItemsList = (currentView: string, selectedAge: string | null, letterLang: string) => {
@@ -684,6 +811,9 @@ const getTabFromPathname = (pathname: string): TabId | null => {
   return (entry?.[0] as TabId | undefined) ?? null;
 };
 
+const ASSISTANT_WELCOME_MESSAGE =
+  'Chào bé, tôi là trợ lý AI, tôi có thể giúp gì cho bạn! Bạn hãy nhập từ khóa để trợ lý AI tìm kiếm giúp bạn nhé!';
+
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
   const [currentView, setCurrentView] = useState('home');
@@ -709,12 +839,16 @@ export default function App() {
   const [stickers, setStickers] = useState<string[]>([]);
   const [showBreathing, setShowBreathing] = useState(false);
   const [assistantPrompt, setAssistantPrompt] = useState('');
-  const [assistantResponse, setAssistantResponse] = useState('Chào bé và bố mẹ 👋 Hôm nay mình học chủ đề gì nào?');
+  const [assistantResponse, setAssistantResponse] = useState(ASSISTANT_WELCOME_MESSAGE);
   const [assistantLoading, setAssistantLoading] = useState(false);
   const [assistantRecording, setAssistantRecording] = useState(false);
   const [assistantStoryKeyword, setAssistantStoryKeyword] = useState('');
   const assistantMediaRecorderRef = useRef<MediaRecorder | null>(null);
   const assistantAudioChunksRef = useRef<Blob[]>([]);
+  const assistantSpeechRecognitionRef = useRef<BrowserSpeechRecognition | null>(null);
+  const [assistantSpeechSupported, setAssistantSpeechSupported] = useState(false);
+  const [isSpeechLoading, setIsSpeechLoading] = useState(false);
+  const previousTabRef = useRef<TabId | null>(null);
 
   const [dailyActivityTarget, setDailyActivityTarget] = useState(3);
   const [activitiesCompleted, setActivitiesCompleted] = useState(0);
@@ -773,10 +907,26 @@ export default function App() {
   }, [isTimerRunning, sessionTimeLeft]);
 
   useEffect(() => {
-    if (currentTab === 'assistant' && assistantResponse === 'ChÃ o bÃ© vÃ  bá»‘ máº¹ ðŸ‘‹ HÃ´m nay mÃ¬nh há»c chá»§ Ä‘á» gÃ¬ nÃ o?') {
+    if (currentTab === 'assistant') {
       speak(assistantResponse);
     }
+    previousTabRef.current = currentTab as TabId;
   }, [currentTab]);
+
+  useEffect(() => {
+    const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+    setAssistantSpeechSupported(Boolean(SpeechRecognitionCtor));
+  }, []);
+
+  useEffect(() => {
+    const handleSpeechLoading = (event: Event) => {
+      const customEvent = event as CustomEvent<{ isLoading?: boolean }>;
+      setIsSpeechLoading(Boolean(customEvent.detail?.isLoading));
+    };
+
+    window.addEventListener('speech-loading', handleSpeechLoading as EventListener);
+    return () => window.removeEventListener('speech-loading', handleSpeechLoading as EventListener);
+  }, []);
 
   const handleCategoryClick = (id: string) => {
     setCurrentView(id);
@@ -918,7 +1068,7 @@ export default function App() {
         const targetWord = currentView === 'language' ? (letterLang === 'vi' ? selectedItem.word : selectedItem.word) : selectedItem.name;
 
         const result = await ai.models.generateContent({
-          model: 'gemini-3-flash-preview',
+          model: 'gemini-3.1-flash-lite-preview',
           contents: {
             parts: [
               { inlineData: { mimeType: 'audio/webm', data: base64Audio } },
@@ -2091,7 +2241,7 @@ export default function App() {
         }
 
         const result = await ai.models.generateContent({
-          model: 'gemini-2.0-flash-exp',
+          model: 'gemini-3.1-flash-lite-preview',
           contents: contents,
           config: {
             systemInstruction: `Bạn là “Bạn đồng hành học tập cho trẻ mầm non” trong ứng dụng “Mầm non vui học”.
@@ -2144,7 +2294,7 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
         });
         const aiText = result.text || 'Xin lỗi bé, trợ lý đang bận một chút. Bé thử lại sau nhé!';
         setAssistantResponse(aiText);
-        speak(aiText);
+        playExclusiveAudio(aiText);
       } catch (error) {
         console.error("AI Error:", error);
         setAssistantResponse('Xin lỗi bé, có lỗi xảy ra. Bé thử lại sau nhé!');
@@ -2159,7 +2309,7 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
       setAssistantResponse('');
       try {
         const result = await ai.models.generateContent({
-          model: 'gemini-3-flash-preview',
+          model: 'gemini-3.1-flash-lite-preview',
           contents: `Hãy kể một câu chuyện ngắn, vui nhộn và giáo dục cho trẻ mầm non về: ${assistantStoryKeyword}`,
           config: {
             systemInstruction: "Bạn là người kể chuyện cho trẻ em. Hãy kể một câu chuyện ngắn khoảng 100 chữ, ngôn ngữ sinh động, giàu hình ảnh và có bài học nhẹ nhàng.",
@@ -2176,6 +2326,42 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
     };
 
     const startRecording = async () => {
+      const SpeechRecognitionCtor = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (SpeechRecognitionCtor) {
+        try {
+          const recognition = new SpeechRecognitionCtor();
+          assistantSpeechRecognitionRef.current = recognition;
+          recognition.lang = 'vi-VN';
+          recognition.continuous = true;
+          recognition.interimResults = true;
+
+          const initialPrompt = assistantPrompt.trim();
+          recognition.onresult = (event: any) => {
+            let transcript = '';
+            for (let i = event.resultIndex; i < event.results.length; i += 1) {
+              transcript += event.results[i][0].transcript;
+            }
+            const nextPrompt = initialPrompt ? `${initialPrompt} ${transcript}` : transcript;
+            setAssistantPrompt(nextPrompt.trimStart());
+          };
+
+          recognition.onerror = (event: any) => {
+            console.error('Speech recognition error:', event.error);
+            setAssistantRecording(false);
+          };
+
+          recognition.onend = () => {
+            setAssistantRecording(false);
+          };
+
+          recognition.start();
+          setAssistantRecording(true);
+          return;
+        } catch (error) {
+          console.error('Speech recognition start failed:', error);
+        }
+      }
+
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         const mediaRecorder = new MediaRecorder(stream);
@@ -2203,6 +2389,13 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
     };
 
     const stopRecording = () => {
+      if (assistantSpeechRecognitionRef.current && assistantRecording) {
+        assistantSpeechRecognitionRef.current.stop();
+        assistantSpeechRecognitionRef.current = null;
+        setAssistantRecording(false);
+        return;
+      }
+
       if (assistantMediaRecorderRef.current && assistantRecording) {
         assistantMediaRecorderRef.current.stop();
         setAssistantRecording(false);
@@ -2273,7 +2466,7 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
                 <button
                   onClick={assistantRecording ? stopRecording : startRecording}
                   className={`absolute bottom-4 right-4 p-3 rounded-full shadow-md transition-all ${assistantRecording ? 'bg-red-500 text-white animate-pulse' : 'bg-sky-100 text-sky-600 hover:bg-sky-200'}`}
-                  title={assistantRecording ? "Dừng ghi âm" : "Bắt đầu ghi âm"}
+                  title={assistantRecording ? "Dừng ghi âm" : (assistantSpeechSupported ? "Bắt đầu nói để nhập văn bản" : "Bắt đầu ghi âm")}
                 >
                   {assistantRecording ? <Square size={24} fill="currentColor" /> : <Mic size={24} />}
                 </button>
@@ -3591,7 +3784,17 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
           </span>
         </div>
       </div>
+
+      {isSpeechLoading && (
+        <div className="fixed top-4 right-4 z-40">
+          <div className="bg-white/90 backdrop-blur-md px-4 py-2 rounded-full shadow-sm border-2 border-white flex items-center gap-2">
+            <span className="text-lg animate-pulse">🔊</span>
+            <span className="font-black text-sky-800">Đang tạo giọng đọc...</span>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
+
 

@@ -22,8 +22,8 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
 
   const playSound = (type: 'correct' | 'wrong') => {
     const audio = new Audio(
-      type === 'correct' 
-        ? 'https://www.image2url.com/r2/default/files/1777170820315-aa3844e3-6093-46c4-959a-13c9f5263fd5.wav' 
+      type === 'correct'
+        ? 'https://www.image2url.com/r2/default/files/1777170820315-aa3844e3-6093-46c4-959a-13c9f5263fd5.wav'
         : 'https://www.image2url.com/r2/default/files/1777170856287-3438c1f6-9782-456a-8706-819b53597a33.wav'
     );
     audio.volume = 0.5;
@@ -32,6 +32,7 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
 
   useEffect(() => {
     const speakQuestion = async () => {
+      console.log(currentQuestion.audioUrl)
       if (currentQuestion) {
         if (currentQuestion.audioUrl) {
           setIsSpeaking(true);
@@ -86,7 +87,7 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
       playSound('correct');
       setStars(prev => prev + 1);
       setShowReward(true);
-      
+
       // Fireworks
       confetti({
         particleCount: 150,
@@ -112,7 +113,7 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
 
   if (isFinished) {
     return (
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         className="flex flex-col items-center justify-center p-8 text-center bg-white/80 backdrop-blur-md rounded-[3rem] shadow-2xl border-4 border-white max-w-2xl mx-auto mt-20"
@@ -120,7 +121,7 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
         <Trophy size={120} className="text-yellow-400 mb-6 drop-shadow-lg" />
         <h2 className="text-5xl font-black text-sky-800 mb-4">Tuyệt Vời!</h2>
         <p className="text-2xl text-sky-700 font-bold mb-8">Bé đã hoàn thành tất cả câu hỏi!</p>
-        
+
         <div className="flex gap-4 mb-10">
           {Array.from({ length: Math.min(stars, 5) }).map((_, i) => (
             <motion.div
@@ -154,7 +155,7 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
         >
           <ArrowLeft size={28} strokeWidth={3} />
         </button>
-        
+
         <div className="flex flex-col items-center">
           <h2 className="text-2xl sm:text-3xl font-black text-sky-800">{game.title}</h2>
           <div className="text-sky-600 font-bold text-sm">Câu {currentQuestionIndex + 1} / {game.questions.length}</div>
@@ -212,17 +213,17 @@ export default function MathGame({ game, onBack, onComplete, speak }: MathGamePr
                 <div className="absolute top-4 right-4 text-sky-400/30">
                   <Volume2 size={20} />
                 </div>
-                
+
                 <div className="absolute top-4 left-6">
                   <span className="text-3xl font-black text-slate-400/50 group-hover:text-slate-500 transition-colors">{label}.</span>
                 </div>
-                
+
                 {option.emoji && (
                   <span className="text-7xl sm:text-8xl drop-shadow-md group-hover:scale-110 transition-transform duration-300">
                     {option.emoji}
                   </span>
                 )}
-                
+
                 <span className={`text-4xl sm:text-5xl font-black ${option.emoji ? 'text-slate-700/80' : 'text-slate-700'} drop-shadow-sm`}>
                   {option.text}
                 </span>

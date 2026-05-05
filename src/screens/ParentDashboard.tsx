@@ -49,6 +49,33 @@ export default function ParentDashboard({
     { day: 'Thứ 6', breakfast: 'Bún mọc', lunch: 'Cơm, gà chiên nước mắm, canh bí xanh', snack: 'Táo', cal: 1220 },
   ];
 
+  const suggestedNutritionPlans = [
+    {
+      title: 'Tăng đề kháng',
+      icon: '🛡️',
+      breakfast: 'Cháo cá hồi, bí đỏ',
+      lunch: 'Cơm, thịt bò xào bông cải, canh rau ngót',
+      snack: 'Cam tươi + sữa chua',
+      note: 'Giàu vitamin C, sắt và kẽm'
+    },
+    {
+      title: 'Hỗ trợ tăng chiều cao',
+      icon: '📏',
+      breakfast: 'Bún mọc + sữa ít đường',
+      lunch: 'Cơm, tôm rim, canh cải nấu thịt',
+      snack: 'Phô mai + chuối',
+      note: 'Bổ sung canxi, đạm và vitamin D'
+    },
+    {
+      title: 'Nhẹ bụng, dễ tiêu',
+      icon: '🌿',
+      breakfast: 'Súp gà ngô ngọt',
+      lunch: 'Cơm mềm, đậu phụ sốt cà, canh bí xanh',
+      snack: 'Táo hấp hoặc lê chín',
+      note: 'Ít dầu mỡ, phù hợp ngày bé mệt'
+    },
+  ];
+
   const fetchCommunityPosts = async () => {
     setIsCommunityLoading(true);
     setCommunityError(null);
@@ -284,6 +311,30 @@ export default function ParentDashboard({
                         <p><span className="font-bold">Trưa:</span> {item.lunch}</p>
                         <p><span className="font-bold">Phụ:</span> {item.snack}</p>
                       </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-100">
+                <h3 className="text-xl font-bold text-slate-700 mb-6 flex items-center gap-2">
+                  <BookOpen className="text-emerald-500" /> Gợi ý thực đơn theo mục tiêu
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  {suggestedNutritionPlans.map((plan) => (
+                    <div key={plan.title} className="p-4 bg-emerald-50 rounded-2xl border border-emerald-100">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className="text-2xl">{plan.icon}</span>
+                        <h4 className="font-black text-emerald-800">{plan.title}</h4>
+                      </div>
+                      <div className="text-sm text-slate-700 space-y-1">
+                        <p><span className="font-bold">Sáng:</span> {plan.breakfast}</p>
+                        <p><span className="font-bold">Trưa:</span> {plan.lunch}</p>
+                        <p><span className="font-bold">Phụ:</span> {plan.snack}</p>
+                      </div>
+                      <p className="mt-3 text-xs font-bold text-emerald-700 bg-white/80 rounded-xl px-3 py-2 border border-emerald-100">
+                        {plan.note}
+                      </p>
                     </div>
                   ))}
                 </div>
