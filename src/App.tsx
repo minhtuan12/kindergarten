@@ -621,8 +621,13 @@ const stopCurrentAudio = () => {
   }
 };
 
-const playExclusiveAudio = async (audioUrl: string): Promise<boolean> => {
+const stopAllAudioPlayback = () => {
   stopCurrentAudio();
+  window.responsiveVoice?.cancel?.();
+};
+
+const playExclusiveAudio = async (audioUrl: string): Promise<boolean> => {
+  stopAllAudioPlayback();
   const audio = new Audio(audioUrl);
   activeHtmlAudio = audio;
 
@@ -650,7 +655,7 @@ const playExclusiveAudio = async (audioUrl: string): Promise<boolean> => {
 };
 
 const playBase64PCM = async (base64Data: string): Promise<void> => {
-  stopCurrentAudio();
+  stopAllAudioPlayback();
 
   if (!audioCtx) {
     audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)({ sampleRate: 24000 });
@@ -698,7 +703,7 @@ const speak = async (text: string, isPraise = false, lang = 'vi'): Promise<void>
   }
 
   const voice = 'Vietnamese Female';
-  window.responsiveVoice.cancel?.();
+  stopAllAudioPlayback();
   window.responsiveVoice.speak(text, voice, { rate: 0.95, pitch: 1, volume: 1 });
 };
 
