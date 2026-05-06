@@ -9,6 +9,7 @@ import { GoogleGenAI } from '@google/genai';
 import { MATH_GAMES_DATA } from './constants/mathData';
 import MathGame from './components/MathGame';
 import ParentDashboard from './screens/ParentDashboard';
+import { Spark } from 'iflytek-spark-nodejs';
 
 type BrowserSpeechRecognition = {
   lang: string;
@@ -24,9 +25,15 @@ type BrowserSpeechRecognition = {
 type BrowserSpeechRecognitionConstructor = new () => BrowserSpeechRecognition;
 
 declare global {
+  interface ResponsiveVoiceAPI {
+    speak: (text: string, voice?: string, params?: Record<string, unknown>) => void;
+    cancel?: () => void;
+  }
+
   interface Window {
     SpeechRecognition?: BrowserSpeechRecognitionConstructor;
     webkitSpeechRecognition?: BrowserSpeechRecognitionConstructor;
+    responsiveVoice?: ResponsiveVoiceAPI;
   }
 }
 
@@ -685,82 +692,14 @@ const playBase64PCM = async (base64Data: string): Promise<void> => {
 };
 
 const speak = async (text: string, isPraise = false, lang = 'vi'): Promise<void> => {
-  if (process.env.GEMINI_API_KEY) {
-    beginSpeechLoading();
-    try {
-      let promptText = '';
-      let voiceName = 'Kore'; // Kore is a good female-sounding voice
-
-      if (lang === 'en') {
-        promptText = isPraise
-          ? `Read in English, cheerful female voice, praising a child: ${text}`
-          : `Read in English, gentle female voice, clear for a child, slightly faster pace: ${text}`;
-        voiceName = 'Puck'; // Puck is a clear voice for English
-      } else {
-        promptText = isPraise
-          ? `Đọc bằng tiếng Việt, giọng nữ ngọt ngào, đáng yêu, vui vẻ, khen ngợi bé, tốc độ nhanh hơn một chút: ${text}`
-          : `Đọc bằng tiếng Việt, giọng nữ ngọt ngào, đáng yêu, nhẹ nhàng, truyền cảm, rõ ràng cho trẻ mầm non, tốc độ nhanh hơn một chút: ${text}`;
-      }
-
-      const response = await ai.models.generateContent({
-        model: "gemini-3.1-flash-lite-preview",
-        contents: [{ parts: [{ text: promptText }] }],
-        config: {
-          responseModalities: ['AUDIO'],
-          speechConfig: {
-            voiceConfig: {
-              prebuiltVoiceConfig: { voiceName },
-            },
-          },
-        },
-      });
-
-      const base64Audio = response.candidates?.[0]?.content?.parts?.[0]?.inlineData?.data;
-      if (base64Audio) {
-        return await playBase64PCM(base64Audio);
-      }
-    } catch (e) {
-      console.error("Gemini TTS failed, falling back to browser TTS", e);
-    } finally {
-      endSpeechLoading();
-    }
+  if (!window.responsiveVoice) {
+    console.warn('responsiveVoice is not loaded yet.');
+    return;
   }
 
-  if ('speechSynthesis' in window) {
-    return new Promise<void>((resolve) => {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = lang === 'en' ? 'vi-VN' : 'vi-VN';
-
-      // Try to find a female Vietnamese voice
-      const voices = window.speechSynthesis.getVoices();
-      if (lang === 'vi' || !lang) {
-        const viFemaleVoice = voices.find(v =>
-          v.lang.includes('vi') &&
-          (v.name.toLowerCase().includes('female') ||
-            v.name.toLowerCase().includes('nữ') ||
-            v.name.toLowerCase().includes('hoai-my') ||
-            v.name.toLowerCase().includes('linh'))
-        );
-        if (viFemaleVoice) utterance.voice = viFemaleVoice;
-      } else if (lang === 'en') {
-        const enFemaleVoice = voices.find(v =>
-          v.lang.includes('en') &&
-          (v.name.toLowerCase().includes('female') ||
-            v.name.toLowerCase().includes('zira') ||
-            v.name.toLowerCase().includes('samantha') ||
-            v.name.toLowerCase().includes('victoria'))
-        );
-        if (enFemaleVoice) utterance.voice = enFemaleVoice;
-      }
-
-      utterance.rate = 0.95;
-      utterance.pitch = 1.1;
-      utterance.onend = () => resolve();
-      utterance.onerror = () => resolve();
-      window.speechSynthesis.speak(utterance);
-    });
-  }
+  const voice = 'Vietnamese Female';
+  window.responsiveVoice.cancel?.();
+  window.responsiveVoice.speak(text, voice, { rate: 0.95, pitch: 1, volume: 1 });
 };
 
 const getCurrentItemsList = (currentView: string, selectedAge: string | null, letterLang: string) => {

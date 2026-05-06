@@ -1,3 +1,9 @@
+import A from '../assets/a.mp3';
+import B from '../assets/b.mp3';
+import C from '../assets/c.mp3';
+import D from '../assets/d.mp3';
+import F from '../assets/f.mp3';
+
 export interface MathQuestion {
   id: string;
   question: string;
@@ -88,6 +94,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '1',
         type: 'text',
+        audioUrl: A,
       },
       {
         id: 'n1-5-2',
@@ -99,6 +106,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '2',
         type: 'text',
+        audioUrl: B,
         hint: '🍎🍎',
       },
       {
@@ -111,6 +119,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '3',
         type: 'text',
+        audioUrl: C,
       },
       {
         id: 'n1-5-4',
@@ -122,6 +131,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '4',
         type: 'text',
+        audioUrl: D,
         hint: '🐶🐶🐶🐶',
       },
       {
@@ -134,6 +144,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '5',
         type: 'text',
+        audioUrl: F,
       },
     ],
   },
@@ -202,6 +213,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '8',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'n1-10-2',
@@ -214,6 +226,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '7',
         type: 'text',
+        audioUrl: '',
         hint: '⭐⭐⭐⭐⭐⭐⭐',
       },
       {
@@ -227,6 +240,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '9',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -244,6 +258,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'left',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'c10-2',
@@ -254,6 +269,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'right',
         type: 'emoji',
+        audioUrl: '',
       },
     ],
   },
@@ -304,6 +320,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '2',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -321,6 +338,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '3',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'c23-2',
@@ -332,6 +350,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '2',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -350,6 +369,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '5',
         type: 'text',
+        audioUrl: '',
         hint: '⛱️⛱️⛱️⛱️⛱️',
       },
     ],
@@ -369,6 +389,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'circle',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'pb2',
@@ -379,6 +400,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'apple',
         type: 'emoji',
+        audioUrl: '',
       },
     ],
   },
@@ -463,6 +485,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '15',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'n20-2',
@@ -475,6 +498,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '19',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'n20-3',
@@ -486,6 +510,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '13',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'n20-4',
@@ -497,6 +522,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '14',
         type: 'text',
+        audioUrl: '',
         hint: '⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐',
       },
       {
@@ -509,6 +535,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '10',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -528,6 +555,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '2',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'add2',
@@ -539,6 +567,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '5',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'add3',
@@ -550,6 +579,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '5',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'add4',
@@ -561,6 +591,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '6',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'add5',
@@ -572,6 +603,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '7',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -590,6 +622,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'square',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'pa2',
@@ -601,6 +634,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'grape',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'pa3',
@@ -611,6 +645,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'car',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'pa4',
@@ -621,6 +656,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'cat',
         type: 'emoji',
+        audioUrl: '',
       },
       {
         id: 'pa5',
@@ -631,6 +667,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '1',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -650,6 +687,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'dc-2',
@@ -660,6 +698,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'dc-3',
@@ -670,6 +709,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'dc-4',
@@ -680,6 +720,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'dc-5',
@@ -690,6 +731,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -709,6 +751,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'kc-2',
@@ -719,6 +762,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'kc-3',
@@ -729,6 +773,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'kc-4',
@@ -739,6 +784,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'kc-5',
@@ -749,6 +795,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -768,6 +815,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'll-2',
@@ -778,6 +826,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'll-3',
@@ -788,6 +837,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'll-4',
@@ -798,6 +848,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'll-5',
@@ -808,6 +859,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -827,6 +879,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'cl-2',
@@ -837,6 +890,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'cl-3',
@@ -847,6 +901,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'cl-4',
@@ -857,6 +912,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'cl-5',
@@ -867,6 +923,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -886,6 +943,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'vc-2',
@@ -896,6 +954,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'vc-3',
@@ -906,6 +965,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'vc-4',
@@ -916,6 +976,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'b',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'vc-5',
@@ -926,6 +987,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'a',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -943,6 +1005,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'fan',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'lt-p2',
@@ -953,6 +1016,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'chicken',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'lt-p3',
@@ -963,6 +1027,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'green',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'lt-p4',
@@ -973,6 +1038,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'eat',
         type: 'text',
+        audioUrl: '',
       },
       {
         id: 'lt-p5',
@@ -983,6 +1049,7 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: 'water',
         type: 'text',
+        audioUrl: '',
       },
     ],
   },
@@ -995,11 +1062,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'ct-1', question: 'Cô bé đi tìm gì để chữa bệnh cho mẹ?', options: [{ id: 'a', text: 'Bông hoa cúc trắng', emoji: '🌼' }, { id: 'b', text: 'Quả táo vàng', emoji: '🍎' }], correctId: 'a', type: 'text' },
-      { id: 'ct-2', question: 'Cụ già bảo mỗi cánh hoa tương ứng với điều gì?', options: [{ id: 'a', text: 'Số tiền cô bé có', emoji: '💰' }, { id: 'b', text: 'Số ngày mẹ được sống', emoji: '📅' }], correctId: 'b', type: 'text' },
-      { id: 'ct-3', question: 'Cô bé đã làm gì để mẹ sống lâu hơn?', options: [{ id: 'a', text: 'Xé nhỏ cánh hoa thành nhiều sợi', emoji: '✂️' }, { id: 'b', text: 'Hái thêm nhiều hoa', emoji: '🧺' }], correctId: 'a', type: 'text' },
-      { id: 'ct-4', question: 'Tấm lòng của cô bé đối với mẹ như thế nào?', options: [{ id: 'a', text: 'Hay nghịch ngợm', emoji: '🏃' }, { id: 'b', text: 'Rất hiếu thảo', emoji: '❤️' }], correctId: 'b', type: 'text' },
-      { id: 'ct-5', question: 'Kết thúc truyện, mẹ cô bé như thế nào?', options: [{ id: 'a', text: 'Khỏi bệnh và sống lâu', emoji: '😊' }, { id: 'b', text: 'Vẫn bị ốm', emoji: '🤒' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ct-1', question: 'Cô bé đi tìm gì để chữa bệnh cho mẹ?', options: [{ id: 'a', text: 'Bông hoa cúc trắng', emoji: '🌼' }, { id: 'b', text: 'Quả táo vàng', emoji: '🍎' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ct-2', question: 'Cụ già bảo mỗi cánh hoa tương ứng với điều gì?', options: [{ id: 'a', text: 'Số tiền cô bé có', emoji: '💰' }, { id: 'b', text: 'Số ngày mẹ được sống', emoji: '📅' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ct-3', question: 'Cô bé đã làm gì để mẹ sống lâu hơn?', options: [{ id: 'a', text: 'Xé nhỏ cánh hoa thành nhiều sợi', emoji: '✂️' }, { id: 'b', text: 'Hái thêm nhiều hoa', emoji: '🧺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ct-4', question: 'Tấm lòng của cô bé đối với mẹ như thế nào?', options: [{ id: 'a', text: 'Hay nghịch ngợm', emoji: '🏃' }, { id: 'b', text: 'Rất hiếu thảo', emoji: '❤️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ct-5', question: 'Kết thúc truyện, mẹ cô bé như thế nào?', options: [{ id: 'a', text: 'Khỏi bệnh và sống lâu', emoji: '😊' }, { id: 'b', text: 'Vẫn bị ốm', emoji: '🤒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1009,11 +1086,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'tc-1', question: 'Tích Chu sống cùng với ai?', options: [{ id: 'a', text: 'Bà nội', emoji: '👵' }, { id: 'b', text: 'Bố mẹ', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text' },
-      { id: 'tc-2', question: 'Vì sao bà biến thành chim bay đi?', options: [{ id: 'a', text: 'Vì bà thích bay', emoji: '☁️' }, { id: 'b', text: 'Vì Tích Chu mải chơi không chăm bà', emoji: '🐦' }], correctId: 'b', type: 'text' },
-      { id: 'tc-3', question: 'Tích Chu phải lấy nước ở đâu cho bà uống?', options: [{ id: 'a', text: 'Suối Tiên', emoji: '💧' }, { id: 'b', text: 'Giếng làng', emoji: '🏺' }], correctId: 'a', type: 'text' },
-      { id: 'tc-4', question: 'Tích Chu cảm thấy thế nào khi bà biến thành chim?', options: [{ id: 'a', text: 'Thấy vui vẻ', emoji: '😄' }, { id: 'b', text: 'Hối hận và khóc nức nở', emoji: '😢' }], correctId: 'b', type: 'text' },
-      { id: 'tc-5', question: 'Câu chuyện dạy bé điều gì?', options: [{ id: 'a', text: 'Phải yêu thương, chăm sóc ông bà', emoji: '❤️' }, { id: 'b', text: 'Nên đi chơi suốt ngày', emoji: '⚽' }], correctId: 'a', type: 'text' },
+      {
+        id: 'tc-1', question: 'Tích Chu sống cùng với ai?', options: [{ id: 'a', text: 'Bà nội', emoji: '👵' }, { id: 'b', text: 'Bố mẹ', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'tc-2', question: 'Vì sao bà biến thành chim bay đi?', options: [{ id: 'a', text: 'Vì bà thích bay', emoji: '☁️' }, { id: 'b', text: 'Vì Tích Chu mải chơi không chăm bà', emoji: '🐦' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'tc-3', question: 'Tích Chu phải lấy nước ở đâu cho bà uống?', options: [{ id: 'a', text: 'Suối Tiên', emoji: '💧' }, { id: 'b', text: 'Giếng làng', emoji: '🏺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'tc-4', question: 'Tích Chu cảm thấy thế nào khi bà biến thành chim?', options: [{ id: 'a', text: 'Thấy vui vẻ', emoji: '😄' }, { id: 'b', text: 'Hối hận và khóc nức nở', emoji: '😢' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'tc-5', question: 'Câu chuyện dạy bé điều gì?', options: [{ id: 'a', text: 'Phải yêu thương, chăm sóc ông bà', emoji: '❤️' }, { id: 'b', text: 'Nên đi chơi suốt ngày', emoji: '⚽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1023,11 +1110,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'ctg-1', question: 'Nhà của Cáo làm bằng gì?', options: [{ id: 'a', text: 'Bằng băng', emoji: '🧊' }, { id: 'b', text: 'Bằng gỗ', emoji: '🪵' }], correctId: 'a', type: 'text' },
-      { id: 'ctg-2', question: 'Ai đã chiếm nhà của Thỏ?', options: [{ id: 'a', text: 'Con Gấu', emoji: '🐻' }, { id: 'b', text: 'Con Cáo', emoji: '🦊' }], correctId: 'b', type: 'text' },
-      { id: 'ctg-3', question: 'Ai là người dũng cảm nhất đã đuổi được Cáo?', options: [{ id: 'a', text: 'Gà trống', emoji: '🐓' }, { id: 'b', text: 'Chó vàng', emoji: '🐕' }], correctId: 'a', type: 'text' },
-      { id: 'ctg-4', question: 'Gà trống mang gì trên vai?', options: [{ id: 'a', text: 'Cái túi', emoji: '🎒' }, { id: 'b', text: 'Cái hái', emoji: '⚔️' }], correctId: 'b', type: 'text' },
-      { id: 'ctg-5', question: 'Gà trống hát câu gì khi đuổi Cáo?', options: [{ id: 'a', text: 'Cúc cù cu cu...', emoji: '🎵' }, { id: 'b', text: 'Gâu gâu gâu...', emoji: '🐕' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ctg-1', question: 'Nhà của Cáo làm bằng gì?', options: [{ id: 'a', text: 'Bằng băng', emoji: '🧊' }, { id: 'b', text: 'Bằng gỗ', emoji: '🪵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ctg-2', question: 'Ai đã chiếm nhà của Thỏ?', options: [{ id: 'a', text: 'Con Gấu', emoji: '🐻' }, { id: 'b', text: 'Con Cáo', emoji: '🦊' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ctg-3', question: 'Ai là người dũng cảm nhất đã đuổi được Cáo?', options: [{ id: 'a', text: 'Gà trống', emoji: '🐓' }, { id: 'b', text: 'Chó vàng', emoji: '🐕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ctg-4', question: 'Gà trống mang gì trên vai?', options: [{ id: 'a', text: 'Cái túi', emoji: '🎒' }, { id: 'b', text: 'Cái hái', emoji: '⚔️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ctg-5', question: 'Gà trống hát câu gì khi đuổi Cáo?', options: [{ id: 'a', text: 'Cúc cù cu cu...', emoji: '🎵' }, { id: 'b', text: 'Gâu gâu gâu...', emoji: '🐕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1037,11 +1134,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'rt-1', question: 'Thỏ và Rùa thi gì?', options: [{ id: 'a', text: 'Thi chạy', emoji: '🏃' }, { id: 'b', text: 'Thi bơi', emoji: '🏊' }], correctId: 'a', type: 'text' },
-      { id: 'rt-2', question: 'Vì sao Thỏ bị thua?', options: [{ id: 'a', text: 'Vì chạy chậm', emoji: '🐢' }, { id: 'b', text: 'Vì chủ quan, mải chơi', emoji: '😴' }], correctId: 'b', type: 'text' },
-      { id: 'rt-3', question: 'Rùa đã thắng nhờ đức tính gì?', options: [{ id: 'a', text: 'Kiên trì, nhẫn nại', emoji: '🐢' }, { id: 'b', text: 'Chạy rất nhanh', emoji: '⚡' }], correctId: 'a', type: 'text' },
-      { id: 'rt-4', question: 'Trong lúc Rùa bò, Thỏ đã làm gì?', options: [{ id: 'a', text: 'Cổ vũ cho Rùa', emoji: '👏' }, { id: 'b', text: 'Ngủ dưới gốc cây', emoji: '🌳' }], correctId: 'b', type: 'text' },
-      { id: 'rt-5', question: 'Bài học rút ra là gì?', options: [{ id: 'a', text: 'Không nên kiêu ngạo', emoji: '🤝' }, { id: 'b', text: 'Nên ngủ nhiều', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'rt-1', question: 'Thỏ và Rùa thi gì?', options: [{ id: 'a', text: 'Thi chạy', emoji: '🏃' }, { id: 'b', text: 'Thi bơi', emoji: '🏊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'rt-2', question: 'Vì sao Thỏ bị thua?', options: [{ id: 'a', text: 'Vì chạy chậm', emoji: '🐢' }, { id: 'b', text: 'Vì chủ quan, mải chơi', emoji: '😴' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'rt-3', question: 'Rùa đã thắng nhờ đức tính gì?', options: [{ id: 'a', text: 'Kiên trì, nhẫn nại', emoji: '🐢' }, { id: 'b', text: 'Chạy rất nhanh', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'rt-4', question: 'Trong lúc Rùa bò, Thỏ đã làm gì?', options: [{ id: 'a', text: 'Cổ vũ cho Rùa', emoji: '👏' }, { id: 'b', text: 'Ngủ dưới gốc cây', emoji: '🌳' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'rt-5', question: 'Bài học rút ra là gì?', options: [{ id: 'a', text: 'Không nên kiêu ngạo', emoji: '🤝' }, { id: 'b', text: 'Nên ngủ nhiều', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1051,11 +1158,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'kd-1', question: 'Mẹ dặn Khăn Đỏ đi đâu?', options: [{ id: 'a', text: 'Đến thăm bà ngoại', emoji: '👵' }, { id: 'b', text: 'Đi hái hoa', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'kd-2', question: 'Khăn Đỏ đã gặp con gì ở giữa rừng?', options: [{ id: 'a', text: 'Con Hổ', emoji: '🐯' }, { id: 'b', text: 'Con Sói', emoji: '🐺' }], correctId: 'b', type: 'text' },
-      { id: 'kd-3', question: 'Con Sói đã làm gì bà ngoại?', options: [{ id: 'a', text: 'Nuốt chửng bà', emoji: '🐺' }, { id: 'b', text: 'Đuổi bà đi', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'kd-4', question: 'Ai đã cứu Khăn Đỏ và bà ngoại?', options: [{ id: 'a', text: 'Bác nông dân', emoji: '👨‍🌾' }, { id: 'b', text: 'Bác thợ săn', emoji: '🏹' }], correctId: 'b', type: 'text' },
-      { id: 'kd-5', question: 'Khăn Đỏ hứa với mẹ điều gì?', options: [{ id: 'a', text: 'Đi thẳng, không la cà', emoji: '✅' }, { id: 'b', text: 'Sẽ hái nhiều hoa hơn', emoji: '🌸' }], correctId: 'a', type: 'text' },
+      {
+        id: 'kd-1', question: 'Mẹ dặn Khăn Đỏ đi đâu?', options: [{ id: 'a', text: 'Đến thăm bà ngoại', emoji: '👵' }, { id: 'b', text: 'Đi hái hoa', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'kd-2', question: 'Khăn Đỏ đã gặp con gì ở giữa rừng?', options: [{ id: 'a', text: 'Con Hổ', emoji: '🐯' }, { id: 'b', text: 'Con Sói', emoji: '🐺' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'kd-3', question: 'Con Sói đã làm gì bà ngoại?', options: [{ id: 'a', text: 'Nuốt chửng bà', emoji: '🐺' }, { id: 'b', text: 'Đuổi bà đi', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'kd-4', question: 'Ai đã cứu Khăn Đỏ và bà ngoại?', options: [{ id: 'a', text: 'Bác nông dân', emoji: '👨‍🌾' }, { id: 'b', text: 'Bác thợ săn', emoji: '🏹' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'kd-5', question: 'Khăn Đỏ hứa với mẹ điều gì?', options: [{ id: 'a', text: 'Đi thẳng, không la cà', emoji: '✅' }, { id: 'b', text: 'Sẽ hái nhiều hoa hơn', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1065,11 +1182,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'ck-1', question: 'Người anh chia cho người em tài sản gì?', options: [{ id: 'a', text: 'Túp lều và cây khế', emoji: '🌳' }, { id: 'b', text: 'Nhà cao cửa rộng', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'ck-2', question: 'Con chim gì đến ăn khế?', options: [{ id: 'a', text: 'Chim Sẻ', emoji: '🐦' }, { id: 'b', text: 'Chim Phượng Hoàng', emoji: '🦅' }], correctId: 'b', type: 'text' },
-      { id: 'ck-3', question: 'Chim bảo người em may túi mấy gang?', options: [{ id: 'a', text: 'Túi ba gang', emoji: '👜' }, { id: 'b', text: 'Túi mười gang', emoji: '🎒' }], correctId: 'a', type: 'text' },
-      { id: 'ck-4', question: 'Vì sao người anh bị rơi xuống biển?', options: [{ id: 'a', text: 'Vì chim mỏi cánh', emoji: '🦅' }, { id: 'b', text: 'Vì quá tham lam', emoji: '💰' }], correctId: 'b', type: 'text' },
-      { id: 'ck-5', question: 'Tính cách người em như thế nào?', options: [{ id: 'a', text: 'Hiền lành, chăm chỉ', emoji: '😇' }, { id: 'b', text: 'Lười biếng', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ck-1', question: 'Người anh chia cho người em tài sản gì?', options: [{ id: 'a', text: 'Túp lều và cây khế', emoji: '🌳' }, { id: 'b', text: 'Nhà cao cửa rộng', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ck-2', question: 'Con chim gì đến ăn khế?', options: [{ id: 'a', text: 'Chim Sẻ', emoji: '🐦' }, { id: 'b', text: 'Chim Phượng Hoàng', emoji: '🦅' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ck-3', question: 'Chim bảo người em may túi mấy gang?', options: [{ id: 'a', text: 'Túi ba gang', emoji: '👜' }, { id: 'b', text: 'Túi mười gang', emoji: '🎒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ck-4', question: 'Vì sao người anh bị rơi xuống biển?', options: [{ id: 'a', text: 'Vì chim mỏi cánh', emoji: '🦅' }, { id: 'b', text: 'Vì quá tham lam', emoji: '💰' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ck-5', question: 'Tính cách người em như thế nào?', options: [{ id: 'a', text: 'Hiền lành, chăm chỉ', emoji: '😇' }, { id: 'b', text: 'Lười biếng', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1079,11 +1206,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'gn-1', question: 'Tí Xíu là một giọt nước ở đâu?', options: [{ id: 'a', text: 'Ở biển cả', emoji: '🌊' }, { id: 'b', text: 'Ở trên mây', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'gn-2', question: 'Ai đã giúp Tí Xíu bay lên trời?', options: [{ id: 'a', text: 'Chị Gió', emoji: '🌬️' }, { id: 'b', text: 'Ông Mặt Trời', emoji: '☀️' }], correctId: 'b', type: 'text' },
-      { id: 'gn-3', question: 'Tí Xíu biến thành gì để bay lên?', options: [{ id: 'a', text: 'Hơi nước', emoji: '💨' }, { id: 'b', text: 'Cánh chim', emoji: '🐦' }], correctId: 'a', type: 'text' },
-      { id: 'gn-4', question: 'Khi nhiều giọt nước tụ lại, chúng tạo thành gì?', options: [{ id: 'a', text: 'Cơn bão', emoji: '🌀' }, { id: 'b', text: 'Đám mây', emoji: '☁️' }], correctId: 'b', type: 'text' },
-      { id: 'gn-5', question: 'Cuối cùng Tí Xíu trở lại mặt đất dưới dạng gì?', options: [{ id: 'a', text: 'Những giọt mưa', emoji: '🌧️' }, { id: 'b', text: 'Những hạt tuyết', emoji: '❄️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'gn-1', question: 'Tí Xíu là một giọt nước ở đâu?', options: [{ id: 'a', text: 'Ở biển cả', emoji: '🌊' }, { id: 'b', text: 'Ở trên mây', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gn-2', question: 'Ai đã giúp Tí Xíu bay lên trời?', options: [{ id: 'a', text: 'Chị Gió', emoji: '🌬️' }, { id: 'b', text: 'Ông Mặt Trời', emoji: '☀️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gn-3', question: 'Tí Xíu biến thành gì để bay lên?', options: [{ id: 'a', text: 'Hơi nước', emoji: '💨' }, { id: 'b', text: 'Cánh chim', emoji: '🐦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gn-4', question: 'Khi nhiều giọt nước tụ lại, chúng tạo thành gì?', options: [{ id: 'a', text: 'Cơn bão', emoji: '🌀' }, { id: 'b', text: 'Đám mây', emoji: '☁️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gn-5', question: 'Cuối cùng Tí Xíu trở lại mặt đất dưới dạng gì?', options: [{ id: 'a', text: 'Những giọt mưa', emoji: '🌧️' }, { id: 'b', text: 'Những hạt tuyết', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1093,11 +1230,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'bch-1', question: 'Chú heo út xây nhà bằng gì?', options: [{ id: 'a', text: 'Bằng gạch chắc chắn', emoji: '🧱' }, { id: 'b', text: 'Bằng rơm', emoji: '🌾' }], correctId: 'a', type: 'text' },
-      { id: 'bch-2', question: 'Con vật nào muốn ăn thịt ba chú heo?', options: [{ id: 'a', text: 'Con Cáo', emoji: '🦊' }, { id: 'b', text: 'Con Sói gian ác', emoji: '🐺' }], correctId: 'b', type: 'text' },
-      { id: 'bch-3', question: 'Sói đã làm gì để đổ nhà bằng rơm và gỗ?', options: [{ id: 'a', text: 'Thổi thật mạnh', emoji: '🌬️' }, { id: 'b', text: 'Đẩy bằng tay', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'bch-4', question: 'Vì sao Sói không thổi đổ được nhà heo út?', options: [{ id: 'a', text: 'Vì Sói mệt', emoji: '😫' }, { id: 'b', text: 'Vì nhà xây bằng gạch', emoji: '🧱' }], correctId: 'b', type: 'text' },
-      { id: 'bch-5', question: 'Ba chú heo đã làm gì để đuổi Sói?', options: [{ id: 'a', text: 'Đốt lửa dưới ống khói', emoji: '🔥' }, { id: 'b', text: 'Mời Sói ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bch-1', question: 'Chú heo út xây nhà bằng gì?', options: [{ id: 'a', text: 'Bằng gạch chắc chắn', emoji: '🧱' }, { id: 'b', text: 'Bằng rơm', emoji: '🌾' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch-2', question: 'Con vật nào muốn ăn thịt ba chú heo?', options: [{ id: 'a', text: 'Con Cáo', emoji: '🦊' }, { id: 'b', text: 'Con Sói gian ác', emoji: '🐺' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch-3', question: 'Sói đã làm gì để đổ nhà bằng rơm và gỗ?', options: [{ id: 'a', text: 'Thổi thật mạnh', emoji: '🌬️' }, { id: 'b', text: 'Đẩy bằng tay', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch-4', question: 'Vì sao Sói không thổi đổ được nhà heo út?', options: [{ id: 'a', text: 'Vì Sói mệt', emoji: '😫' }, { id: 'b', text: 'Vì nhà xây bằng gạch', emoji: '🧱' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch-5', question: 'Ba chú heo đã làm gì để đuổi Sói?', options: [{ id: 'a', text: 'Đốt lửa dưới ống khói', emoji: '🔥' }, { id: 'b', text: 'Mời Sói ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1107,11 +1254,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'qd-1', question: 'Hai chị em Thỏ xin phép mẹ đi đâu?', options: [{ id: 'a', text: 'Đi chơi phố', emoji: '🚶' }, { id: 'b', text: 'Đi tắm biển', emoji: '🏖️' }], correctId: 'a', type: 'text' },
-      { id: 'qd-2', question: 'Khi đèn đỏ bật lên, chúng ta phải làm gì?', options: [{ id: 'a', text: 'Chạy thật nhanh', emoji: '🏃' }, { id: 'b', text: 'Dừng lại', emoji: '🛑' }], correctId: 'b', type: 'text' },
-      { id: 'qd-3', question: 'Ai đã nhắc nhở hai chị em Thỏ?', options: [{ id: 'a', text: 'Chú cảnh sát giao thông', emoji: '👮' }, { id: 'b', text: 'Bác Gấu', emoji: '🐻' }], correctId: 'a', type: 'text' },
-      { id: 'qd-4', question: 'Muốn qua đường phải đi ở đâu?', options: [{ id: 'a', text: 'Chỗ nào cũng được', emoji: '🤷' }, { id: 'b', text: 'Vạch kẻ đường cho người đi bộ', emoji: '🚶‍♂️' }], correctId: 'b', type: 'text' },
-      { id: 'qd-5', question: 'Hai chị em Thỏ có hứa tuân thủ luật không?', options: [{ id: 'a', text: 'Có hứa', emoji: '✋' }, { id: 'b', text: 'Không', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'qd-1', question: 'Hai chị em Thỏ xin phép mẹ đi đâu?', options: [{ id: 'a', text: 'Đi chơi phố', emoji: '🚶' }, { id: 'b', text: 'Đi tắm biển', emoji: '🏖️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'qd-2', question: 'Khi đèn đỏ bật lên, chúng ta phải làm gì?', options: [{ id: 'a', text: 'Chạy thật nhanh', emoji: '🏃' }, { id: 'b', text: 'Dừng lại', emoji: '🛑' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'qd-3', question: 'Ai đã nhắc nhở hai chị em Thỏ?', options: [{ id: 'a', text: 'Chú cảnh sát giao thông', emoji: '👮' }, { id: 'b', text: 'Bác Gấu', emoji: '🐻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'qd-4', question: 'Muốn qua đường phải đi ở đâu?', options: [{ id: 'a', text: 'Chỗ nào cũng được', emoji: '🤷' }, { id: 'b', text: 'Vạch kẻ đường cho người đi bộ', emoji: '🚶‍♂️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'qd-5', question: 'Hai chị em Thỏ có hứa tuân thủ luật không?', options: [{ id: 'a', text: 'Có hứa', emoji: '✋' }, { id: 'b', text: 'Không', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1121,11 +1278,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'poem',
     questions: [
-      { id: 'nto-1', question: 'Bà già đi bắt được con gì?', options: [{ id: 'a', text: 'Con ốc xinh xinh', emoji: '🐚' }, { id: 'b', text: 'Con cá vàng', emoji: '🐟' }], correctId: 'a', type: 'text' },
-      { id: 'nto-2', question: 'Vỏ con ốc có màu gì?', options: [{ id: 'a', text: 'Màu đỏ tươi', emoji: '🔴' }, { id: 'b', text: 'Màu xanh biếc', emoji: '🔵' }], correctId: 'b', type: 'text' },
-      { id: 'nto-3', question: 'Ai đã giúp bà già nấu cơm, quét nhà?', options: [{ id: 'a', text: 'Nàng tiên bước ra từ vỏ ốc', emoji: '👸' }, { id: 'b', text: 'Người hàng xóm', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'nto-4', question: 'Bà già đã làm gì với vỏ ốc?', options: [{ id: 'a', text: 'Đem đi bán', emoji: '💰' }, { id: 'b', text: 'Đập vỡ vỏ ốc', emoji: '🔨' }], correctId: 'b', type: 'text' },
-      { id: 'nto-5', question: 'Kết thúc bài thơ, bà già và nàng tiên thế nào?', options: [{ id: 'a', text: 'Sống hạnh phúc bên nhau', emoji: '❤️' }, { id: 'b', text: 'Nàng tiên biến mất', emoji: '💨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'nto-1', question: 'Bà già đi bắt được con gì?', options: [{ id: 'a', text: 'Con ốc xinh xinh', emoji: '🐚' }, { id: 'b', text: 'Con cá vàng', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'nto-2', question: 'Vỏ con ốc có màu gì?', options: [{ id: 'a', text: 'Màu đỏ tươi', emoji: '🔴' }, { id: 'b', text: 'Màu xanh biếc', emoji: '🔵' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'nto-3', question: 'Ai đã giúp bà già nấu cơm, quét nhà?', options: [{ id: 'a', text: 'Nàng tiên bước ra từ vỏ ốc', emoji: '👸' }, { id: 'b', text: 'Người hàng xóm', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'nto-4', question: 'Bà già đã làm gì với vỏ ốc?', options: [{ id: 'a', text: 'Đem đi bán', emoji: '💰' }, { id: 'b', text: 'Đập vỡ vỏ ốc', emoji: '🔨' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'nto-5', question: 'Kết thúc bài thơ, bà già và nàng tiên thế nào?', options: [{ id: 'a', text: 'Sống hạnh phúc bên nhau', emoji: '❤️' }, { id: 'b', text: 'Nàng tiên biến mất', emoji: '💨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1135,11 +1302,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'poem',
     questions: [
-      { id: 'cd-1', question: 'Cô giáo dạy bé điều gì về đôi bàn tay?', options: [{ id: 'a', text: 'Giữ bàn tay sạch sẽ', emoji: '🧼' }, { id: 'b', text: 'Vẽ lên tường', emoji: '🖍️' }], correctId: 'a', type: 'text' },
-      { id: 'cd-2', question: 'Khi bàn tay bẩn thì quần áo sẽ thế nào?', options: [{ id: 'a', text: 'Vẫn sạch', emoji: '✨' }, { id: 'b', text: 'Sẽ bị bẩn theo', emoji: '👕' }], correctId: 'b', type: 'text' },
-      { id: 'cd-3', question: 'Bé có yêu cô giáo không?', options: [{ id: 'a', text: 'Rất yêu cô', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'cd-4', question: 'Lời cô dạy bé có nhớ không?', options: [{ id: 'a', text: 'Hay quên', emoji: '🤷' }, { id: 'b', text: 'Luôn ghi nhớ', emoji: '🧠' }], correctId: 'b', type: 'text' },
-      { id: 'cd-5', question: 'Bé làm gì để cô vui?', options: [{ id: 'a', text: 'Ngoan ngoãn, vâng lời', emoji: '😇' }, { id: 'b', text: 'Nghịch ngợm', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'cd-1', question: 'Cô giáo dạy bé điều gì về đôi bàn tay?', options: [{ id: 'a', text: 'Giữ bàn tay sạch sẽ', emoji: '🧼' }, { id: 'b', text: 'Vẽ lên tường', emoji: '🖍️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cd-2', question: 'Khi bàn tay bẩn thì quần áo sẽ thế nào?', options: [{ id: 'a', text: 'Vẫn sạch', emoji: '✨' }, { id: 'b', text: 'Sẽ bị bẩn theo', emoji: '👕' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cd-3', question: 'Bé có yêu cô giáo không?', options: [{ id: 'a', text: 'Rất yêu cô', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cd-4', question: 'Lời cô dạy bé có nhớ không?', options: [{ id: 'a', text: 'Hay quên', emoji: '🤷' }, { id: 'b', text: 'Luôn ghi nhớ', emoji: '🧠' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cd-5', question: 'Bé làm gì để cô vui?', options: [{ id: 'a', text: 'Ngoan ngoãn, vâng lời', emoji: '😇' }, { id: 'b', text: 'Nghịch ngợm', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     externalLink: 'https://wordwall.net/vi/embed/b9a3b2dc43784668acaa6d51c24495df?themeId=1&templateId=5&fontStackId=0',
   },
@@ -1150,11 +1327,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'poem',
     questions: [
-      { id: 'bm-1', question: 'Khi có bạn mới đến lớp, bé nên làm gì?', options: [{ id: 'a', text: 'Chào đón và rủ bạn chơi', emoji: '🤝' }, { id: 'b', text: 'Ngồi im một mình', emoji: '🚶' }], correctId: 'a', type: 'text' },
-      { id: 'bm-2', question: 'Bạn mới còn bỡ ngỡ, bé giúp bạn điều gì?', options: [{ id: 'a', text: 'Lấy đồ chơi của bạn', emoji: '🧸' }, { id: 'b', text: 'Chỉ cho bạn các khu vực', emoji: '🏫' }], correctId: 'b', type: 'text' },
-      { id: 'bm-3', question: 'Chơi cùng bạn bé thấy thế nào?', options: [{ id: 'a', text: 'Rất vui vẻ', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'bm-4', question: 'Cô giáo khen ngợi điều gì?', options: [{ id: 'a', text: 'Bé chạy nhanh', emoji: '🏃' }, { id: 'b', text: 'Bé biết đoàn kết', emoji: '👏' }], correctId: 'b', type: 'text' },
-      { id: 'bm-5', question: 'Tình bạn giúp bé điều gì?', options: [{ id: 'a', text: 'Có thêm nhiều niềm vui', emoji: '✨' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😫' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bm-1', question: 'Khi có bạn mới đến lớp, bé nên làm gì?', options: [{ id: 'a', text: 'Chào đón và rủ bạn chơi', emoji: '🤝' }, { id: 'b', text: 'Ngồi im một mình', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bm-2', question: 'Bạn mới còn bỡ ngỡ, bé giúp bạn điều gì?', options: [{ id: 'a', text: 'Lấy đồ chơi của bạn', emoji: '🧸' }, { id: 'b', text: 'Chỉ cho bạn các khu vực', emoji: '🏫' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bm-3', question: 'Chơi cùng bạn bé thấy thế nào?', options: [{ id: 'a', text: 'Rất vui vẻ', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bm-4', question: 'Cô giáo khen ngợi điều gì?', options: [{ id: 'a', text: 'Bé chạy nhanh', emoji: '🏃' }, { id: 'b', text: 'Bé biết đoàn kết', emoji: '👏' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bm-5', question: 'Tình bạn giúp bé điều gì?', options: [{ id: 'a', text: 'Có thêm nhiều niềm vui', emoji: '✨' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1164,11 +1351,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'gsr-1', question: 'Gấu con thích ăn gì nhất?', options: [{ id: 'a', text: 'Bánh kẹo ngọt', emoji: '🍭' }, { id: 'b', text: 'Rau xanh', emoji: '🥦' }], correctId: 'a', type: 'text' },
-      { id: 'gsr-2', question: 'Vì sao răng Gấu con bị đau?', options: [{ id: 'a', text: 'Vì uống nước đá', emoji: '🧊' }, { id: 'b', text: 'Vì ăn nhiều kẹo và lười đánh răng', emoji: '🦷' }], correctId: 'b', type: 'text' },
-      { id: 'gsr-3', question: 'Đêm đến, những con gì đã đục khoét răng Gấu con?', options: [{ id: 'a', text: 'Những con sâu răng', emoji: '🐛' }, { id: 'b', text: 'Những con kiến', emoji: '🐜' }], correctId: 'a', type: 'text' },
-      { id: 'gsr-4', question: 'Bác sĩ khuyên Gấu con điều gì?', options: [{ id: 'a', text: 'Ăn thêm nhiều kẹo', emoji: '🍬' }, { id: 'b', text: 'Đánh răng sáng và tối', emoji: '🪥' }], correctId: 'b', type: 'text' },
-      { id: 'gsr-5', question: 'Gấu con có nghe lời bác sĩ không?', options: [{ id: 'a', text: 'Có, Gấu con rất chăm đánh răng', emoji: '✨' }, { id: 'b', text: 'Không nghe lời', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'gsr-1', question: 'Gấu con thích ăn gì nhất?', options: [{ id: 'a', text: 'Bánh kẹo ngọt', emoji: '🍭' }, { id: 'b', text: 'Rau xanh', emoji: '🥦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gsr-2', question: 'Vì sao răng Gấu con bị đau?', options: [{ id: 'a', text: 'Vì uống nước đá', emoji: '🧊' }, { id: 'b', text: 'Vì ăn nhiều kẹo và lười đánh răng', emoji: '🦷' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gsr-3', question: 'Đêm đến, những con gì đã đục khoét răng Gấu con?', options: [{ id: 'a', text: 'Những con sâu răng', emoji: '🐛' }, { id: 'b', text: 'Những con kiến', emoji: '🐜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gsr-4', question: 'Bác sĩ khuyên Gấu con điều gì?', options: [{ id: 'a', text: 'Ăn thêm nhiều kẹo', emoji: '🍬' }, { id: 'b', text: 'Đánh răng sáng và tối', emoji: '🪥' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'gsr-5', question: 'Gấu con có nghe lời bác sĩ không?', options: [{ id: 'a', text: 'Có, Gấu con rất chăm đánh răng', emoji: '✨' }, { id: 'b', text: 'Không nghe lời', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     externalLink: 'https://wordwall.net/vi/embed/967008a180d04327b883a849bd1227cc?themeId=1&templateId=5&fontStackId=0',
   },
@@ -1179,11 +1376,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'story',
     questions: [
-      { id: 'bch45-1', question: 'Chú heo út xây nhà bằng gì?', options: [{ id: 'a', text: 'Bằng gạch chắc chắn', emoji: '🧱' }, { id: 'b', text: 'Bằng rơm', emoji: '🌾' }], correctId: 'a', type: 'text' },
-      { id: 'bch45-2', question: 'Con vật nào muốn ăn thịt ba chú heo?', options: [{ id: 'a', text: 'Con Cáo', emoji: '🦊' }, { id: 'b', text: 'Con Sói gian ác', emoji: '🐺' }], correctId: 'b', type: 'text' },
-      { id: 'bch45-3', question: 'Sói đã làm gì để đổ các ngôi nhà?', options: [{ id: 'a', text: 'Thổi thật mạnh', emoji: '🌬️' }, { id: 'b', text: 'Đẩy tay', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'bch45-4', question: 'Vì sao Sói không thổi đổ được nhà heo út?', options: [{ id: 'a', text: 'Vì Sói mệt', emoji: '😫' }, { id: 'b', text: 'Vì nhà xây bằng gạch', emoji: '🧱' }], correctId: 'b', type: 'text' },
-      { id: 'bch45-5', question: 'Ba chú heo đã làm gì để đuổi Sói?', options: [{ id: 'a', text: 'Đốt lửa dưới ống khói', emoji: '🔥' }, { id: 'b', text: 'Mời Sói ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bch45-1', question: 'Chú heo út xây nhà bằng gì?', options: [{ id: 'a', text: 'Bằng gạch chắc chắn', emoji: '🧱' }, { id: 'b', text: 'Bằng rơm', emoji: '🌾' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch45-2', question: 'Con vật nào muốn ăn thịt ba chú heo?', options: [{ id: 'a', text: 'Con Cáo', emoji: '🦊' }, { id: 'b', text: 'Con Sói gian ác', emoji: '🐺' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch45-3', question: 'Sói đã làm gì để đổ các ngôi nhà?', options: [{ id: 'a', text: 'Thổi thật mạnh', emoji: '🌬️' }, { id: 'b', text: 'Đẩy tay', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch45-4', question: 'Vì sao Sói không thổi đổ được nhà heo út?', options: [{ id: 'a', text: 'Vì Sói mệt', emoji: '😫' }, { id: 'b', text: 'Vì nhà xây bằng gạch', emoji: '🧱' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bch45-5', question: 'Ba chú heo đã làm gì để đuổi Sói?', options: [{ id: 'a', text: 'Đốt lửa dưới ống khói', emoji: '🔥' }, { id: 'b', text: 'Mời Sói ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     externalLink: 'https://wordwall.net/vi/embed/485471e07bdc4d75a7b4510e4145f65c?themeId=1&templateId=8&fontStackId=0',
   },
@@ -1194,11 +1401,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'poem',
     questions: [
-      { id: 'bh45-1', question: 'Bác Hồ yêu quý ai nhất nhỉ?', options: [{ id: 'a', text: 'Các cháu thiếu nhi', emoji: '👶' }, { id: 'b', text: 'Người lớn', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text' },
-      { id: 'bh45-2', question: 'Bé làm gì để Bác Hồ vui lòng?', options: [{ id: 'a', text: 'Lười biếng', emoji: '😴' }, { id: 'b', text: 'Chăm ngoan, học giỏi', emoji: '✍️' }], correctId: 'b', type: 'text' },
-      { id: 'bh45-3', question: 'Ảnh Bác Hồ thường được treo ở đâu?', options: [{ id: 'a', text: 'Nơi trang trọng trong nhà', emoji: '🏠' }, { id: 'b', text: 'Dưới gầm bàn', emoji: '🪑' }], correctId: 'a', type: 'text' },
-      { id: 'bh45-4', question: 'Bé có nhớ ơn Bác Hồ không?', options: [{ id: 'a', text: 'Không nhớ', emoji: '❌' }, { id: 'b', text: 'Luôn nhớ ơn Bác', emoji: '❤️' }], correctId: 'b', type: 'text' },
-      { id: 'bh45-5', question: 'Bác Hồ mong các cháu như thế nào?', options: [{ id: 'a', text: 'Mau lớn và giỏi giang', emoji: '✨' }, { id: 'b', text: 'Mãi bé xíu', emoji: '👶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bh45-1', question: 'Bác Hồ yêu quý ai nhất nhỉ?', options: [{ id: 'a', text: 'Các cháu thiếu nhi', emoji: '👶' }, { id: 'b', text: 'Người lớn', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bh45-2', question: 'Bé làm gì để Bác Hồ vui lòng?', options: [{ id: 'a', text: 'Lười biếng', emoji: '😴' }, { id: 'b', text: 'Chăm ngoan, học giỏi', emoji: '✍️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bh45-3', question: 'Ảnh Bác Hồ thường được treo ở đâu?', options: [{ id: 'a', text: 'Nơi trang trọng trong nhà', emoji: '🏠' }, { id: 'b', text: 'Dưới gầm bàn', emoji: '🪑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bh45-4', question: 'Bé có nhớ ơn Bác Hồ không?', options: [{ id: 'a', text: 'Không nhớ', emoji: '❌' }, { id: 'b', text: 'Luôn nhớ ơn Bác', emoji: '❤️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bh45-5', question: 'Bác Hồ mong các cháu như thế nào?', options: [{ id: 'a', text: 'Mau lớn và giỏi giang', emoji: '✨' }, { id: 'b', text: 'Mãi bé xíu', emoji: '👶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     externalLink: 'https://wordwall.net/vi/embed/fb589ee3b298472d8ca9acf4fd426802?themeId=1&templateId=30&fontStackId=0',
   },
@@ -1228,9 +1445,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ném bóng về phía trước',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'ptnb-1', question: 'Bé ném bóng về hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Về phía sau', emoji: '⏪' }], correctId: 'a', type: 'text' },
-      { id: 'ptnb-2', question: 'Bé dùng bộ phận nào để ném bóng?', options: [{ id: 'a', text: 'Dùng đôi chân', emoji: '🦶' }, { id: 'b', text: 'Dùng đôi tay', emoji: '👐' }], correctId: 'b', type: 'text' },
-      { id: 'ptnb-3', question: 'Bé ném bóng đi xa hay giữ bóng lại?', options: [{ id: 'a', text: 'Ném bóng đi xa', emoji: '☄️' }, { id: 'b', text: 'Giữ bóng lại', emoji: '🤲' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ptnb-1', question: 'Bé ném bóng về hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Về phía sau', emoji: '⏪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptnb-2', question: 'Bé dùng bộ phận nào để ném bóng?', options: [{ id: 'a', text: 'Dùng đôi chân', emoji: '🦶' }, { id: 'b', text: 'Dùng đôi tay', emoji: '👐' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptnb-3', question: 'Bé ném bóng đi xa hay giữ bóng lại?', options: [{ id: 'a', text: 'Ném bóng đi xa', emoji: '☄️' }, { id: 'b', text: 'Giữ bóng lại', emoji: '🤲' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1238,9 +1461,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đá bóng về phía trước',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'ptdb-1', question: 'Bé dùng gì để đá bóng?', options: [{ id: 'a', text: 'Dùng đôi chân', emoji: '🦶' }, { id: 'b', text: 'Dùng đôi tay', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'ptdb-2', question: 'Bóng lăn đi đâu sau khi bé đá?', options: [{ id: 'a', text: 'Đứng im một chỗ', emoji: '🛑' }, { id: 'b', text: 'Lăn về phía trước', emoji: '⚽' }], correctId: 'b', type: 'text' },
-      { id: 'ptdb-3', question: 'Bé đá bóng mạnh cho bóng lăn xa nhé?', options: [{ id: 'a', text: 'Đúng rồi!', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ptdb-1', question: 'Bé dùng gì để đá bóng?', options: [{ id: 'a', text: 'Dùng đôi chân', emoji: '🦶' }, { id: 'b', text: 'Dùng đôi tay', emoji: '👐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptdb-2', question: 'Bóng lăn đi đâu sau khi bé đá?', options: [{ id: 'a', text: 'Đứng im một chỗ', emoji: '🛑' }, { id: 'b', text: 'Lăn về phía trước', emoji: '⚽' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptdb-3', question: 'Bé đá bóng mạnh cho bóng lăn xa nhé?', options: [{ id: 'a', text: 'Đúng rồi!', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1248,9 +1477,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bò chui qua cổng',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'ptbc-1', question: 'Bé bò bằng bộ phận nào?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '👶' }, { id: 'b', text: 'Đi bằng 2 chân', emoji: '🚶' }], correctId: 'a', type: 'text' },
-      { id: 'ptbc-2', question: 'Bé chui qua cái gì thế nhỉ?', options: [{ id: 'a', text: 'Chui qua cái ghế', emoji: '🪑' }, { id: 'b', text: 'Chui qua cái cổng', emoji: '⛩️' }], correctId: 'b', type: 'text' },
-      { id: 'ptbc-3', question: 'Trên lưng bé có mang vật gì không?', options: [{ id: 'a', text: 'Có mang vật trên lưng', emoji: '🎒' }, { id: 'b', text: 'Không mang gì', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ptbc-1', question: 'Bé bò bằng bộ phận nào?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '👶' }, { id: 'b', text: 'Đi bằng 2 chân', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptbc-2', question: 'Bé chui qua cái gì thế nhỉ?', options: [{ id: 'a', text: 'Chui qua cái ghế', emoji: '🪑' }, { id: 'b', text: 'Chui qua cái cổng', emoji: '⛩️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptbc-3', question: 'Trên lưng bé có mang vật gì không?', options: [{ id: 'a', text: 'Có mang vật trên lưng', emoji: '🎒' }, { id: 'b', text: 'Không mang gì', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1258,9 +1493,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bật nhảy tại chỗ',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'ptbn-1', question: 'Bé bật nhảy bằng mấy chân?', options: [{ id: 'a', text: 'Bằng 2 chân', emoji: '🦶🦶' }, { id: 'b', text: 'Bằng 1 chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'ptbn-2', question: 'Bé nhảy lên cao hay ngồi xuống?', options: [{ id: 'a', text: 'Ngồi xuống', emoji: '⬇️' }, { id: 'b', text: 'Nhảy lên cao', emoji: '⬆️' }], correctId: 'b', type: 'text' },
-      { id: 'ptbn-3', question: 'Khi nhảy, bé có thấy vui không?', options: [{ id: 'a', text: 'Rất vui vẻ', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ptbn-1', question: 'Bé bật nhảy bằng mấy chân?', options: [{ id: 'a', text: 'Bằng 2 chân', emoji: '🦶🦶' }, { id: 'b', text: 'Bằng 1 chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptbn-2', question: 'Bé nhảy lên cao hay ngồi xuống?', options: [{ id: 'a', text: 'Ngồi xuống', emoji: '⬇️' }, { id: 'b', text: 'Nhảy lên cao', emoji: '⬆️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ptbn-3', question: 'Khi nhảy, bé có thấy vui không?', options: [{ id: 'a', text: 'Rất vui vẻ', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN THỂ CHẤT 3-4 TUỔI ---
@@ -1289,9 +1530,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi - chạy dích dắc',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'p34dd-1', question: 'Bé đi theo đường thẳng hay đường dích dắc?', options: [{ id: 'a', text: 'Đường dích dắc', emoji: '👣' }, { id: 'b', text: 'Đường thẳng', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'p34dd-2', question: 'Khi gặp vật cản, bé phải làm gì?', options: [{ id: 'a', text: 'Đâm vào vật cản', emoji: '💥' }, { id: 'b', text: 'Vòng qua vật cản', emoji: '↪️' }], correctId: 'b', type: 'text' },
-      { id: 'p34dd-3', question: 'Bé chạy đổi hướng có cần khéo léo không?', options: [{ id: 'a', text: 'Rất cần khéo léo', emoji: '✨' }, { id: 'b', text: 'Không cần', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'p34dd-1', question: 'Bé đi theo đường thẳng hay đường dích dắc?', options: [{ id: 'a', text: 'Đường dích dắc', emoji: '👣' }, { id: 'b', text: 'Đường thẳng', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p34dd-2', question: 'Khi gặp vật cản, bé phải làm gì?', options: [{ id: 'a', text: 'Đâm vào vật cản', emoji: '💥' }, { id: 'b', text: 'Vòng qua vật cản', emoji: '↪️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p34dd-3', question: 'Bé chạy đổi hướng có cần khéo léo không?', options: [{ id: 'a', text: 'Rất cần khéo léo', emoji: '✨' }, { id: 'b', text: 'Không cần', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1299,9 +1546,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Tung và bắt bóng',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'p34tb-1', question: 'Bé tung bóng cho ai?', options: [{ id: 'a', text: 'Tung cho cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Tung lên trời', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'p34tb-2', question: 'Khi bắt bóng, bé dùng gì?', options: [{ id: 'a', text: 'Dùng cái bụng', emoji: '🤰' }, { id: 'b', text: 'Dùng 2 bàn tay', emoji: '🤲' }], correctId: 'b', type: 'text' },
-      { id: 'p34tb-3', question: 'Bé có được để bóng rơi xuống đất không?', options: [{ id: 'a', text: 'Cố gắng không để rơi', emoji: '🚫' }, { id: 'b', text: 'Để rơi thoải mái', emoji: '⬇️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'p34tb-1', question: 'Bé tung bóng cho ai?', options: [{ id: 'a', text: 'Tung cho cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Tung lên trời', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p34tb-2', question: 'Khi bắt bóng, bé dùng gì?', options: [{ id: 'a', text: 'Dùng cái bụng', emoji: '🤰' }, { id: 'b', text: 'Dùng 2 bàn tay', emoji: '🤲' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p34tb-3', question: 'Bé có được để bóng rơi xuống đất không?', options: [{ id: 'a', text: 'Cố gắng không để rơi', emoji: '🚫' }, { id: 'b', text: 'Để rơi thoải mái', emoji: '⬇️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN NHẬN THỨC 4-5 TUỔI ---
@@ -1311,9 +1564,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'c45p3-1', question: 'Nếu quy tắc là: Táo - Cam - Chuối, tiếp theo là gì?', options: [{ id: 'a', text: 'Táo', emoji: '🍎' }, { id: 'b', text: 'Nho', emoji: '🍇' }], correctId: 'a', type: 'text' },
-      { id: 'c45p3-2', question: 'Quy tắc: Đỏ - Xanh - Vàng. Sau màu Vàng là màu gì?', options: [{ id: 'a', text: 'Màu Tím', emoji: '🟣' }, { id: 'b', text: 'Màu Đỏ', emoji: '🔴' }], correctId: 'b', type: 'text' },
-      { id: 'c45p3-3', question: 'Bé hãy chọn hình tiếp theo: 🔺 - 🟦 - 🟡 - ?', options: [{ id: 'a', text: 'Tam giác 🔺', emoji: '🔺' }, { id: 'b', text: 'Ngôi sao ⭐', emoji: '⭐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'c45p3-1', question: 'Nếu quy tắc là: Táo - Cam - Chuối, tiếp theo là gì?', options: [{ id: 'a', text: 'Táo', emoji: '🍎' }, { id: 'b', text: 'Nho', emoji: '🍇' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45p3-2', question: 'Quy tắc: Đỏ - Xanh - Vàng. Sau màu Vàng là màu gì?', options: [{ id: 'a', text: 'Màu Tím', emoji: '🟣' }, { id: 'b', text: 'Màu Đỏ', emoji: '🔴' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45p3-3', question: 'Bé hãy chọn hình tiếp theo: 🔺 - 🟦 - 🟡 - ?', options: [{ id: 'a', text: 'Tam giác 🔺', emoji: '🔺' }, { id: 'b', text: 'Ngôi sao ⭐', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1321,9 +1580,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đếm đến 5 và Số 5',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'c45c5-1', question: 'Bàn tay bé có mấy ngón tay nhỉ?', options: [{ id: 'a', text: '5 ngón tay', emoji: '🖐️' }, { id: 'b', text: '3 ngón tay', emoji: '🤟' }], correctId: 'a', type: 'text' },
-      { id: 'c45c5-2', question: 'Số nào đứng sau số 4?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 5', emoji: '5️⃣' }], correctId: 'b', type: 'text' },
-      { id: 'c45c5-3', question: 'Bé hãy đếm xem có mấy bông hoa: 🌸🌸🌸🌸🌸', options: [{ id: 'a', text: '5 bông hoa', emoji: '🌸' }, { id: 'b', text: '4 bông hoa', emoji: '🍀' }], correctId: 'a', type: 'text' },
+      {
+        id: 'c45c5-1', question: 'Bàn tay bé có mấy ngón tay nhỉ?', options: [{ id: 'a', text: '5 ngón tay', emoji: '🖐️' }, { id: 'b', text: '3 ngón tay', emoji: '🤟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45c5-2', question: 'Số nào đứng sau số 4?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 5', emoji: '5️⃣' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45c5-3', question: 'Bé hãy đếm xem có mấy bông hoa: 🌸🌸🌸🌸🌸', options: [{ id: 'a', text: '5 bông hoa', emoji: '🌸' }, { id: 'b', text: '4 bông hoa', emoji: '🍀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1331,9 +1596,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Số thứ tự trong phạm vi 5',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'c45o5-1', question: 'Bạn đứng đầu hàng là thứ mấy?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '🥇' }, { id: 'b', text: 'Thứ hai', emoji: '🥈' }], correctId: 'a', type: 'text' },
-      { id: 'c45o5-2', question: 'Sau thứ hai là thứ mấy nhỉ?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '🥇' }, { id: 'b', text: 'Thứ ba', emoji: '🥉' }], correctId: 'b', type: 'text' },
-      { id: 'c45o5-3', question: 'Bạn đứng cuối trong hàng 5 bạn là thứ mấy?', options: [{ id: 'a', text: 'Thứ năm', emoji: '5️⃣' }, { id: 'b', text: 'Thứ tư', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'c45o5-1', question: 'Bạn đứng đầu hàng là thứ mấy?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '🥇' }, { id: 'b', text: 'Thứ hai', emoji: '🥈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45o5-2', question: 'Sau thứ hai là thứ mấy nhỉ?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '🥇' }, { id: 'b', text: 'Thứ ba', emoji: '🥉' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45o5-3', question: 'Bạn đứng cuối trong hàng 5 bạn là thứ mấy?', options: [{ id: 'a', text: 'Thứ năm', emoji: '5️⃣' }, { id: 'b', text: 'Thứ tư', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1341,9 +1612,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đo độ dài đối tượng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'c45m-1', question: 'Để đo chiều dài cái bàn, bé dùng gì?', options: [{ id: 'a', text: 'Thước đo hoặc gang tay', emoji: '📏' }, { id: 'b', text: 'Cái bát ăn cơm', emoji: '🥣' }], correctId: 'a', type: 'text' },
-      { id: 'c45m-2', question: 'Khi đo, bé phải đặt thước từ đâu?', options: [{ id: 'a', text: 'Ở giữa vật', emoji: '🎯' }, { id: 'b', text: 'Từ vạch số 0 (đầu vật)', emoji: '📍' }], correctId: 'b', type: 'text' },
-      { id: 'c45m-3', question: 'Vật dài hơn thì số lần đo sẽ như thế nào?', options: [{ id: 'a', text: 'Nhiều lần đo hơn', emoji: '➕' }, { id: 'b', text: 'Ít lần đo hơn', emoji: '➖' }], correctId: 'a', type: 'text' },
+      {
+        id: 'c45m-1', question: 'Để đo chiều dài cái bàn, bé dùng gì?', options: [{ id: 'a', text: 'Thước đo hoặc gang tay', emoji: '📏' }, { id: 'b', text: 'Cái bát ăn cơm', emoji: '🥣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45m-2', question: 'Khi đo, bé phải đặt thước từ đâu?', options: [{ id: 'a', text: 'Ở giữa vật', emoji: '🎯' }, { id: 'b', text: 'Từ vạch số 0 (đầu vật)', emoji: '📍' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45m-3', question: 'Vật dài hơn thì số lần đo sẽ như thế nào?', options: [{ id: 'a', text: 'Nhiều lần đo hơn', emoji: '➕' }, { id: 'b', text: 'Ít lần đo hơn', emoji: '➖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1351,9 +1628,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Phía phải, phía trái của người khác',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'c45rl-1', question: 'Khi bạn đối diện với bé, tay phải của bạn ở phía nào của bé?', options: [{ id: 'a', text: 'Phía tay trái của bé', emoji: '⬅️' }, { id: 'b', text: 'Phía tay phải của bé', emoji: '➡️' }], correctId: 'a', type: 'text' },
-      { id: 'c45rl-2', question: 'Bạn cầm búp bê tay phải, bé nhìn thấy búp bê ở phía nào?', options: [{ id: 'a', text: 'Phía bên phải của bé', emoji: '✨' }, { id: 'b', text: 'Phía bên trái của bé', emoji: '🧸' }], correctId: 'b', type: 'text' },
-      { id: 'c45rl-3', question: 'Xác định hướng của người khác có giống hướng của mình không?', options: [{ id: 'a', text: 'Khác nhau (ngược lại)', emoji: '🔄' }, { id: 'b', text: 'Giống hệt nhau', emoji: '↔️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'c45rl-1', question: 'Khi bạn đối diện với bé, tay phải của bạn ở phía nào của bé?', options: [{ id: 'a', text: 'Phía tay trái của bé', emoji: '⬅️' }, { id: 'b', text: 'Phía tay phải của bé', emoji: '➡️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45rl-2', question: 'Bạn cầm búp bê tay phải, bé nhìn thấy búp bê ở phía nào?', options: [{ id: 'a', text: 'Phía bên phải của bé', emoji: '✨' }, { id: 'b', text: 'Phía bên trái của bé', emoji: '🧸' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'c45rl-3', question: 'Xác định hướng của người khác có giống hướng của mình không?', options: [{ id: 'a', text: 'Khác nhau (ngược lại)', emoji: '🔄' }, { id: 'b', text: 'Giống hệt nhau', emoji: '↔️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN NHẬN THỨC NHÀ TRẺ ---
@@ -1423,9 +1706,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bò bằng bàn tay và bàn chân',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'p45bbt-1', question: 'Khi bò bằng bàn tay và bàn chân, mông bé như thế nào?', options: [{ id: 'a', text: 'Mông hơi cao lên', emoji: '⤴️' }, { id: 'b', text: 'Ngồi bệt xuống đất', emoji: '🪑' }], correctId: 'a', type: 'text' },
-      { id: 'p45bbt-2', question: 'Bé bò bằng bộ phận nào chạm đất?', options: [{ id: 'a', text: 'Đầu gối', emoji: '🦵' }, { id: 'b', text: 'Bàn tay và bàn chân', emoji: '✋🦶' }], correctId: 'b', type: 'text' },
-      { id: 'p45bbt-3', question: 'Bé bò giống con vật nào nhỉ?', options: [{ id: 'a', text: 'Con thạch sùng hoặc gấu', emoji: '🦎' }, { id: 'b', text: 'Con chim', emoji: '🐦' }], correctId: 'a', type: 'text' },
+      {
+        id: 'p45bbt-1', question: 'Khi bò bằng bàn tay và bàn chân, mông bé như thế nào?', options: [{ id: 'a', text: 'Mông hơi cao lên', emoji: '⤴️' }, { id: 'b', text: 'Ngồi bệt xuống đất', emoji: '🪑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45bbt-2', question: 'Bé bò bằng bộ phận nào chạm đất?', options: [{ id: 'a', text: 'Đầu gối', emoji: '🦵' }, { id: 'b', text: 'Bàn tay và bàn chân', emoji: '✋🦶' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45bbt-3', question: 'Bé bò giống con vật nào nhỉ?', options: [{ id: 'a', text: 'Con thạch sùng hoặc gấu', emoji: '🦎' }, { id: 'b', text: 'Con chim', emoji: '🐦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1433,9 +1722,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trèo lên xuống gióng thang',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'p45tt-1', question: 'Khi trèo thang, tay bé phải làm gì?', options: [{ id: 'a', text: 'Vịn chặt vào gióng thang', emoji: '🤝' }, { id: 'b', text: 'Bỏ tay ra', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'p45tt-2', question: 'Bé trèo lên và xuống bao nhiêu gióng thang?', options: [{ id: 'a', text: '1 gióng thang', emoji: '1️⃣' }, { id: 'b', text: '5 gióng thang', emoji: '5️⃣' }], correctId: 'b', type: 'text' },
-      { id: 'p45tt-3', question: 'Trèo thang giúp đôi tay và đôi chân bé thế nào?', options: [{ id: 'a', text: 'Khỏe mạnh và dẻo dai', emoji: '💪' }, { id: 'b', text: 'Yếu đi', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'p45tt-1', question: 'Khi trèo thang, tay bé phải làm gì?', options: [{ id: 'a', text: 'Vịn chặt vào gióng thang', emoji: '🤝' }, { id: 'b', text: 'Bỏ tay ra', emoji: '👐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45tt-2', question: 'Bé trèo lên và xuống bao nhiêu gióng thang?', options: [{ id: 'a', text: '1 gióng thang', emoji: '1️⃣' }, { id: 'b', text: '5 gióng thang', emoji: '5️⃣' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45tt-3', question: 'Trèo thang giúp đôi tay và đôi chân bé thế nào?', options: [{ id: 'a', text: 'Khỏe mạnh và dẻo dai', emoji: '💪' }, { id: 'b', text: 'Yếu đi', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1443,9 +1738,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bật qua vật cản',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'p45bvc-1', question: 'Vật cản cao khoảng bao nhiêu cm?', options: [{ id: 'a', text: '10 - 15 cm', emoji: '📏' }, { id: 'b', text: '1 mét', emoji: '🦒' }], correctId: 'a', type: 'text' },
-      { id: 'p45bvc-2', question: 'Khi bật, bé tiếp đất bằng gì?', options: [{ id: 'a', text: 'Bằng mông', emoji: '🍑' }, { id: 'b', text: 'Bằng 2 nửa bàn chân trên', emoji: '🦶' }], correctId: 'b', type: 'text' },
-      { id: 'p45bvc-3', question: 'Bé bật giống con vật nào nhất?', options: [{ id: 'a', text: 'Con thỏ hoặc con ếch', emoji: '🐰' }, { id: 'b', text: 'Con rùa', emoji: '🐢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'p45bvc-1', question: 'Vật cản cao khoảng bao nhiêu cm?', options: [{ id: 'a', text: '10 - 15 cm', emoji: '📏' }, { id: 'b', text: '1 mét', emoji: '🦒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45bvc-2', question: 'Khi bật, bé tiếp đất bằng gì?', options: [{ id: 'a', text: 'Bằng mông', emoji: '🍑' }, { id: 'b', text: 'Bằng 2 nửa bàn chân trên', emoji: '🦶' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'p45bvc-3', question: 'Bé bật giống con vật nào nhất?', options: [{ id: 'a', text: 'Con thỏ hoặc con ếch', emoji: '🐰' }, { id: 'b', text: 'Con rùa', emoji: '🐢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI TÌNH CẢM - KỸ NĂNG XÃ HỘI 4-5 TUỔI ---
@@ -1454,9 +1755,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Phòng tránh khi bị lạc',
     ageGroups: ['4-5'],
     questions: [
-      { id: 's45ptl-1', question: 'Nếu bị lạc ở siêu thị, bé nên tìm ai giúp đỡ?', options: [{ id: 'a', text: 'Cô chú nhân viên/bảo vệ', emoji: '👮' }, { id: 'b', text: 'Người lạ mặt', emoji: '👤' }], correctId: 'a', type: 'text' },
-      { id: 's45ptl-2', question: 'Bé nên ghi nhớ số điện thoại của ai?', options: [{ id: 'a', text: 'Bạn gấu bông', emoji: '🧸' }, { id: 'b', text: 'Bố mẹ', emoji: '📞' }], correctId: 'b', type: 'text' },
-      { id: 's45ptl-3', question: 'Khi bị lạc, bé có nên chạy lung tung không?', options: [{ id: 'a', text: 'Nên đứng yên một chỗ', emoji: '🧍' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 's45ptl-1', question: 'Nếu bị lạc ở siêu thị, bé nên tìm ai giúp đỡ?', options: [{ id: 'a', text: 'Cô chú nhân viên/bảo vệ', emoji: '👮' }, { id: 'b', text: 'Người lạ mặt', emoji: '👤' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45ptl-2', question: 'Bé nên ghi nhớ số điện thoại của ai?', options: [{ id: 'a', text: 'Bạn gấu bông', emoji: '🧸' }, { id: 'b', text: 'Bố mẹ', emoji: '📞' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45ptl-3', question: 'Khi bị lạc, bé có nên chạy lung tung không?', options: [{ id: 'a', text: 'Nên đứng yên một chỗ', emoji: '🧍' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1464,9 +1771,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Xử trí khi bị bắt cóc',
     ageGroups: ['4-5'],
     questions: [
-      { id: 's45xtbc-1', question: 'Nếu người lạ kéo bé đi, bé phải làm gì?', options: [{ id: 'a', text: 'Hét to "Cứu với"', emoji: '🗣️' }, { id: 'b', text: 'Im lặng đi theo', emoji: '🤫' }], correctId: 'a', type: 'text' },
-      { id: 's45xtbc-2', question: 'Người lạ cho kẹo, bé có nhận không?', options: [{ id: 'a', text: 'Nhận ngay', emoji: '🍬' }, { id: 'b', text: 'Không nhận và đi chỗ khác', emoji: '🚫' }], correctId: 'b', type: 'text' },
-      { id: 's45xtbc-3', question: 'Bé có nên đi vào chỗ vắng vẻ một mình không?', options: [{ id: 'a', text: 'Không nên', emoji: '❌' }, { id: 'b', text: 'Có chứ', emoji: '✅' }], correctId: 'a', type: 'text' },
+      {
+        id: 's45xtbc-1', question: 'Nếu người lạ kéo bé đi, bé phải làm gì?', options: [{ id: 'a', text: 'Hét to "Cứu với"', emoji: '🗣️' }, { id: 'b', text: 'Im lặng đi theo', emoji: '🤫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45xtbc-2', question: 'Người lạ cho kẹo, bé có nhận không?', options: [{ id: 'a', text: 'Nhận ngay', emoji: '🍬' }, { id: 'b', text: 'Không nhận và đi chỗ khác', emoji: '🚫' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45xtbc-3', question: 'Bé có nên đi vào chỗ vắng vẻ một mình không?', options: [{ id: 'a', text: 'Không nên', emoji: '❌' }, { id: 'b', text: 'Có chứ', emoji: '✅' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1474,9 +1787,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Quy tắc 5 ngón tay',
     ageGroups: ['4-5'],
     questions: [
-      { id: 's45qt5n-1', question: 'Ngón cái (ôm hôn) dành cho ai?', options: [{ id: 'a', text: 'Bố mẹ, ông bà, anh chị em', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Người lạ trên đường', emoji: '👤' }], correctId: 'a', type: 'text' },
-      { id: 's45qt5n-2', question: 'Ngón út (xua tay) dành cho ai?', options: [{ id: 'a', text: 'Cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Người lạ mặt', emoji: '🚫' }], correctId: 'b', type: 'text' },
-      { id: 's45qt5n-3', question: 'Ai được phép chạm vào vùng đồ bơi của bé?', options: [{ id: 'a', text: 'Chỉ bố mẹ khi vệ sinh cho bé', emoji: '🧼' }, { id: 'b', text: 'Bất kỳ ai', emoji: '❓' }], correctId: 'a', type: 'text' },
+      {
+        id: 's45qt5n-1', question: 'Ngón cái (ôm hôn) dành cho ai?', options: [{ id: 'a', text: 'Bố mẹ, ông bà, anh chị em', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Người lạ trên đường', emoji: '👤' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45qt5n-2', question: 'Ngón út (xua tay) dành cho ai?', options: [{ id: 'a', text: 'Cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Người lạ mặt', emoji: '🚫' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45qt5n-3', question: 'Ai được phép chạm vào vùng đồ bơi của bé?', options: [{ id: 'a', text: 'Chỉ bố mẹ khi vệ sinh cho bé', emoji: '🧼' }, { id: 'b', text: 'Bất kỳ ai', emoji: '❓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1484,9 +1803,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Nhận biết người lạ',
     ageGroups: ['4-5'],
     questions: [
-      { id: 's45nbnl-1', question: 'Người lạ là người như thế nào?', options: [{ id: 'a', text: 'Người bé không quen biết', emoji: '❓' }, { id: 'b', text: 'Bố mẹ bé', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text' },
-      { id: 's45nbnl-2', question: 'Nếu người lạ bảo "Bố mẹ nhờ cô đón", bé làm gì?', options: [{ id: 'a', text: 'Đi theo luôn', emoji: '🚶' }, { id: 'b', text: 'Hỏi cô giáo/gọi điện cho bố mẹ', emoji: '📞' }], correctId: 'b', type: 'text' },
-      { id: 's45nbnl-3', question: 'Bé có nên mở cửa cho người lạ vào nhà không?', options: [{ id: 'a', text: 'Tuyệt đối không', emoji: '🏠' }, { id: 'b', text: 'Có, để họ vào chơi', emoji: '🔓' }], correctId: 'a', type: 'text' },
+      {
+        id: 's45nbnl-1', question: 'Người lạ là người như thế nào?', options: [{ id: 'a', text: 'Người bé không quen biết', emoji: '❓' }, { id: 'b', text: 'Bố mẹ bé', emoji: '👨‍👩‍👧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45nbnl-2', question: 'Nếu người lạ bảo "Bố mẹ nhờ cô đón", bé làm gì?', options: [{ id: 'a', text: 'Đi theo luôn', emoji: '🚶' }, { id: 'b', text: 'Hỏi cô giáo/gọi điện cho bố mẹ', emoji: '📞' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45nbnl-3', question: 'Bé có nên mở cửa cho người lạ vào nhà không?', options: [{ id: 'a', text: 'Tuyệt đối không', emoji: '🏠' }, { id: 'b', text: 'Có, để họ vào chơi', emoji: '🔓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1494,9 +1819,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Thoát hiểm khi có cháy',
     ageGroups: ['4-5'],
     questions: [
-      { id: 's45thc-1', question: 'Khi có cháy, bé phải làm gì với mũi miệng?', options: [{ id: 'a', text: 'Dùng khăn ướt che lại', emoji: '🧣' }, { id: 'b', text: 'Há miệng thật to', emoji: '😮' }], correctId: 'a', type: 'text' },
-      { id: 's45thc-2', question: 'Bé nên di chuyển như thế nào để tránh khói?', options: [{ id: 'a', text: 'Đứng thẳng người', emoji: '🧍' }, { id: 'b', text: 'Cúi thấp người/bò sát đất', emoji: '👣' }], correctId: 'b', type: 'text' },
-      { id: 's45thc-3', question: 'Bé có được dùng thang máy khi có cháy không?', options: [{ id: 'a', text: 'Không, dùng thang bộ', emoji: '🪜' }, { id: 'b', text: 'Có, cho nhanh', emoji: '🛗' }], correctId: 'a', type: 'text' },
+      {
+        id: 's45thc-1', question: 'Khi có cháy, bé phải làm gì với mũi miệng?', options: [{ id: 'a', text: 'Dùng khăn ướt che lại', emoji: '🧣' }, { id: 'b', text: 'Há miệng thật to', emoji: '😮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45thc-2', question: 'Bé nên di chuyển như thế nào để tránh khói?', options: [{ id: 'a', text: 'Đứng thẳng người', emoji: '🧍' }, { id: 'b', text: 'Cúi thấp người/bò sát đất', emoji: '👣' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's45thc-3', question: 'Bé có được dùng thang máy khi có cháy không?', options: [{ id: 'a', text: 'Không, dùng thang bộ', emoji: '🪜' }, { id: 'b', text: 'Có, cho nhanh', emoji: '🛗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN THẨM MỸ 4-5 TUỔI ---
@@ -1505,9 +1836,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Cắt gấp dán con gà',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45cgcg-1', question: 'Để làm con gà, bé cần giấy màu gì nhất?', options: [{ id: 'a', text: 'Màu vàng', emoji: '🟡' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'a45cgcg-2', question: 'Mỏ con gà thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn to', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác nhỏ', emoji: '🔺' }], correctId: 'b', type: 'text' },
-      { id: 'a45cgcg-3', question: 'Bé dùng gì để dán các bộ phận lại?', options: [{ id: 'a', text: 'Hồ dán/Keo dán', emoji: '🧪' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45cgcg-1', question: 'Để làm con gà, bé cần giấy màu gì nhất?', options: [{ id: 'a', text: 'Màu vàng', emoji: '🟡' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45cgcg-2', question: 'Mỏ con gà thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn to', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác nhỏ', emoji: '🔺' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45cgcg-3', question: 'Bé dùng gì để dán các bộ phận lại?', options: [{ id: 'a', text: 'Hồ dán/Keo dán', emoji: '🧪' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1515,9 +1852,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ côn trùng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45vct-1', question: 'Con bướm 🦋 có đặc điểm gì nổi bật?', options: [{ id: 'a', text: 'Đôi cánh rực rỡ', emoji: '🦋' }, { id: 'b', text: 'Cái vòi dài như voi', emoji: '🐘' }], correctId: 'a', type: 'text' },
-      { id: 'a45vgct-2', question: 'Con ong 🐝 thường có màu gì?', options: [{ id: 'a', text: 'Xanh dương', emoji: '🔵' }, { id: 'b', text: 'Vàng và đen', emoji: '🐝' }], correctId: 'b', type: 'text' },
-      { id: 'a45vct-3', question: 'Côn trùng thường có mấy chân nhỉ?', options: [{ id: 'a', text: '6 chân', emoji: '6️⃣' }, { id: 'b', text: '2 chân', emoji: '2️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45vct-1', question: 'Con bướm 🦋 có đặc điểm gì nổi bật?', options: [{ id: 'a', text: 'Đôi cánh rực rỡ', emoji: '🦋' }, { id: 'b', text: 'Cái vòi dài như voi', emoji: '🐘' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vgct-2', question: 'Con ong 🐝 thường có màu gì?', options: [{ id: 'a', text: 'Xanh dương', emoji: '🔵' }, { id: 'b', text: 'Vàng và đen', emoji: '🐝' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vct-3', question: 'Côn trùng thường có mấy chân nhỉ?', options: [{ id: 'a', text: '6 chân', emoji: '6️⃣' }, { id: 'b', text: '2 chân', emoji: '2️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1525,9 +1868,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Gấp cây thông',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45gct-1', question: 'Cây thông Noel thường có màu gì?', options: [{ id: 'a', text: 'Màu xanh lá', emoji: '🌲' }, { id: 'b', text: 'Màu tím', emoji: '🟣' }], correctId: 'a', type: 'text' },
-      { id: 'a45gct-2', question: 'Cây thông có hình dáng giống hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'b', type: 'text' },
-      { id: 'a45gct-3', question: 'Bé thường thấy cây thông vào dịp nào?', options: [{ id: 'a', text: 'Giáng sinh', emoji: '🎅' }, { id: 'b', text: 'Trung thu', emoji: '🥮' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45gct-1', question: 'Cây thông Noel thường có màu gì?', options: [{ id: 'a', text: 'Màu xanh lá', emoji: '🌲' }, { id: 'b', text: 'Màu tím', emoji: '🟣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45gct-2', question: 'Cây thông có hình dáng giống hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45gct-3', question: 'Bé thường thấy cây thông vào dịp nào?', options: [{ id: 'a', text: 'Giáng sinh', emoji: '🎅' }, { id: 'b', text: 'Trung thu', emoji: '🥮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1535,9 +1884,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ máy bay',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45vmb-1', question: 'Máy bay bay ở đâu bé nhỉ?', options: [{ id: 'a', text: 'Trên bầu trời', emoji: '☁️' }, { id: 'b', text: 'Dưới nước', emoji: '🌊' }], correctId: 'a', type: 'text' },
-      { id: 'a45vmb-2', question: 'Bộ phận nào giúp máy bay bay được?', options: [{ id: 'a', text: 'Bánh xe đạp', emoji: '🚲' }, { id: 'b', text: 'Đôi cánh', emoji: '✈️' }], correctId: 'b', type: 'text' },
-      { id: 'a45vmb-3', question: 'Ai là người lái máy bay?', options: [{ id: 'a', text: 'Phi công', emoji: '👨‍✈️' }, { id: 'b', text: 'Bác sĩ', emoji: '👩‍⚕️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45vmb-1', question: 'Máy bay bay ở đâu bé nhỉ?', options: [{ id: 'a', text: 'Trên bầu trời', emoji: '☁️' }, { id: 'b', text: 'Dưới nước', emoji: '🌊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vmb-2', question: 'Bộ phận nào giúp máy bay bay được?', options: [{ id: 'a', text: 'Bánh xe đạp', emoji: '🚲' }, { id: 'b', text: 'Đôi cánh', emoji: '✈️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vmb-3', question: 'Ai là người lái máy bay?', options: [{ id: 'a', text: 'Phi công', emoji: '👨‍✈️' }, { id: 'b', text: 'Bác sĩ', emoji: '👩‍⚕️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1545,9 +1900,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ cái trống',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45vct-1', question: 'Mặt trống thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text' },
-      { id: 'a45vtr-2', question: 'Tiếng trống kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo meo', emoji: '🐱' }, { id: 'b', text: 'Tùng tùng tùng', emoji: '🥁' }], correctId: 'b', type: 'text' },
-      { id: 'a45vct-3', question: 'Bé dùng gì để đánh trống?', options: [{ id: 'a', text: 'Dùi trống', emoji: '🥢' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45vct-1', question: 'Mặt trống thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vtr-2', question: 'Tiếng trống kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo meo', emoji: '🐱' }, { id: 'b', text: 'Tùng tùng tùng', emoji: '🥁' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45vct-3', question: 'Bé dùng gì để đánh trống?', options: [{ id: 'a', text: 'Dùi trống', emoji: '🥢' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1555,9 +1916,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Em đi qua ngã tư đường phố',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45ntdp-1', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Đi tiếp', emoji: '🟢' }], correctId: 'a', type: 'text' },
-      { id: 'a45ntdp-2', question: 'Đèn nào thì bé được đi qua đường?', options: [{ id: 'a', text: 'Đèn vàng', emoji: '🟡' }, { id: 'b', text: 'Đèn xanh', emoji: '🟢' }], correctId: 'b', type: 'text' },
-      { id: 'a45ntdp-3', question: 'Khi đi bộ qua đường, bé đi ở đâu?', options: [{ id: 'a', text: 'Vạch kẻ trắng cho người đi bộ', emoji: '🚶' }, { id: 'b', text: 'Giữa đường xe chạy', emoji: '🚗' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45ntdp-1', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Đi tiếp', emoji: '🟢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45ntdp-2', question: 'Đèn nào thì bé được đi qua đường?', options: [{ id: 'a', text: 'Đèn vàng', emoji: '🟡' }, { id: 'b', text: 'Đèn xanh', emoji: '🟢' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45ntdp-3', question: 'Khi đi bộ qua đường, bé đi ở đâu?', options: [{ id: 'a', text: 'Vạch kẻ trắng cho người đi bộ', emoji: '🚶' }, { id: 'b', text: 'Giữa đường xe chạy', emoji: '🚗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1565,9 +1932,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Cháu yêu cô chú công nhân',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45cycn-1', question: 'Chú công nhân xây nhà bằng gì?', options: [{ id: 'a', text: 'Gạch và vôi vữa', emoji: '🧱' }, { id: 'b', text: 'Bằng giấy', emoji: '📄' }], correctId: 'a', type: 'text' },
-      { id: 'a45cycn-2', question: 'Cô công nhân dệt gì cho bé mặc?', options: [{ id: 'a', text: 'Dệt áo hoa', emoji: '👕' }, { id: 'b', text: 'Dệt bánh chưng', emoji: '🫔' }], correctId: 'a', type: 'text' },
-      { id: 'a45cycn-3', question: 'Bé nên có thái độ thế nào với cô chú công nhân?', options: [{ id: 'a', text: 'Yêu quý và biết ơn', emoji: '❤️' }, { id: 'b', text: 'Không quan tâm', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45cycn-1', question: 'Chú công nhân xây nhà bằng gì?', options: [{ id: 'a', text: 'Gạch và vôi vữa', emoji: '🧱' }, { id: 'b', text: 'Bằng giấy', emoji: '📄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45cycn-2', question: 'Cô công nhân dệt gì cho bé mặc?', options: [{ id: 'a', text: 'Dệt áo hoa', emoji: '👕' }, { id: 'b', text: 'Dệt bánh chưng', emoji: '🫔' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45cycn-3', question: 'Bé nên có thái độ thế nào với cô chú công nhân?', options: [{ id: 'a', text: 'Yêu quý và biết ơn', emoji: '❤️' }, { id: 'b', text: 'Không quan tâm', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1575,9 +1948,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bài hát Đố bạn',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45db-1', question: 'Con gì có đôi tai to và cái vòi dài?', options: [{ id: 'a', text: 'Con Voi', emoji: '🐘' }, { id: 'b', text: 'Con Chuột', emoji: '🐭' }], correctId: 'a', type: 'text' },
-      { id: 'a45db-2', question: 'Con gì có bộ lông vằn và dáng đi oai vệ?', options: [{ id: 'a', text: 'Con Hổ', emoji: '🐯' }, { id: 'b', text: 'Con Mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'a45db-3', question: 'Con gì hay nhảy nhót và thích ăn chuối?', options: [{ id: 'a', text: 'Con Khỉ', emoji: '🐵' }, { id: 'b', text: 'Con Rùa', emoji: '🐢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45db-1', question: 'Con gì có đôi tai to và cái vòi dài?', options: [{ id: 'a', text: 'Con Voi', emoji: '🐘' }, { id: 'b', text: 'Con Chuột', emoji: '🐭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45db-2', question: 'Con gì có bộ lông vằn và dáng đi oai vệ?', options: [{ id: 'a', text: 'Con Hổ', emoji: '🐯' }, { id: 'b', text: 'Con Mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45db-3', question: 'Con gì hay nhảy nhót và thích ăn chuối?', options: [{ id: 'a', text: 'Con Khỉ', emoji: '🐵' }, { id: 'b', text: 'Con Rùa', emoji: '🐢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1585,9 +1964,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Con chuồn chuồn',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45ccc-1', question: 'Con chuồn chuồn có mấy cánh?', options: [{ id: 'a', text: '4 cánh mỏng', emoji: '🚁' }, { id: 'b', text: 'Không có cánh', emoji: '🐛' }], correctId: 'a', type: 'text' },
-      { id: 'a45ccc-2', question: 'Chuồn chuồn bay thấp thì sao nhỉ?', options: [{ id: 'a', text: 'Thì mưa', emoji: '🌧️' }, { id: 'b', text: 'Thì nắng', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'a45ccc-3', question: 'Chuồn chuồn bay cao thì sao?', options: [{ id: 'a', text: 'Thì nắng', emoji: '☀️' }, { id: 'b', text: 'Thì bão', emoji: '🌪️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45ccc-1', question: 'Con chuồn chuồn có mấy cánh?', options: [{ id: 'a', text: '4 cánh mỏng', emoji: '🚁' }, { id: 'b', text: 'Không có cánh', emoji: '🐛' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45ccc-2', question: 'Chuồn chuồn bay thấp thì sao nhỉ?', options: [{ id: 'a', text: 'Thì mưa', emoji: '🌧️' }, { id: 'b', text: 'Thì nắng', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45ccc-3', question: 'Chuồn chuồn bay cao thì sao?', options: [{ id: 'a', text: 'Thì nắng', emoji: '☀️' }, { id: 'b', text: 'Thì bão', emoji: '🌪️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1595,9 +1980,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Nhà của tôi',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'a45nct-1', question: 'Nhà là nơi để làm gì?', options: [{ id: 'a', text: 'Để ở và yêu thương nhau', emoji: '🏠' }, { id: 'b', text: 'Để đi chơi', emoji: '🎡' }], correctId: 'a', type: 'text' },
-      { id: 'a45nct-2', question: 'Trong nhà bé có những ai?', options: [{ id: 'a', text: 'Bố mẹ, ông bà, bé', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Người lạ mặt', emoji: '👤' }], correctId: 'a', type: 'text' },
-      { id: 'a45nct-3', question: 'Bé nên làm gì để nhà luôn sạch đẹp?', options: [{ id: 'a', text: 'Giúp mẹ dọn đồ chơi', emoji: '🧹' }, { id: 'b', text: 'Bày bừa ra sàn', emoji: '🧸' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a45nct-1', question: 'Nhà là nơi để làm gì?', options: [{ id: 'a', text: 'Để ở và yêu thương nhau', emoji: '🏠' }, { id: 'b', text: 'Để đi chơi', emoji: '🎡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45nct-2', question: 'Trong nhà bé có những ai?', options: [{ id: 'a', text: 'Bố mẹ, ông bà, bé', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Người lạ mặt', emoji: '👤' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a45nct-3', question: 'Bé nên làm gì để nhà luôn sạch đẹp?', options: [{ id: 'a', text: 'Giúp mẹ dọn đồ chơi', emoji: '🧹' }, { id: 'b', text: 'Bày bừa ra sàn', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI TÌNH CẢM - KỸ NĂNG XÃ HỘI 3-4 TUỔI ---
@@ -1606,9 +1997,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Nhận biết cảm xúc',
     ageGroups: ['3-4'],
     questions: [
-      { id: 's34nbcx-1', question: 'Khi được tặng quà, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ', emoji: '😊' }, { id: 'b', text: 'Buồn bã', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 's34nbcx-2', question: 'Khi bị bạn trêu chọc, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Buồn bã', emoji: '😢' }, { id: 'b', text: 'Ngạc nhiên', emoji: '😮' }], correctId: 'a', type: 'text' },
-      { id: 's34nbcx-3', question: 'Khi thấy một điều gì đó lạ lẫm, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Ngạc nhiên', emoji: '😮' }, { id: 'b', text: 'Vui vẻ', emoji: '😊' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34nbcx-1', question: 'Khi được tặng quà, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ', emoji: '😊' }, { id: 'b', text: 'Buồn bã', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34nbcx-2', question: 'Khi bị bạn trêu chọc, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Buồn bã', emoji: '😢' }, { id: 'b', text: 'Ngạc nhiên', emoji: '😮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34nbcx-3', question: 'Khi thấy một điều gì đó lạ lẫm, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Ngạc nhiên', emoji: '😮' }, { id: 'b', text: 'Vui vẻ', emoji: '😊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI TÌNH CẢM - KỸ NĂNG XÃ HỘI 5-6 TUỔI ---
@@ -1618,9 +2015,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56cxcb-1', question: 'Làm thế nào để bé cảm thấy vui hơn khi buồn?', options: [{ id: 'a', text: 'Chia sẻ với bố mẹ', emoji: '👨‍👩‍👧' }, { id: 'b', text: 'Khóc một mình', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 's56cxcb-2', question: 'Khi thấy bạn khóc, bé nên làm gì?', options: [{ id: 'a', text: 'An ủi bạn', emoji: '🤝' }, { id: 'b', text: 'Cười nhạo bạn', emoji: '😆' }], correctId: 'a', type: 'text' },
-      { id: 's56cxcb-3', question: 'Cảm xúc nào giúp bé có nhiều bạn bè?', options: [{ id: 'a', text: 'Vui vẻ, thân thiện', emoji: '😊' }, { id: 'b', text: 'Giận dữ', emoji: '😠' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56cxcb-1', question: 'Làm thế nào để bé cảm thấy vui hơn khi buồn?', options: [{ id: 'a', text: 'Chia sẻ với bố mẹ', emoji: '👨‍👩‍👧' }, { id: 'b', text: 'Khóc một mình', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56cxcb-2', question: 'Khi thấy bạn khóc, bé nên làm gì?', options: [{ id: 'a', text: 'An ủi bạn', emoji: '🤝' }, { id: 'b', text: 'Cười nhạo bạn', emoji: '😆' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56cxcb-3', question: 'Cảm xúc nào giúp bé có nhiều bạn bè?', options: [{ id: 'a', text: 'Vui vẻ, thân thiện', emoji: '😊' }, { id: 'b', text: 'Giận dữ', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1629,9 +2032,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56nlyt-1', question: 'Bé nên nói gì khi được bố mẹ chăm sóc?', options: [{ id: 'a', text: 'Con yêu bố mẹ', emoji: '❤️' }, { id: 'b', text: 'Con không thích', emoji: '😒' }], correctId: 'a', type: 'text' },
-      { id: 's56nlyt-2', question: 'Lời yêu thương giúp mọi người cảm thấy thế nào?', options: [{ id: 'a', text: 'Hạnh phúc', emoji: '🥰' }, { id: 'b', text: 'Mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 's56nlyt-3', question: 'Bé có thể nói lời yêu thương với ai?', options: [{ id: 'a', text: 'Tất cả mọi người thân yêu', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Chỉ với bạn thân', emoji: '👫' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56nlyt-1', question: 'Bé nên nói gì khi được bố mẹ chăm sóc?', options: [{ id: 'a', text: 'Con yêu bố mẹ', emoji: '❤️' }, { id: 'b', text: 'Con không thích', emoji: '😒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56nlyt-2', question: 'Lời yêu thương giúp mọi người cảm thấy thế nào?', options: [{ id: 'a', text: 'Hạnh phúc', emoji: '🥰' }, { id: 'b', text: 'Mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56nlyt-3', question: 'Bé có thể nói lời yêu thương với ai?', options: [{ id: 'a', text: 'Tất cả mọi người thân yêu', emoji: '👨‍👩‍👧‍👦' }, { id: 'b', text: 'Chỉ với bạn thân', emoji: '👫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1640,9 +2049,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56vcdk-1', question: 'Khi chơi cùng bạn, bé nên làm gì?', options: [{ id: 'a', text: 'Nhường nhịn và chia sẻ', emoji: '🤝' }, { id: 'b', text: 'Tranh giành đồ chơi', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 's56vcdk-2', question: 'Đoàn kết giúp trò chơi như thế nào?', options: [{ id: 'a', text: 'Vui vẻ và thú vị hơn', emoji: '🥳' }, { id: 'b', text: 'Chán ngắt', emoji: '😑' }], correctId: 'a', type: 'text' },
-      { id: 's56vcdk-3', question: 'Nếu bạn muốn chơi cùng, bé nên làm gì?', options: [{ id: 'a', text: 'Mời bạn chơi cùng', emoji: '👋' }, { id: 'b', text: 'Xua đuổi bạn', emoji: '🚫' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56vcdk-1', question: 'Khi chơi cùng bạn, bé nên làm gì?', options: [{ id: 'a', text: 'Nhường nhịn và chia sẻ', emoji: '🤝' }, { id: 'b', text: 'Tranh giành đồ chơi', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56vcdk-2', question: 'Đoàn kết giúp trò chơi như thế nào?', options: [{ id: 'a', text: 'Vui vẻ và thú vị hơn', emoji: '🥳' }, { id: 'b', text: 'Chán ngắt', emoji: '😑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56vcdk-3', question: 'Nếu bạn muốn chơi cùng, bé nên làm gì?', options: [{ id: 'a', text: 'Mời bạn chơi cùng', emoji: '👋' }, { id: 'b', text: 'Xua đuổi bạn', emoji: '🚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1651,9 +2066,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56nctt-1', question: 'Nụ cười giúp bé trông như thế nào?', options: [{ id: 'a', text: 'Xinh xắn và đáng yêu', emoji: '✨' }, { id: 'b', text: 'Đáng sợ', emoji: '👺' }], correctId: 'a', type: 'text' },
-      { id: 's56nctt-2', question: 'Bé nên cười khi nào?', options: [{ id: 'a', text: 'Khi chào hỏi mọi người', emoji: '👋' }, { id: 'b', text: 'Khi thấy bạn bị ngã', emoji: '🤕' }], correctId: 'a', type: 'text' },
-      { id: 's56nctt-3', question: 'Nụ cười có thể thay cho lời gì?', options: [{ id: 'a', text: 'Lời chào, lời cảm ơn', emoji: '🙏' }, { id: 'b', text: 'Lời mắng mỏ', emoji: '🗣️' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56nctt-1', question: 'Nụ cười giúp bé trông như thế nào?', options: [{ id: 'a', text: 'Xinh xắn và đáng yêu', emoji: '✨' }, { id: 'b', text: 'Đáng sợ', emoji: '👺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56nctt-2', question: 'Bé nên cười khi nào?', options: [{ id: 'a', text: 'Khi chào hỏi mọi người', emoji: '👋' }, { id: 'b', text: 'Khi thấy bạn bị ngã', emoji: '🤕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56nctt-3', question: 'Nụ cười có thể thay cho lời gì?', options: [{ id: 'a', text: 'Lời chào, lời cảm ơn', emoji: '🙏' }, { id: 'b', text: 'Lời mắng mỏ', emoji: '🗣️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1662,9 +2083,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56bbcs-1', question: 'Bé có món quà ngon, bé nên làm gì?', options: [{ id: 'a', text: 'Chia sẻ cùng bạn', emoji: '🍰' }, { id: 'b', text: 'Ăn một mình', emoji: '😋' }], correctId: 'a', type: 'text' },
-      { id: 's56bbcs-2', question: 'Chia sẻ giúp tình bạn như thế nào?', options: [{ id: 'a', text: 'Bền chặt và thắm thiết', emoji: '👭' }, { id: 'b', text: 'Xa cách', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 's56bbcs-3', question: 'Nếu bạn quên mang bút, bé nên làm gì?', options: [{ id: 'a', text: 'Cho bạn mượn bút', emoji: '✏️' }, { id: 'b', text: 'Mặc kệ bạn', emoji: '🤷' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56bbcs-1', question: 'Bé có món quà ngon, bé nên làm gì?', options: [{ id: 'a', text: 'Chia sẻ cùng bạn', emoji: '🍰' }, { id: 'b', text: 'Ăn một mình', emoji: '😋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56bbcs-2', question: 'Chia sẻ giúp tình bạn như thế nào?', options: [{ id: 'a', text: 'Bền chặt và thắm thiết', emoji: '👭' }, { id: 'b', text: 'Xa cách', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56bbcs-3', question: 'Nếu bạn quên mang bút, bé nên làm gì?', options: [{ id: 'a', text: 'Cho bạn mượn bút', emoji: '✏️' }, { id: 'b', text: 'Mặc kệ bạn', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN THẨM MỸ 3-4 TUỔI ---
@@ -1673,8 +2100,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ khuôn mặt cười',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'a34vk-1', question: 'Khuôn mặt cười có miệng như thế nào?', options: [{ id: 'a', text: 'Cong lên vui vẻ', emoji: '😊' }, { id: 'b', text: 'Mếu xệ xuống', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'a34vk-2', question: 'Bé dùng màu gì để vẽ má hồng?', options: [{ id: 'a', text: 'Màu hồng hoặc đỏ', emoji: '🔴' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a34vk-1', question: 'Khuôn mặt cười có miệng như thế nào?', options: [{ id: 'a', text: 'Cong lên vui vẻ', emoji: '😊' }, { id: 'b', text: 'Mếu xệ xuống', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a34vk-2', question: 'Bé dùng màu gì để vẽ má hồng?', options: [{ id: 'a', text: 'Màu hồng hoặc đỏ', emoji: '🔴' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1682,8 +2113,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trái tim cầu vồng',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'a34vt-1', question: 'Cầu vồng có nhiều màu sắc không?', options: [{ id: 'a', text: 'Có, rất nhiều màu', emoji: '🌈' }, { id: 'b', text: 'Chỉ có một màu', emoji: '⚪' }], correctId: 'a', type: 'text' },
-      { id: 'a34vt-2', question: 'Hình trái tim tượng trưng cho điều gì?', options: [{ id: 'a', text: 'Tình yêu thương', emoji: '❤️' }, { id: 'b', text: 'Sự giận dữ', emoji: '😠' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a34vt-1', question: 'Cầu vồng có nhiều màu sắc không?', options: [{ id: 'a', text: 'Có, rất nhiều màu', emoji: '🌈' }, { id: 'b', text: 'Chỉ có một màu', emoji: '⚪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a34vt-2', question: 'Hình trái tim tượng trưng cho điều gì?', options: [{ id: 'a', text: 'Tình yêu thương', emoji: '❤️' }, { id: 'b', text: 'Sự giận dữ', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // --- TRÒ CHƠI PHÁT TRIỂN THẨM MỸ 5-6 TUỔI ---
@@ -1692,8 +2127,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ con bò sữa',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'a56vcb-1', question: 'Con bò sữa thường có những đốm màu gì?', options: [{ id: 'a', text: 'Đốm đen trên nền trắng', emoji: '🐄' }, { id: 'b', text: 'Đốm xanh lá', emoji: '🥦' }], correctId: 'a', type: 'text' },
-      { id: 'a56vcb-2', question: 'Bò sữa cho chúng ta sản phẩm gì quý giá?', options: [{ id: 'a', text: 'Sữa tươi thơm ngon', emoji: '🥛' }, { id: 'b', text: 'Trứng gà', emoji: '🥚' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a56vcb-1', question: 'Con bò sữa thường có những đốm màu gì?', options: [{ id: 'a', text: 'Đốm đen trên nền trắng', emoji: '🐄' }, { id: 'b', text: 'Đốm xanh lá', emoji: '🥦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a56vcb-2', question: 'Bò sữa cho chúng ta sản phẩm gì quý giá?', options: [{ id: 'a', text: 'Sữa tươi thơm ngon', emoji: '🥛' }, { id: 'b', text: 'Trứng gà', emoji: '🥚' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1701,8 +2140,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Làm chong chóng giấy',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'a56lcc-1', question: 'Điều gì làm chong chóng quay?', options: [{ id: 'a', text: 'Gió thổi', emoji: '🌬️' }, { id: 'b', text: 'Ánh nắng', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'a56lcc-2', question: 'Chong chóng thường có mấy cánh?', options: [{ id: 'a', text: '4 cánh', emoji: '🍀' }, { id: 'b', text: '1 cánh', emoji: '☝️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a56lcc-1', question: 'Điều gì làm chong chóng quay?', options: [{ id: 'a', text: 'Gió thổi', emoji: '🌬️' }, { id: 'b', text: 'Ánh nắng', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a56lcc-2', question: 'Chong chóng thường có mấy cánh?', options: [{ id: 'a', text: '4 cánh', emoji: '🍀' }, { id: 'b', text: '1 cánh', emoji: '☝️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1710,8 +2153,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vẽ trường tiểu học',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'a56vth-1', question: 'Trường tiểu học có cột gì rất cao?', options: [{ id: 'a', text: 'Cột cờ', emoji: '🚩' }, { id: 'b', text: 'Cột điện', emoji: '⚡' }], correctId: 'a', type: 'text' },
-      { id: 'a56vth-2', question: 'Bé chuẩn bị vào lớp mấy ở trường tiểu học?', options: [{ id: 'a', text: 'Lớp 1', emoji: '1️⃣' }, { id: 'b', text: 'Lớp mẫu giáo', emoji: '🏫' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a56vth-1', question: 'Trường tiểu học có cột gì rất cao?', options: [{ id: 'a', text: 'Cột cờ', emoji: '🚩' }, { id: 'b', text: 'Cột điện', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a56vth-2', question: 'Bé chuẩn bị vào lớp mấy ở trường tiểu học?', options: [{ id: 'a', text: 'Lớp 1', emoji: '1️⃣' }, { id: 'b', text: 'Lớp mẫu giáo', emoji: '🏫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1719,8 +2166,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Khúc hát đôi bàn tay',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'a56kh-1', question: 'Bé nên làm gì để đôi tay luôn sạch?', options: [{ id: 'a', text: 'Rửa tay bằng xà phòng', emoji: '🧼' }, { id: 'b', text: 'Lau tay vào quần áo', emoji: '👕' }], correctId: 'a', type: 'text' },
-      { id: 'a56kh-2', question: 'Đôi bàn tay giúp bé làm gì?', options: [{ id: 'a', text: 'Học tập, vui chơi, lao động', emoji: '✍️' }, { id: 'b', text: 'Chỉ để nghịch ngợm', emoji: '🤡' }], correctId: 'a', type: 'text' },
+      {
+        id: 'a56kh-1', question: 'Bé nên làm gì để đôi tay luôn sạch?', options: [{ id: 'a', text: 'Rửa tay bằng xà phòng', emoji: '🧼' }, { id: 'b', text: 'Lau tay vào quần áo', emoji: '👕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'a56kh-2', question: 'Đôi bàn tay giúp bé làm gì?', options: [{ id: 'a', text: 'Học tập, vui chơi, lao động', emoji: '✍️' }, { id: 'b', text: 'Chỉ để nghịch ngợm', emoji: '🤡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1729,9 +2180,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'ch-1', question: 'Khi gặp người lớn, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi lễ phép', emoji: '🙏' }, { id: 'b', text: 'Im lặng bỏ đi', emoji: '🤐' }], correctId: 'a', type: 'text' },
-      { id: 'ch-2', question: 'Bé chào ông bà như thế nào?', options: [{ id: 'a', text: 'Khoanh tay chào', emoji: '🙇' }, { id: 'b', text: 'Vẫy tay', emoji: '👋' }], correctId: 'a', type: 'text' },
-      { id: 'ch-3', question: 'Khi được tặng quà, bé nói gì?', options: [{ id: 'a', text: 'Con cảm ơn ạ', emoji: '🎁' }, { id: 'b', text: 'Không nói gì', emoji: '😶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ch-1', question: 'Khi gặp người lớn, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi lễ phép', emoji: '🙏' }, { id: 'b', text: 'Im lặng bỏ đi', emoji: '🤐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ch-2', question: 'Bé chào ông bà như thế nào?', options: [{ id: 'a', text: 'Khoanh tay chào', emoji: '🙇' }, { id: 'b', text: 'Vẫy tay', emoji: '👋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ch-3', question: 'Khi được tặng quà, bé nói gì?', options: [{ id: 'a', text: 'Con cảm ơn ạ', emoji: '🎁' }, { id: 'b', text: 'Không nói gì', emoji: '😶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1740,8 +2197,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'tx-1', question: 'Bé dùng gì để xúc cơm?', options: [{ id: 'a', text: 'Thìa', emoji: '🥄' }, { id: 'b', text: 'Bàn tay', emoji: '✋' }], correctId: 'a', type: 'text' },
-      { id: 'tx-2', question: 'Khi ăn, bé nên ngồi như thế nào?', options: [{ id: 'a', text: 'Ngồi ngay ngắn', emoji: '🪑' }, { id: 'b', text: 'Chạy nhảy', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'tx-1', question: 'Bé dùng gì để xúc cơm?', options: [{ id: 'a', text: 'Thìa', emoji: '🥄' }, { id: 'b', text: 'Bàn tay', emoji: '✋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'tx-2', question: 'Khi ăn, bé nên ngồi như thế nào?', options: [{ id: 'a', text: 'Ngồi ngay ngắn', emoji: '🪑' }, { id: 'b', text: 'Chạy nhảy', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1750,8 +2211,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'un-1', question: 'Bé cầm cốc bằng mấy tay cho chắc?', options: [{ id: 'a', text: 'Hai tay', emoji: '👐' }, { id: 'b', text: 'Một tay', emoji: '☝️' }], correctId: 'a', type: 'text' },
-      { id: 'un-2', question: 'Uống xong bé để cốc ở đâu?', options: [{ id: 'a', text: 'Đúng nơi quy định', emoji: '📍' }, { id: 'b', text: 'Vứt dưới sàn', emoji: '🗑️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'un-1', question: 'Bé cầm cốc bằng mấy tay cho chắc?', options: [{ id: 'a', text: 'Hai tay', emoji: '👐' }, { id: 'b', text: 'Một tay', emoji: '☝️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'un-2', question: 'Uống xong bé để cốc ở đâu?', options: [{ id: 'a', text: 'Đúng nơi quy định', emoji: '📍' }, { id: 'b', text: 'Vứt dưới sàn', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1760,8 +2225,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'br-1', question: 'Vỏ bánh kẹo nên bỏ vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Sàn nhà', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'br-2', question: 'Bé thấy rác trên sàn nên làm gì?', options: [{ id: 'a', text: 'Nhặt bỏ vào thùng', emoji: '♻️' }, { id: 'b', text: 'Bỏ qua', emoji: '🚶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'br-1', question: 'Vỏ bánh kẹo nên bỏ vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Sàn nhà', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'br-2', question: 'Bé thấy rác trên sàn nên làm gì?', options: [{ id: 'a', text: 'Nhặt bỏ vào thùng', emoji: '♻️' }, { id: 'b', text: 'Bỏ qua', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1770,8 +2239,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'bg-1', question: 'Bé bê ghế bằng mấy tay?', options: [{ id: 'a', text: 'Hai tay', emoji: '👐' }, { id: 'b', text: 'Kéo lê ghế', emoji: '🔊' }], correctId: 'a', type: 'text' },
-      { id: 'bg-2', question: 'Khi bê ghế bé có nên chạy không?', options: [{ id: 'a', text: 'Không, đi nhẹ nhàng', emoji: '🚶' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bg-1', question: 'Bé bê ghế bằng mấy tay?', options: [{ id: 'a', text: 'Hai tay', emoji: '👐' }, { id: 'b', text: 'Kéo lê ghế', emoji: '🔊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bg-2', question: 'Khi bê ghế bé có nên chạy không?', options: [{ id: 'a', text: 'Không, đi nhẹ nhàng', emoji: '🚶' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1780,8 +2253,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'ndc-1', question: 'Chơi xong bé nên làm gì với đồ chơi?', options: [{ id: 'a', text: 'Cất gọn gàng vào rổ', emoji: '🧺' }, { id: 'b', text: 'Để bừa bãi trên sàn', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'ndc-2', question: 'Bé cất đồ chơi như thế nào?', options: [{ id: 'a', text: 'Nhẹ tay, cẩn thận', emoji: '🤲' }, { id: 'b', text: 'Quăng ném đồ chơi', emoji: '💢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ndc-1', question: 'Chơi xong bé nên làm gì với đồ chơi?', options: [{ id: 'a', text: 'Cất gọn gàng vào rổ', emoji: '🧺' }, { id: 'b', text: 'Để bừa bãi trên sàn', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ndc-2', question: 'Bé cất đồ chơi như thế nào?', options: [{ id: 'a', text: 'Nhẹ tay, cẩn thận', emoji: '🤲' }, { id: 'b', text: 'Quăng ném đồ chơi', emoji: '💢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1790,8 +2267,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'dd-1', question: 'Khi đi ra ngoài, bé nên làm gì?', options: [{ id: 'a', text: 'Tự đi dép vào chân', emoji: '👟' }, { id: 'b', text: 'Đi chân đất', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'dd-2', question: 'Bé đi dép có cần nhìn đúng trái phải không?', options: [{ id: 'a', text: 'Có, đi đúng chân', emoji: '✅' }, { id: 'b', text: 'Không cần', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'dd-1', question: 'Khi đi ra ngoài, bé nên làm gì?', options: [{ id: 'a', text: 'Tự đi dép vào chân', emoji: '👟' }, { id: 'b', text: 'Đi chân đất', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dd-2', question: 'Bé đi dép có cần nhìn đúng trái phải không?', options: [{ id: 'a', text: 'Có, đi đúng chân', emoji: '✅' }, { id: 'b', text: 'Không cần', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1800,8 +2281,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'rt-1', question: 'Bé rửa tay khi nào?', options: [{ id: 'a', text: 'Trước khi ăn và sau khi đi vệ sinh', emoji: '🧼' }, { id: 'b', text: 'Khi đang ngủ', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'rt-2', question: 'Bé dùng gì để rửa tay sạch?', options: [{ id: 'a', text: 'Xà phòng và nước sạch', emoji: '🧼💧' }, { id: 'b', text: 'Chỉ lau vào quần', emoji: '👖' }], correctId: 'a', type: 'text' },
+      {
+        id: 'rt-1', question: 'Bé rửa tay khi nào?', options: [{ id: 'a', text: 'Trước khi ăn và sau khi đi vệ sinh', emoji: '🧼' }, { id: 'b', text: 'Khi đang ngủ', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'rt-2', question: 'Bé dùng gì để rửa tay sạch?', options: [{ id: 'a', text: 'Xà phòng và nước sạch', emoji: '🧼💧' }, { id: 'b', text: 'Chỉ lau vào quần', emoji: '👖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1810,9 +2295,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'xh-1', question: 'Bé dùng gì để xâu hạt nhỉ?', options: [{ id: 'a', text: 'Dây xâu và hạt', emoji: '📿' }, { id: 'b', text: 'Cái búa', emoji: '🔨' }], correctId: 'a', type: 'text' },
-      { id: 'xh-2', question: 'Để xâu được hạt, bé cần làm gì?', options: [{ id: 'a', text: 'Luồn dây qua lỗ của hạt', emoji: '🧵' }, { id: 'b', text: 'Ném hạt đi', emoji: '💨' }], correctId: 'a', type: 'text' },
-      { id: 'xh-3', question: 'Xâu hạt giúp đôi tay bé như thế nào?', options: [{ id: 'a', text: 'Khéo léo hơn', emoji: '✨' }, { id: 'b', text: 'Yếu hơn', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'xh-1', question: 'Bé dùng gì để xâu hạt nhỉ?', options: [{ id: 'a', text: 'Dây xâu và hạt', emoji: '📿' }, { id: 'b', text: 'Cái búa', emoji: '🔨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'xh-2', question: 'Để xâu được hạt, bé cần làm gì?', options: [{ id: 'a', text: 'Luồn dây qua lỗ của hạt', emoji: '🧵' }, { id: 'b', text: 'Ném hạt đi', emoji: '💨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'xh-3', question: 'Xâu hạt giúp đôi tay bé như thế nào?', options: [{ id: 'a', text: 'Khéo léo hơn', emoji: '✨' }, { id: 'b', text: 'Yếu hơn', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1828,8 +2319,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Xử trí khi bị bỏng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'bb-1', question: 'Nếu lỡ bị bỏng, bé nên làm gì ngay?', options: [{ id: 'a', text: 'Xả nước mát vào vết bỏng', emoji: '💧' }, { id: 'b', text: 'Bôi kem đánh răng', emoji: '🪥' }], correctId: 'a', type: 'text' },
-      { id: 'bb-2', question: 'Bé nên gọi ai giúp đỡ khi bị bỏng?', options: [{ id: 'a', text: 'Người lớn', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Tự mình xử lý', emoji: '👦' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bb-1', question: 'Nếu lỡ bị bỏng, bé nên làm gì ngay?', options: [{ id: 'a', text: 'Xả nước mát vào vết bỏng', emoji: '💧' }, { id: 'b', text: 'Bôi kem đánh răng', emoji: '🪥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bb-2', question: 'Bé nên gọi ai giúp đỡ khi bị bỏng?', options: [{ id: 'a', text: 'Người lớn', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Tự mình xử lý', emoji: '👦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1837,8 +2332,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Gặp chó dữ',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'cd-1', question: 'Khi gặp chó dữ, bé nên làm gì?', options: [{ id: 'a', text: 'Đứng yên, không nhìn vào mắt nó', emoji: '🧍' }, { id: 'b', text: 'Bỏ chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'cd-2', question: 'Bé có nên trêu chọc chó lạ không?', options: [{ id: 'a', text: 'Tuyệt đối không', emoji: '🚫' }, { id: 'b', text: 'Có', emoji: '🐕' }], correctId: 'a', type: 'text' },
+      {
+        id: 'cd-1', question: 'Khi gặp chó dữ, bé nên làm gì?', options: [{ id: 'a', text: 'Đứng yên, không nhìn vào mắt nó', emoji: '🧍' }, { id: 'b', text: 'Bỏ chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cd-2', question: 'Bé có nên trêu chọc chó lạ không?', options: [{ id: 'a', text: 'Tuyệt đối không', emoji: '🚫' }, { id: 'b', text: 'Có', emoji: '🐕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1847,11 +2346,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 'sd-1', question: 'Tay ướt có được chạm vào công tắc điện không?', options: [{ id: 'a', text: 'Không, bị điện giật', emoji: '💦⚡' }, { id: 'b', text: 'Có', emoji: '🆗' }], correctId: 'a', type: 'text' },
-      { id: 'sd-2', question: 'Khi thấy dây điện bị hở, bé làm gì?', options: [{ id: 'a', text: 'Báo ngay cho người lớn', emoji: '🗣️' }, { id: 'b', text: 'Lại gần xem', emoji: '👀' }], correctId: 'a', type: 'text' },
-      { id: 'sd-3', question: 'Bé có được chọc vật lạ vào ổ điện không?', options: [{ id: 'a', text: 'Không bao giờ', emoji: '🚫' }, { id: 'b', text: 'Có thể', emoji: '❓' }], correctId: 'a', type: 'text' },
-      { id: 'sd-4', question: 'Trước khi đi ngủ, chúng ta nên làm gì với các thiết bị điện không dùng?', options: [{ id: 'a', text: 'Tắt bớt để an toàn', emoji: '🔌' }, { id: 'b', text: 'Cứ để bật', emoji: '💡' }], correctId: 'a', type: 'text' },
-      { id: 'sd-5', question: 'Ai là người được phép sửa chữa điện trong nhà?', options: [{ id: 'a', text: 'Người lớn, thợ điện', emoji: '👨‍🔧' }, { id: 'b', text: 'Trẻ em', emoji: '👶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'sd-1', question: 'Tay ướt có được chạm vào công tắc điện không?', options: [{ id: 'a', text: 'Không, bị điện giật', emoji: '💦⚡' }, { id: 'b', text: 'Có', emoji: '🆗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sd-2', question: 'Khi thấy dây điện bị hở, bé làm gì?', options: [{ id: 'a', text: 'Báo ngay cho người lớn', emoji: '🗣️' }, { id: 'b', text: 'Lại gần xem', emoji: '👀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sd-3', question: 'Bé có được chọc vật lạ vào ổ điện không?', options: [{ id: 'a', text: 'Không bao giờ', emoji: '🚫' }, { id: 'b', text: 'Có thể', emoji: '❓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sd-4', question: 'Trước khi đi ngủ, chúng ta nên làm gì với các thiết bị điện không dùng?', options: [{ id: 'a', text: 'Tắt bớt để an toàn', emoji: '🔌' }, { id: 'b', text: 'Cứ để bật', emoji: '💡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sd-5', question: 'Ai là người được phép sửa chữa điện trong nhà?', options: [{ id: 'a', text: 'Người lớn, thợ điện', emoji: '👨‍🔧' }, { id: 'b', text: 'Trẻ em', emoji: '👶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1873,9 +2382,15 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['5-6'],
     category: 'social',
     questions: [
-      { id: 's56cs-1', question: 'Khi thấy em nhỏ khóc, bé nên làm gì?', options: [{ id: 'a', text: 'Dỗ dành và chơi cùng em', emoji: '🧸' }, { id: 'b', text: 'Hét to vào mặt em', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 's56cs-2', question: 'Bé có đồ chơi đẹp, bé nên làm gì khi em muốn chơi cùng?', options: [{ id: 'a', text: 'Nhường nhịn và cùng chơi với em', emoji: '🤝' }, { id: 'b', text: 'Giấu đồ chơi đi', emoji: '🙈' }], correctId: 'a', type: 'text' },
-      { id: 's56cs-3', question: 'Giúp mẹ trông em là việc làm như thế nào?', options: [{ id: 'a', text: 'Việc làm tốt, thể hiện sự hiếu thảo', emoji: '✨' }, { id: 'b', text: 'Việc làm không tốt', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 's56cs-1', question: 'Khi thấy em nhỏ khóc, bé nên làm gì?', options: [{ id: 'a', text: 'Dỗ dành và chơi cùng em', emoji: '🧸' }, { id: 'b', text: 'Hét to vào mặt em', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56cs-2', question: 'Bé có đồ chơi đẹp, bé nên làm gì khi em muốn chơi cùng?', options: [{ id: 'a', text: 'Nhường nhịn và cùng chơi với em', emoji: '🤝' }, { id: 'b', text: 'Giấu đồ chơi đi', emoji: '🙈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's56cs-3', question: 'Giúp mẹ trông em là việc làm như thế nào?', options: [{ id: 'a', text: 'Việc làm tốt, thể hiện sự hiếu thảo', emoji: '✨' }, { id: 'b', text: 'Việc làm không tốt', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1884,8 +2399,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'cn-1', question: 'Cây ngô lớn lên từ cái gì?', options: [{ id: 'a', text: 'Hạt ngô', emoji: '🌽' }, { id: 'b', text: 'Cành ngô', emoji: '🌿' }], correctId: 'a', type: 'text' },
-      { id: 'cn-2', question: 'Cây ngô cần gì để lớn lên khỏe mạnh?', options: [{ id: 'a', text: 'Đất, nước, ánh sáng', emoji: '☀️💧' }, { id: 'b', text: 'Bánh kẹo', emoji: '🍭' }], correctId: 'a', type: 'text' },
+      {
+        id: 'cn-1', question: 'Cây ngô lớn lên từ cái gì?', options: [{ id: 'a', text: 'Hạt ngô', emoji: '🌽' }, { id: 'b', text: 'Cành ngô', emoji: '🌿' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'cn-2', question: 'Cây ngô cần gì để lớn lên khỏe mạnh?', options: [{ id: 'a', text: 'Đất, nước, ánh sáng', emoji: '☀️💧' }, { id: 'b', text: 'Bánh kẹo', emoji: '🍭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1894,8 +2413,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'hs-1', question: 'Hoa sen thường sống ở đâu?', options: [{ id: 'a', text: 'Dưới đầm lầy, ao hồ', emoji: '🪷' }, { id: 'b', text: 'Trên núi cao', emoji: '⛰️' }], correctId: 'a', type: 'text' },
-      { id: 'hs-2', question: 'Lá sen có đặc điểm gì nổi bật?', options: [{ id: 'a', text: 'Lá to, tròn, không thấm nước', emoji: '🍃' }, { id: 'b', text: 'Lá nhỏ, nhọn', emoji: '🌵' }], correctId: 'a', type: 'text' },
+      {
+        id: 'hs-1', question: 'Hoa sen thường sống ở đâu?', options: [{ id: 'a', text: 'Dưới đầm lầy, ao hồ', emoji: '🪷' }, { id: 'b', text: 'Trên núi cao', emoji: '⛰️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hs-2', question: 'Lá sen có đặc điểm gì nổi bật?', options: [{ id: 'a', text: 'Lá to, tròn, không thấm nước', emoji: '🍃' }, { id: 'b', text: 'Lá nhỏ, nhọn', emoji: '🌵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1904,8 +2427,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'vdk-1', question: 'Kiến mẹ đẻ ra cái gì đầu tiên?', options: [{ id: 'a', text: 'Trứng kiến', emoji: '🥚' }, { id: 'b', text: 'Kiến con ngay', emoji: '🐜' }], correctId: 'a', type: 'text' },
-      { id: 'vdk-2', question: 'Kiến thường sống theo hình thức nào?', options: [{ id: 'a', text: 'Sống theo đàn, tập thể', emoji: '🐜🐜' }, { id: 'b', text: 'Sống một mình', emoji: '🕴️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'vdk-1', question: 'Kiến mẹ đẻ ra cái gì đầu tiên?', options: [{ id: 'a', text: 'Trứng kiến', emoji: '🥚' }, { id: 'b', text: 'Kiến con ngay', emoji: '🐜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'vdk-2', question: 'Kiến thường sống theo hình thức nào?', options: [{ id: 'a', text: 'Sống theo đàn, tập thể', emoji: '🐜🐜' }, { id: 'b', text: 'Sống một mình', emoji: '🕴️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1914,8 +2441,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'clc-1', question: 'Cá dùng bộ phận nào để bơi?', options: [{ id: 'a', text: 'Vây và đuôi', emoji: '🐟' }, { id: 'b', text: 'Đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text' },
-      { id: 'clc-2', question: 'Cá thở bằng gì dưới nước?', options: [{ id: 'a', text: 'Mang cá', emoji: '🐡' }, { id: 'b', text: 'Cái mũi', emoji: '👃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'clc-1', question: 'Cá dùng bộ phận nào để bơi?', options: [{ id: 'a', text: 'Vây và đuôi', emoji: '🐟' }, { id: 'b', text: 'Đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'clc-2', question: 'Cá thở bằng gì dưới nước?', options: [{ id: 'a', text: 'Mang cá', emoji: '🐡' }, { id: 'b', text: 'Cái mũi', emoji: '👃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1924,8 +2455,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'dvmd-1', question: 'Con ngựa vằn có màu da như thế nào?', options: [{ id: 'a', text: 'Vằn đen trắng', emoji: '🦓' }, { id: 'b', text: 'Màu vàng trơn', emoji: '🐎' }], correctId: 'a', type: 'text' },
-      { id: 'dvmd-2', question: 'Con báo hoa mai có đặc điểm gì trên da?', options: [{ id: 'a', text: 'Có các đốm đen', emoji: '🐆' }, { id: 'b', text: 'Có vảy cứng', emoji: '🐊' }], correctId: 'a', type: 'text' },
+      {
+        id: 'dvmd-1', question: 'Con ngựa vằn có màu da như thế nào?', options: [{ id: 'a', text: 'Vằn đen trắng', emoji: '🦓' }, { id: 'b', text: 'Màu vàng trơn', emoji: '🐎' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dvmd-2', question: 'Con báo hoa mai có đặc điểm gì trên da?', options: [{ id: 'a', text: 'Có các đốm đen', emoji: '🐆' }, { id: 'b', text: 'Có vảy cứng', emoji: '🐊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1934,8 +2469,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'dvsod-1', question: 'Con khỉ thường sống ở đâu?', options: [{ id: 'a', text: 'Trên cây trong rừng', emoji: '🐒' }, { id: 'b', text: 'Dưới nước', emoji: '🌊' }], correctId: 'a', type: 'text' },
-      { id: 'dvsod-2', question: 'Con lạc đà thường sống ở đâu?', options: [{ id: 'a', text: 'Trên sa mạc', emoji: '🐪' }, { id: 'b', text: 'Ở Bắc Cực', emoji: '❄️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'dvsod-1', question: 'Con khỉ thường sống ở đâu?', options: [{ id: 'a', text: 'Trên cây trong rừng', emoji: '🐒' }, { id: 'b', text: 'Dưới nước', emoji: '🌊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dvsod-2', question: 'Con lạc đà thường sống ở đâu?', options: [{ id: 'a', text: 'Trên sa mạc', emoji: '🐪' }, { id: 'b', text: 'Ở Bắc Cực', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1944,8 +2483,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'dv4c-1', question: 'Con vật nào sau đây đi bằng 4 chân?', options: [{ id: 'a', text: 'Con chó', emoji: '🐕' }, { id: 'b', text: 'Con gà', emoji: '🐔' }], correctId: 'a', type: 'text' },
-      { id: 'dv4c-2', question: 'Con voi đi bằng mấy chân?', options: [{ id: 'a', text: '4 chân', emoji: '🐘' }, { id: 'b', text: '2 chân', emoji: '🚶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'dv4c-1', question: 'Con vật nào sau đây đi bằng 4 chân?', options: [{ id: 'a', text: 'Con chó', emoji: '🐕' }, { id: 'b', text: 'Con gà', emoji: '🐔' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dv4c-2', question: 'Con voi đi bằng mấy chân?', options: [{ id: 'a', text: '4 chân', emoji: '🐘' }, { id: 'b', text: '2 chân', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1960,11 +2503,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Tìm hiểu dân tộc Thái',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'dtt-1', question: 'Người dân tộc Thái thường sống trong kiểu nhà nào?', options: [{ id: 'a', text: 'Nhà sàn', emoji: '🏘️' }, { id: 'b', text: 'Nhà cao tầng', emoji: '🏢' }], correctId: 'a', type: 'text' },
-      { id: 'dtt-2', question: 'Điệu múa đặc trưng của người Thái là gì?', options: [{ id: 'a', text: 'Múa xòe, múa sạp', emoji: '💃' }, { id: 'b', text: 'Múa lân', emoji: '🦁' }], correctId: 'a', type: 'text' },
-      { id: 'dtt-3', question: 'Trang phục truyền thống của phụ nữ Thái là gì?', options: [{ id: 'a', text: 'Áo cóm, váy đen', emoji: '👗' }, { id: 'b', text: 'Áo dài', emoji: '👘' }], correctId: 'a', type: 'text' },
-      { id: 'dtt-4', question: 'Người Thái thường sống ở vùng nào của Việt Nam?', options: [{ id: 'a', text: 'Vùng núi phía Bắc', emoji: '⛰️' }, { id: 'b', text: 'Vùng đồng bằng', emoji: '🌾' }], correctId: 'a', type: 'text' },
-      { id: 'dtt-5', question: 'Món ăn đặc sản của người Thái là gì?', options: [{ id: 'a', text: 'Cơm lam, thịt gác bếp', emoji: '🍱' }, { id: 'b', text: 'Phở bò', emoji: '🍜' }], correctId: 'a', type: 'text' },
+      {
+        id: 'dtt-1', question: 'Người dân tộc Thái thường sống trong kiểu nhà nào?', options: [{ id: 'a', text: 'Nhà sàn', emoji: '🏘️' }, { id: 'b', text: 'Nhà cao tầng', emoji: '🏢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dtt-2', question: 'Điệu múa đặc trưng của người Thái là gì?', options: [{ id: 'a', text: 'Múa xòe, múa sạp', emoji: '💃' }, { id: 'b', text: 'Múa lân', emoji: '🦁' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dtt-3', question: 'Trang phục truyền thống của phụ nữ Thái là gì?', options: [{ id: 'a', text: 'Áo cóm, váy đen', emoji: '👗' }, { id: 'b', text: 'Áo dài', emoji: '👘' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dtt-4', question: 'Người Thái thường sống ở vùng nào của Việt Nam?', options: [{ id: 'a', text: 'Vùng núi phía Bắc', emoji: '⛰️' }, { id: 'b', text: 'Vùng đồng bằng', emoji: '🌾' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'dtt-5', question: 'Món ăn đặc sản của người Thái là gì?', options: [{ id: 'a', text: 'Cơm lam, thịt gác bếp', emoji: '🍱' }, { id: 'b', text: 'Phở bò', emoji: '🍜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1972,11 +2525,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bé bảo vệ môi trường',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'bvmt-1', question: 'Hành động nào giúp bảo vệ môi trường?', options: [{ id: 'a', text: 'Trồng thêm cây xanh', emoji: '🌳' }, { id: 'b', text: 'Bẻ cành hái hoa', emoji: '🥀' }], correctId: 'a', type: 'text' },
-      { id: 'bvmt-2', question: 'Bé nên làm gì với rác thải nhựa?', options: [{ id: 'a', text: 'Thu gom và tái chế', emoji: '♻️' }, { id: 'b', text: 'Vứt xuống sông ngòi', emoji: '🌊' }], correctId: 'a', type: 'text' },
-      { id: 'bvmt-3', question: 'Khi ra khỏi phòng, bé nên làm gì để tiết kiệm điện?', options: [{ id: 'a', text: 'Tắt đèn và quạt', emoji: '💡' }, { id: 'b', text: 'Cứ để bật', emoji: '🆗' }], correctId: 'a', type: 'text' },
-      { id: 'bvmt-4', question: 'Bé có nên sử dụng túi nilon nhiều không?', options: [{ id: 'a', text: 'Không, nên dùng túi vải', emoji: '🛍️' }, { id: 'b', text: 'Có, dùng càng nhiều càng tốt', emoji: '🛍️' }], correctId: 'a', type: 'text' },
-      { id: 'bvmt-5', question: 'Bé thấy rác trên sân trường thì nên làm gì?', options: [{ id: 'a', text: 'Nhặt bỏ vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Bỏ qua đi chỗ khác', emoji: '🚶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'bvmt-1', question: 'Hành động nào giúp bảo vệ môi trường?', options: [{ id: 'a', text: 'Trồng thêm cây xanh', emoji: '🌳' }, { id: 'b', text: 'Bẻ cành hái hoa', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bvmt-2', question: 'Bé nên làm gì với rác thải nhựa?', options: [{ id: 'a', text: 'Thu gom và tái chế', emoji: '♻️' }, { id: 'b', text: 'Vứt xuống sông ngòi', emoji: '🌊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bvmt-3', question: 'Khi ra khỏi phòng, bé nên làm gì để tiết kiệm điện?', options: [{ id: 'a', text: 'Tắt đèn và quạt', emoji: '💡' }, { id: 'b', text: 'Cứ để bật', emoji: '🆗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bvmt-4', question: 'Bé có nên sử dụng túi nilon nhiều không?', options: [{ id: 'a', text: 'Không, nên dùng túi vải', emoji: '🛍️' }, { id: 'b', text: 'Có, dùng càng nhiều càng tốt', emoji: '🛍️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'bvmt-5', question: 'Bé thấy rác trên sân trường thì nên làm gì?', options: [{ id: 'a', text: 'Nhặt bỏ vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Bỏ qua đi chỗ khác', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -1986,11 +2549,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'alphabet',
     questions: [
-      { id: 'itc-1', question: 'Bé hãy tìm chữ i nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 'i', type: 'text' },
-      { id: 'itc-2', question: 'Bé hãy tìm chữ t nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 't', type: 'text' },
-      { id: 'itc-3', question: 'Bé hãy tìm chữ c nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 'c', type: 'text' },
-      { id: 'itc-4', question: 'Chữ nào có một dấu chấm ở trên đầu?', options: [{ id: 'i', text: 'Chữ i', color: 'bg-red-100' }, { id: 't', text: 'Chữ t', color: 'bg-blue-100' }], correctId: 'i', type: 'text' },
-      { id: 'itc-5', question: 'Chữ nào có nét cong hở phải?', options: [{ id: 'c', text: 'Chữ c', color: 'bg-green-100' }, { id: 't', text: 'Chữ t', color: 'bg-blue-100' }], correctId: 'c', type: 'text' },
+      {
+        id: 'itc-1', question: 'Bé hãy tìm chữ i nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 'i', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'itc-2', question: 'Bé hãy tìm chữ t nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 't', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'itc-3', question: 'Bé hãy tìm chữ c nhé!', options: [{ id: 'i', text: 'i', color: 'bg-red-100' }, { id: 't', text: 't', color: 'bg-blue-100' }, { id: 'c', text: 'c', color: 'bg-green-100' }], correctId: 'c', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'itc-4', question: 'Chữ nào có một dấu chấm ở trên đầu?', options: [{ id: 'i', text: 'Chữ i', color: 'bg-red-100' }, { id: 't', text: 'Chữ t', color: 'bg-blue-100' }], correctId: 'i', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'itc-5', question: 'Chữ nào có nét cong hở phải?', options: [{ id: 'c', text: 'Chữ c', color: 'bg-green-100' }, { id: 't', text: 'Chữ t', color: 'bg-blue-100' }], correctId: 'c', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2000,11 +2573,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'alphabet',
     questions: [
-      { id: 'uu-1', question: 'Bé hãy tìm chữ u nhé!', options: [{ id: 'u', text: 'u', color: 'bg-red-100' }, { id: 'ư', text: 'ư', color: 'bg-blue-100' }], correctId: 'u', type: 'text' },
-      { id: 'uu-2', question: 'Bé hãy tìm chữ ư nhé!', options: [{ id: 'u', text: 'u', color: 'bg-red-100' }, { id: 'ư', text: 'ư', color: 'bg-blue-100' }], correctId: 'ư', type: 'text' },
-      { id: 'uu-3', question: 'Chữ nào có thêm một cái râu nhỏ ở trên?', options: [{ id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }, { id: 'u', text: 'Chữ u', color: 'bg-red-100' }], correctId: 'ư', type: 'text' },
-      { id: 'uu-4', question: 'Trong từ "đu đủ" có chữ cái nào?', options: [{ id: 'u', text: 'Chữ u', color: 'bg-red-100' }, { id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }], correctId: 'u', type: 'text' },
-      { id: 'uu-5', question: 'Trong từ "con cừu" có chữ cái nào?', options: [{ id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }, { id: 'u', text: 'Chữ u', color: 'bg-red-100' }], correctId: 'ư', type: 'text' },
+      {
+        id: 'uu-1', question: 'Bé hãy tìm chữ u nhé!', options: [{ id: 'u', text: 'u', color: 'bg-red-100' }, { id: 'ư', text: 'ư', color: 'bg-blue-100' }], correctId: 'u', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'uu-2', question: 'Bé hãy tìm chữ ư nhé!', options: [{ id: 'u', text: 'u', color: 'bg-red-100' }, { id: 'ư', text: 'ư', color: 'bg-blue-100' }], correctId: 'ư', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'uu-3', question: 'Chữ nào có thêm một cái râu nhỏ ở trên?', options: [{ id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }, { id: 'u', text: 'Chữ u', color: 'bg-red-100' }], correctId: 'ư', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'uu-4', question: 'Trong từ "đu đủ" có chữ cái nào?', options: [{ id: 'u', text: 'Chữ u', color: 'bg-red-100' }, { id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }], correctId: 'u', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'uu-5', question: 'Trong từ "con cừu" có chữ cái nào?', options: [{ id: 'ư', text: 'Chữ ư', color: 'bg-blue-100' }, { id: 'u', text: 'Chữ u', color: 'bg-red-100' }], correctId: 'ư', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2014,11 +2597,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'alphabet',
     questions: [
-      { id: 'sx-1', question: 'Bé hãy tìm chữ s nhé!', options: [{ id: 's', text: 's', color: 'bg-red-100' }, { id: 'x', text: 'x', color: 'bg-blue-100' }], correctId: 's', type: 'text' },
-      { id: 'sx-2', question: 'Bé hãy tìm chữ x nhé!', options: [{ id: 's', text: 's', color: 'bg-red-100' }, { id: 'x', text: 'x', color: 'bg-blue-100' }], correctId: 'x', type: 'text' },
-      { id: 'sx-3', question: 'Chữ nào giống như hai nét gạch chéo nhau?', options: [{ id: 'x', text: 'Chữ x', color: 'bg-blue-100' }, { id: 's', text: 'Chữ s', color: 'bg-red-100' }], correctId: 'x', type: 'text' },
-      { id: 'sx-4', question: 'Trong từ "ngôi sao" có chữ cái nào?', options: [{ id: 's', text: 'Chữ s', color: 'bg-red-100' }, { id: 'x', text: 'Chữ x', color: 'bg-blue-100' }], correctId: 's', type: 'text' },
-      { id: 'sx-5', question: 'Trong từ "xe đạp" có chữ cái nào?', options: [{ id: 'x', text: 'Chữ x', color: 'bg-blue-100' }, { id: 's', text: 'Chữ s', color: 'bg-red-100' }], correctId: 'x', type: 'text' },
+      {
+        id: 'sx-1', question: 'Bé hãy tìm chữ s nhé!', options: [{ id: 's', text: 's', color: 'bg-red-100' }, { id: 'x', text: 'x', color: 'bg-blue-100' }], correctId: 's', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sx-2', question: 'Bé hãy tìm chữ x nhé!', options: [{ id: 's', text: 's', color: 'bg-red-100' }, { id: 'x', text: 'x', color: 'bg-blue-100' }], correctId: 'x', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sx-3', question: 'Chữ nào giống như hai nét gạch chéo nhau?', options: [{ id: 'x', text: 'Chữ x', color: 'bg-blue-100' }, { id: 's', text: 'Chữ s', color: 'bg-red-100' }], correctId: 'x', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sx-4', question: 'Trong từ "ngôi sao" có chữ cái nào?', options: [{ id: 's', text: 'Chữ s', color: 'bg-red-100' }, { id: 'x', text: 'Chữ x', color: 'bg-blue-100' }], correctId: 's', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sx-5', question: 'Trong từ "xe đạp" có chữ cái nào?', options: [{ id: 'x', text: 'Chữ x', color: 'bg-blue-100' }, { id: 's', text: 'Chữ s', color: 'bg-red-100' }], correctId: 'x', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2028,11 +2621,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'alphabet',
     questions: [
-      { id: 'hk-1', question: 'Bé hãy tìm chữ h nhé!', options: [{ id: 'h', text: 'h', color: 'bg-red-100' }, { id: 'k', text: 'k', color: 'bg-blue-100' }], correctId: 'h', type: 'text' },
-      { id: 'hk-2', question: 'Bé hãy tìm chữ k nhé!', options: [{ id: 'h', text: 'h', color: 'bg-red-100' }, { id: 'k', text: 'k', color: 'bg-blue-100' }], correctId: 'k', type: 'text' },
-      { id: 'hk-3', question: 'Chữ nào có một nét sổ thẳng và một nét móc xuôi?', options: [{ id: 'h', text: 'Chữ h', color: 'bg-red-100' }, { id: 'k', text: 'Chữ k', color: 'bg-blue-100' }], correctId: 'h', type: 'text' },
-      { id: 'hk-4', question: 'Trong từ "hoa hồng" có chữ cái nào?', options: [{ id: 'h', text: 'Chữ h', color: 'bg-red-100' }, { id: 'k', text: 'Chữ k', color: 'bg-blue-100' }], correctId: 'h', type: 'text' },
-      { id: 'hk-5', question: 'Trong từ "con kiến" có chữ cái nào?', options: [{ id: 'k', text: 'Chữ k', color: 'bg-blue-100' }, { id: 'h', text: 'Chữ h', color: 'bg-red-100' }], correctId: 'k', type: 'text' },
+      {
+        id: 'hk-1', question: 'Bé hãy tìm chữ h nhé!', options: [{ id: 'h', text: 'h', color: 'bg-red-100' }, { id: 'k', text: 'k', color: 'bg-blue-100' }], correctId: 'h', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hk-2', question: 'Bé hãy tìm chữ k nhé!', options: [{ id: 'h', text: 'h', color: 'bg-red-100' }, { id: 'k', text: 'k', color: 'bg-blue-100' }], correctId: 'k', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hk-3', question: 'Chữ nào có một nét sổ thẳng và một nét móc xuôi?', options: [{ id: 'h', text: 'Chữ h', color: 'bg-red-100' }, { id: 'k', text: 'Chữ k', color: 'bg-blue-100' }], correctId: 'h', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hk-4', question: 'Trong từ "hoa hồng" có chữ cái nào?', options: [{ id: 'h', text: 'Chữ h', color: 'bg-red-100' }, { id: 'k', text: 'Chữ k', color: 'bg-blue-100' }], correctId: 'h', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hk-5', question: 'Trong từ "con kiến" có chữ cái nào?', options: [{ id: 'k', text: 'Chữ k', color: 'bg-blue-100' }, { id: 'h', text: 'Chữ h', color: 'bg-red-100' }], correctId: 'k', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2040,11 +2643,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vòng đời sinh trưởng',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'lc-1', question: 'Vòng đời của bướm bắt đầu từ đâu?', options: [{ id: 'a', text: 'Trứng', emoji: '🥚' }, { id: 'b', text: 'Sâu bướm', emoji: '🐛' }], correctId: 'a', type: 'text' },
-      { id: 'lc-2', question: 'Sâu bướm ăn gì để lớn lên?', options: [{ id: 'a', text: 'Lá cây', emoji: '🍃' }, { id: 'b', text: 'Mật hoa', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'lc-3', question: 'Giai đoạn nào sâu bướm nằm trong kén?', options: [{ id: 'a', text: 'Nhộng', emoji: '🛖' }, { id: 'b', text: 'Bướm trưởng thành', emoji: '🦋' }], correctId: 'a', type: 'text' },
-      { id: 'lc-4', question: 'Con gì nở ra từ trứng gà?', options: [{ id: 'a', text: 'Gà con', emoji: '🐥' }, { id: 'b', text: 'Vịt con', emoji: '🦆' }], correctId: 'a', type: 'text' },
-      { id: 'lc-5', question: 'Cây nảy mầm từ đâu?', options: [{ id: 'a', text: 'Hạt giống', emoji: '🌱' }, { id: 'b', text: 'Cái lá', emoji: '🍃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'lc-1', question: 'Vòng đời của bướm bắt đầu từ đâu?', options: [{ id: 'a', text: 'Trứng', emoji: '🥚' }, { id: 'b', text: 'Sâu bướm', emoji: '🐛' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'lc-2', question: 'Sâu bướm ăn gì để lớn lên?', options: [{ id: 'a', text: 'Lá cây', emoji: '🍃' }, { id: 'b', text: 'Mật hoa', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'lc-3', question: 'Giai đoạn nào sâu bướm nằm trong kén?', options: [{ id: 'a', text: 'Nhộng', emoji: '🛖' }, { id: 'b', text: 'Bướm trưởng thành', emoji: '🦋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'lc-4', question: 'Con gì nở ra từ trứng gà?', options: [{ id: 'a', text: 'Gà con', emoji: '🐥' }, { id: 'b', text: 'Vịt con', emoji: '🦆' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'lc-5', question: 'Cây nảy mầm từ đâu?', options: [{ id: 'a', text: 'Hạt giống', emoji: '🌱' }, { id: 'b', text: 'Cái lá', emoji: '🍃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2052,11 +2665,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bảo vệ môi trường',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'env-1', question: 'Chúng ta nên bỏ rác vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Dưới đất', emoji: '🌱' }], correctId: 'a', type: 'text' },
-      { id: 'env-2', question: 'Hành động nào giúp không khí trong lành?', options: [{ id: 'a', text: 'Trồng cây', emoji: '🌳' }, { id: 'b', text: 'Đốt rác', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'env-3', question: 'Tiết kiệm nước giúp gì cho Trái Đất?', options: [{ id: 'a', text: 'Bảo vệ nguồn nước sạch', emoji: '💧' }, { id: 'b', text: 'Làm Trái Đất nóng lên', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'env-4', question: 'Bé nên làm gì khi thấy vòi nước đang chảy lãng phí?', options: [{ id: 'a', text: 'Khóa vòi nước lại', emoji: '🚰' }, { id: 'b', text: 'Để mặc kệ', emoji: '🚶' }], correctId: 'a', type: 'text' },
-      { id: 'env-5', question: 'Sử dụng túi vải thay túi nilon có tốt không?', options: [{ id: 'a', text: 'Rất tốt cho môi trường', emoji: '🛍️' }, { id: 'b', text: 'Không tốt', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'env-1', question: 'Chúng ta nên bỏ rác vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Dưới đất', emoji: '🌱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'env-2', question: 'Hành động nào giúp không khí trong lành?', options: [{ id: 'a', text: 'Trồng cây', emoji: '🌳' }, { id: 'b', text: 'Đốt rác', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'env-3', question: 'Tiết kiệm nước giúp gì cho Trái Đất?', options: [{ id: 'a', text: 'Bảo vệ nguồn nước sạch', emoji: '💧' }, { id: 'b', text: 'Làm Trái Đất nóng lên', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'env-4', question: 'Bé nên làm gì khi thấy vòi nước đang chảy lãng phí?', options: [{ id: 'a', text: 'Khóa vòi nước lại', emoji: '🚰' }, { id: 'b', text: 'Để mặc kệ', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'env-5', question: 'Sử dụng túi vải thay túi nilon có tốt không?', options: [{ id: 'a', text: 'Rất tốt cho môi trường', emoji: '🛍️' }, { id: 'b', text: 'Không tốt', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2064,11 +2687,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Khám phá vũ trụ',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'sp-1', question: 'Trái Đất có hình gì?', options: [{ id: 'a', text: 'Hình cầu', emoji: '🌍' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text' },
-      { id: 'sp-2', question: 'Ban đêm chúng ta thấy gì trên bầu trời?', options: [{ id: 'a', text: 'Mặt Trăng và các vì sao', emoji: '🌙⭐' }, { id: 'b', text: 'Mặt Trời', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'sp-3', question: 'Ai là người bay vào vũ trụ?', options: [{ id: 'a', text: 'Phi hành gia', emoji: '👨‍🚀' }, { id: 'b', text: 'Bác nông dân', emoji: '👨‍🌾' }], correctId: 'a', type: 'text' },
-      { id: 'sp-4', question: 'Hành tinh nào gần Mặt Trời nhất?', options: [{ id: 'a', text: 'Sao Thủy', emoji: '☄️' }, { id: 'b', text: 'Sao Mộc', emoji: '🪐' }], correctId: 'a', type: 'text' },
-      { id: 'sp-5', question: 'Tên lửa dùng để làm gì?', options: [{ id: 'a', text: 'Bay vào không gian', emoji: '🚀' }, { id: 'b', text: 'Đi trên đường phố', emoji: '🚗' }], correctId: 'a', type: 'text' },
+      {
+        id: 'sp-1', question: 'Trái Đất có hình gì?', options: [{ id: 'a', text: 'Hình cầu', emoji: '🌍' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sp-2', question: 'Ban đêm chúng ta thấy gì trên bầu trời?', options: [{ id: 'a', text: 'Mặt Trăng và các vì sao', emoji: '🌙⭐' }, { id: 'b', text: 'Mặt Trời', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sp-3', question: 'Ai là người bay vào vũ trụ?', options: [{ id: 'a', text: 'Phi hành gia', emoji: '👨‍🚀' }, { id: 'b', text: 'Bác nông dân', emoji: '👨‍🌾' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sp-4', question: 'Hành tinh nào gần Mặt Trời nhất?', options: [{ id: 'a', text: 'Sao Thủy', emoji: '☄️' }, { id: 'b', text: 'Sao Mộc', emoji: '🪐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'sp-5', question: 'Tên lửa dùng để làm gì?', options: [{ id: 'a', text: 'Bay vào không gian', emoji: '🚀' }, { id: 'b', text: 'Đi trên đường phố', emoji: '🚗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2076,11 +2709,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Dài – ngắn',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'ls-1', question: 'Cái thước nào dài hơn?', options: [{ id: 'a', text: 'Thước 30cm', emoji: '📏' }, { id: 'b', text: 'Thước 10cm', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'ls-2', question: 'Con vật nào có cái cổ dài nhất?', options: [{ id: 'a', text: 'Hươu cao cổ', emoji: '🦒' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'ls-3', question: 'Bút chì mới mua thường như thế nào so với bút chì đã dùng lâu?', options: [{ id: 'a', text: 'Dài hơn', emoji: '✏️' }, { id: 'b', text: 'Ngắn hơn', emoji: '✏️' }], correctId: 'a', type: 'text' },
-      { id: 'ls-4', question: 'Đoạn đường từ nhà đến trường xa hơn thì gọi là gì?', options: [{ id: 'a', text: 'Dài hơn', emoji: '🛣️' }, { id: 'b', text: 'Ngắn hơn', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'ls-5', question: 'Sợi dây thừng và sợi chỉ, cái nào dài hơn (thường lệ)?', options: [{ id: 'a', text: 'Dây thừng', emoji: '🧶' }, { id: 'b', text: 'Sợi chỉ', emoji: '🧵' }], correctId: 'a', type: 'text' },
+      {
+        id: 'ls-1', question: 'Cái thước nào dài hơn?', options: [{ id: 'a', text: 'Thước 30cm', emoji: '📏' }, { id: 'b', text: 'Thước 10cm', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ls-2', question: 'Con vật nào có cái cổ dài nhất?', options: [{ id: 'a', text: 'Hươu cao cổ', emoji: '🦒' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ls-3', question: 'Bút chì mới mua thường như thế nào so với bút chì đã dùng lâu?', options: [{ id: 'a', text: 'Dài hơn', emoji: '✏️' }, { id: 'b', text: 'Ngắn hơn', emoji: '✏️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ls-4', question: 'Đoạn đường từ nhà đến trường xa hơn thì gọi là gì?', options: [{ id: 'a', text: 'Dài hơn', emoji: '🛣️' }, { id: 'b', text: 'Ngắn hơn', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'ls-5', question: 'Sợi dây thừng và sợi chỉ, cái nào dài hơn (thường lệ)?', options: [{ id: 'a', text: 'Dây thừng', emoji: '🧶' }, { id: 'b', text: 'Sợi chỉ', emoji: '🧵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2088,11 +2731,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Nặng – nhẹ',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'hl-1', question: 'Quả nào nặng hơn?', options: [{ id: 'a', text: 'Quả dưa hấu', emoji: '🍉' }, { id: 'b', text: 'Quả nho', emoji: '🍇' }], correctId: 'a', type: 'text' },
-      { id: 'hl-2', question: 'Con vật nào nhẹ hơn?', options: [{ id: 'a', text: 'Con kiến', emoji: '🐜' }, { id: 'b', text: 'Con voi', emoji: '🐘' }], correctId: 'a', type: 'text' },
-      { id: 'hl-3', question: 'Cái gì nhẹ nhất?', options: [{ id: 'a', text: 'Chiếc lông chim', emoji: '🪶' }, { id: 'b', text: 'Hòn đá', emoji: '🪨' }], correctId: 'a', type: 'text' },
-      { id: 'hl-4', question: 'Khi đi bập bênh, người nặng hơn sẽ ở phía nào?', options: [{ id: 'a', text: 'Phía dưới', emoji: '⬇️' }, { id: 'b', text: 'Phía trên', emoji: '⬆️' }], correctId: 'a', type: 'text' },
-      { id: 'hl-5', question: 'Một túi bông và một túi sắt cùng kích thước, cái nào nặng hơn?', options: [{ id: 'a', text: 'Túi sắt', emoji: '🔩' }, { id: 'b', text: 'Túi bông', emoji: '☁️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'hl-1', question: 'Quả nào nặng hơn?', options: [{ id: 'a', text: 'Quả dưa hấu', emoji: '🍉' }, { id: 'b', text: 'Quả nho', emoji: '🍇' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hl-2', question: 'Con vật nào nhẹ hơn?', options: [{ id: 'a', text: 'Con kiến', emoji: '🐜' }, { id: 'b', text: 'Con voi', emoji: '🐘' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hl-3', question: 'Cái gì nhẹ nhất?', options: [{ id: 'a', text: 'Chiếc lông chim', emoji: '🪶' }, { id: 'b', text: 'Hòn đá', emoji: '🪨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hl-4', question: 'Khi đi bập bênh, người nặng hơn sẽ ở phía nào?', options: [{ id: 'a', text: 'Phía dưới', emoji: '⬇️' }, { id: 'b', text: 'Phía trên', emoji: '⬆️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'hl-5', question: 'Một túi bông và một túi sắt cùng kích thước, cái nào nặng hơn?', options: [{ id: 'a', text: 'Túi sắt', emoji: '🔩' }, { id: 'b', text: 'Túi bông', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // Toddler Physical Games
@@ -2101,11 +2754,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi có bê vật trên tay',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé bê vật bằng mấy tay?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 tay', emoji: '✋' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé nên đi như thế nào khi bê vật?', options: [{ id: 'a', text: 'Đi vững vàng', emoji: '🚶' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có được làm rơi vật không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi cũng được', emoji: '🤷' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mắt bé nên nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn về phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống chân', emoji: '👣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé bê vật đến đâu?', options: [{ id: 'a', text: 'Đến đích', emoji: '🏁' }, { id: 'b', text: 'Bỏ giữa đường', emoji: '🚶' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bê vật bằng mấy tay?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 tay', emoji: '✋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé nên đi như thế nào khi bê vật?', options: [{ id: 'a', text: 'Đi vững vàng', emoji: '🚶' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có được làm rơi vật không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi cũng được', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mắt bé nên nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn về phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống chân', emoji: '👣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé bê vật đến đâu?', options: [{ id: 'a', text: 'Đến đích', emoji: '🏁' }, { id: 'b', text: 'Bỏ giữa đường', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2113,11 +2776,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi bước qua vật cản',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé bước qua cái gì?', options: [{ id: 'a', text: 'Vật cản', emoji: '🚧' }, { id: 'b', text: 'Vũng nước', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé có được chạm vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm vào cũng được', emoji: '🤝' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé nhấc chân như thế nào?', options: [{ id: 'a', text: 'Nhấc cao chân', emoji: '🦵' }, { id: 'b', text: 'Lê chân', emoji: '👣' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé đi như thế nào cho an toàn?', options: [{ id: 'a', text: 'Đi từ từ, khéo léo', emoji: '🚶' }, { id: 'b', text: 'Nhảy đại qua', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sau khi bước qua, bé đứng như thế nào?', options: [{ id: 'a', text: 'Đứng vững vàng', emoji: '🧍' }, { id: 'b', text: 'Ngã xuống', emoji: '🤕' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bước qua cái gì?', options: [{ id: 'a', text: 'Vật cản', emoji: '🚧' }, { id: 'b', text: 'Vũng nước', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé có được chạm vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm vào cũng được', emoji: '🤝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé nhấc chân như thế nào?', options: [{ id: 'a', text: 'Nhấc cao chân', emoji: '🦵' }, { id: 'b', text: 'Lê chân', emoji: '👣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé đi như thế nào cho an toàn?', options: [{ id: 'a', text: 'Đi từ từ, khéo léo', emoji: '🚶' }, { id: 'b', text: 'Nhảy đại qua', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sau khi bước qua, bé đứng như thế nào?', options: [{ id: 'a', text: 'Đứng vững vàng', emoji: '🧍' }, { id: 'b', text: 'Ngã xuống', emoji: '🤕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2125,11 +2798,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ném bóng qua dây',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé ném cái gì?', options: [{ id: 'a', text: 'Quả bóng', emoji: '⚽' }, { id: 'b', text: 'Cái gối', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé ném bóng qua đâu?', options: [{ id: 'a', text: 'Qua sợi dây', emoji: '🧶' }, { id: 'b', text: 'Dưới gầm bàn', emoji: '🪑' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 tay', emoji: '✋' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé ném bóng hướng nào?', options: [{ id: 'a', text: 'Ném lên cao qua dây', emoji: '⬆️' }, { id: 'b', text: 'Ném xuống đất', emoji: '⬇️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy trò chơi này thế nào?', options: [{ id: 'a', text: 'Rất vui', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé ném cái gì?', options: [{ id: 'a', text: 'Quả bóng', emoji: '⚽' }, { id: 'b', text: 'Cái gối', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé ném bóng qua đâu?', options: [{ id: 'a', text: 'Qua sợi dây', emoji: '🧶' }, { id: 'b', text: 'Dưới gầm bàn', emoji: '🪑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 tay', emoji: '✋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé ném bóng hướng nào?', options: [{ id: 'a', text: 'Ném lên cao qua dây', emoji: '⬆️' }, { id: 'b', text: 'Ném xuống đất', emoji: '⬇️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy trò chơi này thế nào?', options: [{ id: 'a', text: 'Rất vui', emoji: '😄' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 3-4 Physical Games
@@ -2138,11 +2821,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi kiễng gót liên tục 3m',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé đi bằng bộ phận nào của bàn chân?', options: [{ id: 'a', text: 'Kiễng gót chân', emoji: '👣' }, { id: 'b', text: 'Đi bằng mũi chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé đi quãng đường dài bao nhiêu?', options: [{ id: 'a', text: '3 mét', emoji: '📏' }, { id: 'b', text: '10 mét', emoji: '🛣️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang 2 tay', emoji: '👐' }, { id: 'b', text: 'Cho tay vào túi', emoji: '👖' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé đi như thế nào?', options: [{ id: 'a', text: 'Liên tục, không dừng', emoji: '🚶' }, { id: 'b', text: 'Vừa đi vừa nhảy', emoji: '🐰' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn thẳng phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn lên trời', emoji: '☁️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đi bằng bộ phận nào của bàn chân?', options: [{ id: 'a', text: 'Kiễng gót chân', emoji: '👣' }, { id: 'b', text: 'Đi bằng mũi chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé đi quãng đường dài bao nhiêu?', options: [{ id: 'a', text: '3 mét', emoji: '📏' }, { id: 'b', text: '10 mét', emoji: '🛣️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang 2 tay', emoji: '👐' }, { id: 'b', text: 'Cho tay vào túi', emoji: '👖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé đi như thế nào?', options: [{ id: 'a', text: 'Liên tục, không dừng', emoji: '🚶' }, { id: 'b', text: 'Vừa đi vừa nhảy', emoji: '🐰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn thẳng phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn lên trời', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2150,11 +2843,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Lăn bóng với cô',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé chơi lăn bóng với ai?', options: [{ id: 'a', text: 'Với cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Chơi một mình', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng gì để lăn bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé lăn bóng hướng về phía nào?', options: [{ id: 'a', text: 'Về phía cô', emoji: '🎯' }, { id: 'b', text: 'Ra đằng sau', emoji: '⏪' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có được ném bóng không?', options: [{ id: 'a', text: 'Không, chỉ lăn bóng', emoji: '🚫' }, { id: 'b', text: 'Ném thật mạnh', emoji: '💥' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy bóng lăn như thế nào?', options: [{ id: 'a', text: 'Lăn tròn trên đất', emoji: '⚽' }, { id: 'b', text: 'Bay lên trời', emoji: '☁️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé chơi lăn bóng với ai?', options: [{ id: 'a', text: 'Với cô giáo', emoji: '👩‍🏫' }, { id: 'b', text: 'Chơi một mình', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng gì để lăn bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé lăn bóng hướng về phía nào?', options: [{ id: 'a', text: 'Về phía cô', emoji: '🎯' }, { id: 'b', text: 'Ra đằng sau', emoji: '⏪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có được ném bóng không?', options: [{ id: 'a', text: 'Không, chỉ lăn bóng', emoji: '🚫' }, { id: 'b', text: 'Ném thật mạnh', emoji: '💥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy bóng lăn như thế nào?', options: [{ id: 'a', text: 'Lăn tròn trên đất', emoji: '⚽' }, { id: 'b', text: 'Bay lên trời', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2162,11 +2865,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Chuyền, bắt bóng 2 bên',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé đứng theo hàng gì?', options: [{ id: 'a', text: 'Hàng ngang', emoji: '🚶🚶🚶' }, { id: 'b', text: 'Hàng dọc', emoji: '🧍\n🧍\n🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé chuyền bóng sang mấy bên?', options: [{ id: 'a', text: '2 bên', emoji: '↔️' }, { id: 'b', text: '1 bên', emoji: '➡️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dùng gì để bắt bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Cái rổ', emoji: '🧺' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi chuyền bóng bé có được làm rơi không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi thoải mái', emoji: '🤷' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé chuyền bóng cho ai?', options: [{ id: 'a', text: 'Cho bạn bên cạnh', emoji: '👫' }, { id: 'b', text: 'Ném ra xa', emoji: '☄️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đứng theo hàng gì?', options: [{ id: 'a', text: 'Hàng ngang', emoji: '🚶🚶🚶' }, { id: 'b', text: 'Hàng dọc', emoji: '🧍\n🧍\n🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé chuyền bóng sang mấy bên?', options: [{ id: 'a', text: '2 bên', emoji: '↔️' }, { id: 'b', text: '1 bên', emoji: '➡️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dùng gì để bắt bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Cái rổ', emoji: '🧺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi chuyền bóng bé có được làm rơi không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi thoải mái', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé chuyền bóng cho ai?', options: [{ id: 'a', text: 'Cho bạn bên cạnh', emoji: '👫' }, { id: 'b', text: 'Ném ra xa', emoji: '☄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2174,11 +2887,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trườn về phía trước',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé trườn bằng bộ phận nào?', options: [{ id: 'a', text: 'Bụng và chân tay', emoji: '🦎' }, { id: 'b', text: 'Chỉ dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé trườn hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Lùi lại sau', emoji: '⏪' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Người bé áp sát vào đâu?', options: [{ id: 'a', text: 'Sát mặt sàn', emoji: '🏢' }, { id: 'b', text: 'Nhổm cao lên', emoji: '🦒' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé trườn như thế nào?', options: [{ id: 'a', text: 'Khéo léo, nhịp nhàng', emoji: '✨' }, { id: 'b', text: 'Giãy giụa', emoji: '🐟' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé trườn đến đâu?', options: [{ id: 'a', text: 'Đến vạch đích', emoji: '🏁' }, { id: 'b', text: 'Dừng lại giữa đường', emoji: '🛑' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé trườn bằng bộ phận nào?', options: [{ id: 'a', text: 'Bụng và chân tay', emoji: '🦎' }, { id: 'b', text: 'Chỉ dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé trườn hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Lùi lại sau', emoji: '⏪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Người bé áp sát vào đâu?', options: [{ id: 'a', text: 'Sát mặt sàn', emoji: '🏢' }, { id: 'b', text: 'Nhổm cao lên', emoji: '🦒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé trườn như thế nào?', options: [{ id: 'a', text: 'Khéo léo, nhịp nhàng', emoji: '✨' }, { id: 'b', text: 'Giãy giụa', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé trườn đến đâu?', options: [{ id: 'a', text: 'Đến vạch đích', emoji: '🏁' }, { id: 'b', text: 'Dừng lại giữa đường', emoji: '🛑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2186,11 +2909,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bò theo đường dích dắc',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé bò theo đường gì?', options: [{ id: 'a', text: 'Đường dích dắc', emoji: '🐍' }, { id: 'b', text: 'Đường thẳng', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé bò bằng gì?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '🦎' }, { id: 'b', text: 'Bằng mông', emoji: '🍑' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có được chạm vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm vào cũng được', emoji: '🤝' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé bò như thế nào?', options: [{ id: 'a', text: 'Uốn lượn theo đường', emoji: '〰️' }, { id: 'b', text: 'Bò đè lên vật', emoji: '💥' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn đường bò', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt lại', emoji: '🙈' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bò theo đường gì?', options: [{ id: 'a', text: 'Đường dích dắc', emoji: '🐍' }, { id: 'b', text: 'Đường thẳng', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé bò bằng gì?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '🦎' }, { id: 'b', text: 'Bằng mông', emoji: '🍑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có được chạm vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm vào cũng được', emoji: '🤝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé bò như thế nào?', options: [{ id: 'a', text: 'Uốn lượn theo đường', emoji: '〰️' }, { id: 'b', text: 'Bò đè lên vật', emoji: '💥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn đường bò', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt lại', emoji: '🙈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2198,11 +2931,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bước lên, xuống bục cao',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé bước lên cái gì?', options: [{ id: 'a', text: 'Bục cao', emoji: '🪜' }, { id: 'b', text: 'Cái hố', emoji: '🕳️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé bước như thế nào?', options: [{ id: 'a', text: 'Từng chân một', emoji: '👣' }, { id: 'b', text: 'Nhảy cả 2 chân', emoji: '🐰' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có cần người hỗ trợ không?', options: [{ id: 'a', text: 'Tự bước khéo léo', emoji: '🧍' }, { id: 'b', text: 'Cần cô dắt', emoji: '👩‍🏫' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi bước xuống bé nên làm gì?', options: [{ id: 'a', text: 'Nhìn xuống chân', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt nhảy', emoji: '🙈' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy mình có giỏi không?', options: [{ id: 'a', text: 'Rất giỏi', emoji: '🏆' }, { id: 'b', text: 'Bình thường', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bước lên cái gì?', options: [{ id: 'a', text: 'Bục cao', emoji: '🪜' }, { id: 'b', text: 'Cái hố', emoji: '🕳️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé bước như thế nào?', options: [{ id: 'a', text: 'Từng chân một', emoji: '👣' }, { id: 'b', text: 'Nhảy cả 2 chân', emoji: '🐰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có cần người hỗ trợ không?', options: [{ id: 'a', text: 'Tự bước khéo léo', emoji: '🧍' }, { id: 'b', text: 'Cần cô dắt', emoji: '👩‍🏫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi bước xuống bé nên làm gì?', options: [{ id: 'a', text: 'Nhìn xuống chân', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt nhảy', emoji: '🙈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy mình có giỏi không?', options: [{ id: 'a', text: 'Rất giỏi', emoji: '🏆' }, { id: 'b', text: 'Bình thường', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2210,11 +2953,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ném bóng vào rổ',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé ném bóng vào đâu?', options: [{ id: 'a', text: 'Vào rổ', emoji: '🏀' }, { id: 'b', text: 'Ra cửa sổ', emoji: '🪟' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé ném bóng hướng nào?', options: [{ id: 'a', text: 'Hướng về phía rổ', emoji: '🎯' }, { id: 'b', text: 'Ném lên trời', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có cần ngắm chuẩn không?', options: [{ id: 'a', text: 'Có, ngắm thật chuẩn', emoji: '👁️' }, { id: 'b', text: 'Ném đại', emoji: '🤷' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Nếu ném trượt bé sẽ làm gì?', options: [{ id: 'a', text: 'Thử lại lần nữa', emoji: '🔄' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé ném bóng vào đâu?', options: [{ id: 'a', text: 'Vào rổ', emoji: '🏀' }, { id: 'b', text: 'Ra cửa sổ', emoji: '🪟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé ném bóng hướng nào?', options: [{ id: 'a', text: 'Hướng về phía rổ', emoji: '🎯' }, { id: 'b', text: 'Ném lên trời', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có cần ngắm chuẩn không?', options: [{ id: 'a', text: 'Có, ngắm thật chuẩn', emoji: '👁️' }, { id: 'b', text: 'Ném đại', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Nếu ném trượt bé sẽ làm gì?', options: [{ id: 'a', text: 'Thử lại lần nữa', emoji: '🔄' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2222,11 +2975,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đá bóng về phía trước',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để đá bóng?', options: [{ id: 'a', text: 'Bàn chân', emoji: '🦶' }, { id: 'b', text: 'Bàn tay', emoji: '✋' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé đá bóng hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Ra đằng sau', emoji: '⏪' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé đá bóng mạnh hay nhẹ?', options: [{ id: 'a', text: 'Đá vừa sức', emoji: '⚽' }, { id: 'b', text: 'Đá bay lên trời', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có được dùng tay chạm bóng không?', options: [{ id: 'a', text: 'Không, chỉ dùng chân', emoji: '🚫' }, { id: 'b', text: 'Dùng tay ôm bóng', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy mình giống cầu thủ không?', options: [{ id: 'a', text: 'Rất giống', emoji: '🏃‍♂️' }, { id: 'b', text: 'Không giống', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để đá bóng?', options: [{ id: 'a', text: 'Bàn chân', emoji: '🦶' }, { id: 'b', text: 'Bàn tay', emoji: '✋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé đá bóng hướng nào?', options: [{ id: 'a', text: 'Về phía trước', emoji: '⏩' }, { id: 'b', text: 'Ra đằng sau', emoji: '⏪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé đá bóng mạnh hay nhẹ?', options: [{ id: 'a', text: 'Đá vừa sức', emoji: '⚽' }, { id: 'b', text: 'Đá bay lên trời', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có được dùng tay chạm bóng không?', options: [{ id: 'a', text: 'Không, chỉ dùng chân', emoji: '🚫' }, { id: 'b', text: 'Dùng tay ôm bóng', emoji: '👐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy mình giống cầu thủ không?', options: [{ id: 'a', text: 'Rất giống', emoji: '🏃‍♂️' }, { id: 'b', text: 'Không giống', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 4-5 Physical Games
@@ -2235,11 +2998,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi bằng gót, khuỵu gối, đi lùi',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé đi bằng gì đầu tiên?', options: [{ id: 'a', text: 'Gót chân', emoji: '👣' }, { id: 'b', text: 'Mũi chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi đi khuỵu gối, chân bé như thế nào?', options: [{ id: 'a', text: 'Hơi thấp xuống', emoji: '🦵' }, { id: 'b', text: 'Đứng thẳng tắp', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Đi lùi là đi hướng nào?', options: [{ id: 'a', text: 'Về phía sau', emoji: '⏪' }, { id: 'b', text: 'Về phía trước', emoji: '⏩' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé cần chú ý gì khi đi lùi?', options: [{ id: 'a', text: 'Quan sát phía sau', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt đi', emoji: '🙈' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang tay khéo léo', emoji: '👐' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đi bằng gì đầu tiên?', options: [{ id: 'a', text: 'Gót chân', emoji: '👣' }, { id: 'b', text: 'Mũi chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi đi khuỵu gối, chân bé như thế nào?', options: [{ id: 'a', text: 'Hơi thấp xuống', emoji: '🦵' }, { id: 'b', text: 'Đứng thẳng tắp', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Đi lùi là đi hướng nào?', options: [{ id: 'a', text: 'Về phía sau', emoji: '⏪' }, { id: 'b', text: 'Về phía trước', emoji: '⏩' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé cần chú ý gì khi đi lùi?', options: [{ id: 'a', text: 'Quan sát phía sau', emoji: '👀' }, { id: 'b', text: 'Nhắm mắt đi', emoji: '🙈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang tay khéo léo', emoji: '👐' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2247,11 +3020,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi trên vạch kẻ thẳng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé đi trên đường gì?', options: [{ id: 'a', text: 'Vạch kẻ thẳng', emoji: '📏' }, { id: 'b', text: 'Đường cong', emoji: '〰️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé có được đi ra ngoài vạch không?', options: [{ id: 'a', text: 'Không, phải đi đúng vạch', emoji: '🚫' }, { id: 'b', text: 'Đi đâu cũng được', emoji: '🤷' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé đặt chân như thế nào?', options: [{ id: 'a', text: 'Nối gót nhau', emoji: '👣' }, { id: 'b', text: 'Nhảy lò cò', emoji: '🦿' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn theo vạch kẻ', emoji: '👀' }, { id: 'b', text: 'Nhìn lên trần nhà', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé đi như thế nào?', options: [{ id: 'a', text: 'Khéo léo, thăng bằng', emoji: '✨' }, { id: 'b', text: 'Chạy ào qua', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đi trên đường gì?', options: [{ id: 'a', text: 'Vạch kẻ thẳng', emoji: '📏' }, { id: 'b', text: 'Đường cong', emoji: '〰️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé có được đi ra ngoài vạch không?', options: [{ id: 'a', text: 'Không, phải đi đúng vạch', emoji: '🚫' }, { id: 'b', text: 'Đi đâu cũng được', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé đặt chân như thế nào?', options: [{ id: 'a', text: 'Nối gót nhau', emoji: '👣' }, { id: 'b', text: 'Nhảy lò cò', emoji: '🦿' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn theo vạch kẻ', emoji: '👀' }, { id: 'b', text: 'Nhìn lên trần nhà', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé đi như thế nào?', options: [{ id: 'a', text: 'Khéo léo, thăng bằng', emoji: '✨' }, { id: 'b', text: 'Chạy ào qua', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2259,11 +3042,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đập và bắt bóng tại chỗ',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé đập bóng xuống đâu?', options: [{ id: 'a', text: 'Xuống mặt sàn', emoji: '🏢' }, { id: 'b', text: 'Lên tường', emoji: '🧱' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Sau khi đập, bé làm gì?', options: [{ id: 'a', text: 'Bắt bóng lại', emoji: '👐' }, { id: 'b', text: 'Để bóng lăn đi', emoji: '⚽' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dùng mấy tay để bắt bóng?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 ngón tay', emoji: '☝️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé đứng ở đâu khi chơi?', options: [{ id: 'a', text: 'Đứng tại chỗ', emoji: '🧍' }, { id: 'b', text: 'Vừa chạy vừa đập', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé đập bóng mạnh hay nhẹ?', options: [{ id: 'a', text: 'Vừa đủ để bóng nảy lên', emoji: '🏀' }, { id: 'b', text: 'Đập thật mạnh cho bóng vỡ', emoji: '💥' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đập bóng xuống đâu?', options: [{ id: 'a', text: 'Xuống mặt sàn', emoji: '🏢' }, { id: 'b', text: 'Lên tường', emoji: '🧱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Sau khi đập, bé làm gì?', options: [{ id: 'a', text: 'Bắt bóng lại', emoji: '👐' }, { id: 'b', text: 'Để bóng lăn đi', emoji: '⚽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dùng mấy tay để bắt bóng?', options: [{ id: 'a', text: '2 tay', emoji: '👐' }, { id: 'b', text: '1 ngón tay', emoji: '☝️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé đứng ở đâu khi chơi?', options: [{ id: 'a', text: 'Đứng tại chỗ', emoji: '🧍' }, { id: 'b', text: 'Vừa chạy vừa đập', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé đập bóng mạnh hay nhẹ?', options: [{ id: 'a', text: 'Vừa đủ để bóng nảy lên', emoji: '🏀' }, { id: 'b', text: 'Đập thật mạnh cho bóng vỡ', emoji: '💥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2271,11 +3064,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ném xa bằng 1 tay',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '1 tay', emoji: '✋' }, { id: 'b', text: '2 tay', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé ném vật đi đâu?', options: [{ id: 'a', text: 'Ném ra xa phía trước', emoji: '☄️' }, { id: 'b', text: 'Ném xuống chân', emoji: '👣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Tư thế đứng của bé như thế nào?', options: [{ id: 'a', text: 'Chân trước chân sau', emoji: '👣' }, { id: 'b', text: 'Hai chân chụm lại', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé lấy đà như thế nào?', options: [{ id: 'a', text: 'Đưa tay ra sau lấy đà', emoji: '💪' }, { id: 'b', text: 'Đứng im ném', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé ném càng xa càng tốt đúng không?', options: [{ id: 'a', text: 'Đúng rồi', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '1 tay', emoji: '✋' }, { id: 'b', text: '2 tay', emoji: '👐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé ném vật đi đâu?', options: [{ id: 'a', text: 'Ném ra xa phía trước', emoji: '☄️' }, { id: 'b', text: 'Ném xuống chân', emoji: '👣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Tư thế đứng của bé như thế nào?', options: [{ id: 'a', text: 'Chân trước chân sau', emoji: '👣' }, { id: 'b', text: 'Hai chân chụm lại', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé lấy đà như thế nào?', options: [{ id: 'a', text: 'Đưa tay ra sau lấy đà', emoji: '💪' }, { id: 'b', text: 'Đứng im ném', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé ném càng xa càng tốt đúng không?', options: [{ id: 'a', text: 'Đúng rồi', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2283,11 +3086,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trườn theo hướng thẳng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé trườn theo đường gì?', options: [{ id: 'a', text: 'Hướng thẳng', emoji: '📏' }, { id: 'b', text: 'Đường vòng vèo', emoji: '〰️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bụng bé có chạm sàn không?', options: [{ id: 'a', text: 'Có, áp sát sàn', emoji: '🏢' }, { id: 'b', text: 'Nhổm cao lên', emoji: '🦒' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé phối hợp tay chân như thế nào?', options: [{ id: 'a', text: 'Nhịp nhàng, đối xứng', emoji: '✨' }, { id: 'b', text: 'Chỉ dùng tay kéo', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn về phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống đất', emoji: '👣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé trườn đến đâu thì dừng?', options: [{ id: 'a', text: 'Đến vạch đích', emoji: '🏁' }, { id: 'b', text: 'Trườn mãi không thôi', emoji: '🔄' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé trườn theo đường gì?', options: [{ id: 'a', text: 'Hướng thẳng', emoji: '📏' }, { id: 'b', text: 'Đường vòng vèo', emoji: '〰️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bụng bé có chạm sàn không?', options: [{ id: 'a', text: 'Có, áp sát sàn', emoji: '🏢' }, { id: 'b', text: 'Nhổm cao lên', emoji: '🦒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé phối hợp tay chân như thế nào?', options: [{ id: 'a', text: 'Nhịp nhàng, đối xứng', emoji: '✨' }, { id: 'b', text: 'Chỉ dùng tay kéo', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn về phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống đất', emoji: '👣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé trườn đến đâu thì dừng?', options: [{ id: 'a', text: 'Đến vạch đích', emoji: '🏁' }, { id: 'b', text: 'Trườn mãi không thôi', emoji: '🔄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2295,11 +3108,11 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bật tách chân, khép chân',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé bật qua mấy ô?', options: [{ id: 'a', text: '5 ô', emoji: '🔢' }, { id: 'b', text: '1 ô', emoji: '1️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi vào ô đơn, chân bé như thế nào?', options: [{ id: 'a', text: 'Chụm 2 chân', emoji: '🧍' }, { id: 'b', text: 'Tách 2 chân', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi vào ô đôi, chân bé như thế nào?', options: [{ id: 'a', text: 'Tách 2 chân', emoji: '👐' }, { id: 'b', text: 'Chụm 2 chân', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé bật bằng gì?', options: [{ id: 'a', text: 'Bằng 2 chân', emoji: '🦶🦶' }, { id: 'b', text: 'Bằng tay', emoji: '👐' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé tiếp đất bằng gì?', options: [{ id: 'a', text: 'Bằng mũi bàn chân', emoji: '🦶' }, { id: 'b', text: 'Bằng cả bàn chân', emoji: '👣' }], correctId: 'a', type: 'text' },
+      { audioUrl: '', id: 'q1', question: 'Bé bật qua mấy ô?', options: [{ id: 'a', text: '5 ô', emoji: '🔢' }, { id: 'b', text: '1 ô', emoji: '1️⃣' }], correctId: 'a', type: 'text' },
+      { audioUrl: '', id: 'q2', question: 'Khi vào ô đơn, chân bé như thế nào?', options: [{ id: 'a', text: 'Chụm 2 chân', emoji: '🧍' }, { id: 'b', text: 'Tách 2 chân', emoji: '👐' }], correctId: 'a', type: 'text' },
+      { audioUrl: '', id: 'q3', question: 'Khi vào ô đôi, chân bé như thế nào?', options: [{ id: 'a', text: 'Tách 2 chân', emoji: '👐' }, { id: 'b', text: 'Chụm 2 chân', emoji: '🧍' }], correctId: 'a', type: 'text' },
+      { audioUrl: '', id: 'q4', question: 'Bé bật bằng gì?', options: [{ id: 'a', text: 'Bằng 2 chân', emoji: '🦶🦶' }, { id: 'b', text: 'Bằng tay', emoji: '👐' }], correctId: 'a', type: 'text' },
+      { audioUrl: '', id: 'q5', question: 'Bé tiếp đất bằng gì?', options: [{ id: 'a', text: 'Bằng mũi bàn chân', emoji: '🦶' }, { id: 'b', text: 'Bằng cả bàn chân', emoji: '👣' }], correctId: 'a', type: 'text' },
     ],
   },
   // 5-6 Physical Games
@@ -2330,11 +3143,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ném trúng đích đứng',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Đích ném của bé ở đâu?', options: [{ id: 'a', text: 'Đứng thẳng phía trước', emoji: '🎯' }, { id: 'b', text: 'Nằm dưới đất', emoji: '🕳️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '1 tay', emoji: '✋' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé cần làm gì để ném trúng?', options: [{ id: 'a', text: 'Ngắm thật chuẩn', emoji: '👁️' }, { id: 'b', text: 'Ném đại', emoji: '🤷' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Vật ném của bé là gì?', options: [{ id: 'a', text: 'Túi cát hoặc bóng', emoji: '🏐' }, { id: 'b', text: 'Cái bút', emoji: '✏️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé đứng cách đích bao xa?', options: [{ id: 'a', text: 'Khoảng 2-3 mét', emoji: '📏' }, { id: 'b', text: '10 mét', emoji: '🛣️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Đích ném của bé ở đâu?', options: [{ id: 'a', text: 'Đứng thẳng phía trước', emoji: '🎯' }, { id: 'b', text: 'Nằm dưới đất', emoji: '🕳️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng mấy tay để ném?', options: [{ id: 'a', text: '1 tay', emoji: '✋' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé cần làm gì để ném trúng?', options: [{ id: 'a', text: 'Ngắm thật chuẩn', emoji: '👁️' }, { id: 'b', text: 'Ném đại', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Vật ném của bé là gì?', options: [{ id: 'a', text: 'Túi cát hoặc bóng', emoji: '🏐' }, { id: 'b', text: 'Cái bút', emoji: '✏️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé đứng cách đích bao xa?', options: [{ id: 'a', text: 'Khoảng 2-3 mét', emoji: '📏' }, { id: 'b', text: '10 mét', emoji: '🛣️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2342,11 +3165,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bò dích dắc qua 7 điểm',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé bò qua mấy điểm?', options: [{ id: 'a', text: '7 điểm', emoji: '7️⃣' }, { id: 'b', text: '3 điểm', emoji: '3️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Đường bò của bé như thế nào?', options: [{ id: 'a', text: 'Dích dắc, uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Thẳng tắp', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé bò bằng gì?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '🦎' }, { id: 'b', text: 'Bằng mông', emoji: '🍑' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có được chạm vào vật mốc không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm thoải mái', emoji: '🤝' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé bò như thế nào?', options: [{ id: 'a', text: 'Khéo léo, nhanh nhẹn', emoji: '✨' }, { id: 'b', text: 'Bò rất chậm', emoji: '🐢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bò qua mấy điểm?', options: [{ id: 'a', text: '7 điểm', emoji: '7️⃣' }, { id: 'b', text: '3 điểm', emoji: '3️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Đường bò của bé như thế nào?', options: [{ id: 'a', text: 'Dích dắc, uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Thẳng tắp', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé bò bằng gì?', options: [{ id: 'a', text: 'Bàn tay và cẳng chân', emoji: '🦎' }, { id: 'b', text: 'Bằng mông', emoji: '🍑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có được chạm vào vật mốc không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm thoải mái', emoji: '🤝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé bò như thế nào?', options: [{ id: 'a', text: 'Khéo léo, nhanh nhẹn', emoji: '✨' }, { id: 'b', text: 'Bò rất chậm', emoji: '🐢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2354,11 +3187,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bật- nhảy từ trên cao',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé nhảy từ độ cao bao nhiêu?', options: [{ id: 'a', text: '40-45 cm', emoji: '📏' }, { id: 'b', text: '1 mét', emoji: '🪜' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé bật bằng mấy chân?', options: [{ id: 'a', text: '2 chân', emoji: '🦶🦶' }, { id: 'b', text: '1 chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi tiếp đất chân bé như thế nào?', options: [{ id: 'a', text: 'Khuỵu gối giảm xóc', emoji: '🦵' }, { id: 'b', text: 'Đứng thẳng đơ', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé tiếp đất bằng phần nào?', options: [{ id: 'a', text: 'Mũi bàn chân rồi đến cả bàn', emoji: '👣' }, { id: 'b', text: 'Bằng gót chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có cần giữ thăng bằng không?', options: [{ id: 'a', text: 'Rất cần thăng bằng', emoji: '⚖️' }, { id: 'b', text: 'Không cần', emoji: '🤷' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé nhảy từ độ cao bao nhiêu?', options: [{ id: 'a', text: '40-45 cm', emoji: '📏' }, { id: 'b', text: '1 mét', emoji: '🪜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé bật bằng mấy chân?', options: [{ id: 'a', text: '2 chân', emoji: '🦶🦶' }, { id: 'b', text: '1 chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi tiếp đất chân bé như thế nào?', options: [{ id: 'a', text: 'Khuỵu gối giảm xóc', emoji: '🦵' }, { id: 'b', text: 'Đứng thẳng đơ', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé tiếp đất bằng phần nào?', options: [{ id: 'a', text: 'Mũi bàn chân rồi đến cả bàn', emoji: '👣' }, { id: 'b', text: 'Bằng gót chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có cần giữ thăng bằng không?', options: [{ id: 'a', text: 'Rất cần thăng bằng', emoji: '⚖️' }, { id: 'b', text: 'Không cần', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2366,11 +3209,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Lăn bóng ziczac',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé lăn bóng qua mấy chướng ngại vật?', options: [{ id: 'a', text: '5 vật', emoji: '5️⃣' }, { id: 'b', text: '10 vật', emoji: '🔟' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng gì để lăn bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Đường lăn bóng như thế nào?', options: [{ id: 'a', text: 'Ziczac, uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Thẳng tắp', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có được chạm bóng vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm thoải mái', emoji: '🤝' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé lăn bóng như thế nào?', options: [{ id: 'a', text: 'Khéo léo, kiểm soát bóng', emoji: '⚽' }, { id: 'b', text: 'Đẩy bóng đi thật xa', emoji: '☄️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé lăn bóng qua mấy chướng ngại vật?', options: [{ id: 'a', text: '5 vật', emoji: '5️⃣' }, { id: 'b', text: '10 vật', emoji: '🔟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng gì để lăn bóng?', options: [{ id: 'a', text: '2 bàn tay', emoji: '👐' }, { id: 'b', text: 'Dùng chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Đường lăn bóng như thế nào?', options: [{ id: 'a', text: 'Ziczac, uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Thẳng tắp', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có được chạm bóng vào vật cản không?', options: [{ id: 'a', text: 'Không chạm vào', emoji: '🚫' }, { id: 'b', text: 'Chạm thoải mái', emoji: '🤝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé lăn bóng như thế nào?', options: [{ id: 'a', text: 'Khéo léo, kiểm soát bóng', emoji: '⚽' }, { id: 'b', text: 'Đẩy bóng đi thật xa', emoji: '☄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2378,11 +3231,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Chạy 18m & Chuyền bóng',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé chạy quãng đường bao nhiêu mét?', options: [{ id: 'a', text: '18 mét', emoji: '📏' }, { id: 'b', text: '5 mét', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé cần chạy trong khoảng thời gian bao lâu?', options: [{ id: 'a', text: '10 giây', emoji: '⏱️' }, { id: 'b', text: '1 phút', emoji: '⏰' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé chuyền bóng qua đâu?', options: [{ id: 'a', text: 'Qua đầu', emoji: '🙆' }, { id: 'b', text: 'Qua chân', emoji: '🦵' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi chạy bé nên như thế nào?', options: [{ id: 'a', text: 'Chạy nhanh, đúng hướng', emoji: '🏃' }, { id: 'b', text: 'Vừa chạy vừa chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi chuyền bóng bé có được làm rơi không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi cũng được', emoji: '🤷' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé chạy quãng đường bao nhiêu mét?', options: [{ id: 'a', text: '18 mét', emoji: '📏' }, { id: 'b', text: '5 mét', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé cần chạy trong khoảng thời gian bao lâu?', options: [{ id: 'a', text: '10 giây', emoji: '⏱️' }, { id: 'b', text: '1 phút', emoji: '⏰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé chuyền bóng qua đâu?', options: [{ id: 'a', text: 'Qua đầu', emoji: '🙆' }, { id: 'b', text: 'Qua chân', emoji: '🦵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi chạy bé nên như thế nào?', options: [{ id: 'a', text: 'Chạy nhanh, đúng hướng', emoji: '🏃' }, { id: 'b', text: 'Vừa chạy vừa chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi chuyền bóng bé có được làm rơi không?', options: [{ id: 'a', text: 'Không nên làm rơi', emoji: '🚫' }, { id: 'b', text: 'Rơi cũng được', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2390,11 +3253,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Đi trên ghế đội túi cát',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé đi trên cái gì?', options: [{ id: 'a', text: 'Ghế thể dục', emoji: '🪜' }, { id: 'b', text: 'Sợi dây', emoji: '🧶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé đội cái gì trên đầu?', options: [{ id: 'a', text: 'Túi cát', emoji: '📦' }, { id: 'b', text: 'Cái mũ', emoji: '🧢' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé đi như thế nào để túi cát không rơi?', options: [{ id: 'a', text: 'Giữ đầu thẳng, đi khéo', emoji: '✨' }, { id: 'b', text: 'Lắc lư cái đầu', emoji: '💃' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang 2 tay', emoji: '👐' }, { id: 'b', text: 'Cho tay vào túi', emoji: '👖' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn thẳng phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống chân', emoji: '👣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đi trên cái gì?', options: [{ id: 'a', text: 'Ghế thể dục', emoji: '🪜' }, { id: 'b', text: 'Sợi dây', emoji: '🧶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé đội cái gì trên đầu?', options: [{ id: 'a', text: 'Túi cát', emoji: '📦' }, { id: 'b', text: 'Cái mũ', emoji: '🧢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé đi như thế nào để túi cát không rơi?', options: [{ id: 'a', text: 'Giữ đầu thẳng, đi khéo', emoji: '✨' }, { id: 'b', text: 'Lắc lư cái đầu', emoji: '💃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé giữ thăng bằng bằng cách nào?', options: [{ id: 'a', text: 'Giang 2 tay', emoji: '👐' }, { id: 'b', text: 'Cho tay vào túi', emoji: '👖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Mắt bé nhìn đi đâu?', options: [{ id: 'a', text: 'Nhìn thẳng phía trước', emoji: '👀' }, { id: 'b', text: 'Nhìn xuống chân', emoji: '👣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2402,11 +3275,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trèo thang & Nhanh khéo',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé trèo qua mấy gióng thang?', options: [{ id: 'a', text: '7 gióng', emoji: '7️⃣' }, { id: 'b', text: '3 gióng', emoji: '3️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé phối hợp tay chân như thế nào?', options: [{ id: 'a', text: 'Nhịp nhàng, tay nọ chân kia', emoji: '✨' }, { id: 'b', text: 'Chỉ dùng tay', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé trèo như thế nào để an toàn?', options: [{ id: 'a', text: 'Bám chắc, bước vững', emoji: '🧗' }, { id: 'b', text: 'Trèo thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Trò chơi "Nhanh và khéo" yêu cầu gì?', options: [{ id: 'a', text: 'Sự nhanh nhẹn, khéo léo', emoji: '⚡' }, { id: 'b', text: 'Sự chậm rãi', emoji: '🐢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy mình trèo thang thế nào?', options: [{ id: 'a', text: 'Rất tự tin', emoji: '😎' }, { id: 'b', text: 'Thấy sợ', emoji: '😨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé trèo qua mấy gióng thang?', options: [{ id: 'a', text: '7 gióng', emoji: '7️⃣' }, { id: 'b', text: '3 gióng', emoji: '3️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé phối hợp tay chân như thế nào?', options: [{ id: 'a', text: 'Nhịp nhàng, tay nọ chân kia', emoji: '✨' }, { id: 'b', text: 'Chỉ dùng tay', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé trèo như thế nào để an toàn?', options: [{ id: 'a', text: 'Bám chắc, bước vững', emoji: '🧗' }, { id: 'b', text: 'Trèo thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Trò chơi "Nhanh và khéo" yêu cầu gì?', options: [{ id: 'a', text: 'Sự nhanh nhẹn, khéo léo', emoji: '⚡' }, { id: 'b', text: 'Sự chậm rãi', emoji: '🐢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy mình trèo thang thế nào?', options: [{ id: 'a', text: 'Rất tự tin', emoji: '😎' }, { id: 'b', text: 'Thấy sợ', emoji: '😨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2414,11 +3297,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bật 7 ô & Đưa bóng vào gôn',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé bật qua mấy ô?', options: [{ id: 'a', text: '7 ô', emoji: '7️⃣' }, { id: 'b', text: '5 ô', emoji: '5️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé bật như thế nào?', options: [{ id: 'a', text: 'Tách khép chân liên tục', emoji: '🏃' }, { id: 'b', text: 'Nhảy lò cò', emoji: '🦿' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sau khi bật, bé làm gì với bóng?', options: [{ id: 'a', text: 'Đưa bóng vào gôn', emoji: '⚽🥅' }, { id: 'b', text: 'Ném bóng đi', emoji: '☄️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé dùng gì để đưa bóng vào gôn?', options: [{ id: 'a', text: 'Dùng chân đá', emoji: '🦶' }, { id: 'b', text: 'Dùng tay ném', emoji: '✋' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có được chạm vào vạch ô không?', options: [{ id: 'a', text: 'Không chạm vạch', emoji: '🚫' }, { id: 'b', text: 'Chạm cũng được', emoji: '🤝' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé bật qua mấy ô?', options: [{ id: 'a', text: '7 ô', emoji: '7️⃣' }, { id: 'b', text: '5 ô', emoji: '5️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé bật như thế nào?', options: [{ id: 'a', text: 'Tách khép chân liên tục', emoji: '🏃' }, { id: 'b', text: 'Nhảy lò cò', emoji: '🦿' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sau khi bật, bé làm gì với bóng?', options: [{ id: 'a', text: 'Đưa bóng vào gôn', emoji: '⚽🥅' }, { id: 'b', text: 'Ném bóng đi', emoji: '☄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé dùng gì để đưa bóng vào gôn?', options: [{ id: 'a', text: 'Dùng chân đá', emoji: '🦶' }, { id: 'b', text: 'Dùng tay ném', emoji: '✋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có được chạm vào vạch ô không?', options: [{ id: 'a', text: 'Không chạm vạch', emoji: '🚫' }, { id: 'b', text: 'Chạm cũng được', emoji: '🤝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2426,11 +3319,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Trườn & Trèo qua ghế dài',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Ghế dài bao nhiêu mét?', options: [{ id: 'a', text: '1,5 mét', emoji: '📏' }, { id: 'b', text: '5 mét', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé thực hiện kỹ năng gì trước?', options: [{ id: 'a', text: 'Trườn', emoji: '🦎' }, { id: 'b', text: 'Nhảy', emoji: '🐰' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sau khi trườn bé làm gì?', options: [{ id: 'a', text: 'Trèo qua ghế', emoji: '🧗' }, { id: 'b', text: 'Đi về', emoji: '🚶' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bụng bé có áp sát sàn khi trườn không?', options: [{ id: 'a', text: 'Có, áp sát sàn', emoji: '🏢' }, { id: 'b', text: 'Không, nhổm cao', emoji: '🦒' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé trèo qua ghế như thế nào?', options: [{ id: 'a', text: 'Khéo léo, không ngã', emoji: '✨' }, { id: 'b', text: 'Nhảy đại qua', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ghế dài bao nhiêu mét?', options: [{ id: 'a', text: '1,5 mét', emoji: '📏' }, { id: 'b', text: '5 mét', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé thực hiện kỹ năng gì trước?', options: [{ id: 'a', text: 'Trườn', emoji: '🦎' }, { id: 'b', text: 'Nhảy', emoji: '🐰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sau khi trườn bé làm gì?', options: [{ id: 'a', text: 'Trèo qua ghế', emoji: '🧗' }, { id: 'b', text: 'Đi về', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bụng bé có áp sát sàn khi trườn không?', options: [{ id: 'a', text: 'Có, áp sát sàn', emoji: '🏢' }, { id: 'b', text: 'Không, nhổm cao', emoji: '🦒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé trèo qua ghế như thế nào?', options: [{ id: 'a', text: 'Khéo léo, không ngã', emoji: '✨' }, { id: 'b', text: 'Nhảy đại qua', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // Toddler Cognitive Games
@@ -2440,11 +3343,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Khi trời nắng, bé thấy gì?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Hạt mưa', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi trời mưa, bé cần mang gì?', options: [{ id: 'a', text: 'Cái ô', emoji: '☂️' }, { id: 'b', text: 'Cái kính râm', emoji: '🕶️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Tiếng mưa rơi như thế nào?', options: [{ id: 'a', text: 'Lộp bộp', emoji: '🌧️' }, { id: 'b', text: 'Viu viu', emoji: '🌬️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có nên đi dưới mưa không?', options: [{ id: 'a', text: 'Không nên', emoji: '🚫' }, { id: 'b', text: 'Đi thoải mái', emoji: '🚶' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sau cơn mưa thường có gì hiện ra?', options: [{ id: 'a', text: 'Cầu vồng', emoji: '🌈' }, { id: 'b', text: 'Đám mây đen', emoji: '☁️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi trời nắng, bé thấy gì?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Hạt mưa', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi trời mưa, bé cần mang gì?', options: [{ id: 'a', text: 'Cái ô', emoji: '☂️' }, { id: 'b', text: 'Cái kính râm', emoji: '🕶️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Tiếng mưa rơi như thế nào?', options: [{ id: 'a', text: 'Lộp bộp', emoji: '🌧️' }, { id: 'b', text: 'Viu viu', emoji: '🌬️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có nên đi dưới mưa không?', options: [{ id: 'a', text: 'Không nên', emoji: '🚫' }, { id: 'b', text: 'Đi thoải mái', emoji: '🚶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sau cơn mưa thường có gì hiện ra?', options: [{ id: 'a', text: 'Cầu vồng', emoji: '🌈' }, { id: 'b', text: 'Đám mây đen', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2453,11 +3366,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Bé mặc quần đùi, áo cộc khi nào?', options: [{ id: 'a', text: 'Mùa hè nóng', emoji: '☀️' }, { id: 'b', text: 'Mùa đông lạnh', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cái nào là áo cộc tay?', options: [{ id: 'a', text: 'Áo ngắn tay', emoji: '👕' }, { id: 'b', text: 'Áo len dày', emoji: '🧥' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Quần đùi giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Mát mẻ', emoji: '🌬️' }, { id: 'b', text: 'Ấm áp', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có tự mặc quần áo được không?', options: [{ id: 'a', text: 'Bé đang tập mặc', emoji: '👶' }, { id: 'b', text: 'Không bao giờ', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Quần áo sạch sẽ giúp bé điều gì?', options: [{ id: 'a', text: 'Thơm tho, khỏe mạnh', emoji: '✨' }, { id: 'b', text: 'Bị ốm', emoji: '🤒' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé mặc quần đùi, áo cộc khi nào?', options: [{ id: 'a', text: 'Mùa hè nóng', emoji: '☀️' }, { id: 'b', text: 'Mùa đông lạnh', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cái nào là áo cộc tay?', options: [{ id: 'a', text: 'Áo ngắn tay', emoji: '👕' }, { id: 'b', text: 'Áo len dày', emoji: '🧥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Quần đùi giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Mát mẻ', emoji: '🌬️' }, { id: 'b', text: 'Ấm áp', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có tự mặc quần áo được không?', options: [{ id: 'a', text: 'Bé đang tập mặc', emoji: '👶' }, { id: 'b', text: 'Không bao giờ', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Quần áo sạch sẽ giúp bé điều gì?', options: [{ id: 'a', text: 'Thơm tho, khỏe mạnh', emoji: '✨' }, { id: 'b', text: 'Bị ốm', emoji: '🤒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2474,11 +3397,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ôn so sánh trong phạm vi 5',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Nhóm có 5 con thỏ và nhóm có 3 con thỏ, nhóm nào nhiều hơn?', options: [{ id: 'a', text: 'Nhóm 5 con', emoji: '🐰x5' }, { id: 'b', text: 'Nhóm 3 con', emoji: '🐰x3' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Nhóm nào có số lượng ít nhất?', options: [{ id: 'a', text: 'Nhóm có 1 cái', emoji: '1️⃣' }, { id: 'b', text: 'Nhóm có 4 cái', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hai nhóm đều có 5 cái thì gọi là gì?', options: [{ id: 'a', text: 'Bằng nhau', emoji: '⚖️' }, { id: 'b', text: 'Khác nhau', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Số 4 và số 5, số nào lớn hơn?', options: [{ id: 'a', text: 'Số 5', emoji: '5️⃣' }, { id: 'b', text: 'Số 4', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Số 2 và số 3, số nào nhỏ hơn?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 3', emoji: '3️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Nhóm có 5 con thỏ và nhóm có 3 con thỏ, nhóm nào nhiều hơn?', options: [{ id: 'a', text: 'Nhóm 5 con', emoji: '🐰x5' }, { id: 'b', text: 'Nhóm 3 con', emoji: '🐰x3' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Nhóm nào có số lượng ít nhất?', options: [{ id: 'a', text: 'Nhóm có 1 cái', emoji: '1️⃣' }, { id: 'b', text: 'Nhóm có 4 cái', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hai nhóm đều có 5 cái thì gọi là gì?', options: [{ id: 'a', text: 'Bằng nhau', emoji: '⚖️' }, { id: 'b', text: 'Khác nhau', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Số 4 và số 5, số nào lớn hơn?', options: [{ id: 'a', text: 'Số 5', emoji: '5️⃣' }, { id: 'b', text: 'Số 4', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Số 2 và số 3, số nào nhỏ hơn?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 3', emoji: '3️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2486,11 +3419,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: So sánh dài - ngắn',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Cái thước kẻ và cái bút chì, cái nào thường dài hơn?', options: [{ id: 'a', text: 'Thước kẻ', emoji: '📏' }, { id: 'b', text: 'Bút chì', emoji: '✏️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Sợi dây bị cắt ngắn đi thì nó sẽ thế nào?', options: [{ id: 'a', text: 'Ngắn hơn', emoji: '📉' }, { id: 'b', text: 'Dài hơn', emoji: '📈' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Để so sánh chiều dài, chúng ta đặt 2 vật như thế nào?', options: [{ id: 'a', text: 'Đặt sát cạnh nhau', emoji: '📏📏' }, { id: 'b', text: 'Đặt chồng lên nhau', emoji: '➕' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Đoàn tàu hỏa và ô tô, cái nào dài hơn?', options: [{ id: 'a', text: 'Tàu hỏa', emoji: '🚂' }, { id: 'b', text: 'Ô tô', emoji: '🚗' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Cái quần dài và quần đùi, cái nào ngắn hơn?', options: [{ id: 'a', text: 'Quần đùi', emoji: '🩳' }, { id: 'b', text: 'Quần dài', emoji: '👖' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cái thước kẻ và cái bút chì, cái nào thường dài hơn?', options: [{ id: 'a', text: 'Thước kẻ', emoji: '📏' }, { id: 'b', text: 'Bút chì', emoji: '✏️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Sợi dây bị cắt ngắn đi thì nó sẽ thế nào?', options: [{ id: 'a', text: 'Ngắn hơn', emoji: '📉' }, { id: 'b', text: 'Dài hơn', emoji: '📈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Để so sánh chiều dài, chúng ta đặt 2 vật như thế nào?', options: [{ id: 'a', text: 'Đặt sát cạnh nhau', emoji: '📏📏' }, { id: 'b', text: 'Đặt chồng lên nhau', emoji: '➕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Đoàn tàu hỏa và ô tô, cái nào dài hơn?', options: [{ id: 'a', text: 'Tàu hỏa', emoji: '🚂' }, { id: 'b', text: 'Ô tô', emoji: '🚗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Cái quần dài và quần đùi, cái nào ngắn hơn?', options: [{ id: 'a', text: 'Quần đùi', emoji: '🩳' }, { id: 'b', text: 'Quần dài', emoji: '👖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 4-5 Cognitive Games
@@ -2500,11 +3443,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'q1', question: 'Tách 4 quả táo thành 2 phần, mỗi phần có mấy quả?', options: [{ id: 'a', text: '2 và 2', emoji: '🍎🍎 | 🍎🍎' }, { id: 'b', text: '4 và 0', emoji: '🍎🍎🍎🍎 | ' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tách 3 bông hoa thành 2 phần, có cách nào?', options: [{ id: 'a', text: '1 và 2', emoji: '🌸 | 🌸🌸' }, { id: 'b', text: '3 và 3', emoji: '🌸🌸🌸 | 🌸🌸🌸' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi tách một nhóm to ra, chúng ta được các nhóm như thế nào?', options: [{ id: 'a', text: 'Nhỏ hơn', emoji: '📉' }, { id: 'b', text: 'To hơn', emoji: '📈' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tách 2 cái kẹo thành 2 phần, mỗi phần có mấy cái?', options: [{ id: 'a', text: '1 và 1', emoji: '🍬 | 🍬' }, { id: 'b', text: '2 và 1', emoji: '🍬🍬 | 🍬' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Gộp các nhóm nhỏ lại ta được nhóm gì?', options: [{ id: 'a', text: 'Nhóm ban đầu', emoji: '🔄' }, { id: 'b', text: 'Nhóm biến mất', emoji: '💨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tách 4 quả táo thành 2 phần, mỗi phần có mấy quả?', options: [{ id: 'a', text: '2 và 2', emoji: '🍎🍎 | 🍎🍎' }, { id: 'b', text: '4 và 0', emoji: '🍎🍎🍎🍎 | ' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tách 3 bông hoa thành 2 phần, có cách nào?', options: [{ id: 'a', text: '1 và 2', emoji: '🌸 | 🌸🌸' }, { id: 'b', text: '3 và 3', emoji: '🌸🌸🌸 | 🌸🌸🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi tách một nhóm to ra, chúng ta được các nhóm như thế nào?', options: [{ id: 'a', text: 'Nhỏ hơn', emoji: '📉' }, { id: 'b', text: 'To hơn', emoji: '📈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tách 2 cái kẹo thành 2 phần, mỗi phần có mấy cái?', options: [{ id: 'a', text: '1 và 1', emoji: '🍬 | 🍬' }, { id: 'b', text: '2 và 1', emoji: '🍬🍬 | 🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Gộp các nhóm nhỏ lại ta được nhóm gì?', options: [{ id: 'a', text: 'Nhóm ban đầu', emoji: '🔄' }, { id: 'b', text: 'Nhóm biến mất', emoji: '💨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2513,11 +3466,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'q1', question: 'Nhóm có 5 cái và nhóm có 4 cái, nhóm nào nhiều hơn?', options: [{ id: 'a', text: 'Nhóm 5 cái', emoji: '5️⃣' }, { id: 'b', text: 'Nhóm 4 cái', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Nhóm có 2 cái và nhóm có 3 cái, nhóm nào ít hơn?', options: [{ id: 'a', text: 'Nhóm 2 cái', emoji: '2️⃣' }, { id: 'b', text: 'Nhóm 3 cái', emoji: '3️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Số 4 nhiều hơn số 3 mấy đơn vị?', options: [{ id: 'a', text: '1 đơn vị', emoji: '☝️' }, { id: 'b', text: '2 đơn vị', emoji: '✌️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Làm thế nào để nhóm ít hơn trở thành nhiều hơn?', options: [{ id: 'a', text: 'Thêm đối tượng vào', emoji: '➕' }, { id: 'b', text: 'Bớt đối tượng đi', emoji: '➖' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'So sánh giúp bé điều gì?', options: [{ id: 'a', text: 'Nhận biết số lượng', emoji: '🔢' }, { id: 'b', text: 'Chỉ để chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Nhóm có 5 cái và nhóm có 4 cái, nhóm nào nhiều hơn?', options: [{ id: 'a', text: 'Nhóm 5 cái', emoji: '5️⃣' }, { id: 'b', text: 'Nhóm 4 cái', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Nhóm có 2 cái và nhóm có 3 cái, nhóm nào ít hơn?', options: [{ id: 'a', text: 'Nhóm 2 cái', emoji: '2️⃣' }, { id: 'b', text: 'Nhóm 3 cái', emoji: '3️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Số 4 nhiều hơn số 3 mấy đơn vị?', options: [{ id: 'a', text: '1 đơn vị', emoji: '☝️' }, { id: 'b', text: '2 đơn vị', emoji: '✌️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Làm thế nào để nhóm ít hơn trở thành nhiều hơn?', options: [{ id: 'a', text: 'Thêm đối tượng vào', emoji: '➕' }, { id: 'b', text: 'Bớt đối tượng đi', emoji: '➖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'So sánh giúp bé điều gì?', options: [{ id: 'a', text: 'Nhận biết số lượng', emoji: '🔢' }, { id: 'b', text: 'Chỉ để chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2526,11 +3489,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'q1', question: 'Bé hãy đếm: 1, 2, ...?', options: [{ id: 'a', text: '3', emoji: '3️⃣' }, { id: 'b', text: '4', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ số 3 trông giống cái gì?', options: [{ id: 'a', text: 'Cái tai', emoji: '👂' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Nhóm có 3 bông hoa tương ứng với số mấy?', options: [{ id: 'a', text: 'Số 3', emoji: '3️⃣' }, { id: 'b', text: 'Số 2', emoji: '2️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé hãy giơ 3 ngón tay nào!', options: [{ id: 'a', text: 'Giơ 3 ngón', emoji: '🤟' }, { id: 'b', text: 'Giơ cả bàn tay', emoji: '🖐️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Số 3 đứng sau số mấy?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 1', emoji: '1️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé hãy đếm: 1, 2, ...?', options: [{ id: 'a', text: '3', emoji: '3️⃣' }, { id: 'b', text: '4', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ số 3 trông giống cái gì?', options: [{ id: 'a', text: 'Cái tai', emoji: '👂' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Nhóm có 3 bông hoa tương ứng với số mấy?', options: [{ id: 'a', text: 'Số 3', emoji: '3️⃣' }, { id: 'b', text: 'Số 2', emoji: '2️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé hãy giơ 3 ngón tay nào!', options: [{ id: 'a', text: 'Giơ 3 ngón', emoji: '🤟' }, { id: 'b', text: 'Giơ cả bàn tay', emoji: '🖐️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Số 3 đứng sau số mấy?', options: [{ id: 'a', text: 'Số 2', emoji: '2️⃣' }, { id: 'b', text: 'Số 1', emoji: '1️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2539,11 +3512,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'q1', question: 'Vị trí đầu tiên gọi là thứ mấy?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '1️⃣st' }, { id: 'b', text: 'Thứ hai', emoji: '2️⃣nd' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Vị trí đứng sau thứ nhất là thứ mấy?', options: [{ id: 'a', text: 'Thứ hai', emoji: '2️⃣nd' }, { id: 'b', text: 'Thứ ba', emoji: '3️⃣rd' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Vị trí cuối cùng trong nhóm 3 bạn là thứ mấy?', options: [{ id: 'a', text: 'Thứ ba', emoji: '3️⃣rd' }, { id: 'b', text: 'Thứ nhất', emoji: '1️⃣st' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Số thứ tự giúp chúng ta biết điều gì?', options: [{ id: 'a', text: 'Vị trí của đối tượng', emoji: '📍' }, { id: 'b', text: 'Màu sắc của vật', emoji: '🎨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi xếp hàng, bé nên đứng ở đâu?', options: [{ id: 'a', text: 'Đúng vị trí của mình', emoji: '🧍' }, { id: 'b', text: 'Chen lấn lên đầu', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Vị trí đầu tiên gọi là thứ mấy?', options: [{ id: 'a', text: 'Thứ nhất', emoji: '1️⃣st' }, { id: 'b', text: 'Thứ hai', emoji: '2️⃣nd' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Vị trí đứng sau thứ nhất là thứ mấy?', options: [{ id: 'a', text: 'Thứ hai', emoji: '2️⃣nd' }, { id: 'b', text: 'Thứ ba', emoji: '3️⃣rd' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Vị trí cuối cùng trong nhóm 3 bạn là thứ mấy?', options: [{ id: 'a', text: 'Thứ ba', emoji: '3️⃣rd' }, { id: 'b', text: 'Thứ nhất', emoji: '1️⃣st' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Số thứ tự giúp chúng ta biết điều gì?', options: [{ id: 'a', text: 'Vị trí của đối tượng', emoji: '📍' }, { id: 'b', text: 'Màu sắc của vật', emoji: '🎨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi xếp hàng, bé nên đứng ở đâu?', options: [{ id: 'a', text: 'Đúng vị trí của mình', emoji: '🧍' }, { id: 'b', text: 'Chen lấn lên đầu', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2552,11 +3535,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'math',
     questions: [
-      { id: 'q1', question: 'Tách 5 quả cam thành 2 phần, có cách nào?', options: [{ id: 'a', text: '1 và 4', emoji: '🍊 | 🍊🍊🍊🍊' }, { id: 'b', text: '2 và 2', emoji: '🍊🍊 | 🍊🍊' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cách tách 5 thành 2 và mấy?', options: [{ id: 'a', text: '2 và 3', emoji: '🍊🍊 | 🍊🍊🍊' }, { id: 'b', text: '2 và 4', emoji: '🍊🍊 | 🍊🍊🍊🍊' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Có bao nhiêu cách tách nhóm có 5 đối tượng thành 2 phần?', options: [{ id: 'a', text: '2 cách chính', emoji: '✌️' }, { id: 'b', text: '10 cách', emoji: '🔟' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi gộp 1 và 4 lại, bé được mấy?', options: [{ id: 'a', text: '5', emoji: '5️⃣' }, { id: 'b', text: '4', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi gộp 2 và 3 lại, bé được mấy?', options: [{ id: 'a', text: '5', emoji: '5️⃣' }, { id: 'b', text: '6', emoji: '6️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tách 5 quả cam thành 2 phần, có cách nào?', options: [{ id: 'a', text: '1 và 4', emoji: '🍊 | 🍊🍊🍊🍊' }, { id: 'b', text: '2 và 2', emoji: '🍊🍊 | 🍊🍊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cách tách 5 thành 2 và mấy?', options: [{ id: 'a', text: '2 và 3', emoji: '🍊🍊 | 🍊🍊🍊' }, { id: 'b', text: '2 và 4', emoji: '🍊🍊 | 🍊🍊🍊🍊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Có bao nhiêu cách tách nhóm có 5 đối tượng thành 2 phần?', options: [{ id: 'a', text: '2 cách chính', emoji: '✌️' }, { id: 'b', text: '10 cách', emoji: '🔟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi gộp 1 và 4 lại, bé được mấy?', options: [{ id: 'a', text: '5', emoji: '5️⃣' }, { id: 'b', text: '4', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi gộp 2 và 3 lại, bé được mấy?', options: [{ id: 'a', text: '5', emoji: '5️⃣' }, { id: 'b', text: '6', emoji: '6️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2565,11 +3558,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Bộ phận nào của cây nằm dưới đất?', options: [{ id: 'a', text: 'Rễ cây', emoji: '🌱' }, { id: 'b', text: 'Lá cây', emoji: '🍃' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thân cây có nhiệm vụ gì?', options: [{ id: 'a', text: 'Nâng đỡ cây', emoji: '🪵' }, { id: 'b', text: 'Nở hoa', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Lá cây thường có màu gì?', options: [{ id: 'a', text: 'Màu xanh lá', emoji: '🟢' }, { id: 'b', text: 'Màu đỏ tươi', emoji: '🔴' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Cây ra hoa rồi kết thành gì?', options: [{ id: 'a', text: 'Kết quả', emoji: '🍎' }, { id: 'b', text: 'Biến mất', emoji: '💨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé nên làm gì để cây nhanh lớn?', options: [{ id: 'a', text: 'Tưới nước hàng ngày', emoji: '💧' }, { id: 'b', text: 'Ngắt lá bẻ cành', emoji: '🥀' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bộ phận nào của cây nằm dưới đất?', options: [{ id: 'a', text: 'Rễ cây', emoji: '🌱' }, { id: 'b', text: 'Lá cây', emoji: '🍃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thân cây có nhiệm vụ gì?', options: [{ id: 'a', text: 'Nâng đỡ cây', emoji: '🪵' }, { id: 'b', text: 'Nở hoa', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Lá cây thường có màu gì?', options: [{ id: 'a', text: 'Màu xanh lá', emoji: '🟢' }, { id: 'b', text: 'Màu đỏ tươi', emoji: '🔴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Cây ra hoa rồi kết thành gì?', options: [{ id: 'a', text: 'Kết quả', emoji: '🍎' }, { id: 'b', text: 'Biến mất', emoji: '💨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé nên làm gì để cây nhanh lớn?', options: [{ id: 'a', text: 'Tưới nước hàng ngày', emoji: '💧' }, { id: 'b', text: 'Ngắt lá bẻ cành', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2585,11 +3588,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Cây lúa mọc lên từ đâu?', options: [{ id: 'a', text: 'Hạt thóc', emoji: '🌾' }, { id: 'b', text: 'Hạt ngô', emoji: '🌽' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cây lúa non được gọi là gì?', options: [{ id: 'a', text: 'Cây mạ', emoji: '🌱' }, { id: 'b', text: 'Cây cỏ', emoji: '🌿' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi lúa chín, cánh đồng có màu gì?', options: [{ id: 'a', text: 'Màu vàng óng', emoji: '🟡' }, { id: 'b', text: 'Màu xanh lam', emoji: '🔵' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Hạt gạo chúng ta ăn lấy từ đâu?', options: [{ id: 'a', text: 'Từ hạt thóc', emoji: '🍚' }, { id: 'b', text: 'Từ trên trời rơi xuống', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé nên làm gì với cơm trắng?', options: [{ id: 'a', text: 'Ăn hết suất, không lãng phí', emoji: '😋' }, { id: 'b', text: 'Đổ đi', emoji: '🗑️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cây lúa mọc lên từ đâu?', options: [{ id: 'a', text: 'Hạt thóc', emoji: '🌾' }, { id: 'b', text: 'Hạt ngô', emoji: '🌽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cây lúa non được gọi là gì?', options: [{ id: 'a', text: 'Cây mạ', emoji: '🌱' }, { id: 'b', text: 'Cây cỏ', emoji: '🌿' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi lúa chín, cánh đồng có màu gì?', options: [{ id: 'a', text: 'Màu vàng óng', emoji: '🟡' }, { id: 'b', text: 'Màu xanh lam', emoji: '🔵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Hạt gạo chúng ta ăn lấy từ đâu?', options: [{ id: 'a', text: 'Từ hạt thóc', emoji: '🍚' }, { id: 'b', text: 'Từ trên trời rơi xuống', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé nên làm gì với cơm trắng?', options: [{ id: 'a', text: 'Ăn hết suất, không lãng phí', emoji: '😋' }, { id: 'b', text: 'Đổ đi', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2598,11 +3611,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Hoa hồng có cánh như thế nào?', options: [{ id: 'a', text: 'Cánh tròn', emoji: '🌹' }, { id: 'b', text: 'Cánh dài', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Hoa cúc thường có cánh như thế nào?', options: [{ id: 'a', text: 'Cánh dài, nhỏ', emoji: '🌼' }, { id: 'b', text: 'Cánh to tròn', emoji: '🌻' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hoa sen mọc ở đâu?', options: [{ id: 'a', text: 'Dưới đầm lầy', emoji: '🪷' }, { id: 'b', text: 'Trên sa mạc', emoji: '🌵' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Hoa dùng để làm gì?', options: [{ id: 'a', text: 'Trang trí, làm đẹp', emoji: '✨' }, { id: 'b', text: 'Để vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có nên ngắt hoa ở công viên không?', options: [{ id: 'a', text: 'Không nên ngắt hoa', emoji: '🚫' }, { id: 'b', text: 'Ngắt thoải mái', emoji: '🌸' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Hoa hồng có cánh như thế nào?', options: [{ id: 'a', text: 'Cánh tròn', emoji: '🌹' }, { id: 'b', text: 'Cánh dài', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Hoa cúc thường có cánh như thế nào?', options: [{ id: 'a', text: 'Cánh dài, nhỏ', emoji: '🌼' }, { id: 'b', text: 'Cánh to tròn', emoji: '🌻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hoa sen mọc ở đâu?', options: [{ id: 'a', text: 'Dưới đầm lầy', emoji: '🪷' }, { id: 'b', text: 'Trên sa mạc', emoji: '🌵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Hoa dùng để làm gì?', options: [{ id: 'a', text: 'Trang trí, làm đẹp', emoji: '✨' }, { id: 'b', text: 'Để vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có nên ngắt hoa ở công viên không?', options: [{ id: 'a', text: 'Không nên ngắt hoa', emoji: '🚫' }, { id: 'b', text: 'Ngắt thoải mái', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2611,11 +3634,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['4-5'],
     category: 'discovery',
     questions: [
-      { id: 'q1', question: 'Cây xanh giúp không khí như thế nào?', options: [{ id: 'a', text: 'Trong lành, mát mẻ', emoji: '🌬️' }, { id: 'b', text: 'Bụi bặm', emoji: '🌫️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cây to cho chúng ta cái gì vào mùa hè?', options: [{ id: 'a', text: 'Bóng mát', emoji: '🌳' }, { id: 'b', text: 'Ánh nắng', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cây ăn quả cho chúng ta gì?', options: [{ id: 'a', text: 'Quả ngon, vitamin', emoji: '🍎' }, { id: 'b', text: 'Sỏi đá', emoji: '🪨' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Cây xanh có giúp bảo vệ môi trường không?', options: [{ id: 'a', text: 'Có, rất quan trọng', emoji: '🌍' }, { id: 'b', text: 'Không giúp gì', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé làm gì để bảo vệ cây?', options: [{ id: 'a', text: 'Chăm sóc và trồng thêm cây', emoji: '🌱' }, { id: 'b', text: 'Trèo cây, bẻ cành', emoji: '🥀' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cây xanh giúp không khí như thế nào?', options: [{ id: 'a', text: 'Trong lành, mát mẻ', emoji: '🌬️' }, { id: 'b', text: 'Bụi bặm', emoji: '🌫️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cây to cho chúng ta cái gì vào mùa hè?', options: [{ id: 'a', text: 'Bóng mát', emoji: '🌳' }, { id: 'b', text: 'Ánh nắng', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cây ăn quả cho chúng ta gì?', options: [{ id: 'a', text: 'Quả ngon, vitamin', emoji: '🍎' }, { id: 'b', text: 'Sỏi đá', emoji: '🪨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Cây xanh có giúp bảo vệ môi trường không?', options: [{ id: 'a', text: 'Có, rất quan trọng', emoji: '🌍' }, { id: 'b', text: 'Không giúp gì', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé làm gì để bảo vệ cây?', options: [{ id: 'a', text: 'Chăm sóc và trồng thêm cây', emoji: '🌱' }, { id: 'b', text: 'Trèo cây, bẻ cành', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 5-6 Cognitive Games
@@ -2624,11 +3657,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ghép cặp đối tượng liên quan',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Cái bàn thường đi đôi với cái gì?', options: [{ id: 'a', text: 'Cái ghế', emoji: '🪑' }, { id: 'b', text: 'Cái mũ', emoji: '🧢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Đôi đũa thường đi kèm với cái gì?', options: [{ id: 'a', text: 'Cái bát', emoji: '🥣' }, { id: 'b', text: 'Cái lược', emoji: '🪮' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bàn chải đánh răng đi cùng với cái gì?', options: [{ id: 'a', text: 'Kem đánh răng', emoji: '🪥' }, { id: 'b', text: 'Đôi dép', emoji: '🩴' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Vở viết đi cùng với cái gì?', options: [{ id: 'a', text: 'Cái bút', emoji: '✏️' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Tại sao chúng ta lại ghép cặp chúng?', options: [{ id: 'a', text: 'Vì chúng có liên quan công dụng', emoji: '✨' }, { id: 'b', text: 'Vì chúng cùng màu', emoji: '🎨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cái bàn thường đi đôi với cái gì?', options: [{ id: 'a', text: 'Cái ghế', emoji: '🪑' }, { id: 'b', text: 'Cái mũ', emoji: '🧢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Đôi đũa thường đi kèm với cái gì?', options: [{ id: 'a', text: 'Cái bát', emoji: '🥣' }, { id: 'b', text: 'Cái lược', emoji: '🪮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bàn chải đánh răng đi cùng với cái gì?', options: [{ id: 'a', text: 'Kem đánh răng', emoji: '🪥' }, { id: 'b', text: 'Đôi dép', emoji: '🩴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Vở viết đi cùng với cái gì?', options: [{ id: 'a', text: 'Cái bút', emoji: '✏️' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Tại sao chúng ta lại ghép cặp chúng?', options: [{ id: 'a', text: 'Vì chúng có liên quan công dụng', emoji: '✨' }, { id: 'b', text: 'Vì chúng cùng màu', emoji: '🎨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2636,11 +3679,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Chữ số 6 & Phạm vi 6',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé hãy đếm từ 1 đến 6 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Số 6 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 5', emoji: '5️⃣' }, { id: 'b', text: 'Số 7', emoji: '7️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Nhóm có 6 bạn, bạn đứng cuối là thứ mấy?', options: [{ id: 'a', text: 'Thứ sáu', emoji: '6️⃣th' }, { id: 'b', text: 'Thứ nhất', emoji: '1️⃣st' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Số 6 trông giống cái gì?', options: [{ id: 'a', text: 'Cái còi', emoji: '🎷' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hãy chọn nhóm có 6 đối tượng!', options: [{ id: 'a', text: 'Nhóm 6 quả táo', emoji: '🍎x6' }, { id: 'b', text: 'Nhóm 2 quả cam', emoji: '🍊x2' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé hãy đếm từ 1 đến 6 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Số 6 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 5', emoji: '5️⃣' }, { id: 'b', text: 'Số 7', emoji: '7️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Nhóm có 6 bạn, bạn đứng cuối là thứ mấy?', options: [{ id: 'a', text: 'Thứ sáu', emoji: '6️⃣th' }, { id: 'b', text: 'Thứ nhất', emoji: '1️⃣st' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Số 6 trông giống cái gì?', options: [{ id: 'a', text: 'Cái còi', emoji: '🎷' }, { id: 'b', text: 'Cái gậy', emoji: '🦯' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hãy chọn nhóm có 6 đối tượng!', options: [{ id: 'a', text: 'Nhóm 6 quả táo', emoji: '🍎x6' }, { id: 'b', text: 'Nhóm 2 quả cam', emoji: '🍊x2' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2648,11 +3701,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Tách 6 đối tượng thành 2 phần',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Tách 6 thành 2 phần bằng nhau, mỗi phần có mấy?', options: [{ id: 'a', text: '3 và 3', emoji: '3️⃣ | 3️⃣' }, { id: 'b', text: '2 và 4', emoji: '2️⃣ | 4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cách tách 6 thành 1 và mấy?', options: [{ id: 'a', text: '1 và 5', emoji: '1️⃣ | 5️⃣' }, { id: 'b', text: '1 và 4', emoji: '1️⃣ | 4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cách tách 6 thành 2 và mấy?', options: [{ id: 'a', text: '2 và 4', emoji: '2️⃣ | 4️⃣' }, { id: 'b', text: '2 và 3', emoji: '2️⃣ | 3️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Có bao nhiêu cách tách 6 thành 2 phần?', options: [{ id: 'a', text: '3 cách chính', emoji: '🤟' }, { id: 'b', text: '1 cách', emoji: '☝️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Gộp 3 và 3 lại bé được mấy?', options: [{ id: 'a', text: '6', emoji: '6️⃣' }, { id: 'b', text: '5', emoji: '5️⃣' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tách 6 thành 2 phần bằng nhau, mỗi phần có mấy?', options: [{ id: 'a', text: '3 và 3', emoji: '3️⃣ | 3️⃣' }, { id: 'b', text: '2 và 4', emoji: '2️⃣ | 4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cách tách 6 thành 1 và mấy?', options: [{ id: 'a', text: '1 và 5', emoji: '1️⃣ | 5️⃣' }, { id: 'b', text: '1 và 4', emoji: '1️⃣ | 4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cách tách 6 thành 2 và mấy?', options: [{ id: 'a', text: '2 và 4', emoji: '2️⃣ | 4️⃣' }, { id: 'b', text: '2 và 3', emoji: '2️⃣ | 3️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Có bao nhiêu cách tách 6 thành 2 phần?', options: [{ id: 'a', text: '3 cách chính', emoji: '🤟' }, { id: 'b', text: '1 cách', emoji: '☝️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Gộp 3 và 3 lại bé được mấy?', options: [{ id: 'a', text: '6', emoji: '6️⃣' }, { id: 'b', text: '5', emoji: '5️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2660,11 +3723,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Chữ số 7 & Phạm vi 7',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Số 7 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 6', emoji: '6️⃣' }, { id: 'b', text: 'Số 8', emoji: '8️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Một tuần có bao nhiêu ngày?', options: [{ id: 'a', text: '7 ngày', emoji: '📅' }, { id: 'b', text: '5 ngày', emoji: '📅' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Số 7 trông giống cái gì?', options: [{ id: 'a', text: 'Cái cuốc', emoji: '⛏️' }, { id: 'b', text: 'Cái ghế', emoji: '🪑' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé hãy đếm đến 7 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6, 7', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Số thứ tự thứ 7 là vị trí như thế nào trong nhóm 7?', options: [{ id: 'a', text: 'Vị trí cuối cùng', emoji: '🏁' }, { id: 'b', text: 'Vị trí đầu tiên', emoji: '🥇' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Số 7 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 6', emoji: '6️⃣' }, { id: 'b', text: 'Số 8', emoji: '8️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Một tuần có bao nhiêu ngày?', options: [{ id: 'a', text: '7 ngày', emoji: '📅' }, { id: 'b', text: '5 ngày', emoji: '📅' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Số 7 trông giống cái gì?', options: [{ id: 'a', text: 'Cái cuốc', emoji: '⛏️' }, { id: 'b', text: 'Cái ghế', emoji: '🪑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé hãy đếm đến 7 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6, 7', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Số thứ tự thứ 7 là vị trí như thế nào trong nhóm 7?', options: [{ id: 'a', text: 'Vị trí cuối cùng', emoji: '🏁' }, { id: 'b', text: 'Vị trí đầu tiên', emoji: '🥇' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2672,11 +3745,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: So sánh 3 nhóm trong phạm vi 7',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Nhóm 7, nhóm 5, nhóm 3. Nhóm nào nhiều nhất?', options: [{ id: 'a', text: 'Nhóm 7', emoji: '7️⃣' }, { id: 'b', text: 'Nhóm 5', emoji: '5️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Nhóm 7, nhóm 5, nhóm 3. Nhóm nào ít nhất?', options: [{ id: 'a', text: 'Nhóm 3', emoji: '3️⃣' }, { id: 'b', text: 'Nhóm 7', emoji: '7️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Làm thế nào để 3 nhóm bằng nhau và đều bằng 7?', options: [{ id: 'a', text: 'Thêm vào cho đủ 7', emoji: '➕' }, { id: 'b', text: 'Bớt đi cho bằng 3', emoji: '➖' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'So sánh 3 nhóm giúp bé nhận ra điều gì?', options: [{ id: 'a', text: 'Mối quan hệ hơn kém', emoji: '⚖️' }, { id: 'b', text: 'Màu sắc các nhóm', emoji: '🎨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Số 6 so với số 7 thì như thế nào?', options: [{ id: 'a', text: 'Ít hơn 1 đơn vị', emoji: '📉' }, { id: 'b', text: 'Nhiều hơn', emoji: '📈' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Nhóm 7, nhóm 5, nhóm 3. Nhóm nào nhiều nhất?', options: [{ id: 'a', text: 'Nhóm 7', emoji: '7️⃣' }, { id: 'b', text: 'Nhóm 5', emoji: '5️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Nhóm 7, nhóm 5, nhóm 3. Nhóm nào ít nhất?', options: [{ id: 'a', text: 'Nhóm 3', emoji: '3️⃣' }, { id: 'b', text: 'Nhóm 7', emoji: '7️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Làm thế nào để 3 nhóm bằng nhau và đều bằng 7?', options: [{ id: 'a', text: 'Thêm vào cho đủ 7', emoji: '➕' }, { id: 'b', text: 'Bớt đi cho bằng 3', emoji: '➖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'So sánh 3 nhóm giúp bé nhận ra điều gì?', options: [{ id: 'a', text: 'Mối quan hệ hơn kém', emoji: '⚖️' }, { id: 'b', text: 'Màu sắc các nhóm', emoji: '🎨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Số 6 so với số 7 thì như thế nào?', options: [{ id: 'a', text: 'Ít hơn 1 đơn vị', emoji: '📉' }, { id: 'b', text: 'Nhiều hơn', emoji: '📈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2684,11 +3767,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Chữ số 9 & Phạm vi 9',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Số 9 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 8', emoji: '8️⃣' }, { id: 'b', text: 'Số 10', emoji: '🔟' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Số 9 lộn ngược lại giống số mấy?', options: [{ id: 'a', text: 'Số 6', emoji: '6️⃣' }, { id: 'b', text: 'Số 0', emoji: '0️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé hãy đếm từ 1 đến 9 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6, 7, 8, 9', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Nhóm có 9 cái kẹo tương ứng với số mấy?', options: [{ id: 'a', text: 'Số 9', emoji: '9️⃣' }, { id: 'b', text: 'Số 7', emoji: '7️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Số 9 là số lớn nhất trong dãy từ 1 đến 9 đúng không?', options: [{ id: 'a', text: 'Đúng vậy', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Số 9 đứng ngay sau số mấy?', options: [{ id: 'a', text: 'Số 8', emoji: '8️⃣' }, { id: 'b', text: 'Số 10', emoji: '🔟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Số 9 lộn ngược lại giống số mấy?', options: [{ id: 'a', text: 'Số 6', emoji: '6️⃣' }, { id: 'b', text: 'Số 0', emoji: '0️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé hãy đếm từ 1 đến 9 nào!', options: [{ id: 'a', text: '1, 2, 3, 4, 5, 6, 7, 8, 9', emoji: '🔢' }, { id: 'b', text: '1, 2, 3', emoji: '🔢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Nhóm có 9 cái kẹo tương ứng với số mấy?', options: [{ id: 'a', text: 'Số 9', emoji: '9️⃣' }, { id: 'b', text: 'Số 7', emoji: '7️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Số 9 là số lớn nhất trong dãy từ 1 đến 9 đúng không?', options: [{ id: 'a', text: 'Đúng vậy', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2696,11 +3789,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Ý nghĩa của các con số',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Con số trên đồng hồ giúp bé biết gì?', options: [{ id: 'a', text: 'Biết thời gian, giờ giấc', emoji: '⏰' }, { id: 'b', text: 'Biết thời tiết', emoji: '🌦️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Số nhà giúp chúng ta điều gì?', options: [{ id: 'a', text: 'Tìm đúng địa chỉ nhà', emoji: '🏠' }, { id: 'b', text: 'Để trang trí cho đẹp', emoji: '✨' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Số điện thoại dùng để làm gì?', options: [{ id: 'a', text: 'Để liên lạc, gọi điện', emoji: '📞' }, { id: 'b', text: 'Để tập đếm', emoji: '🔢' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Giá tiền trên món đồ giúp bé biết gì?', options: [{ id: 'a', text: 'Biết món đồ bao nhiêu tiền', emoji: '💰' }, { id: 'b', text: 'Biết món đồ nặng bao nhiêu', emoji: '⚖️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Cuộc sống sẽ thế nào nếu không có con số?', options: [{ id: 'a', text: 'Rất khó khăn, lộn xộn', emoji: '🌪️' }, { id: 'b', text: 'Vẫn bình thường', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con số trên đồng hồ giúp bé biết gì?', options: [{ id: 'a', text: 'Biết thời gian, giờ giấc', emoji: '⏰' }, { id: 'b', text: 'Biết thời tiết', emoji: '🌦️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Số nhà giúp chúng ta điều gì?', options: [{ id: 'a', text: 'Tìm đúng địa chỉ nhà', emoji: '🏠' }, { id: 'b', text: 'Để trang trí cho đẹp', emoji: '✨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Số điện thoại dùng để làm gì?', options: [{ id: 'a', text: 'Để liên lạc, gọi điện', emoji: '📞' }, { id: 'b', text: 'Để tập đếm', emoji: '🔢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Giá tiền trên món đồ giúp bé biết gì?', options: [{ id: 'a', text: 'Biết món đồ bao nhiêu tiền', emoji: '💰' }, { id: 'b', text: 'Biết món đồ nặng bao nhiêu', emoji: '⚖️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Cuộc sống sẽ thế nào nếu không có con số?', options: [{ id: 'a', text: 'Rất khó khăn, lộn xộn', emoji: '🌪️' }, { id: 'b', text: 'Vẫn bình thường', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2708,11 +3811,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Tìm hiểu về gió',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Gió là gì?', options: [{ id: 'a', text: 'Sự chuyển động của không khí', emoji: '🌬️' }, { id: 'b', text: 'Những hạt nước rơi', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Gió giúp ích gì cho chúng ta?', options: [{ id: 'a', text: 'Làm mát, quay chong chóng', emoji: '🌀' }, { id: 'b', text: 'Làm trời tối sầm', emoji: '🌑' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Gió quá mạnh tạo thành gì?', options: [{ id: 'a', text: 'Cơn bão', emoji: '🌪️' }, { id: 'b', text: 'Cơn mưa nhỏ', emoji: '🌦️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Làm sao bé biết có gió?', options: [{ id: 'a', text: 'Thấy lá cây rung rinh', emoji: '🍃' }, { id: 'b', text: 'Thấy đất đá bay', emoji: '🪨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Gió có màu gì không?', options: [{ id: 'a', text: 'Gió không có màu', emoji: '✨' }, { id: 'b', text: 'Gió màu trắng', emoji: '⚪' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Gió là gì?', options: [{ id: 'a', text: 'Sự chuyển động của không khí', emoji: '🌬️' }, { id: 'b', text: 'Những hạt nước rơi', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Gió giúp ích gì cho chúng ta?', options: [{ id: 'a', text: 'Làm mát, quay chong chóng', emoji: '🌀' }, { id: 'b', text: 'Làm trời tối sầm', emoji: '🌑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Gió quá mạnh tạo thành gì?', options: [{ id: 'a', text: 'Cơn bão', emoji: '🌪️' }, { id: 'b', text: 'Cơn mưa nhỏ', emoji: '🌦️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Làm sao bé biết có gió?', options: [{ id: 'a', text: 'Thấy lá cây rung rinh', emoji: '🍃' }, { id: 'b', text: 'Thấy đất đá bay', emoji: '🪨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Gió có màu gì không?', options: [{ id: 'a', text: 'Gió không có màu', emoji: '✨' }, { id: 'b', text: 'Gió màu trắng', emoji: '⚪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2720,11 +3833,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Sự kỳ diệu của quả trứng',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Quả trứng có hình gì?', options: [{ id: 'a', text: 'Hình bầu dục', emoji: '🥚' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bên trong quả trứng có gì?', options: [{ id: 'a', text: 'Lòng đỏ và lòng trắng', emoji: '🍳' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Quả trứng gà sau khi ấp sẽ nở thành gì?', options: [{ id: 'a', text: 'Con gà con', emoji: '🐥' }, { id: 'b', text: 'Con vịt con', emoji: '🦆' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Vỏ trứng có đặc điểm gì?', options: [{ id: 'a', text: 'Mỏng và dễ vỡ', emoji: '💔' }, { id: 'b', text: 'Cứng như đá', emoji: '🪨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Trứng cung cấp chất gì cho cơ thể?', options: [{ id: 'a', text: 'Chất đạm (Protein)', emoji: '💪' }, { id: 'b', text: 'Chất đường', emoji: '🍬' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Quả trứng có hình gì?', options: [{ id: 'a', text: 'Hình bầu dục', emoji: '🥚' }, { id: 'b', text: 'Hình vuông', emoji: '🟦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bên trong quả trứng có gì?', options: [{ id: 'a', text: 'Lòng đỏ và lòng trắng', emoji: '🍳' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Quả trứng gà sau khi ấp sẽ nở thành gì?', options: [{ id: 'a', text: 'Con gà con', emoji: '🐥' }, { id: 'b', text: 'Con vịt con', emoji: '🦆' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Vỏ trứng có đặc điểm gì?', options: [{ id: 'a', text: 'Mỏng và dễ vỡ', emoji: '💔' }, { id: 'b', text: 'Cứng như đá', emoji: '🪨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Trứng cung cấp chất gì cho cơ thể?', options: [{ id: 'a', text: 'Chất đạm (Protein)', emoji: '💪' }, { id: 'b', text: 'Chất đường', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2732,11 +3855,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Phương tiện giao thông',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Máy bay là phương tiện giao thông đường nào?', options: [{ id: 'a', text: 'Đường hàng không', emoji: '✈️' }, { id: 'b', text: 'Đường bộ', emoji: '🚗' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tàu thủy đi ở đâu?', options: [{ id: 'a', text: 'Dưới nước', emoji: '🚢' }, { id: 'b', text: 'Trên đường ray', emoji: '🛤️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Xe đạp, xe máy là đường gì?', options: [{ id: 'a', text: 'Đường bộ', emoji: '🚲🛵' }, { id: 'b', text: 'Đường sắt', emoji: '🚂' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi đi xe máy, bé phải làm gì?', options: [{ id: 'a', text: 'Đội mũ bảo hiểm', emoji: '🪖' }, { id: 'b', text: 'Đứng lên xe', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Được đi tiếp', emoji: '🟢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Máy bay là phương tiện giao thông đường nào?', options: [{ id: 'a', text: 'Đường hàng không', emoji: '✈️' }, { id: 'b', text: 'Đường bộ', emoji: '🚗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tàu thủy đi ở đâu?', options: [{ id: 'a', text: 'Dưới nước', emoji: '🚢' }, { id: 'b', text: 'Trên đường ray', emoji: '🛤️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Xe đạp, xe máy là đường gì?', options: [{ id: 'a', text: 'Đường bộ', emoji: '🚲🛵' }, { id: 'b', text: 'Đường sắt', emoji: '🚂' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi đi xe máy, bé phải làm gì?', options: [{ id: 'a', text: 'Đội mũ bảo hiểm', emoji: '🪖' }, { id: 'b', text: 'Đứng lên xe', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Được đi tiếp', emoji: '🟢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2751,11 +3884,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Vũ trụ bao la',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Hành tinh chúng ta đang sống tên là gì?', options: [{ id: 'a', text: 'Trái Đất', emoji: '🌍' }, { id: 'b', text: 'Sao Hỏa', emoji: '🔴' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Mặt trời là một ngôi sao như thế nào?', options: [{ id: 'a', text: 'Rất nóng và khổng lồ', emoji: '☀️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '🧊' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Ban đêm, Mặt trăng lấy ánh sáng từ đâu?', options: [{ id: 'a', text: 'Phản chiếu từ Mặt trời', emoji: '🌕' }, { id: 'b', text: 'Tự phát sáng', emoji: '💡' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Các vì sao lấp lánh trên trời vào lúc nào?', options: [{ id: 'a', text: 'Ban đêm', emoji: '🌌' }, { id: 'b', text: 'Giữa trưa', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Ai là người bay vào vũ trụ?', options: [{ id: 'a', text: 'Phi hành gia', emoji: '👨‍🚀' }, { id: 'b', text: 'Bác sĩ', emoji: '👨‍⚕️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Hành tinh chúng ta đang sống tên là gì?', options: [{ id: 'a', text: 'Trái Đất', emoji: '🌍' }, { id: 'b', text: 'Sao Hỏa', emoji: '🔴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Mặt trời là một ngôi sao như thế nào?', options: [{ id: 'a', text: 'Rất nóng và khổng lồ', emoji: '☀️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '🧊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Ban đêm, Mặt trăng lấy ánh sáng từ đâu?', options: [{ id: 'a', text: 'Phản chiếu từ Mặt trời', emoji: '🌕' }, { id: 'b', text: 'Tự phát sáng', emoji: '💡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Các vì sao lấp lánh trên trời vào lúc nào?', options: [{ id: 'a', text: 'Ban đêm', emoji: '🌌' }, { id: 'b', text: 'Giữa trưa', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Ai là người bay vào vũ trụ?', options: [{ id: 'a', text: 'Phi hành gia', emoji: '👨‍🚀' }, { id: 'b', text: 'Bác sĩ', emoji: '👨‍⚕️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2771,11 +3914,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Khỉ con ăn chuối',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Khỉ con thích ăn quả gì?', options: [{ id: 'a', text: 'Quả chuối', emoji: '🍌' }, { id: 'b', text: 'Quả táo', emoji: '🍎' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chuối có màu gì khi chín?', options: [{ id: 'a', text: 'Màu vàng', emoji: '🟡' }, { id: 'b', text: 'Màu xanh', emoji: '🟢' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khỉ con bóc vỏ chuối bằng gì?', options: [{ id: 'a', text: 'Bằng tay', emoji: '✋' }, { id: 'b', text: 'Bằng chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Ăn chuối xong vỏ bỏ vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Vứt ra sàn', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khỉ con thấy chuối thế nào?', options: [{ id: 'a', text: 'Rất ngon', emoji: '😋' }, { id: 'b', text: 'Rất đắng', emoji: '😝' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khỉ con thích ăn quả gì?', options: [{ id: 'a', text: 'Quả chuối', emoji: '🍌' }, { id: 'b', text: 'Quả táo', emoji: '🍎' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chuối có màu gì khi chín?', options: [{ id: 'a', text: 'Màu vàng', emoji: '🟡' }, { id: 'b', text: 'Màu xanh', emoji: '🟢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khỉ con bóc vỏ chuối bằng gì?', options: [{ id: 'a', text: 'Bằng tay', emoji: '✋' }, { id: 'b', text: 'Bằng chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Ăn chuối xong vỏ bỏ vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Vứt ra sàn', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khỉ con thấy chuối thế nào?', options: [{ id: 'a', text: 'Rất ngon', emoji: '😋' }, { id: 'b', text: 'Rất đắng', emoji: '😝' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'story',
@@ -2785,11 +3938,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Sóc nâu nhanh trí',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Sóc nâu sống ở đâu?', options: [{ id: 'a', text: 'Trên cây', emoji: '🌳' }, { id: 'b', text: 'Dưới nước', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Sóc nâu thích ăn hạt gì?', options: [{ id: 'a', text: 'Hạt dẻ', emoji: '🌰' }, { id: 'b', text: 'Hạt thóc', emoji: '🌾' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sóc nâu có đuôi như thế nào?', options: [{ id: 'a', text: 'To và xù', emoji: '🐿️' }, { id: 'b', text: 'Ngắn tẹo', emoji: '🐀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi gặp nguy hiểm sóc nâu làm gì?', options: [{ id: 'a', text: 'Nhanh trí trốn thoát', emoji: '⚡' }, { id: 'b', text: 'Đứng khóc', emoji: '😭' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sóc nâu là bạn nhỏ như thế nào?', options: [{ id: 'a', text: 'Thông minh, nhanh nhẹn', emoji: '✨' }, { id: 'b', text: 'Chậm chạp', emoji: '🐢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Sóc nâu sống ở đâu?', options: [{ id: 'a', text: 'Trên cây', emoji: '🌳' }, { id: 'b', text: 'Dưới nước', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Sóc nâu thích ăn hạt gì?', options: [{ id: 'a', text: 'Hạt dẻ', emoji: '🌰' }, { id: 'b', text: 'Hạt thóc', emoji: '🌾' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sóc nâu có đuôi như thế nào?', options: [{ id: 'a', text: 'To và xù', emoji: '🐿️' }, { id: 'b', text: 'Ngắn tẹo', emoji: '🐀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi gặp nguy hiểm sóc nâu làm gì?', options: [{ id: 'a', text: 'Nhanh trí trốn thoát', emoji: '⚡' }, { id: 'b', text: 'Đứng khóc', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sóc nâu là bạn nhỏ như thế nào?', options: [{ id: 'a', text: 'Thông minh, nhanh nhẹn', emoji: '✨' }, { id: 'b', text: 'Chậm chạp', emoji: '🐢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'story',
@@ -2799,11 +3962,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Ông mặt trời đi đâu?',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Ông mặt trời thức dậy vào lúc nào?', options: [{ id: 'a', text: 'Buổi sáng', emoji: '🌅' }, { id: 'b', text: 'Buổi tối', emoji: '🌙' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Ông mặt trời đi ngủ vào lúc nào?', options: [{ id: 'a', text: 'Buổi tối', emoji: '🌃' }, { id: 'b', text: 'Buổi trưa', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi ông mặt trời đi ngủ, ai hiện ra?', options: [{ id: 'a', text: 'Ông trăng', emoji: '🌙' }, { id: 'b', text: 'Đám mây trắng', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Ánh nắng mặt trời giúp gì cho bé?', options: [{ id: 'a', text: 'Ấm áp, khỏe mạnh', emoji: '💪' }, { id: 'b', text: 'Làm bé buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Ông mặt trời có màu gì?', options: [{ id: 'a', text: 'Màu đỏ/vàng rực rỡ', emoji: '☀️' }, { id: 'b', text: 'Màu xanh lá', emoji: '🟢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ông mặt trời thức dậy vào lúc nào?', options: [{ id: 'a', text: 'Buổi sáng', emoji: '🌅' }, { id: 'b', text: 'Buổi tối', emoji: '🌙' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Ông mặt trời đi ngủ vào lúc nào?', options: [{ id: 'a', text: 'Buổi tối', emoji: '🌃' }, { id: 'b', text: 'Buổi trưa', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi ông mặt trời đi ngủ, ai hiện ra?', options: [{ id: 'a', text: 'Ông trăng', emoji: '🌙' }, { id: 'b', text: 'Đám mây trắng', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Ánh nắng mặt trời giúp gì cho bé?', options: [{ id: 'a', text: 'Ấm áp, khỏe mạnh', emoji: '💪' }, { id: 'b', text: 'Làm bé buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Ông mặt trời có màu gì?', options: [{ id: 'a', text: 'Màu đỏ/vàng rực rỡ', emoji: '☀️' }, { id: 'b', text: 'Màu xanh lá', emoji: '🟢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'story',
@@ -2813,11 +3986,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Gà mái hoa mơ',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Gà mái hoa mơ đẻ gì?', options: [{ id: 'a', text: 'Đẻ trứng', emoji: '🥚' }, { id: 'b', text: 'Đẻ con ngay', emoji: '🐥' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tiếng gà mái kêu như thế nào?', options: [{ id: 'a', text: 'Cục ta cục tác', emoji: '🐔' }, { id: 'b', text: 'O ó o', emoji: '🐓' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Gà mái ấp trứng để làm gì?', options: [{ id: 'a', text: 'Để trứng nở thành con', emoji: '🐣' }, { id: 'b', text: 'Để trứng đẹp hơn', emoji: '✨' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Gà con mới nở có màu gì?', options: [{ id: 'a', text: 'Màu vàng óng', emoji: '🟡' }, { id: 'b', text: 'Màu đen thui', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Gà mái yêu thương gà con thế nào?', options: [{ id: 'a', text: 'Che chở, tìm mồi cho con', emoji: '❤️' }, { id: 'b', text: 'Bỏ mặc con', emoji: '🤷' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Gà mái hoa mơ đẻ gì?', options: [{ id: 'a', text: 'Đẻ trứng', emoji: '🥚' }, { id: 'b', text: 'Đẻ con ngay', emoji: '🐥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tiếng gà mái kêu như thế nào?', options: [{ id: 'a', text: 'Cục ta cục tác', emoji: '🐔' }, { id: 'b', text: 'O ó o', emoji: '🐓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Gà mái ấp trứng để làm gì?', options: [{ id: 'a', text: 'Để trứng nở thành con', emoji: '🐣' }, { id: 'b', text: 'Để trứng đẹp hơn', emoji: '✨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Gà con mới nở có màu gì?', options: [{ id: 'a', text: 'Màu vàng óng', emoji: '🟡' }, { id: 'b', text: 'Màu đen thui', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Gà mái yêu thương gà con thế nào?', options: [{ id: 'a', text: 'Che chở, tìm mồi cho con', emoji: '❤️' }, { id: 'b', text: 'Bỏ mặc con', emoji: '🤷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'story',
@@ -2827,11 +4010,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Mèo thích ăn cá',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Con mèo thích ăn món gì nhất?', options: [{ id: 'a', text: 'Con cá', emoji: '🐟' }, { id: 'b', text: 'Củ cà rốt', emoji: '🥕' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Con mèo kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Mèo dùng gì để bắt cá?', options: [{ id: 'a', text: 'Móng vuốt sắc', emoji: '🐾' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mèo có giỏi bắt chuột không?', options: [{ id: 'a', text: 'Rất giỏi', emoji: '🐭' }, { id: 'b', text: 'Không biết bắt', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé nên làm gì với bạn mèo?', options: [{ id: 'a', text: 'Vuốt ve, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Kéo đuôi mèo', emoji: '👊' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con mèo thích ăn món gì nhất?', options: [{ id: 'a', text: 'Con cá', emoji: '🐟' }, { id: 'b', text: 'Củ cà rốt', emoji: '🥕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Con mèo kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Mèo dùng gì để bắt cá?', options: [{ id: 'a', text: 'Móng vuốt sắc', emoji: '🐾' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mèo có giỏi bắt chuột không?', options: [{ id: 'a', text: 'Rất giỏi', emoji: '🐭' }, { id: 'b', text: 'Không biết bắt', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé nên làm gì với bạn mèo?', options: [{ id: 'a', text: 'Vuốt ve, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Kéo đuôi mèo', emoji: '👊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2839,11 +4032,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Bà và cháu',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé yêu ai nhất trong bài thơ?', options: [{ id: 'a', text: 'Yêu bà', emoji: '👵' }, { id: 'b', text: 'Yêu con búp bê', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tóc bà có màu gì?', options: [{ id: 'a', text: 'Trắng như mây', emoji: '☁️' }, { id: 'b', text: 'Đen nhánh', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé làm gì để bà vui?', options: [{ id: 'a', text: 'Ngoan ngoãn, vâng lời', emoji: '✨' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bàn tay bà như thế nào?', options: [{ id: 'a', text: 'Ấm áp, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hứa với bà điều gì?', options: [{ id: 'a', text: 'Sẽ luôn chăm ngoan', emoji: '🌟' }, { id: 'b', text: 'Sẽ đi chơi suốt', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé yêu ai nhất trong bài thơ?', options: [{ id: 'a', text: 'Yêu bà', emoji: '👵' }, { id: 'b', text: 'Yêu con búp bê', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tóc bà có màu gì?', options: [{ id: 'a', text: 'Trắng như mây', emoji: '☁️' }, { id: 'b', text: 'Đen nhánh', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé làm gì để bà vui?', options: [{ id: 'a', text: 'Ngoan ngoãn, vâng lời', emoji: '✨' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bàn tay bà như thế nào?', options: [{ id: 'a', text: 'Ấm áp, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hứa với bà điều gì?', options: [{ id: 'a', text: 'Sẽ luôn chăm ngoan', emoji: '🌟' }, { id: 'b', text: 'Sẽ đi chơi suốt', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2853,11 +4056,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Làm đồ chơi',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé cùng cô làm gì?', options: [{ id: 'a', text: 'Làm đồ chơi', emoji: '🧸' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Đồ chơi làm xong bé dùng để làm gì?', options: [{ id: 'a', text: 'Để chơi cùng bạn', emoji: '🤝' }, { id: 'b', text: 'Để vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Làm đồ chơi giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ, khéo tay', emoji: '🤩' }, { id: 'b', text: 'Buồn chán', emoji: '😐' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có giữ gìn đồ chơi không?', options: [{ id: 'a', text: 'Có, giữ cẩn thận', emoji: '✨' }, { id: 'b', text: 'Làm hỏng luôn', emoji: '💔' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Đồ chơi tự làm có quý không?', options: [{ id: 'a', text: 'Rất quý giá', emoji: '💎' }, { id: 'b', text: 'Không quý', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé cùng cô làm gì?', options: [{ id: 'a', text: 'Làm đồ chơi', emoji: '🧸' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Đồ chơi làm xong bé dùng để làm gì?', options: [{ id: 'a', text: 'Để chơi cùng bạn', emoji: '🤝' }, { id: 'b', text: 'Để vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Làm đồ chơi giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ, khéo tay', emoji: '🤩' }, { id: 'b', text: 'Buồn chán', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có giữ gìn đồ chơi không?', options: [{ id: 'a', text: 'Có, giữ cẩn thận', emoji: '✨' }, { id: 'b', text: 'Làm hỏng luôn', emoji: '💔' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Đồ chơi tự làm có quý không?', options: [{ id: 'a', text: 'Rất quý giá', emoji: '💎' }, { id: 'b', text: 'Không quý', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2867,11 +4080,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Con mèo',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Cái mũi con mèo như thế nào?', options: [{ id: 'a', text: 'Nhỏ xinh, hay hít hà', emoji: '👃' }, { id: 'b', text: 'To đùng', emoji: '🐘' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cái tai mèo dùng để làm gì?', options: [{ id: 'a', text: 'Để nghe ngóng', emoji: '👂' }, { id: 'b', text: 'Để nhìn', emoji: '👀' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bộ lông mèo sờ vào thấy thế nào?', options: [{ id: 'a', text: 'Mềm mại, êm ái', emoji: '☁️' }, { id: 'b', text: 'Cứng nhắc', emoji: '🪵' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mèo hay rửa mặt bằng gì?', options: [{ id: 'a', text: 'Bằng cái lưỡi và tay', emoji: '👅' }, { id: 'b', text: 'Bằng xà phòng', emoji: '🧼' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy bạn mèo có đáng yêu không?', options: [{ id: 'a', text: 'Rất đáng yêu', emoji: '😻' }, { id: 'b', text: 'Rất đáng sợ', emoji: '🙀' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cái mũi con mèo như thế nào?', options: [{ id: 'a', text: 'Nhỏ xinh, hay hít hà', emoji: '👃' }, { id: 'b', text: 'To đùng', emoji: '🐘' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cái tai mèo dùng để làm gì?', options: [{ id: 'a', text: 'Để nghe ngóng', emoji: '👂' }, { id: 'b', text: 'Để nhìn', emoji: '👀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bộ lông mèo sờ vào thấy thế nào?', options: [{ id: 'a', text: 'Mềm mại, êm ái', emoji: '☁️' }, { id: 'b', text: 'Cứng nhắc', emoji: '🪵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mèo hay rửa mặt bằng gì?', options: [{ id: 'a', text: 'Bằng cái lưỡi và tay', emoji: '👅' }, { id: 'b', text: 'Bằng xà phòng', emoji: '🧼' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy bạn mèo có đáng yêu không?', options: [{ id: 'a', text: 'Rất đáng yêu', emoji: '😻' }, { id: 'b', text: 'Rất đáng sợ', emoji: '🙀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2881,11 +4104,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Con trâu',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Con trâu có cái gì trên đầu?', options: [{ id: 'a', text: 'Đôi sừng cong', emoji: '🐃' }, { id: 'b', text: 'Cái mào đỏ', emoji: '🐔' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Con trâu giúp bác nông dân làm gì?', options: [{ id: 'a', text: 'Cày ruộng', emoji: '🚜' }, { id: 'b', text: 'Bắt chuột', emoji: '🐭' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Con trâu thích ăn gì nhất?', options: [{ id: 'a', text: 'Ăn cỏ xanh', emoji: '🌿' }, { id: 'b', text: 'Ăn kẹo', emoji: '🍬' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tiếng trâu gọi nhau như thế nào?', options: [{ id: 'a', text: 'Nghé ọ', emoji: '📢' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Con trâu là bạn của ai?', options: [{ id: 'a', text: 'Bạn của nhà nông', emoji: '👨‍🌾' }, { id: 'b', text: 'Bạn của cá', emoji: '🐟' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con trâu có cái gì trên đầu?', options: [{ id: 'a', text: 'Đôi sừng cong', emoji: '🐃' }, { id: 'b', text: 'Cái mào đỏ', emoji: '🐔' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Con trâu giúp bác nông dân làm gì?', options: [{ id: 'a', text: 'Cày ruộng', emoji: '🚜' }, { id: 'b', text: 'Bắt chuột', emoji: '🐭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Con trâu thích ăn gì nhất?', options: [{ id: 'a', text: 'Ăn cỏ xanh', emoji: '🌿' }, { id: 'b', text: 'Ăn kẹo', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tiếng trâu gọi nhau như thế nào?', options: [{ id: 'a', text: 'Nghé ọ', emoji: '📢' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Con trâu là bạn của ai?', options: [{ id: 'a', text: 'Bạn của nhà nông', emoji: '👨‍🌾' }, { id: 'b', text: 'Bạn của cá', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2895,11 +4128,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Hoa nở',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Hoa nở vào mùa nào đẹp nhất?', options: [{ id: 'a', text: 'Mùa xuân', emoji: '🌸' }, { id: 'b', text: 'Mùa đông', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cánh hoa có màu gì?', options: [{ id: 'a', text: 'Đủ các màu rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hoa nở tỏa ra hương gì?', options: [{ id: 'a', text: 'Hương thơm ngát', emoji: '✨' }, { id: 'b', text: 'Mùi hôi', emoji: '🤢' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé làm gì để hoa luôn đẹp?', options: [{ id: 'a', text: 'Tưới nước, không hái hoa', emoji: '💧' }, { id: 'b', text: 'Ngắt hoa chơi', emoji: '🥀' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Hoa nở làm cho cảnh vật thế nào?', options: [{ id: 'a', text: 'Đẹp và tươi vui', emoji: '🤩' }, { id: 'b', text: 'Buồn bã', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Hoa nở vào mùa nào đẹp nhất?', options: [{ id: 'a', text: 'Mùa xuân', emoji: '🌸' }, { id: 'b', text: 'Mùa đông', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cánh hoa có màu gì?', options: [{ id: 'a', text: 'Đủ các màu rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hoa nở tỏa ra hương gì?', options: [{ id: 'a', text: 'Hương thơm ngát', emoji: '✨' }, { id: 'b', text: 'Mùi hôi', emoji: '🤢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé làm gì để hoa luôn đẹp?', options: [{ id: 'a', text: 'Tưới nước, không hái hoa', emoji: '💧' }, { id: 'b', text: 'Ngắt hoa chơi', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Hoa nở làm cho cảnh vật thế nào?', options: [{ id: 'a', text: 'Đẹp và tươi vui', emoji: '🤩' }, { id: 'b', text: 'Buồn bã', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2910,11 +4153,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Bé làm bao nhiêu nghề',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Trong bài thơ, bé đóng vai làm nghề gì?', options: [{ id: 'a', text: 'Nhiều nghề khác nhau', emoji: '👷' }, { id: 'b', text: 'Chỉ làm học sinh', emoji: '🎒' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé làm thợ xây để xây cái gì?', options: [{ id: 'a', text: 'Xây những ngôi nhà', emoji: '🏠' }, { id: 'b', text: 'Xây cái cầu', emoji: '🌉' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé làm bác sĩ để làm gì?', options: [{ id: 'a', text: 'Chữa bệnh cho mọi người', emoji: '🩺' }, { id: 'b', text: 'Để đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé làm cô nuôi để làm gì?', options: [{ id: 'a', text: 'Nấu cơm cho các bạn', emoji: '🍲' }, { id: 'b', text: 'Để đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Ước mơ của bé sau này làm gì?', options: [{ id: 'a', text: 'Làm nghề mình yêu thích', emoji: '✨' }, { id: 'b', text: 'Không làm gì cả', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Trong bài thơ, bé đóng vai làm nghề gì?', options: [{ id: 'a', text: 'Nhiều nghề khác nhau', emoji: '👷' }, { id: 'b', text: 'Chỉ làm học sinh', emoji: '🎒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé làm thợ xây để xây cái gì?', options: [{ id: 'a', text: 'Xây những ngôi nhà', emoji: '🏠' }, { id: 'b', text: 'Xây cái cầu', emoji: '🌉' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé làm bác sĩ để làm gì?', options: [{ id: 'a', text: 'Chữa bệnh cho mọi người', emoji: '🩺' }, { id: 'b', text: 'Để đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé làm cô nuôi để làm gì?', options: [{ id: 'a', text: 'Nấu cơm cho các bạn', emoji: '🍲' }, { id: 'b', text: 'Để đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Ước mơ của bé sau này làm gì?', options: [{ id: 'a', text: 'Làm nghề mình yêu thích', emoji: '✨' }, { id: 'b', text: 'Không làm gì cả', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2925,11 +4178,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Tình bạn',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Khi bạn đến lớp, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi và chơi cùng bạn', emoji: '🤝' }, { id: 'b', text: 'Ngồi một mình', emoji: '🧍' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé có nên chia sẻ đồ chơi với bạn không?', options: [{ id: 'a', text: 'Có, chia sẻ cùng chơi', emoji: '🧸' }, { id: 'b', text: 'Giữ hết cho mình', emoji: '🙅' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi bạn buồn, bé nên làm gì?', options: [{ id: 'a', text: 'An ủi và giúp đỡ bạn', emoji: '❤️' }, { id: 'b', text: 'Cười nhạo bạn', emoji: '😜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tình bạn đẹp giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😫' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hứa gì với các bạn?', options: [{ id: 'a', text: 'Luôn là bạn tốt của nhau', emoji: '🌟' }, { id: 'b', text: 'Sẽ hay cãi nhau', emoji: '😠' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi bạn đến lớp, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi và chơi cùng bạn', emoji: '🤝' }, { id: 'b', text: 'Ngồi một mình', emoji: '🧍' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé có nên chia sẻ đồ chơi với bạn không?', options: [{ id: 'a', text: 'Có, chia sẻ cùng chơi', emoji: '🧸' }, { id: 'b', text: 'Giữ hết cho mình', emoji: '🙅' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi bạn buồn, bé nên làm gì?', options: [{ id: 'a', text: 'An ủi và giúp đỡ bạn', emoji: '❤️' }, { id: 'b', text: 'Cười nhạo bạn', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tình bạn đẹp giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hứa gì với các bạn?', options: [{ id: 'a', text: 'Luôn là bạn tốt của nhau', emoji: '🌟' }, { id: 'b', text: 'Sẽ hay cãi nhau', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2937,11 +4200,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Bé làm hoạ sĩ',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để vẽ tranh?', options: [{ id: 'a', text: 'Bút màu và giấy', emoji: '🎨' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé vẽ ông mặt trời màu gì?', options: [{ id: 'a', text: 'Màu đỏ rực rỡ', emoji: '🔴' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé vẽ ngôi nhà cho ai?', options: [{ id: 'a', text: 'Cho cả gia đình', emoji: '🏠' }, { id: 'b', text: 'Cho con kiến', emoji: '🐜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bức tranh của bé trông thế nào?', options: [{ id: 'a', text: 'Đẹp và nhiều màu sắc', emoji: '🌈' }, { id: 'b', text: 'Rất lộn xộn', emoji: '😵' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé cảm thấy thế nào khi vẽ xong?', options: [{ id: 'a', text: 'Rất tự hào và vui', emoji: '😊' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để vẽ tranh?', options: [{ id: 'a', text: 'Bút màu và giấy', emoji: '🎨' }, { id: 'b', text: 'Cái thìa', emoji: '🥄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé vẽ ông mặt trời màu gì?', options: [{ id: 'a', text: 'Màu đỏ rực rỡ', emoji: '🔴' }, { id: 'b', text: 'Màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé vẽ ngôi nhà cho ai?', options: [{ id: 'a', text: 'Cho cả gia đình', emoji: '🏠' }, { id: 'b', text: 'Cho con kiến', emoji: '🐜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bức tranh của bé trông thế nào?', options: [{ id: 'a', text: 'Đẹp và nhiều màu sắc', emoji: '🌈' }, { id: 'b', text: 'Rất lộn xộn', emoji: '😵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé cảm thấy thế nào khi vẽ xong?', options: [{ id: 'a', text: 'Rất tự hào và vui', emoji: '😊' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
     category: 'language',
     subcategory: 'poem',
@@ -2951,11 +4224,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Trung thu cùng bé',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Trung thu có cái gì sáng rực trên trời?', options: [{ id: 'a', text: 'Ông trăng tròn', emoji: '🌕' }, { id: 'b', text: 'Đám mây đen', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé cầm gì đi rước đèn?', options: [{ id: 'a', text: 'Đèn ông sao', emoji: '⭐' }, { id: 'b', text: 'Cái chổi', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Món bánh đặc trưng của Trung thu là gì?', options: [{ id: 'a', text: 'Bánh nướng, bánh dẻo', emoji: '🥮' }, { id: 'b', text: 'Bánh chưng', emoji: '🍱' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Đêm Trung thu bé được xem gì vui?', options: [{ id: 'a', text: 'Múa lân, phá cỗ', emoji: '🦁' }, { id: 'b', text: 'Xem tivi một mình', emoji: '📺' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Trung thu là tết của ai?', options: [{ id: 'a', text: 'Tết của thiếu nhi', emoji: '👧' }, { id: 'b', text: 'Tết của người lớn', emoji: '👨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Trung thu có cái gì sáng rực trên trời?', options: [{ id: 'a', text: 'Ông trăng tròn', emoji: '🌕' }, { id: 'b', text: 'Đám mây đen', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé cầm gì đi rước đèn?', options: [{ id: 'a', text: 'Đèn ông sao', emoji: '⭐' }, { id: 'b', text: 'Cái chổi', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Món bánh đặc trưng của Trung thu là gì?', options: [{ id: 'a', text: 'Bánh nướng, bánh dẻo', emoji: '🥮' }, { id: 'b', text: 'Bánh chưng', emoji: '🍱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Đêm Trung thu bé được xem gì vui?', options: [{ id: 'a', text: 'Múa lân, phá cỗ', emoji: '🦁' }, { id: 'b', text: 'Xem tivi một mình', emoji: '📺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Trung thu là tết của ai?', options: [{ id: 'a', text: 'Tết của thiếu nhi', emoji: '👧' }, { id: 'b', text: 'Tết của người lớn', emoji: '👨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2963,11 +4246,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Thơ: Lấy tăm cho bà',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé làm gì sau khi bà ăn cơm xong?', options: [{ id: 'a', text: 'Lấy tăm cho bà', emoji: '👵' }, { id: 'b', text: 'Đi chơi luôn', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Hành động lấy tăm thể hiện điều gì?', options: [{ id: 'a', text: 'Sự hiếu thảo, lễ phép', emoji: '❤️' }, { id: 'b', text: 'Sự nghịch ngợm', emoji: '😈' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bà cảm thấy thế nào khi bé lấy tăm?', options: [{ id: 'a', text: 'Rất vui và yêu bé', emoji: '😊' }, { id: 'b', text: 'Thấy phiền phức', emoji: '😫' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé đưa tăm cho bà bằng mấy tay?', options: [{ id: 'a', text: 'Bằng hai tay lễ phép', emoji: '🤲' }, { id: 'b', text: 'Bằng một tay', emoji: '🖐️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có yêu bà của mình không?', options: [{ id: 'a', text: 'Rất yêu bà', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé làm gì sau khi bà ăn cơm xong?', options: [{ id: 'a', text: 'Lấy tăm cho bà', emoji: '👵' }, { id: 'b', text: 'Đi chơi luôn', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Hành động lấy tăm thể hiện điều gì?', options: [{ id: 'a', text: 'Sự hiếu thảo, lễ phép', emoji: '❤️' }, { id: 'b', text: 'Sự nghịch ngợm', emoji: '😈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bà cảm thấy thế nào khi bé lấy tăm?', options: [{ id: 'a', text: 'Rất vui và yêu bé', emoji: '😊' }, { id: 'b', text: 'Thấy phiền phức', emoji: '😫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé đưa tăm cho bà bằng mấy tay?', options: [{ id: 'a', text: 'Bằng hai tay lễ phép', emoji: '🤲' }, { id: 'b', text: 'Bằng một tay', emoji: '🖐️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có yêu bà của mình không?', options: [{ id: 'a', text: 'Rất yêu bà', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2975,11 +4268,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Người làm vườn và các con trai',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Người cha đã dặn các con điều gì?', options: [{ id: 'a', text: 'Có kho báu trong vườn', emoji: '💎' }, { id: 'b', text: 'Hãy đi chơi xa', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Các con đã làm gì với khu vườn?', options: [{ id: 'a', text: 'Đào bới khắp nơi để tìm vàng', emoji: '⛏️' }, { id: 'b', text: 'Bỏ hoang khu vườn', emoji: '🏚️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Kết quả của việc đào bới vườn là gì?', options: [{ id: 'a', text: 'Đất tơi xốp, mùa màng bội thu', emoji: '🌾' }, { id: 'b', text: 'Tìm thấy hũ vàng thật', emoji: '💰' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Kho báu thực sự mà người cha muốn nói là gì?', options: [{ id: 'a', text: 'Sự chăm chỉ lao động', emoji: '💪' }, { id: 'b', text: 'Là vàng bạc', emoji: '🪙' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bài học từ câu chuyện là gì?', options: [{ id: 'a', text: 'Lao động mang lại ấm no', emoji: '✨' }, { id: 'b', text: 'Chỉ cần may mắn', emoji: '🍀' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Người cha đã dặn các con điều gì?', options: [{ id: 'a', text: 'Có kho báu trong vườn', emoji: '💎' }, { id: 'b', text: 'Hãy đi chơi xa', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Các con đã làm gì với khu vườn?', options: [{ id: 'a', text: 'Đào bới khắp nơi để tìm vàng', emoji: '⛏️' }, { id: 'b', text: 'Bỏ hoang khu vườn', emoji: '🏚️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Kết quả của việc đào bới vườn là gì?', options: [{ id: 'a', text: 'Đất tơi xốp, mùa màng bội thu', emoji: '🌾' }, { id: 'b', text: 'Tìm thấy hũ vàng thật', emoji: '💰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Kho báu thực sự mà người cha muốn nói là gì?', options: [{ id: 'a', text: 'Sự chăm chỉ lao động', emoji: '💪' }, { id: 'b', text: 'Là vàng bạc', emoji: '🪙' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bài học từ câu chuyện là gì?', options: [{ id: 'a', text: 'Lao động mang lại ấm no', emoji: '✨' }, { id: 'b', text: 'Chỉ cần may mắn', emoji: '🍀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2987,11 +4290,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Thần sắt',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Thần sắt có sức mạnh như thế nào?', options: [{ id: 'a', text: 'Rất cứng và bền bỉ', emoji: '⛓️' }, { id: 'b', text: 'Mềm như bún', emoji: '🍜' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Sắt được dùng để làm gì?', options: [{ id: 'a', text: 'Làm công cụ lao động, xây dựng', emoji: '🏗️' }, { id: 'b', text: 'Làm bánh ăn', emoji: '🍰' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Làm thế nào để sắt không bị gỉ?', options: [{ id: 'a', text: 'Sơn và bảo quản cẩn thận', emoji: '🎨' }, { id: 'b', text: 'Ngâm dưới nước', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Sắt giúp ích gì cho cuộc sống?', options: [{ id: 'a', text: 'Làm mọi thứ chắc chắn hơn', emoji: '🏠' }, { id: 'b', text: 'Không có ích gì', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy sắt có quan trọng không?', options: [{ id: 'a', text: 'Rất quan trọng', emoji: '✨' }, { id: 'b', text: 'Bình thường', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Thần sắt có sức mạnh như thế nào?', options: [{ id: 'a', text: 'Rất cứng và bền bỉ', emoji: '⛓️' }, { id: 'b', text: 'Mềm như bún', emoji: '🍜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Sắt được dùng để làm gì?', options: [{ id: 'a', text: 'Làm công cụ lao động, xây dựng', emoji: '🏗️' }, { id: 'b', text: 'Làm bánh ăn', emoji: '🍰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Làm thế nào để sắt không bị gỉ?', options: [{ id: 'a', text: 'Sơn và bảo quản cẩn thận', emoji: '🎨' }, { id: 'b', text: 'Ngâm dưới nước', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Sắt giúp ích gì cho cuộc sống?', options: [{ id: 'a', text: 'Làm mọi thứ chắc chắn hơn', emoji: '🏠' }, { id: 'b', text: 'Không có ích gì', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy sắt có quan trọng không?', options: [{ id: 'a', text: 'Rất quan trọng', emoji: '✨' }, { id: 'b', text: 'Bình thường', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -2999,11 +4312,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Sự tích quả dưa hấu',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Ai là người tìm ra quả dưa hấu?', options: [{ id: 'a', text: 'Mai An Tiêm', emoji: '👨' }, { id: 'b', text: 'Vua Hùng', emoji: '👑' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Mai An Tiêm bị đày ra đâu?', options: [{ id: 'a', text: 'Đảo hoang', emoji: '🏝️' }, { id: 'b', text: 'Lên núi', emoji: '⛰️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Quả dưa hấu có đặc điểm gì?', options: [{ id: 'a', text: 'Vỏ xanh, ruột đỏ, hạt đen', emoji: '🍉' }, { id: 'b', text: 'Vỏ vàng, ruột trắng', emoji: '🍈' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mai An Tiêm đã làm gì để sống sót?', options: [{ id: 'a', text: 'Chăm chỉ trồng trọt', emoji: '🌱' }, { id: 'b', text: 'Chỉ ngồi chờ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Câu chuyện ca ngợi điều gì?', options: [{ id: 'a', text: 'Sự kiên trì và lao động', emoji: '💪' }, { id: 'b', text: 'Sự lười biếng', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ai là người tìm ra quả dưa hấu?', options: [{ id: 'a', text: 'Mai An Tiêm', emoji: '👨' }, { id: 'b', text: 'Vua Hùng', emoji: '👑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Mai An Tiêm bị đày ra đâu?', options: [{ id: 'a', text: 'Đảo hoang', emoji: '🏝️' }, { id: 'b', text: 'Lên núi', emoji: '⛰️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Quả dưa hấu có đặc điểm gì?', options: [{ id: 'a', text: 'Vỏ xanh, ruột đỏ, hạt đen', emoji: '🍉' }, { id: 'b', text: 'Vỏ vàng, ruột trắng', emoji: '🍈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mai An Tiêm đã làm gì để sống sót?', options: [{ id: 'a', text: 'Chăm chỉ trồng trọt', emoji: '🌱' }, { id: 'b', text: 'Chỉ ngồi chờ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Câu chuyện ca ngợi điều gì?', options: [{ id: 'a', text: 'Sự kiên trì và lao động', emoji: '💪' }, { id: 'b', text: 'Sự lười biếng', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3011,11 +4334,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Gà trống choai và hạt đậu',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Gà trống choai bị làm sao?', options: [{ id: 'a', text: 'Bị hóc hạt đậu', emoji: '🫘' }, { id: 'b', text: 'Bị đau chân', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Gà mái đã làm gì để cứu gà trống?', options: [{ id: 'a', text: 'Đi tìm sự trợ giúp khắp nơi', emoji: '🏃‍♀️' }, { id: 'b', text: 'Đứng khóc', emoji: '😭' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Gà mái cần gì để giúp gà trống?', options: [{ id: 'a', text: 'Cần bơ, sữa, cỏ...', emoji: '🧈' }, { id: 'b', text: 'Cần đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Cuối cùng gà trống có khỏi không?', options: [{ id: 'a', text: 'Có, nhờ sự giúp đỡ của mọi người', emoji: '✨' }, { id: 'b', text: 'Không khỏi', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bài học về tình bạn là gì?', options: [{ id: 'a', text: 'Luôn giúp đỡ nhau lúc khó khăn', emoji: '🤝' }, { id: 'b', text: 'Chỉ chơi lúc vui', emoji: '🎉' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Gà trống choai bị làm sao?', options: [{ id: 'a', text: 'Bị hóc hạt đậu', emoji: '🫘' }, { id: 'b', text: 'Bị đau chân', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Gà mái đã làm gì để cứu gà trống?', options: [{ id: 'a', text: 'Đi tìm sự trợ giúp khắp nơi', emoji: '🏃‍♀️' }, { id: 'b', text: 'Đứng khóc', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Gà mái cần gì để giúp gà trống?', options: [{ id: 'a', text: 'Cần bơ, sữa, cỏ...', emoji: '🧈' }, { id: 'b', text: 'Cần đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Cuối cùng gà trống có khỏi không?', options: [{ id: 'a', text: 'Có, nhờ sự giúp đỡ của mọi người', emoji: '✨' }, { id: 'b', text: 'Không khỏi', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bài học về tình bạn là gì?', options: [{ id: 'a', text: 'Luôn giúp đỡ nhau lúc khó khăn', emoji: '🤝' }, { id: 'b', text: 'Chỉ chơi lúc vui', emoji: '🎉' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3023,11 +4356,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Đom đóm tìm bạn',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Đom đóm phát sáng vào lúc nào?', options: [{ id: 'a', text: 'Vào ban đêm', emoji: '🌃' }, { id: 'b', text: 'Vào ban ngày', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Đom đóm đi đâu?', options: [{ id: 'a', text: 'Đi tìm bạn', emoji: '🤝' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Đom đóm đã giúp ai?', options: [{ id: 'a', text: 'Giúp các bạn nhỏ lạc đường', emoji: '🔦' }, { id: 'b', text: 'Giúp con cá', emoji: '🐟' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Ánh sáng của đom đóm như thế nào?', options: [{ id: 'a', text: 'Lấp lánh như đèn nhỏ', emoji: '✨' }, { id: 'b', text: 'Chói lòa như mặt trời', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Đom đóm có tìm được bạn không?', options: [{ id: 'a', text: 'Có, rất nhiều bạn yêu quý', emoji: '🤩' }, { id: 'b', text: 'Không có bạn nào', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Đom đóm phát sáng vào lúc nào?', options: [{ id: 'a', text: 'Vào ban đêm', emoji: '🌃' }, { id: 'b', text: 'Vào ban ngày', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Đom đóm đi đâu?', options: [{ id: 'a', text: 'Đi tìm bạn', emoji: '🤝' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Đom đóm đã giúp ai?', options: [{ id: 'a', text: 'Giúp các bạn nhỏ lạc đường', emoji: '🔦' }, { id: 'b', text: 'Giúp con cá', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Ánh sáng của đom đóm như thế nào?', options: [{ id: 'a', text: 'Lấp lánh như đèn nhỏ', emoji: '✨' }, { id: 'b', text: 'Chói lòa như mặt trời', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Đom đóm có tìm được bạn không?', options: [{ id: 'a', text: 'Có, rất nhiều bạn yêu quý', emoji: '🤩' }, { id: 'b', text: 'Không có bạn nào', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 5-6 Year Old Language Games
@@ -3036,11 +4379,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Bàn tay có nụ hôn',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Mẹ đã làm gì vào lòng bàn tay của bé?', options: [{ id: 'a', text: 'Đặt một nụ hôn yêu thương', emoji: '💋' }, { id: 'b', text: 'Vẽ một bông hoa', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Nụ hôn trên bàn tay giúp bé thấy thế nào khi đi học?', options: [{ id: 'a', text: 'Ấm áp và bớt nhớ mẹ', emoji: '❤️' }, { id: 'b', text: 'Thấy buồn hơn', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có thể mang nụ hôn đó đi đâu?', options: [{ id: 'a', text: 'Đi bất cứ nơi nào bé muốn', emoji: '🌍' }, { id: 'b', text: 'Chỉ để ở nhà', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tình cảm của mẹ dành cho bé được ví như điều gì?', options: [{ id: 'a', text: 'Sự che chở vô hình', emoji: '✨' }, { id: 'b', text: 'Một món quà đắt tiền', emoji: '🎁' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có nên chia sẻ tình yêu thương với mọi người không?', options: [{ id: 'a', text: 'Rất nên chia sẻ', emoji: '🤝' }, { id: 'b', text: 'Chỉ giữ cho mình', emoji: '🙅' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Mẹ đã làm gì vào lòng bàn tay của bé?', options: [{ id: 'a', text: 'Đặt một nụ hôn yêu thương', emoji: '💋' }, { id: 'b', text: 'Vẽ một bông hoa', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Nụ hôn trên bàn tay giúp bé thấy thế nào khi đi học?', options: [{ id: 'a', text: 'Ấm áp và bớt nhớ mẹ', emoji: '❤️' }, { id: 'b', text: 'Thấy buồn hơn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có thể mang nụ hôn đó đi đâu?', options: [{ id: 'a', text: 'Đi bất cứ nơi nào bé muốn', emoji: '🌍' }, { id: 'b', text: 'Chỉ để ở nhà', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tình cảm của mẹ dành cho bé được ví như điều gì?', options: [{ id: 'a', text: 'Sự che chở vô hình', emoji: '✨' }, { id: 'b', text: 'Một món quà đắt tiền', emoji: '🎁' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có nên chia sẻ tình yêu thương với mọi người không?', options: [{ id: 'a', text: 'Rất nên chia sẻ', emoji: '🤝' }, { id: 'b', text: 'Chỉ giữ cho mình', emoji: '🙅' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3048,11 +4401,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Cá rô con không vâng lời mẹ',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Cá rô con đã làm gì sai?', options: [{ id: 'a', text: 'Tự ý đi chơi xa không xin phép', emoji: '🐟' }, { id: 'b', text: 'Không chịu ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cá rô con đã gặp nguy hiểm gì?', options: [{ id: 'a', text: 'Suýt bị mắc cạn/bị bắt', emoji: '⚠️' }, { id: 'b', text: 'Bị rơi mất đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Ai đã cứu cá rô con?', options: [{ id: 'a', text: 'Mẹ và các bạn', emoji: '🐟' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Sau sự việc đó, cá rô con hứa điều gì?', options: [{ id: 'a', text: 'Luôn vâng lời mẹ dặn', emoji: '✨' }, { id: 'b', text: 'Sẽ đi chơi tiếp', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Vì sao chúng ta cần vâng lời cha mẹ?', options: [{ id: 'a', text: 'Để được an toàn và yêu thương', emoji: '❤️' }, { id: 'b', text: 'Vì sợ bị mắng', emoji: '😠' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cá rô con đã làm gì sai?', options: [{ id: 'a', text: 'Tự ý đi chơi xa không xin phép', emoji: '🐟' }, { id: 'b', text: 'Không chịu ăn cơm', emoji: '🍚' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cá rô con đã gặp nguy hiểm gì?', options: [{ id: 'a', text: 'Suýt bị mắc cạn/bị bắt', emoji: '⚠️' }, { id: 'b', text: 'Bị rơi mất đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Ai đã cứu cá rô con?', options: [{ id: 'a', text: 'Mẹ và các bạn', emoji: '🐟' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Sau sự việc đó, cá rô con hứa điều gì?', options: [{ id: 'a', text: 'Luôn vâng lời mẹ dặn', emoji: '✨' }, { id: 'b', text: 'Sẽ đi chơi tiếp', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Vì sao chúng ta cần vâng lời cha mẹ?', options: [{ id: 'a', text: 'Để được an toàn và yêu thương', emoji: '❤️' }, { id: 'b', text: 'Vì sợ bị mắng', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3060,11 +4423,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Người con hiếu thảo',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Người con đã làm gì khi mẹ bị ốm?', options: [{ id: 'a', text: 'Chăm sóc mẹ tận tình', emoji: '💊' }, { id: 'b', text: 'Đi chơi với bạn', emoji: '⚽' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Người con đã vượt qua khó khăn gì để tìm thuốc?', options: [{ id: 'a', text: 'Đường xa, núi cao, rừng rậm', emoji: '⛰️' }, { id: 'b', text: 'Chỉ đi ra chợ', emoji: '🛒' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Tấm lòng của người con đã làm ai cảm động?', options: [{ id: 'a', text: 'Ông Tiên/Thần linh', emoji: '✨' }, { id: 'b', text: 'Con chim nhỏ', emoji: '🐦' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Kết quả cuối cùng là gì?', options: [{ id: 'a', text: 'Mẹ khỏi bệnh và sống hạnh phúc', emoji: '😊' }, { id: 'b', text: 'Mẹ vẫn ốm', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé học được gì từ người con hiếu thảo?', options: [{ id: 'a', text: 'Yêu thương và hiếu thảo với cha mẹ', emoji: '❤️' }, { id: 'b', text: 'Chỉ cần học giỏi', emoji: '🎓' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Người con đã làm gì khi mẹ bị ốm?', options: [{ id: 'a', text: 'Chăm sóc mẹ tận tình', emoji: '💊' }, { id: 'b', text: 'Đi chơi với bạn', emoji: '⚽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Người con đã vượt qua khó khăn gì để tìm thuốc?', options: [{ id: 'a', text: 'Đường xa, núi cao, rừng rậm', emoji: '⛰️' }, { id: 'b', text: 'Chỉ đi ra chợ', emoji: '🛒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Tấm lòng của người con đã làm ai cảm động?', options: [{ id: 'a', text: 'Ông Tiên/Thần linh', emoji: '✨' }, { id: 'b', text: 'Con chim nhỏ', emoji: '🐦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Kết quả cuối cùng là gì?', options: [{ id: 'a', text: 'Mẹ khỏi bệnh và sống hạnh phúc', emoji: '😊' }, { id: 'b', text: 'Mẹ vẫn ốm', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé học được gì từ người con hiếu thảo?', options: [{ id: 'a', text: 'Yêu thương và hiếu thảo với cha mẹ', emoji: '❤️' }, { id: 'b', text: 'Chỉ cần học giỏi', emoji: '🎓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3072,11 +4445,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Sự tích ngày và đêm',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Ban ngày có gì chiếu sáng?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Ông trăng', emoji: '🌙' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Ban đêm có gì hiện ra trên trời?', options: [{ id: 'a', text: 'Trăng và sao', emoji: '✨' }, { id: 'b', text: 'Đám mây trắng', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Vì sao lại có ngày và đêm?', options: [{ id: 'a', text: 'Do Trái Đất quay quanh mình nó', emoji: '🌍' }, { id: 'b', text: 'Do ông mặt trời đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé làm gì vào ban ngày?', options: [{ id: 'a', text: 'Đi học, vui chơi', emoji: '🏫' }, { id: 'b', text: 'Đi ngủ say', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé làm gì vào ban đêm?', options: [{ id: 'a', text: 'Đi ngủ để giữ sức khỏe', emoji: '🛌' }, { id: 'b', text: 'Chạy nhảy ngoài sân', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ban ngày có gì chiếu sáng?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Ông trăng', emoji: '🌙' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Ban đêm có gì hiện ra trên trời?', options: [{ id: 'a', text: 'Trăng và sao', emoji: '✨' }, { id: 'b', text: 'Đám mây trắng', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Vì sao lại có ngày và đêm?', options: [{ id: 'a', text: 'Do Trái Đất quay quanh mình nó', emoji: '🌍' }, { id: 'b', text: 'Do ông mặt trời đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé làm gì vào ban ngày?', options: [{ id: 'a', text: 'Đi học, vui chơi', emoji: '🏫' }, { id: 'b', text: 'Đi ngủ say', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé làm gì vào ban đêm?', options: [{ id: 'a', text: 'Đi ngủ để giữ sức khỏe', emoji: '🛌' }, { id: 'b', text: 'Chạy nhảy ngoài sân', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3084,11 +4467,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Sự tích mùa xuân',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Mùa xuân mang lại điều gì cho cây cối?', options: [{ id: 'a', text: 'Đâm chồi nảy lộc, nở hoa', emoji: '🌸' }, { id: 'b', text: 'Rụng hết lá', emoji: '🍂' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thời tiết mùa xuân như thế nào?', options: [{ id: 'a', text: 'Ấm áp, có mưa xuân nhẹ', emoji: '🌦️' }, { id: 'b', text: 'Lạnh giá, có tuyết', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Con vật nào thường báo hiệu mùa xuân về?', options: [{ id: 'a', text: 'Chim én', emoji: '🐦' }, { id: 'b', text: 'Con gấu', emoji: '🐻' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Ngày tết đặc trưng của mùa xuân là gì?', options: [{ id: 'a', text: 'Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Tết Trung Thu', emoji: '🏮' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé cảm thấy thế nào khi mùa xuân đến?', options: [{ id: 'a', text: 'Vui tươi và háo hức', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn chán', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Mùa xuân mang lại điều gì cho cây cối?', options: [{ id: 'a', text: 'Đâm chồi nảy lộc, nở hoa', emoji: '🌸' }, { id: 'b', text: 'Rụng hết lá', emoji: '🍂' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thời tiết mùa xuân như thế nào?', options: [{ id: 'a', text: 'Ấm áp, có mưa xuân nhẹ', emoji: '🌦️' }, { id: 'b', text: 'Lạnh giá, có tuyết', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Con vật nào thường báo hiệu mùa xuân về?', options: [{ id: 'a', text: 'Chim én', emoji: '🐦' }, { id: 'b', text: 'Con gấu', emoji: '🐻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Ngày tết đặc trưng của mùa xuân là gì?', options: [{ id: 'a', text: 'Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Tết Trung Thu', emoji: '🏮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé cảm thấy thế nào khi mùa xuân đến?', options: [{ id: 'a', text: 'Vui tươi và háo hức', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn chán', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3096,11 +4489,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Truyện: Sự tích bánh trưng bánh giầy',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Ai là người làm ra bánh chưng, bánh giầy?', options: [{ id: 'a', text: 'Lang Liêu', emoji: '👨' }, { id: 'b', text: 'Vua Hùng', emoji: '👑' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bánh chưng có hình gì và tượng trưng cho cái gì?', options: [{ id: 'a', text: 'Hình vuông, tượng trưng cho Đất', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn, tượng trưng cho Trời', emoji: '⏺️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bánh giầy có hình gì và tượng trưng cho cái gì?', options: [{ id: 'a', text: 'Hình tròn, tượng trưng cho Trời', emoji: '⏺️' }, { id: 'b', text: 'Hình vuông, tượng trưng cho Đất', emoji: '⏹️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Nguyên liệu chính để làm bánh là gì?', options: [{ id: 'a', text: 'Gạo nếp, đậu xanh, thịt lợn', emoji: '🌾' }, { id: 'b', text: 'Bột mì, đường', emoji: '🍞' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Vì sao Lang Liêu được chọn nối ngôi vua?', options: [{ id: 'a', text: 'Vì hiếu thảo và quý trọng hạt gạo', emoji: '❤️' }, { id: 'b', text: 'Vì giàu có nhất', emoji: '💰' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ai là người làm ra bánh chưng, bánh giầy?', options: [{ id: 'a', text: 'Lang Liêu', emoji: '👨' }, { id: 'b', text: 'Vua Hùng', emoji: '👑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bánh chưng có hình gì và tượng trưng cho cái gì?', options: [{ id: 'a', text: 'Hình vuông, tượng trưng cho Đất', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn, tượng trưng cho Trời', emoji: '⏺️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bánh giầy có hình gì và tượng trưng cho cái gì?', options: [{ id: 'a', text: 'Hình tròn, tượng trưng cho Trời', emoji: '⏺️' }, { id: 'b', text: 'Hình vuông, tượng trưng cho Đất', emoji: '⏹️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Nguyên liệu chính để làm bánh là gì?', options: [{ id: 'a', text: 'Gạo nếp, đậu xanh, thịt lợn', emoji: '🌾' }, { id: 'b', text: 'Bột mì, đường', emoji: '🍞' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Vì sao Lang Liêu được chọn nối ngôi vua?', options: [{ id: 'a', text: 'Vì hiếu thảo và quý trọng hạt gạo', emoji: '❤️' }, { id: 'b', text: 'Vì giàu có nhất', emoji: '💰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3108,11 +4511,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Chữ cái: a-ă-â',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chữ "a" có trong từ nào sau đây?', options: [{ id: 'a', text: 'Con cá', emoji: '🐟' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ "ă" có đặc điểm gì khác chữ "a"?', options: [{ id: 'a', text: 'Có cái mũ ngược (vầng trăng khuyết)', emoji: '🌙' }, { id: 'b', text: 'Có cái mũ xuôi', emoji: '👒' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Chữ "â" có cái gì trên đầu?', options: [{ id: 'a', text: 'Cái mũ xuôi', emoji: '👒' }, { id: 'b', text: 'Cái râu', emoji: '➰' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Từ "Cái khăn" có chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ ă', emoji: '🧣' }, { id: 'b', text: 'Chữ â', emoji: '🎩' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Từ "Cái ấm" có chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ â', emoji: '☕' }, { id: 'b', text: 'Chữ a', emoji: '🅰️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ "a" có trong từ nào sau đây?', options: [{ id: 'a', text: 'Con cá', emoji: '🐟' }, { id: 'b', text: 'Con mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ "ă" có đặc điểm gì khác chữ "a"?', options: [{ id: 'a', text: 'Có cái mũ ngược (vầng trăng khuyết)', emoji: '🌙' }, { id: 'b', text: 'Có cái mũ xuôi', emoji: '👒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Chữ "â" có cái gì trên đầu?', options: [{ id: 'a', text: 'Cái mũ xuôi', emoji: '👒' }, { id: 'b', text: 'Cái râu', emoji: '➰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Từ "Cái khăn" có chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ ă', emoji: '🧣' }, { id: 'b', text: 'Chữ â', emoji: '🎩' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Từ "Cái ấm" có chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ â', emoji: '☕' }, { id: 'b', text: 'Chữ a', emoji: '🅰️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3120,11 +4533,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Chữ cái: e-ê',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chữ "e" có trong từ nào?', options: [{ id: 'a', text: 'Em bé', emoji: '👶' }, { id: 'b', text: 'Con cá', emoji: '🐟' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ "ê" khác chữ "e" ở điểm nào?', options: [{ id: 'a', text: 'Có thêm cái mũ', emoji: '👒' }, { id: 'b', text: 'Có thêm cái râu', emoji: '➰' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Từ "Quả khế" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ ê', emoji: '⭐' }, { id: 'b', text: 'Chữ e', emoji: '📧' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Từ "Xe đạp" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ e', emoji: '🚲' }, { id: 'b', text: 'Chữ ê', emoji: '📧' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hãy tìm chữ "ê" trong từ "Bê con"?', options: [{ id: 'a', text: 'Chữ ê', emoji: '🐂' }, { id: 'b', text: 'Chữ e', emoji: '📧' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ "e" có trong từ nào?', options: [{ id: 'a', text: 'Em bé', emoji: '👶' }, { id: 'b', text: 'Con cá', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ "ê" khác chữ "e" ở điểm nào?', options: [{ id: 'a', text: 'Có thêm cái mũ', emoji: '👒' }, { id: 'b', text: 'Có thêm cái râu', emoji: '➰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Từ "Quả khế" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ ê', emoji: '⭐' }, { id: 'b', text: 'Chữ e', emoji: '📧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Từ "Xe đạp" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ e', emoji: '🚲' }, { id: 'b', text: 'Chữ ê', emoji: '📧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hãy tìm chữ "ê" trong từ "Bê con"?', options: [{ id: 'a', text: 'Chữ ê', emoji: '🐂' }, { id: 'b', text: 'Chữ e', emoji: '📧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3132,11 +4555,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Chữ cái: p-q',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chữ "p" có nét thẳng ở bên nào của nét cong tròn?', options: [{ id: 'a', text: 'Bên trái', emoji: '⬅️' }, { id: 'b', text: 'Bên phải', emoji: '➡️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ "q" có nét thẳng ở bên nào của nét cong tròn?', options: [{ id: 'a', text: 'Bên phải', emoji: '➡️' }, { id: 'b', text: 'Bên trái', emoji: '⬅️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Từ "Đèn pin" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ p', emoji: '🔦' }, { id: 'b', text: 'Chữ q', emoji: '❓' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Từ "Quả quýt" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ q', emoji: '🍊' }, { id: 'b', text: 'Chữ p', emoji: '🅿️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Chữ "p" và "q" trông giống nhau nhưng ngược nhau đúng không?', options: [{ id: 'a', text: 'Đúng vậy', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ "p" có nét thẳng ở bên nào của nét cong tròn?', options: [{ id: 'a', text: 'Bên trái', emoji: '⬅️' }, { id: 'b', text: 'Bên phải', emoji: '➡️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ "q" có nét thẳng ở bên nào của nét cong tròn?', options: [{ id: 'a', text: 'Bên phải', emoji: '➡️' }, { id: 'b', text: 'Bên trái', emoji: '⬅️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Từ "Đèn pin" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ p', emoji: '🔦' }, { id: 'b', text: 'Chữ q', emoji: '❓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Từ "Quả quýt" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ q', emoji: '🍊' }, { id: 'b', text: 'Chữ p', emoji: '🅿️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Chữ "p" và "q" trông giống nhau nhưng ngược nhau đúng không?', options: [{ id: 'a', text: 'Đúng vậy', emoji: '✅' }, { id: 'b', text: 'Sai rồi', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3144,11 +4577,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Chữ cái: b-d-đ',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chữ "b" có nét thẳng ở bên nào?', options: [{ id: 'a', text: 'Bên trái', emoji: '⬅️' }, { id: 'b', text: 'Bên phải', emoji: '➡️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ "d" có nét thẳng ở bên nào?', options: [{ id: 'a', text: 'Bên phải', emoji: '➡️' }, { id: 'b', text: 'Bên trái', emoji: '⬅️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Chữ "đ" khác chữ "d" ở điểm nào?', options: [{ id: 'a', text: 'Có thêm nét gạch ngang', emoji: '➖' }, { id: 'b', text: 'Có thêm cái mũ', emoji: '👒' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Từ "Con bò" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ b', emoji: '🐂' }, { id: 'b', text: 'Chữ d', emoji: '🇩' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Từ "Đu đủ" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ đ', emoji: '🍈' }, { id: 'b', text: 'Chữ b', emoji: '🅱️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ "b" có nét thẳng ở bên nào?', options: [{ id: 'a', text: 'Bên trái', emoji: '⬅️' }, { id: 'b', text: 'Bên phải', emoji: '➡️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ "d" có nét thẳng ở bên nào?', options: [{ id: 'a', text: 'Bên phải', emoji: '➡️' }, { id: 'b', text: 'Bên trái', emoji: '⬅️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Chữ "đ" khác chữ "d" ở điểm nào?', options: [{ id: 'a', text: 'Có thêm nét gạch ngang', emoji: '➖' }, { id: 'b', text: 'Có thêm cái mũ', emoji: '👒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Từ "Con bò" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ b', emoji: '🐂' }, { id: 'b', text: 'Chữ d', emoji: '🇩' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Từ "Đu đủ" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ đ', emoji: '🍈' }, { id: 'b', text: 'Chữ b', emoji: '🅱️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3156,11 +4599,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Chữ cái: v-r',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chữ "v" gồm mấy nét xiên?', options: [{ id: 'a', text: 'Hai nét xiên', emoji: '2️⃣' }, { id: 'b', text: 'Một nét thẳng', emoji: '1️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chữ "r" có nét gì ở trên đầu?', options: [{ id: 'a', text: 'Một nét thắt nhỏ', emoji: '➰' }, { id: 'b', text: 'Một cái mũ', emoji: '👒' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Từ "Con vịt" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ v', emoji: '🦆' }, { id: 'b', text: 'Chữ r', emoji: '🇷' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Từ "Con rùa" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ r', emoji: '🐢' }, { id: 'b', text: 'Chữ v', emoji: '🇻' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hãy tìm chữ "v" trong từ "Vui vẻ"?', options: [{ id: 'a', text: 'Chữ v', emoji: '😊' }, { id: 'b', text: 'Chữ r', emoji: '🇷' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ "v" gồm mấy nét xiên?', options: [{ id: 'a', text: 'Hai nét xiên', emoji: '2️⃣' }, { id: 'b', text: 'Một nét thẳng', emoji: '1️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chữ "r" có nét gì ở trên đầu?', options: [{ id: 'a', text: 'Một nét thắt nhỏ', emoji: '➰' }, { id: 'b', text: 'Một cái mũ', emoji: '👒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Từ "Con vịt" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ v', emoji: '🦆' }, { id: 'b', text: 'Chữ r', emoji: '🇷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Từ "Con rùa" chứa chữ cái nào?', options: [{ id: 'a', text: 'Chữ r', emoji: '🐢' }, { id: 'b', text: 'Chữ v', emoji: '🇻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hãy tìm chữ "v" trong từ "Vui vẻ"?', options: [{ id: 'a', text: 'Chữ v', emoji: '😊' }, { id: 'b', text: 'Chữ r', emoji: '🇷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // Toddler Aesthetic Games
@@ -3169,11 +4622,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Nặn con giun',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để nặn con giun?', options: [{ id: 'a', text: 'Đất nặn', emoji: '🌈' }, { id: 'b', text: 'Giấy màu', emoji: '📄' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Con giun có hình dạng như thế nào?', options: [{ id: 'a', text: 'Dài và tròn', emoji: '📏' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Kỹ năng chính để nặn con giun là gì?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Ấn dẹt', emoji: '⬇️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé nặn con giun trên cái gì?', options: [{ id: 'a', text: 'Bảng nặn', emoji: '📋' }, { id: 'b', text: 'Trên áo', emoji: '👕' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Con giun bò như thế nào?', options: [{ id: 'a', text: 'Uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Chạy nhanh', emoji: '⚡' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để nặn con giun?', options: [{ id: 'a', text: 'Đất nặn', emoji: '🌈' }, { id: 'b', text: 'Giấy màu', emoji: '📄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Con giun có hình dạng như thế nào?', options: [{ id: 'a', text: 'Dài và tròn', emoji: '📏' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Kỹ năng chính để nặn con giun là gì?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Ấn dẹt', emoji: '⬇️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé nặn con giun trên cái gì?', options: [{ id: 'a', text: 'Bảng nặn', emoji: '📋' }, { id: 'b', text: 'Trên áo', emoji: '👕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Con giun bò như thế nào?', options: [{ id: 'a', text: 'Uốn lượn', emoji: '〰️' }, { id: 'b', text: 'Chạy nhanh', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3181,11 +4644,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ tổ chim',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Tổ chim thường ở đâu?', options: [{ id: 'a', text: 'Trên cành cây', emoji: '🌳' }, { id: 'b', text: 'Dưới nước', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng nét gì để vẽ tổ chim?', options: [{ id: 'a', text: 'Các nét cong, tròn', emoji: '⭕' }, { id: 'b', text: 'Nét thẳng đứng', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Trong tổ chim thường có gì?', options: [{ id: 'a', text: 'Trứng chim', emoji: '🥚' }, { id: 'b', text: 'Bánh kẹo', emoji: '🍬' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Ai xây tổ chim?', options: [{ id: 'a', text: 'Chim bố, chim mẹ', emoji: '🐦' }, { id: 'b', text: 'Bé xây', emoji: '🧒' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Tổ chim giúp chim làm gì?', options: [{ id: 'a', text: 'Để ở và đẻ trứng', emoji: '🏠' }, { id: 'b', text: 'Để đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tổ chim thường ở đâu?', options: [{ id: 'a', text: 'Trên cành cây', emoji: '🌳' }, { id: 'b', text: 'Dưới nước', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng nét gì để vẽ tổ chim?', options: [{ id: 'a', text: 'Các nét cong, tròn', emoji: '⭕' }, { id: 'b', text: 'Nét thẳng đứng', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Trong tổ chim thường có gì?', options: [{ id: 'a', text: 'Trứng chim', emoji: '🥚' }, { id: 'b', text: 'Bánh kẹo', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Ai xây tổ chim?', options: [{ id: 'a', text: 'Chim bố, chim mẹ', emoji: '🐦' }, { id: 'b', text: 'Bé xây', emoji: '🧒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Tổ chim giúp chim làm gì?', options: [{ id: 'a', text: 'Để ở và đẻ trứng', emoji: '🏠' }, { id: 'b', text: 'Để đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3193,11 +4666,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ cuộn len màu',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Cuộn len có hình gì?', options: [{ id: 'a', text: 'Hình tròn/xoắn ốc', emoji: '🌀' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng gì để vẽ cuộn len?', options: [{ id: 'a', text: 'Bút màu', emoji: '🖍️' }, { id: 'b', text: 'Đất nặn', emoji: '🌈' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Len dùng để làm gì?', options: [{ id: 'a', text: 'Đan áo, khăn ấm', emoji: '🧣' }, { id: 'b', text: 'Để ăn', emoji: '🍽️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé vẽ cuộn len bằng nét gì?', options: [{ id: 'a', text: 'Nét xoắn ốc', emoji: '🌀' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thích cuộn len màu gì?', options: [{ id: 'a', text: 'Màu đỏ rực rỡ', emoji: '🔴' }, { id: 'b', text: 'Màu đen thui', emoji: '⚫' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cuộn len có hình gì?', options: [{ id: 'a', text: 'Hình tròn/xoắn ốc', emoji: '🌀' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng gì để vẽ cuộn len?', options: [{ id: 'a', text: 'Bút màu', emoji: '🖍️' }, { id: 'b', text: 'Đất nặn', emoji: '🌈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Len dùng để làm gì?', options: [{ id: 'a', text: 'Đan áo, khăn ấm', emoji: '🧣' }, { id: 'b', text: 'Để ăn', emoji: '🍽️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé vẽ cuộn len bằng nét gì?', options: [{ id: 'a', text: 'Nét xoắn ốc', emoji: '🌀' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thích cuộn len màu gì?', options: [{ id: 'a', text: 'Màu đỏ rực rỡ', emoji: '🔴' }, { id: 'b', text: 'Màu đen thui', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3205,11 +4688,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Nặn đôi đũa',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Đôi đũa dùng để làm gì?', options: [{ id: 'a', text: 'Để gắp thức ăn', emoji: '🥢' }, { id: 'b', text: 'Để chải đầu', emoji: '🪮' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Một đôi đũa có mấy chiếc?', options: [{ id: 'a', text: 'Hai chiếc', emoji: '2️⃣' }, { id: 'b', text: 'Một chiếc', emoji: '1️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Kỹ năng nặn đôi đũa là gì?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Xoay tròn', emoji: '🔄' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Hai chiếc đũa trong một đôi phải như thế nào?', options: [{ id: 'a', text: 'Dài bằng nhau', emoji: '📏' }, { id: 'b', text: 'Chiếc dài chiếc ngắn', emoji: '📐' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi dùng đũa bé cần lưu ý gì?', options: [{ id: 'a', text: 'Cầm cẩn thận, không nghịch', emoji: '✨' }, { id: 'b', text: 'Chọc vào mắt bạn', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Đôi đũa dùng để làm gì?', options: [{ id: 'a', text: 'Để gắp thức ăn', emoji: '🥢' }, { id: 'b', text: 'Để chải đầu', emoji: '🪮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Một đôi đũa có mấy chiếc?', options: [{ id: 'a', text: 'Hai chiếc', emoji: '2️⃣' }, { id: 'b', text: 'Một chiếc', emoji: '1️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Kỹ năng nặn đôi đũa là gì?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Xoay tròn', emoji: '🔄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Hai chiếc đũa trong một đôi phải như thế nào?', options: [{ id: 'a', text: 'Dài bằng nhau', emoji: '📏' }, { id: 'b', text: 'Chiếc dài chiếc ngắn', emoji: '📐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi dùng đũa bé cần lưu ý gì?', options: [{ id: 'a', text: 'Cầm cẩn thận, không nghịch', emoji: '✨' }, { id: 'b', text: 'Chọc vào mắt bạn', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3217,11 +4710,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Nặn viên phấn',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Viên phấn dùng để làm gì?', options: [{ id: 'a', text: 'Để viết lên bảng', emoji: '🖍️' }, { id: 'b', text: 'Để ăn', emoji: '🍽️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Viên phấn có hình gì?', options: [{ id: 'a', text: 'Hình trụ dài', emoji: '📏' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dùng kỹ năng gì để nặn viên phấn?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Ấn bẹt', emoji: '⬇️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Viên phấn thường có màu gì?', options: [{ id: 'a', text: 'Màu trắng hoặc nhiều màu', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sau khi dùng phấn bé cần làm gì?', options: [{ id: 'a', text: 'Rửa tay sạch sẽ', emoji: '🧼' }, { id: 'b', text: 'Bôi lên quần áo', emoji: '👕' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Viên phấn dùng để làm gì?', options: [{ id: 'a', text: 'Để viết lên bảng', emoji: '🖍️' }, { id: 'b', text: 'Để ăn', emoji: '🍽️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Viên phấn có hình gì?', options: [{ id: 'a', text: 'Hình trụ dài', emoji: '📏' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dùng kỹ năng gì để nặn viên phấn?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Ấn bẹt', emoji: '⬇️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Viên phấn thường có màu gì?', options: [{ id: 'a', text: 'Màu trắng hoặc nhiều màu', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sau khi dùng phấn bé cần làm gì?', options: [{ id: 'a', text: 'Rửa tay sạch sẽ', emoji: '🧼' }, { id: 'b', text: 'Bôi lên quần áo', emoji: '👕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3229,11 +4732,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Chuyển hạt bằng kẹp',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để chuyển hạt?', options: [{ id: 'a', text: 'Cái kẹp/đũa', emoji: '🥢' }, { id: 'b', text: 'Cái búa', emoji: '🔨' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Hoạt động này giúp bé rèn luyện gì?', options: [{ id: 'a', text: 'Sự khéo léo của bàn tay', emoji: '🤲' }, { id: 'b', text: 'Sức mạnh của đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé chuyển hạt từ đâu sang đâu?', options: [{ id: 'a', text: 'Từ bát này sang bát kia', emoji: '🥣' }, { id: 'b', text: 'Vứt ra sàn nhà', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi kẹp hạt bé cần như thế nào?', options: [{ id: 'a', text: 'Tập trung và nhẹ nhàng', emoji: '🧘' }, { id: 'b', text: 'Làm thật nhanh và ồn ào', emoji: '📢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thấy trò chơi này thú vị không?', options: [{ id: 'a', text: 'Rất thú vị', emoji: '🤩' }, { id: 'b', text: 'Rất chán', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để chuyển hạt?', options: [{ id: 'a', text: 'Cái kẹp/đũa', emoji: '🥢' }, { id: 'b', text: 'Cái búa', emoji: '🔨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Hoạt động này giúp bé rèn luyện gì?', options: [{ id: 'a', text: 'Sự khéo léo của bàn tay', emoji: '🤲' }, { id: 'b', text: 'Sức mạnh của đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé chuyển hạt từ đâu sang đâu?', options: [{ id: 'a', text: 'Từ bát này sang bát kia', emoji: '🥣' }, { id: 'b', text: 'Vứt ra sàn nhà', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi kẹp hạt bé cần như thế nào?', options: [{ id: 'a', text: 'Tập trung và nhẹ nhàng', emoji: '🧘' }, { id: 'b', text: 'Làm thật nhanh và ồn ào', emoji: '📢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thấy trò chơi này thú vị không?', options: [{ id: 'a', text: 'Rất thú vị', emoji: '🤩' }, { id: 'b', text: 'Rất chán', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3241,11 +4754,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Cháu yêu bà',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé yêu ai trong bài hát?', options: [{ id: 'a', text: 'Yêu bà', emoji: '👵' }, { id: 'b', text: 'Yêu con gấu', emoji: '🐻' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tóc bà được ví với cái gì?', options: [{ id: 'a', text: 'Trắng như mây', emoji: '☁️' }, { id: 'b', text: 'Đen như than', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé làm gì để bà vui?', options: [{ id: 'a', text: 'Vâng lời bà', emoji: '✨' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bàn tay bà như thế nào?', options: [{ id: 'a', text: 'Ấm áp, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hứa với bà điều gì?', options: [{ id: 'a', text: 'Cháu vâng lời bà', emoji: '🌟' }, { id: 'b', text: 'Cháu đi chơi suốt', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé yêu ai trong bài hát?', options: [{ id: 'a', text: 'Yêu bà', emoji: '👵' }, { id: 'b', text: 'Yêu con gấu', emoji: '🐻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tóc bà được ví với cái gì?', options: [{ id: 'a', text: 'Trắng như mây', emoji: '☁️' }, { id: 'b', text: 'Đen như than', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé làm gì để bà vui?', options: [{ id: 'a', text: 'Vâng lời bà', emoji: '✨' }, { id: 'b', text: 'Khóc nhè', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bàn tay bà như thế nào?', options: [{ id: 'a', text: 'Ấm áp, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Lạnh ngắt', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hứa với bà điều gì?', options: [{ id: 'a', text: 'Cháu vâng lời bà', emoji: '🌟' }, { id: 'b', text: 'Cháu đi chơi suốt', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3253,11 +4776,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Cháu đi mẫu giáo',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Bé đi đâu trong bài hát?', options: [{ id: 'a', text: 'Đi mẫu giáo', emoji: '🏫' }, { id: 'b', text: 'Đi công viên', emoji: '🎡' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Vì sao bé không khóc nhè?', options: [{ id: 'a', text: 'Để mẹ đi làm', emoji: '👩‍💼' }, { id: 'b', text: 'Vì bé sợ', emoji: '😨' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cô giáo khen bé như thế nào?', options: [{ id: 'a', text: 'Bé rất ngoan', emoji: '✨' }, { id: 'b', text: 'Bé hay nghịch', emoji: '😜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Đến trường bé gặp ai?', options: [{ id: 'a', text: 'Cô giáo và các bạn', emoji: '🤝' }, { id: 'b', text: 'Con sói', emoji: '🐺' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy đi học có vui không?', options: [{ id: 'a', text: 'Rất vui', emoji: '🤩' }, { id: 'b', text: 'Không vui', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé đi đâu trong bài hát?', options: [{ id: 'a', text: 'Đi mẫu giáo', emoji: '🏫' }, { id: 'b', text: 'Đi công viên', emoji: '🎡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Vì sao bé không khóc nhè?', options: [{ id: 'a', text: 'Để mẹ đi làm', emoji: '👩‍💼' }, { id: 'b', text: 'Vì bé sợ', emoji: '😨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cô giáo khen bé như thế nào?', options: [{ id: 'a', text: 'Bé rất ngoan', emoji: '✨' }, { id: 'b', text: 'Bé hay nghịch', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Đến trường bé gặp ai?', options: [{ id: 'a', text: 'Cô giáo và các bạn', emoji: '🤝' }, { id: 'b', text: 'Con sói', emoji: '🐺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy đi học có vui không?', options: [{ id: 'a', text: 'Rất vui', emoji: '🤩' }, { id: 'b', text: 'Không vui', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3265,11 +4798,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Đi học về',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Khi đi học về bé chào ai đầu tiên?', options: [{ id: 'a', text: 'Chào cha mẹ', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Chào con mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé chào như thế nào?', options: [{ id: 'a', text: 'Khoanh tay lễ phép', emoji: '🤲' }, { id: 'b', text: 'Hét thật to', emoji: '📢' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cha mẹ thấy bé ngoan thì làm gì?', options: [{ id: 'a', text: 'Khen ngợi, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Mắng bé', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé đi học về có mang gì trên vai không?', options: [{ id: 'a', text: 'Cái ba lô nhỏ', emoji: '🎒' }, { id: 'b', text: 'Cái túi rác', emoji: '🗑️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thích được cha mẹ khen không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi đi học về bé chào ai đầu tiên?', options: [{ id: 'a', text: 'Chào cha mẹ', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Chào con mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé chào như thế nào?', options: [{ id: 'a', text: 'Khoanh tay lễ phép', emoji: '🤲' }, { id: 'b', text: 'Hét thật to', emoji: '📢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cha mẹ thấy bé ngoan thì làm gì?', options: [{ id: 'a', text: 'Khen ngợi, yêu thương', emoji: '❤️' }, { id: 'b', text: 'Mắng bé', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé đi học về có mang gì trên vai không?', options: [{ id: 'a', text: 'Cái ba lô nhỏ', emoji: '🎒' }, { id: 'b', text: 'Cái túi rác', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thích được cha mẹ khen không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3277,11 +4820,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Cả nhà thương nhau',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Ba thương con vì con giống ai?', options: [{ id: 'a', text: 'Giống mẹ', emoji: '👩' }, { id: 'b', text: 'Giống bà', emoji: '👵' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Mẹ thương con vì con giống ai?', options: [{ id: 'a', text: 'Giống ba', emoji: '👨' }, { id: 'b', text: 'Giống ông', emoji: '👴' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cả nhà mình như thế nào?', options: [{ id: 'a', text: 'Cùng thương yêu nhau', emoji: '❤️' }, { id: 'b', text: 'Hay cãi nhau', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Xa là nhớ, gần nhau thì sao?', options: [{ id: 'a', text: 'Là cùng cười vui', emoji: '😄' }, { id: 'b', text: 'Là đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Gia đình bé có mấy người?', options: [{ id: 'a', text: 'Ba, mẹ và bé', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Chỉ có bé', emoji: '🧒' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Ba thương con vì con giống ai?', options: [{ id: 'a', text: 'Giống mẹ', emoji: '👩' }, { id: 'b', text: 'Giống bà', emoji: '👵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Mẹ thương con vì con giống ai?', options: [{ id: 'a', text: 'Giống ba', emoji: '👨' }, { id: 'b', text: 'Giống ông', emoji: '👴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cả nhà mình như thế nào?', options: [{ id: 'a', text: 'Cùng thương yêu nhau', emoji: '❤️' }, { id: 'b', text: 'Hay cãi nhau', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Xa là nhớ, gần nhau thì sao?', options: [{ id: 'a', text: 'Là cùng cười vui', emoji: '😄' }, { id: 'b', text: 'Là đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Gia đình bé có mấy người?', options: [{ id: 'a', text: 'Ba, mẹ và bé', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Chỉ có bé', emoji: '🧒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3289,11 +4842,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Ai cũng yêu chú mèo',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'q1', question: 'Con mèo trong bài hát có màu gì?', options: [{ id: 'a', text: 'Màu trắng/vàng...', emoji: '🐱' }, { id: 'b', text: 'Màu xanh lá', emoji: '🟢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Mèo hay làm gì để sạch mặt?', options: [{ id: 'a', text: 'Rửa mặt bằng tay', emoji: '🐾' }, { id: 'b', text: 'Dùng khăn mặt', emoji: '🧼' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Vì sao ai cũng yêu chú mèo?', options: [{ id: 'a', text: 'Vì mèo ngoan và sạch sẽ', emoji: '✨' }, { id: 'b', text: 'Vì mèo hay cắn', emoji: '🦷' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tiếng mèo kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có yêu bạn mèo không?', options: [{ id: 'a', text: 'Rất yêu', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con mèo trong bài hát có màu gì?', options: [{ id: 'a', text: 'Màu trắng/vàng...', emoji: '🐱' }, { id: 'b', text: 'Màu xanh lá', emoji: '🟢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Mèo hay làm gì để sạch mặt?', options: [{ id: 'a', text: 'Rửa mặt bằng tay', emoji: '🐾' }, { id: 'b', text: 'Dùng khăn mặt', emoji: '🧼' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Vì sao ai cũng yêu chú mèo?', options: [{ id: 'a', text: 'Vì mèo ngoan và sạch sẽ', emoji: '✨' }, { id: 'b', text: 'Vì mèo hay cắn', emoji: '🦷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tiếng mèo kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có yêu bạn mèo không?', options: [{ id: 'a', text: 'Rất yêu', emoji: '❤️' }, { id: 'b', text: 'Không yêu', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 3-4 Year Old Aesthetic Games
@@ -3302,11 +4865,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: In ngón tay tạo thành con chim',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé dùng bộ phận nào để in hình con chim?', options: [{ id: 'a', text: 'Ngón tay', emoji: '☝️' }, { id: 'b', text: 'Khuỷu tay', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé chấm ngón tay vào đâu trước khi in?', options: [{ id: 'a', text: 'Màu nước', emoji: '🎨' }, { id: 'b', text: 'Cát', emoji: '🏖️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sau khi in dấu vân tay, bé vẽ thêm gì để thành con chim?', options: [{ id: 'a', text: 'Mỏ, mắt, cánh, chân', emoji: '🐦' }, { id: 'b', text: 'Bánh xe', emoji: '🎡' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Con chim bé in đang làm gì?', options: [{ id: 'a', text: 'Đang đậu trên cành hoặc bay', emoji: '🌳' }, { id: 'b', text: 'Đang đi xe đạp', emoji: '🚲' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thể in nhiều con chim với nhiều màu khác nhau không?', options: [{ id: 'a', text: 'Có thể, sẽ rất đẹp', emoji: '🌈' }, { id: 'b', text: 'Không được', emoji: '❌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng bộ phận nào để in hình con chim?', options: [{ id: 'a', text: 'Ngón tay', emoji: '☝️' }, { id: 'b', text: 'Khuỷu tay', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé chấm ngón tay vào đâu trước khi in?', options: [{ id: 'a', text: 'Màu nước', emoji: '🎨' }, { id: 'b', text: 'Cát', emoji: '🏖️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sau khi in dấu vân tay, bé vẽ thêm gì để thành con chim?', options: [{ id: 'a', text: 'Mỏ, mắt, cánh, chân', emoji: '🐦' }, { id: 'b', text: 'Bánh xe', emoji: '🎡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Con chim bé in đang làm gì?', options: [{ id: 'a', text: 'Đang đậu trên cành hoặc bay', emoji: '🌳' }, { id: 'b', text: 'Đang đi xe đạp', emoji: '🚲' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thể in nhiều con chim với nhiều màu khác nhau không?', options: [{ id: 'a', text: 'Có thể, sẽ rất đẹp', emoji: '🌈' }, { id: 'b', text: 'Không được', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3314,11 +4887,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Nặn con cua',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Con cua có mấy cái càng lớn?', options: [{ id: 'a', text: 'Hai cái càng', emoji: '2️⃣' }, { id: 'b', text: 'Năm cái càng', emoji: '5️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thân con cua thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn hoặc bầu dục', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Con cua bò như thế nào?', options: [{ id: 'a', text: 'Bò ngang', emoji: '↔️' }, { id: 'b', text: 'Bò thẳng tiến', emoji: '⬆️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé dùng kỹ năng gì để nặn chân cua?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Xoay tròn', emoji: '🔄' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Con cua sống ở đâu?', options: [{ id: 'a', text: 'Dưới nước (biển, sông, đồng)', emoji: '🦀' }, { id: 'b', text: 'Trên tổ chim', emoji: '🪹' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con cua có mấy cái càng lớn?', options: [{ id: 'a', text: 'Hai cái càng', emoji: '2️⃣' }, { id: 'b', text: 'Năm cái càng', emoji: '5️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thân con cua thường có hình gì?', options: [{ id: 'a', text: 'Hình tròn hoặc bầu dục', emoji: '⭕' }, { id: 'b', text: 'Hình tam giác', emoji: '🔺' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Con cua bò như thế nào?', options: [{ id: 'a', text: 'Bò ngang', emoji: '↔️' }, { id: 'b', text: 'Bò thẳng tiến', emoji: '⬆️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé dùng kỹ năng gì để nặn chân cua?', options: [{ id: 'a', text: 'Lăn dài', emoji: '↔️' }, { id: 'b', text: 'Xoay tròn', emoji: '🔄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Con cua sống ở đâu?', options: [{ id: 'a', text: 'Dưới nước (biển, sông, đồng)', emoji: '🦀' }, { id: 'b', text: 'Trên tổ chim', emoji: '🪹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3326,11 +4909,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ khuôn mặt cười',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Khuôn mặt cười có miệng như thế nào?', options: [{ id: 'a', text: 'Miệng cong lên vui vẻ', emoji: '😊' }, { id: 'b', text: 'Miệng mếu máo', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng nét gì để vẽ khuôn mặt?', options: [{ id: 'a', text: 'Nét cong tròn khép kín', emoji: '⭕' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Mắt của khuôn mặt cười trông như thế nào?', options: [{ id: 'a', text: 'Tươi vui, rạng rỡ', emoji: '✨' }, { id: 'b', text: 'Đang nhắm nghiền', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi nào bé thường có khuôn mặt cười?', options: [{ id: 'a', text: 'Khi bé vui, được khen', emoji: '🤩' }, { id: 'b', text: 'Khi bé bị đau', emoji: '🤕' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé vẽ khuôn mặt cười tặng ai?', options: [{ id: 'a', text: 'Tặng ông bà, cha mẹ, cô giáo', emoji: '🎁' }, { id: 'b', text: 'Vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khuôn mặt cười có miệng như thế nào?', options: [{ id: 'a', text: 'Miệng cong lên vui vẻ', emoji: '😊' }, { id: 'b', text: 'Miệng mếu máo', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng nét gì để vẽ khuôn mặt?', options: [{ id: 'a', text: 'Nét cong tròn khép kín', emoji: '⭕' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Mắt của khuôn mặt cười trông như thế nào?', options: [{ id: 'a', text: 'Tươi vui, rạng rỡ', emoji: '✨' }, { id: 'b', text: 'Đang nhắm nghiền', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi nào bé thường có khuôn mặt cười?', options: [{ id: 'a', text: 'Khi bé vui, được khen', emoji: '🤩' }, { id: 'b', text: 'Khi bé bị đau', emoji: '🤕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé vẽ khuôn mặt cười tặng ai?', options: [{ id: 'a', text: 'Tặng ông bà, cha mẹ, cô giáo', emoji: '🎁' }, { id: 'b', text: 'Vứt đi', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3338,11 +4931,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Làm cột đèn giao thông',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Cột đèn giao thông có mấy màu đèn chính?', options: [{ id: 'a', text: 'Ba màu: Đỏ, Vàng, Xanh', emoji: '🚥' }, { id: 'b', text: 'Một màu: Tím', emoji: '🟣' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Được đi tiếp', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Đèn xanh báo hiệu điều gì?', options: [{ id: 'a', text: 'Được đi tiếp', emoji: '🟢' }, { id: 'b', text: 'Phải đứng lại', emoji: '🛑' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé dùng vật liệu gì để làm cột đèn?', options: [{ id: 'a', text: 'Vỏ hộp, giấy màu', emoji: '📦' }, { id: 'b', text: 'Cành cây khô', emoji: '🪵' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Cột đèn giao thông giúp ích gì?', options: [{ id: 'a', text: 'Đảm bảo an toàn giao thông', emoji: '🛡️' }, { id: 'b', text: 'Để trang trí cho đẹp', emoji: '✨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cột đèn giao thông có mấy màu đèn chính?', options: [{ id: 'a', text: 'Ba màu: Đỏ, Vàng, Xanh', emoji: '🚥' }, { id: 'b', text: 'Một màu: Tím', emoji: '🟣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Đèn đỏ báo hiệu điều gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Được đi tiếp', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Đèn xanh báo hiệu điều gì?', options: [{ id: 'a', text: 'Được đi tiếp', emoji: '🟢' }, { id: 'b', text: 'Phải đứng lại', emoji: '🛑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé dùng vật liệu gì để làm cột đèn?', options: [{ id: 'a', text: 'Vỏ hộp, giấy màu', emoji: '📦' }, { id: 'b', text: 'Cành cây khô', emoji: '🪵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Cột đèn giao thông giúp ích gì?', options: [{ id: 'a', text: 'Đảm bảo an toàn giao thông', emoji: '🛡️' }, { id: 'b', text: 'Để trang trí cho đẹp', emoji: '✨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3350,11 +4953,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Làm ô tô tải',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để làm thân xe ô tô tải?', options: [{ id: 'a', text: 'Vỏ hộp sữa/hộp giấy', emoji: '📦' }, { id: 'b', text: 'Cái lá cây', emoji: '🍃' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bánh xe ô tô tải có hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Ô tô tải dùng để làm gì?', options: [{ id: 'a', text: 'Chở hàng hóa', emoji: '📦' }, { id: 'b', text: 'Để bay lên trời', emoji: '🚀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé dùng gì để dán các bộ phận của xe?', options: [{ id: 'a', text: 'Hồ dán/băng dính', emoji: '🧴' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Xe ô tô tải chạy ở đâu?', options: [{ id: 'a', text: 'Trên đường bộ', emoji: '🛣️' }, { id: 'b', text: 'Dưới lòng đất', emoji: '🕳️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để làm thân xe ô tô tải?', options: [{ id: 'a', text: 'Vỏ hộp sữa/hộp giấy', emoji: '📦' }, { id: 'b', text: 'Cái lá cây', emoji: '🍃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bánh xe ô tô tải có hình gì?', options: [{ id: 'a', text: 'Hình tròn', emoji: '⭕' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Ô tô tải dùng để làm gì?', options: [{ id: 'a', text: 'Chở hàng hóa', emoji: '📦' }, { id: 'b', text: 'Để bay lên trời', emoji: '🚀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé dùng gì để dán các bộ phận của xe?', options: [{ id: 'a', text: 'Hồ dán/băng dính', emoji: '🧴' }, { id: 'b', text: 'Nước lọc', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Xe ô tô tải chạy ở đâu?', options: [{ id: 'a', text: 'Trên đường bộ', emoji: '🛣️' }, { id: 'b', text: 'Dưới lòng đất', emoji: '🕳️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3362,11 +4975,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Gà trống mèo con và cún con',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Con gà trống gáy như thế nào?', options: [{ id: 'a', text: 'Ò ó o o', emoji: '🐓' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Con mèo con kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Chít chít', emoji: '🐭' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Con cún con sủa như thế nào?', options: [{ id: 'a', text: 'Gâu gâu', emoji: '🐶' }, { id: 'b', text: 'Meo meo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Các bạn nhỏ trong bài hát sống ở đâu?', options: [{ id: 'a', text: 'Trong gia đình', emoji: '🏠' }, { id: 'b', text: 'Trong rừng sâu', emoji: '🌳' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có yêu quý các con vật này không?', options: [{ id: 'a', text: 'Rất yêu quý', emoji: '❤️' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con gà trống gáy như thế nào?', options: [{ id: 'a', text: 'Ò ó o o', emoji: '🐓' }, { id: 'b', text: 'Gâu gâu', emoji: '🐶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Con mèo con kêu như thế nào?', options: [{ id: 'a', text: 'Meo meo', emoji: '🐱' }, { id: 'b', text: 'Chít chít', emoji: '🐭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Con cún con sủa như thế nào?', options: [{ id: 'a', text: 'Gâu gâu', emoji: '🐶' }, { id: 'b', text: 'Meo meo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Các bạn nhỏ trong bài hát sống ở đâu?', options: [{ id: 'a', text: 'Trong gia đình', emoji: '🏠' }, { id: 'b', text: 'Trong rừng sâu', emoji: '🌳' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có yêu quý các con vật này không?', options: [{ id: 'a', text: 'Rất yêu quý', emoji: '❤️' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3374,11 +4997,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Đi đường em nhớ',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Khi đi bộ trên đường, bé đi ở đâu?', options: [{ id: 'a', text: 'Đi trên vỉa hè', emoji: '🚶' }, { id: 'b', text: 'Đi giữa lòng đường', emoji: '🛣️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi sang đường bé cần đi cùng ai?', options: [{ id: 'a', text: 'Đi cùng người lớn', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Tự chạy sang một mình', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Gặp đèn đỏ bé phải làm gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '⚡' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bài hát nhắc bé điều gì?', options: [{ id: 'a', text: 'Nhớ luật giao thông', emoji: '🚦' }, { id: 'b', text: 'Nhớ ăn kẹo', emoji: '🍬' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'An toàn giao thông là hạnh phúc của ai?', options: [{ id: 'a', text: 'Của mọi nhà', emoji: '🏠' }, { id: 'b', text: 'Chỉ của bé', emoji: '🧒' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi đi bộ trên đường, bé đi ở đâu?', options: [{ id: 'a', text: 'Đi trên vỉa hè', emoji: '🚶' }, { id: 'b', text: 'Đi giữa lòng đường', emoji: '🛣️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi sang đường bé cần đi cùng ai?', options: [{ id: 'a', text: 'Đi cùng người lớn', emoji: '👨‍👩-👧' }, { id: 'b', text: 'Tự chạy sang một mình', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Gặp đèn đỏ bé phải làm gì?', options: [{ id: 'a', text: 'Dừng lại', emoji: '🛑' }, { id: 'b', text: 'Chạy thật nhanh', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bài hát nhắc bé điều gì?', options: [{ id: 'a', text: 'Nhớ luật giao thông', emoji: '🚦' }, { id: 'b', text: 'Nhớ ăn kẹo', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'An toàn giao thông là hạnh phúc của ai?', options: [{ id: 'a', text: 'Của mọi nhà', emoji: '🏠' }, { id: 'b', text: 'Chỉ của bé', emoji: '🧒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3386,11 +5019,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Sắp đến Tết rồi',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Sắp đến Tết rồi, bé đi đâu?', options: [{ id: 'a', text: 'Đến trường/Về nhà', emoji: '🏫' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tết đến bé được mặc gì mới?', options: [{ id: 'a', text: 'Quần áo mới', emoji: '👕' }, { id: 'b', text: 'Mặc áo mưa', emoji: '🧥' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé đi chúc Tết ai?', options: [{ id: 'a', text: 'Ông bà, cha mẹ', emoji: '👴👵' }, { id: 'b', text: 'Con kiến', emoji: '🐜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tết đến bé thấy thế nào?', options: [{ id: 'a', text: 'Rất vui sướng', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Món bánh đặc trưng của ngày Tết là gì?', options: [{ id: 'a', text: 'Bánh chưng', emoji: '🍱' }, { id: 'b', text: 'Bánh mì', emoji: '🍞' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Sắp đến Tết rồi, bé đi đâu?', options: [{ id: 'a', text: 'Đến trường/Về nhà', emoji: '🏫' }, { id: 'b', text: 'Đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tết đến bé được mặc gì mới?', options: [{ id: 'a', text: 'Quần áo mới', emoji: '👕' }, { id: 'b', text: 'Mặc áo mưa', emoji: '🧥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé đi chúc Tết ai?', options: [{ id: 'a', text: 'Ông bà, cha mẹ', emoji: '👴👵' }, { id: 'b', text: 'Con kiến', emoji: '🐜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tết đến bé thấy thế nào?', options: [{ id: 'a', text: 'Rất vui sướng', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Món bánh đặc trưng của ngày Tết là gì?', options: [{ id: 'a', text: 'Bánh chưng', emoji: '🍱' }, { id: 'b', text: 'Bánh mì', emoji: '🍞' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3398,11 +5041,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Bài hát Mùa xuân',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Mùa xuân có hoa gì nở rộ?', options: [{ id: 'a', text: 'Hoa đào, hoa mai', emoji: '🌸' }, { id: 'b', text: 'Hoa súng', emoji: '🪷' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Cây cối mùa xuân như thế nào?', options: [{ id: 'a', text: 'Đâm chồi nảy lộc', emoji: '🌱' }, { id: 'b', text: 'Héo úa', emoji: '🥀' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Thời tiết mùa xuân ra sao?', options: [{ id: 'a', text: 'Ấm áp, dễ chịu', emoji: '☀️' }, { id: 'b', text: 'Nóng bức', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mùa xuân là mùa thứ mấy trong năm?', options: [{ id: 'a', text: 'Mùa đầu tiên', emoji: '1️⃣' }, { id: 'b', text: 'Mùa cuối cùng', emoji: '4️⃣' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thích làm gì vào mùa xuân?', options: [{ id: 'a', text: 'Đi chơi xuân, ngắm hoa', emoji: '🌼' }, { id: 'b', text: 'Đắp người tuyết', emoji: '☃️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Mùa xuân có hoa gì nở rộ?', options: [{ id: 'a', text: 'Hoa đào, hoa mai', emoji: '🌸' }, { id: 'b', text: 'Hoa súng', emoji: '🪷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Cây cối mùa xuân như thế nào?', options: [{ id: 'a', text: 'Đâm chồi nảy lộc', emoji: '🌱' }, { id: 'b', text: 'Héo úa', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Thời tiết mùa xuân ra sao?', options: [{ id: 'a', text: 'Ấm áp, dễ chịu', emoji: '☀️' }, { id: 'b', text: 'Nóng bức', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mùa xuân là mùa thứ mấy trong năm?', options: [{ id: 'a', text: 'Mùa đầu tiên', emoji: '1️⃣' }, { id: 'b', text: 'Mùa cuối cùng', emoji: '4️⃣' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thích làm gì vào mùa xuân?', options: [{ id: 'a', text: 'Đi chơi xuân, ngắm hoa', emoji: '🌼' }, { id: 'b', text: 'Đắp người tuyết', emoji: '☃️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3410,11 +5063,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Hoa trường em',
     ageGroups: ['3-4'],
     questions: [
-      { id: 'q1', question: 'Trong trường bé có nhiều hoa không?', options: [{ id: 'a', text: 'Rất nhiều hoa đẹp', emoji: '🌼' }, { id: 'b', text: 'Không có hoa nào', emoji: '🚫' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé có được hái hoa trong trường không?', options: [{ id: 'a', text: 'Không, phải bảo vệ hoa', emoji: '🙅' }, { id: 'b', text: 'Hái hết mang về', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hoa giúp trường bé như thế nào?', options: [{ id: 'a', text: 'Thêm đẹp và rực rỡ', emoji: '✨' }, { id: 'b', text: 'Thêm bẩn', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé làm gì để chăm sóc hoa?', options: [{ id: 'a', text: 'Tưới nước cho hoa', emoji: '💧' }, { id: 'b', text: 'Ngắt lá hoa', emoji: '🥀' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Màu sắc của hoa trong trường như thế nào?', options: [{ id: 'a', text: 'Đủ các màu sắc rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu xám', emoji: '🔘' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Trong trường bé có nhiều hoa không?', options: [{ id: 'a', text: 'Rất nhiều hoa đẹp', emoji: '🌼' }, { id: 'b', text: 'Không có hoa nào', emoji: '🚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé có được hái hoa trong trường không?', options: [{ id: 'a', text: 'Không, phải bảo vệ hoa', emoji: '🙅' }, { id: 'b', text: 'Hái hết mang về', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hoa giúp trường bé như thế nào?', options: [{ id: 'a', text: 'Thêm đẹp và rực rỡ', emoji: '✨' }, { id: 'b', text: 'Thêm bẩn', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé làm gì để chăm sóc hoa?', options: [{ id: 'a', text: 'Tưới nước cho hoa', emoji: '💧' }, { id: 'b', text: 'Ngắt lá hoa', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Màu sắc của hoa trong trường như thế nào?', options: [{ id: 'a', text: 'Đủ các màu sắc rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ có màu xám', emoji: '🔘' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 4-5 Year Old Aesthetic Games
@@ -3423,11 +5086,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ cái cốc',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Cái cốc dùng để làm gì?', options: [{ id: 'a', text: 'Để uống nước', emoji: '🥛' }, { id: 'b', text: 'Để đội đầu', emoji: '🧢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thân cái cốc thường có hình gì?', options: [{ id: 'a', text: 'Hình trụ hoặc hình thang cân', emoji: '🥤' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cái cốc thường có thêm bộ phận nào để dễ cầm?', options: [{ id: 'a', text: 'Cái quai', emoji: '☕' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé vẽ miệng cốc bằng nét gì?', options: [{ id: 'a', text: 'Nét cong/hình elip', emoji: '⭕' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi dùng cốc thủy tinh bé cần lưu ý gì?', options: [{ id: 'a', text: 'Cầm cẩn thận, tránh làm rơi vỡ', emoji: '🛡️' }, { id: 'b', text: 'Ném đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cái cốc dùng để làm gì?', options: [{ id: 'a', text: 'Để uống nước', emoji: '🥛' }, { id: 'b', text: 'Để đội đầu', emoji: '🧢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thân cái cốc thường có hình gì?', options: [{ id: 'a', text: 'Hình trụ hoặc hình thang cân', emoji: '🥤' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cái cốc thường có thêm bộ phận nào để dễ cầm?', options: [{ id: 'a', text: 'Cái quai', emoji: '☕' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé vẽ miệng cốc bằng nét gì?', options: [{ id: 'a', text: 'Nét cong/hình elip', emoji: '⭕' }, { id: 'b', text: 'Nét gạch chéo', emoji: '❌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi dùng cốc thủy tinh bé cần lưu ý gì?', options: [{ id: 'a', text: 'Cầm cẩn thận, tránh làm rơi vỡ', emoji: '🛡️' }, { id: 'b', text: 'Ném đi chơi', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3435,11 +5108,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ chiếc kem',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Chiếc kem thường có vị gì bé thích?', options: [{ id: 'a', text: 'Vị ngọt, mát lạnh', emoji: '🍦' }, { id: 'b', text: 'Vị cay xè', emoji: '🌶️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Kem ốc quế có phần dưới hình gì?', options: [{ id: 'a', text: 'Hình tam giác ngược/hình nón', emoji: '📐' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé vẽ các viên kem bằng nét gì?', options: [{ id: 'a', text: 'Các nét cong tròn chồng lên nhau', emoji: '🍨' }, { id: 'b', text: 'Nét thẳng đứng', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Kem thường được ăn vào mùa nào nhất?', options: [{ id: 'a', text: 'Mùa hè nóng bức', emoji: '☀️' }, { id: 'b', text: 'Mùa đông lạnh giá', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có nên ăn quá nhiều kem một lúc không?', options: [{ id: 'a', text: 'Không, sẽ bị viêm họng', emoji: '🙅' }, { id: 'b', text: 'Có, ăn càng nhiều càng tốt', emoji: '😋' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chiếc kem thường có vị gì bé thích?', options: [{ id: 'a', text: 'Vị ngọt, mát lạnh', emoji: '🍦' }, { id: 'b', text: 'Vị cay xè', emoji: '🌶️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Kem ốc quế có phần dưới hình gì?', options: [{ id: 'a', text: 'Hình tam giác ngược/hình nón', emoji: '📐' }, { id: 'b', text: 'Hình vuông', emoji: '⏹️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé vẽ các viên kem bằng nét gì?', options: [{ id: 'a', text: 'Các nét cong tròn chồng lên nhau', emoji: '🍨' }, { id: 'b', text: 'Nét thẳng đứng', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Kem thường được ăn vào mùa nào nhất?', options: [{ id: 'a', text: 'Mùa hè nóng bức', emoji: '☀️' }, { id: 'b', text: 'Mùa đông lạnh giá', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có nên ăn quá nhiều kem một lúc không?', options: [{ id: 'a', text: 'Không, sẽ bị viêm họng', emoji: '🙅' }, { id: 'b', text: 'Có, ăn càng nhiều càng tốt', emoji: '😋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3447,11 +5130,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ con cá',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Con cá bơi bằng gì?', options: [{ id: 'a', text: 'Bằng vây và đuôi', emoji: '🐟' }, { id: 'b', text: 'Bằng đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thân con cá thường có hình gì?', options: [{ id: 'a', text: 'Hình thoi hoặc hình bầu dục', emoji: '🐠' }, { id: 'b', text: 'Hình chữ nhật', emoji: '⏹️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Cá thở bằng gì dưới nước?', options: [{ id: 'a', text: 'Bằng mang', emoji: '🫧' }, { id: 'b', text: 'Bằng mũi', emoji: '👃' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé vẽ vẩy cá bằng những nét gì?', options: [{ id: 'a', text: 'Các nét cong nhỏ', emoji: '〰️' }, { id: 'b', text: 'Các dấu chấm', emoji: '•' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Con cá sống ở đâu?', options: [{ id: 'a', text: 'Dưới nước', emoji: '💧' }, { id: 'b', text: 'Trên cành cây', emoji: '🌳' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Con cá bơi bằng gì?', options: [{ id: 'a', text: 'Bằng vây và đuôi', emoji: '🐟' }, { id: 'b', text: 'Bằng đôi chân', emoji: '🦵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thân con cá thường có hình gì?', options: [{ id: 'a', text: 'Hình thoi hoặc hình bầu dục', emoji: '🐠' }, { id: 'b', text: 'Hình chữ nhật', emoji: '⏹️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Cá thở bằng gì dưới nước?', options: [{ id: 'a', text: 'Bằng mang', emoji: '🫧' }, { id: 'b', text: 'Bằng mũi', emoji: '👃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé vẽ vẩy cá bằng những nét gì?', options: [{ id: 'a', text: 'Các nét cong nhỏ', emoji: '〰️' }, { id: 'b', text: 'Các dấu chấm', emoji: '•' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Con cá sống ở đâu?', options: [{ id: 'a', text: 'Dưới nước', emoji: '💧' }, { id: 'b', text: 'Trên cành cây', emoji: '🌳' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3459,11 +5152,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Cắt dán tia nắng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Tia nắng tỏa ra từ đâu?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Đám mây', emoji: '☁️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé cắt tia nắng bằng những dải giấy hình gì?', options: [{ id: 'a', text: 'Hình chữ nhật dài/nhỏ', emoji: '📏' }, { id: 'b', text: 'Hình tròn', emoji: '⭕' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Tia nắng thường có màu gì rực rỡ?', options: [{ id: 'a', text: 'Màu vàng hoặc cam', emoji: '💛' }, { id: 'b', text: 'Màu xanh dương', emoji: '💙' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Tia nắng giúp ích gì cho chúng ta?', options: [{ id: 'a', text: 'Sưởi ấm, giúp cây lớn', emoji: '🌱' }, { id: 'b', text: 'Làm trời tối đi', emoji: '🌑' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi trời nắng gắt bé ra ngoài cần mang gì?', options: [{ id: 'a', text: 'Đội mũ, che ô', emoji: '🧢' }, { id: 'b', text: 'Mặc áo len dày', emoji: '🧥' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tia nắng tỏa ra từ đâu?', options: [{ id: 'a', text: 'Ông mặt trời', emoji: '☀️' }, { id: 'b', text: 'Đám mây', emoji: '☁️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé cắt tia nắng bằng những dải giấy hình gì?', options: [{ id: 'a', text: 'Hình chữ nhật dài/nhỏ', emoji: '📏' }, { id: 'b', text: 'Hình tròn', emoji: '⭕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Tia nắng thường có màu gì rực rỡ?', options: [{ id: 'a', text: 'Màu vàng hoặc cam', emoji: '💛' }, { id: 'b', text: 'Màu xanh dương', emoji: '💙' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Tia nắng giúp ích gì cho chúng ta?', options: [{ id: 'a', text: 'Sưởi ấm, giúp cây lớn', emoji: '🌱' }, { id: 'b', text: 'Làm trời tối đi', emoji: '🌑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi trời nắng gắt bé ra ngoài cần mang gì?', options: [{ id: 'a', text: 'Đội mũ, che ô', emoji: '🧢' }, { id: 'b', text: 'Mặc áo len dày', emoji: '🧥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3471,11 +5174,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Xé dán vẩy cá',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé dùng kỹ năng gì để tạo ra vẩy cá?', options: [{ id: 'a', text: 'Xé vụn/xé dải giấy', emoji: '📄' }, { id: 'b', text: 'Dùng búa đập', emoji: '🔨' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Vẩy cá giúp bảo vệ bộ phận nào của cá?', options: [{ id: 'a', text: 'Bảo vệ thân cá', emoji: '🐟' }, { id: 'b', text: 'Bảo vệ đuôi cá', emoji: '🐠' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dán vẩy cá như thế nào cho đẹp?', options: [{ id: 'a', text: 'Dán xếp lớp lên nhau', emoji: '🧱' }, { id: 'b', text: 'Dán chồng chéo lộn xộn', emoji: '🌀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé chọn màu gì để xé dán vẩy cá?', options: [{ id: 'a', text: 'Nhiều màu sắc rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ dùng màu đen', emoji: '⚫' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sau khi xé dán xong bé cần làm gì?', options: [{ id: 'a', text: 'Thu dọn giấy vụn vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Vứt bừa bãi ra sàn', emoji: '🧹' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng kỹ năng gì để tạo ra vẩy cá?', options: [{ id: 'a', text: 'Xé vụn/xé dải giấy', emoji: '📄' }, { id: 'b', text: 'Dùng búa đập', emoji: '🔨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Vẩy cá giúp bảo vệ bộ phận nào của cá?', options: [{ id: 'a', text: 'Bảo vệ thân cá', emoji: '🐟' }, { id: 'b', text: 'Bảo vệ đuôi cá', emoji: '🐠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dán vẩy cá như thế nào cho đẹp?', options: [{ id: 'a', text: 'Dán xếp lớp lên nhau', emoji: '🧱' }, { id: 'b', text: 'Dán chồng chéo lộn xộn', emoji: '🌀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé chọn màu gì để xé dán vẩy cá?', options: [{ id: 'a', text: 'Nhiều màu sắc rực rỡ', emoji: '🎨' }, { id: 'b', text: 'Chỉ dùng màu đen', emoji: '⚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sau khi xé dán xong bé cần làm gì?', options: [{ id: 'a', text: 'Thu dọn giấy vụn vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Vứt bừa bãi ra sàn', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3483,11 +5196,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Em yêu cây xanh',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Vì sao bé lại yêu cây xanh?', options: [{ id: 'a', text: 'Cây cho bóng mát, hoa quả', emoji: '🌳' }, { id: 'b', text: 'Cây hay làm bé ngã', emoji: '🤕' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Trên cành cây có bạn nào hay hót?', options: [{ id: 'a', text: 'Các bạn chim', emoji: '🐦' }, { id: 'b', text: 'Các bạn cá', emoji: '🐟' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé làm gì để bảo vệ cây xanh?', options: [{ id: 'a', text: 'Trồng cây và chăm sóc', emoji: '🌱' }, { id: 'b', text: 'Bẻ cành, hái lá', emoji: '🥀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Cây xanh giúp không khí như thế nào?', options: [{ id: 'a', text: 'Trong lành và mát mẻ', emoji: '✨' }, { id: 'b', text: 'Nóng bức và bụi bặm', emoji: '💨' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hứa điều gì với cây xanh?', options: [{ id: 'a', text: 'Sẽ luôn yêu quý và bảo vệ cây', emoji: '❤️' }, { id: 'b', text: 'Sẽ không tưới nước cho cây', emoji: '🚫' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Vì sao bé lại yêu cây xanh?', options: [{ id: 'a', text: 'Cây cho bóng mát, hoa quả', emoji: '🌳' }, { id: 'b', text: 'Cây hay làm bé ngã', emoji: '🤕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Trên cành cây có bạn nào hay hót?', options: [{ id: 'a', text: 'Các bạn chim', emoji: '🐦' }, { id: 'b', text: 'Các bạn cá', emoji: '🐟' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé làm gì để bảo vệ cây xanh?', options: [{ id: 'a', text: 'Trồng cây và chăm sóc', emoji: '🌱' }, { id: 'b', text: 'Bẻ cành, hái lá', emoji: '🥀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Cây xanh giúp không khí như thế nào?', options: [{ id: 'a', text: 'Trong lành và mát mẻ', emoji: '✨' }, { id: 'b', text: 'Nóng bức và bụi bặm', emoji: '💨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hứa điều gì với cây xanh?', options: [{ id: 'a', text: 'Sẽ luôn yêu quý và bảo vệ cây', emoji: '❤️' }, { id: 'b', text: 'Sẽ không tưới nước cho cây', emoji: '🚫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3495,11 +5218,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Bầu và bí',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bầu và bí tuy khác giống nhưng chung cái gì?', options: [{ id: 'a', text: 'Chung một giàn', emoji: '🎋' }, { id: 'b', text: 'Chung một quả', emoji: '🍈' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bài hát khuyên chúng ta điều gì?', options: [{ id: 'a', text: 'Phải yêu thương, đùm bọc nhau', emoji: '❤️' }, { id: 'b', text: 'Phải tranh giành nhau', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bầu và bí là loại cây gì?', options: [{ id: 'a', text: 'Cây leo giàn', emoji: '🌿' }, { id: 'b', text: 'Cây cổ thụ to', emoji: '🌳' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Quả bầu thường có hình gì?', options: [{ id: 'a', text: 'Hình dài hoặc hồ lô', emoji: '🍈' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé đã được ăn canh bầu, canh bí chưa?', options: [{ id: 'a', text: 'Rồi, rất ngon và mát', emoji: '🥣' }, { id: 'b', text: 'Chưa bao giờ', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bầu và bí tuy khác giống nhưng chung cái gì?', options: [{ id: 'a', text: 'Chung một giàn', emoji: '🎋' }, { id: 'b', text: 'Chung một quả', emoji: '🍈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bài hát khuyên chúng ta điều gì?', options: [{ id: 'a', text: 'Phải yêu thương, đùm bọc nhau', emoji: '❤️' }, { id: 'b', text: 'Phải tranh giành nhau', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bầu và bí là loại cây gì?', options: [{ id: 'a', text: 'Cây leo giàn', emoji: '🌿' }, { id: 'b', text: 'Cây cổ thụ to', emoji: '🌳' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Quả bầu thường có hình gì?', options: [{ id: 'a', text: 'Hình dài hoặc hồ lô', emoji: '🍈' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé đã được ăn canh bầu, canh bí chưa?', options: [{ id: 'a', text: 'Rồi, rất ngon và mát', emoji: '🥣' }, { id: 'b', text: 'Chưa bao giờ', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3507,11 +5240,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Mùa hè đến',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Mùa hè đến có tiếng chim gì hót?', options: [{ id: 'a', text: 'Chim sơn ca/chim hót líu lo', emoji: '🐦' }, { id: 'b', text: 'Con gà rừng', emoji: '🐓' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Hoa gì thường nở vào mùa hè?', options: [{ id: 'a', text: 'Hoa phượng đỏ', emoji: '🌺' }, { id: 'b', text: 'Hoa đào', emoji: '🌸' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Thời tiết mùa hè như thế nào?', options: [{ id: 'a', text: 'Nắng vàng rực rỡ, nóng bức', emoji: '☀️' }, { id: 'b', text: 'Lạnh giá, có tuyết', emoji: '❄️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé thường được làm gì vào kỳ nghỉ hè?', options: [{ id: 'a', text: 'Đi du lịch, về quê, đi bơi', emoji: '🏖️' }, { id: 'b', text: 'Đi đắp người tuyết', emoji: '☃️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Mùa hè bé cần lưu ý gì khi ra nắng?', options: [{ id: 'a', text: 'Đội mũ, uống nhiều nước', emoji: '🧢' }, { id: 'b', text: 'Mặc áo len thật dày', emoji: '🧥' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Mùa hè đến có tiếng chim gì hót?', options: [{ id: 'a', text: 'Chim sơn ca/chim hót líu lo', emoji: '🐦' }, { id: 'b', text: 'Con gà rừng', emoji: '🐓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Hoa gì thường nở vào mùa hè?', options: [{ id: 'a', text: 'Hoa phượng đỏ', emoji: '🌺' }, { id: 'b', text: 'Hoa đào', emoji: '🌸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Thời tiết mùa hè như thế nào?', options: [{ id: 'a', text: 'Nắng vàng rực rỡ, nóng bức', emoji: '☀️' }, { id: 'b', text: 'Lạnh giá, có tuyết', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé thường được làm gì vào kỳ nghỉ hè?', options: [{ id: 'a', text: 'Đi du lịch, về quê, đi bơi', emoji: '🏖️' }, { id: 'b', text: 'Đi đắp người tuyết', emoji: '☃️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Mùa hè bé cần lưu ý gì khi ra nắng?', options: [{ id: 'a', text: 'Đội mũ, uống nhiều nước', emoji: '🧢' }, { id: 'b', text: 'Mặc áo len thật dày', emoji: '🧥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3519,11 +5262,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Cho tôi đi làm mưa với',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé muốn làm gì trong bài hát?', options: [{ id: 'a', text: 'Làm mưa với chị gió', emoji: '🌧️' }, { id: 'b', text: 'Làm nắng với ông mặt trời', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Mưa giúp ích gì cho cây cối?', options: [{ id: 'a', text: 'Giúp cây xanh tươi, hoa lá tốt', emoji: '🌱' }, { id: 'b', text: 'Làm cây bị cháy', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hạt mưa rơi xuống kêu như thế nào?', options: [{ id: 'a', text: 'Tí tách, tí tách', emoji: '💧' }, { id: 'b', text: 'Bùm bùm', emoji: '🥁' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Mưa làm cho đất đai như thế nào?', options: [{ id: 'a', text: 'Màu mỡ, không còn khô hạn', emoji: '🌍' }, { id: 'b', text: 'Khô nẻ hơn', emoji: '🏜️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi trời mưa bé có được ra ngoài nghịch nước không?', options: [{ id: 'a', text: 'Không, dễ bị cảm lạnh', emoji: '🙅' }, { id: 'b', text: 'Có, nghịch thoải mái', emoji: '😜' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé muốn làm gì trong bài hát?', options: [{ id: 'a', text: 'Làm mưa với chị gió', emoji: '🌧️' }, { id: 'b', text: 'Làm nắng với ông mặt trời', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Mưa giúp ích gì cho cây cối?', options: [{ id: 'a', text: 'Giúp cây xanh tươi, hoa lá tốt', emoji: '🌱' }, { id: 'b', text: 'Làm cây bị cháy', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hạt mưa rơi xuống kêu như thế nào?', options: [{ id: 'a', text: 'Tí tách, tí tách', emoji: '💧' }, { id: 'b', text: 'Bùm bùm', emoji: '🥁' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Mưa làm cho đất đai như thế nào?', options: [{ id: 'a', text: 'Màu mỡ, không còn khô hạn', emoji: '🌍' }, { id: 'b', text: 'Khô nẻ hơn', emoji: '🏜️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi trời mưa bé có được ra ngoài nghịch nước không?', options: [{ id: 'a', text: 'Không, dễ bị cảm lạnh', emoji: '🙅' }, { id: 'b', text: 'Có, nghịch thoải mái', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3531,11 +5284,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Bánh chưng xanh',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bánh chưng xanh có nhân gì bên trong?', options: [{ id: 'a', text: 'Đậu xanh, thịt mỡ', emoji: '🍱' }, { id: 'b', text: 'Kẹo mút', emoji: '🍭' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bánh chưng thường có vào dịp nào?', options: [{ id: 'a', text: 'Ngày Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Ngày Tết Trung Thu', emoji: '🏮' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bên ngoài bánh chưng được gói bằng lá gì?', options: [{ id: 'a', text: 'Lá dong hoặc lá chuối', emoji: '🍃' }, { id: 'b', text: 'Giấy báo', emoji: '📰' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bánh chưng có hình gì?', options: [{ id: 'a', text: 'Hình vuông', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn', emoji: '⏺️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thích cùng cha mẹ gói bánh chưng không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bánh chưng xanh có nhân gì bên trong?', options: [{ id: 'a', text: 'Đậu xanh, thịt mỡ', emoji: '🍱' }, { id: 'b', text: 'Kẹo mút', emoji: '🍭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bánh chưng thường có vào dịp nào?', options: [{ id: 'a', text: 'Ngày Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Ngày Tết Trung Thu', emoji: '🏮' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bên ngoài bánh chưng được gói bằng lá gì?', options: [{ id: 'a', text: 'Lá dong hoặc lá chuối', emoji: '🍃' }, { id: 'b', text: 'Giấy báo', emoji: '📰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bánh chưng có hình gì?', options: [{ id: 'a', text: 'Hình vuông', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn', emoji: '⏺️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thích cùng cha mẹ gói bánh chưng không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3543,11 +5306,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Đi xe đạp',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Xe đạp có mấy bánh?', options: [{ id: 'a', text: 'Hai bánh (hoặc ba bánh cho bé)', emoji: '🚲' }, { id: 'b', text: 'Bốn bánh to', emoji: '🚗' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi đi xe đạp bé dùng gì để điều khiển?', options: [{ id: 'a', text: 'Cái tay lái', emoji: '🚲' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé dùng gì để làm xe chạy?', options: [{ id: 'a', text: 'Đôi chân đạp bàn đạp', emoji: '🦵' }, { id: 'b', text: 'Dùng tay đẩy', emoji: '👋' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Đi xe đạp giúp bé điều gì?', options: [{ id: 'a', text: 'Rèn luyện sức khỏe, đôi chân khỏe', emoji: '💪' }, { id: 'b', text: 'Làm bé lười đi', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Khi đi xe đạp bé cần đội gì để an toàn?', options: [{ id: 'a', text: 'Mũ bảo hiểm', emoji: '🪖' }, { id: 'b', text: 'Đội vương miện', emoji: '👑' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Xe đạp có mấy bánh?', options: [{ id: 'a', text: 'Hai bánh (hoặc ba bánh cho bé)', emoji: '🚲' }, { id: 'b', text: 'Bốn bánh to', emoji: '🚗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi đi xe đạp bé dùng gì để điều khiển?', options: [{ id: 'a', text: 'Cái tay lái', emoji: '🚲' }, { id: 'b', text: 'Cái đuôi', emoji: '🐈' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé dùng gì để làm xe chạy?', options: [{ id: 'a', text: 'Đôi chân đạp bàn đạp', emoji: '🦵' }, { id: 'b', text: 'Dùng tay đẩy', emoji: '👋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Đi xe đạp giúp bé điều gì?', options: [{ id: 'a', text: 'Rèn luyện sức khỏe, đôi chân khỏe', emoji: '💪' }, { id: 'b', text: 'Làm bé lười đi', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Khi đi xe đạp bé cần đội gì để an toàn?', options: [{ id: 'a', text: 'Mũ bảo hiểm', emoji: '🪖' }, { id: 'b', text: 'Đội vương miện', emoji: '👑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 5-6 Year Old Aesthetic Games
@@ -3556,11 +5329,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Sáng tạo tranh từ quạt giấy',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bé dùng gì để tạo ra chiếc quạt giấy?', options: [{ id: 'a', text: 'Giấy màu, nan tre/que gỗ', emoji: '🪭' }, { id: 'b', text: 'Cục đất sét', emoji: '🧱' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng kỹ năng gì để tạo nếp gấp cho quạt?', options: [{ id: 'a', text: 'Gấp nếp cách đều nhau', emoji: '📏' }, { id: 'b', text: 'Vò nát giấy', emoji: '🗑️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có thể sáng tạo gì trên mặt quạt?', options: [{ id: 'a', text: 'Vẽ tranh phong cảnh, hoa lá', emoji: '🎨' }, { id: 'b', text: 'Để trắng tinh', emoji: '⬜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Chiếc quạt giấy dùng để làm gì?', options: [{ id: 'a', text: 'Quạt cho mát, trang trí', emoji: '🌬️' }, { id: 'b', text: 'Để làm thước kẻ', emoji: '📏' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé thấy chiếc quạt mình làm như thế nào?', options: [{ id: 'a', text: 'Rất đẹp và sáng tạo', emoji: '🤩' }, { id: 'b', text: 'Rất xấu', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng gì để tạo ra chiếc quạt giấy?', options: [{ id: 'a', text: 'Giấy màu, nan tre/que gỗ', emoji: '🪭' }, { id: 'b', text: 'Cục đất sét', emoji: '🧱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng kỹ năng gì để tạo nếp gấp cho quạt?', options: [{ id: 'a', text: 'Gấp nếp cách đều nhau', emoji: '📏' }, { id: 'b', text: 'Vò nát giấy', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có thể sáng tạo gì trên mặt quạt?', options: [{ id: 'a', text: 'Vẽ tranh phong cảnh, hoa lá', emoji: '🎨' }, { id: 'b', text: 'Để trắng tinh', emoji: '⬜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Chiếc quạt giấy dùng để làm gì?', options: [{ id: 'a', text: 'Quạt cho mát, trang trí', emoji: '🌬️' }, { id: 'b', text: 'Để làm thước kẻ', emoji: '📏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé thấy chiếc quạt mình làm như thế nào?', options: [{ id: 'a', text: 'Rất đẹp và sáng tạo', emoji: '🤩' }, { id: 'b', text: 'Rất xấu', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3568,11 +5351,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: In tranh Đông Hồ',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Tranh Đông Hồ là loại tranh gì?', options: [{ id: 'a', text: 'Tranh dân gian Việt Nam', emoji: '🇻🇳' }, { id: 'b', text: 'Tranh hiện đại phương Tây', emoji: '🗽' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng gì để in tranh?', options: [{ id: 'a', text: 'Bản khắc gỗ và màu tự nhiên', emoji: '🪵' }, { id: 'b', text: 'Bút chì kim', emoji: '✏️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Hình ảnh thường thấy trong tranh Đông Hồ là gì?', options: [{ id: 'a', text: 'Con lợn, con gà, em bé', emoji: '🐖🐓' }, { id: 'b', text: 'Xe tăng, máy bay', emoji: '🚀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Giấy dùng để in tranh Đông Hồ gọi là giấy gì?', options: [{ id: 'a', text: 'Giấy điệp', emoji: '📜' }, { id: 'b', text: 'Giấy báo cũ', emoji: '📰' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Tranh Đông Hồ thường được treo vào dịp nào?', options: [{ id: 'a', text: 'Dịp Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Ngày thường', emoji: '📅' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Tranh Đông Hồ là loại tranh gì?', options: [{ id: 'a', text: 'Tranh dân gian Việt Nam', emoji: '🇻🇳' }, { id: 'b', text: 'Tranh hiện đại phương Tây', emoji: '🗽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng gì để in tranh?', options: [{ id: 'a', text: 'Bản khắc gỗ và màu tự nhiên', emoji: '🪵' }, { id: 'b', text: 'Bút chì kim', emoji: '✏️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Hình ảnh thường thấy trong tranh Đông Hồ là gì?', options: [{ id: 'a', text: 'Con lợn, con gà, em bé', emoji: '🐖🐓' }, { id: 'b', text: 'Xe tăng, máy bay', emoji: '🚀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Giấy dùng để in tranh Đông Hồ gọi là giấy gì?', options: [{ id: 'a', text: 'Giấy điệp', emoji: '📜' }, { id: 'b', text: 'Giấy báo cũ', emoji: '📰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Tranh Đông Hồ thường được treo vào dịp nào?', options: [{ id: 'a', text: 'Dịp Tết Nguyên Đán', emoji: '🧧' }, { id: 'b', text: 'Ngày thường', emoji: '📅' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3580,11 +5373,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Vẽ trường mầm non của bé',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Trường mầm non của bé có tên là gì?', options: [{ id: 'a', text: 'Tên trường bé đang học', emoji: '🏫' }, { id: 'b', text: 'Trường tiểu học', emoji: '🎒' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Trong sân trường có những đồ chơi gì?', options: [{ id: 'a', text: 'Cầu trượt, xích đu, bập bênh', emoji: '🎢' }, { id: 'b', text: 'Máy tính, tivi', emoji: '💻' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé vẽ ngôi trường bằng những hình khối nào?', options: [{ id: 'a', text: 'Hình chữ nhật, hình tam giác', emoji: '⏹️🔺' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé vẽ thêm ai trong bức tranh về trường?', options: [{ id: 'a', text: 'Cô giáo và các bạn', emoji: '👩‍🏫🤝' }, { id: 'b', text: 'Con hổ hung dữ', emoji: '🐯' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé cảm thấy thế nào khi đến trường?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Sợ hãi', emoji: '😨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Trường mầm non của bé có tên là gì?', options: [{ id: 'a', text: 'Tên trường bé đang học', emoji: '🏫' }, { id: 'b', text: 'Trường tiểu học', emoji: '🎒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Trong sân trường có những đồ chơi gì?', options: [{ id: 'a', text: 'Cầu trượt, xích đu, bập bênh', emoji: '🎢' }, { id: 'b', text: 'Máy tính, tivi', emoji: '💻' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé vẽ ngôi trường bằng những hình khối nào?', options: [{ id: 'a', text: 'Hình chữ nhật, hình tam giác', emoji: '⏹️🔺' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé vẽ thêm ai trong bức tranh về trường?', options: [{ id: 'a', text: 'Cô giáo và các bạn', emoji: '👩‍🏫🤝' }, { id: 'b', text: 'Con hổ hung dữ', emoji: '🐯' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé cảm thấy thế nào khi đến trường?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Sợ hãi', emoji: '😨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3592,11 +5395,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Dạy trẻ làm quạt giấy',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Để làm quạt giấy bé cần chuẩn bị gì?', options: [{ id: 'a', text: 'Giấy màu, hồ dán, nan quạt', emoji: '🪭' }, { id: 'b', text: 'Cái búa, cái kìm', emoji: '🔨' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé gấp giấy như thế nào để làm quạt?', options: [{ id: 'a', text: 'Gấp nếp gấp liên tiếp', emoji: '📏' }, { id: 'b', text: 'Gấp đôi một lần duy nhất', emoji: '📖' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sau khi gấp xong bé cần làm gì để quạt xòe ra được?', options: [{ id: 'a', text: 'Buộc/dán một đầu lại', emoji: '🎀' }, { id: 'b', text: 'Cắt rời ra', emoji: '✂️' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Quạt giấy giúp bé điều gì khi trời nóng?', options: [{ id: 'a', text: 'Làm mát cơ thể', emoji: '🌬️' }, { id: 'b', text: 'Làm bé nóng hơn', emoji: '🔥' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thể trang trí thêm gì cho quạt giấy?', options: [{ id: 'a', text: 'Vẽ hoa văn, dán hình', emoji: '🎨' }, { id: 'b', text: 'Bôi bẩn lên', emoji: '🧹' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Để làm quạt giấy bé cần chuẩn bị gì?', options: [{ id: 'a', text: 'Giấy màu, hồ dán, nan quạt', emoji: '🪭' }, { id: 'b', text: 'Cái búa, cái kìm', emoji: '🔨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé gấp giấy như thế nào để làm quạt?', options: [{ id: 'a', text: 'Gấp nếp gấp liên tiếp', emoji: '📏' }, { id: 'b', text: 'Gấp đôi một lần duy nhất', emoji: '📖' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sau khi gấp xong bé cần làm gì để quạt xòe ra được?', options: [{ id: 'a', text: 'Buộc/dán một đầu lại', emoji: '🎀' }, { id: 'b', text: 'Cắt rời ra', emoji: '✂️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Quạt giấy giúp bé điều gì khi trời nóng?', options: [{ id: 'a', text: 'Làm mát cơ thể', emoji: '🌬️' }, { id: 'b', text: 'Làm bé nóng hơn', emoji: '🔥' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thể trang trí thêm gì cho quạt giấy?', options: [{ id: 'a', text: 'Vẽ hoa văn, dán hình', emoji: '🎨' }, { id: 'b', text: 'Bôi bẩn lên', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3604,11 +5417,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Tạo hình: Gấp thuyền giấy Origami',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Origami là nghệ thuật gấp giấy của nước nào?', options: [{ id: 'a', text: 'Nhật Bản', emoji: '🇯🇵' }, { id: 'b', text: 'Việt Nam', emoji: '🇻🇳' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Để gấp thuyền bé cần tờ giấy hình gì?', options: [{ id: 'a', text: 'Hình vuông hoặc chữ nhật', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn', emoji: '⭕' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Khi gấp giấy Origami bé cần lưu ý gì?', options: [{ id: 'a', text: 'Gấp các mép giấy thật phẳng và khít', emoji: '✨' }, { id: 'b', text: 'Gấp lộn xộn', emoji: '🌀' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Thuyền giấy có thể làm gì trên mặt nước?', options: [{ id: 'a', text: 'Nổi và trôi theo dòng nước', emoji: '⛵' }, { id: 'b', text: 'Chìm ngay lập tức', emoji: '⚓' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thể gấp nhiều loại thuyền khác nhau không?', options: [{ id: 'a', text: 'Có, rất nhiều kiểu dáng', emoji: '🤩' }, { id: 'b', text: 'Chỉ có một kiểu', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Origami là nghệ thuật gấp giấy của nước nào?', options: [{ id: 'a', text: 'Nhật Bản', emoji: '🇯🇵' }, { id: 'b', text: 'Việt Nam', emoji: '🇻🇳' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Để gấp thuyền bé cần tờ giấy hình gì?', options: [{ id: 'a', text: 'Hình vuông hoặc chữ nhật', emoji: '⏹️' }, { id: 'b', text: 'Hình tròn', emoji: '⭕' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Khi gấp giấy Origami bé cần lưu ý gì?', options: [{ id: 'a', text: 'Gấp các mép giấy thật phẳng và khít', emoji: '✨' }, { id: 'b', text: 'Gấp lộn xộn', emoji: '🌀' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Thuyền giấy có thể làm gì trên mặt nước?', options: [{ id: 'a', text: 'Nổi và trôi theo dòng nước', emoji: '⛵' }, { id: 'b', text: 'Chìm ngay lập tức', emoji: '⚓' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thể gấp nhiều loại thuyền khác nhau không?', options: [{ id: 'a', text: 'Có, rất nhiều kiểu dáng', emoji: '🤩' }, { id: 'b', text: 'Chỉ có một kiểu', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3616,11 +5439,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Tôi là cái ấm trà',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Cái ấm trà trong bài hát tự giới thiệu mình như thế nào?', options: [{ id: 'a', text: 'Thân hình xinh xắn, cái vòi cong', emoji: '🫖' }, { id: 'b', text: 'To lớn và xù xì', emoji: '👹' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi nước sôi ấm trà làm gì?', options: [{ id: 'a', text: 'Reo lên báo hiệu', emoji: '🔔' }, { id: 'b', text: 'Đi ngủ', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Ấm trà dùng để làm gì?', options: [{ id: 'a', text: 'Pha trà mời khách', emoji: '🍵' }, { id: 'b', text: 'Để đựng đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé cần cẩn thận gì khi rót trà nóng?', options: [{ id: 'a', text: 'Tránh bị bỏng tay', emoji: '🔥' }, { id: 'b', text: 'Rót tràn ra ngoài', emoji: '💧' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thích giúp mẹ pha trà không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Cái ấm trà trong bài hát tự giới thiệu mình như thế nào?', options: [{ id: 'a', text: 'Thân hình xinh xắn, cái vòi cong', emoji: '🫖' }, { id: 'b', text: 'To lớn và xù xì', emoji: '👹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi nước sôi ấm trà làm gì?', options: [{ id: 'a', text: 'Reo lên báo hiệu', emoji: '🔔' }, { id: 'b', text: 'Đi ngủ', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Ấm trà dùng để làm gì?', options: [{ id: 'a', text: 'Pha trà mời khách', emoji: '🍵' }, { id: 'b', text: 'Để đựng đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé cần cẩn thận gì khi rót trà nóng?', options: [{ id: 'a', text: 'Tránh bị bỏng tay', emoji: '🔥' }, { id: 'b', text: 'Rót tràn ra ngoài', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thích giúp mẹ pha trà không?', options: [{ id: 'a', text: 'Rất thích', emoji: '🤩' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3628,11 +5461,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Chú bộ đội',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chú bộ đội mặc trang phục màu gì?', options: [{ id: 'a', text: 'Màu xanh lá cây (quân phục)', emoji: '💂' }, { id: 'b', text: 'Màu hồng rực rỡ', emoji: '💗' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Trên vai chú bộ đội thường mang gì?', options: [{ id: 'a', text: 'Khẩu súng/Ba lô', emoji: '🎒' }, { id: 'b', text: 'Cái giỏ hoa', emoji: '💐' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Công việc của chú bộ đội là gì?', options: [{ id: 'a', text: 'Canh giữ và bảo vệ Tổ quốc', emoji: '🇻🇳' }, { id: 'b', text: 'Đi bán hàng', emoji: '🛒' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé có yêu quý chú bộ đội không?', options: [{ id: 'a', text: 'Rất yêu quý và kính trọng', emoji: '❤️' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé hứa điều gì với chú bộ đội?', options: [{ id: 'a', text: 'Chăm ngoan, học giỏi', emoji: '🎓' }, { id: 'b', text: 'Hay nghịch ngợm', emoji: '😜' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chú bộ đội mặc trang phục màu gì?', options: [{ id: 'a', text: 'Màu xanh lá cây (quân phục)', emoji: '💂' }, { id: 'b', text: 'Màu hồng rực rỡ', emoji: '💗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Trên vai chú bộ đội thường mang gì?', options: [{ id: 'a', text: 'Khẩu súng/Ba lô', emoji: '🎒' }, { id: 'b', text: 'Cái giỏ hoa', emoji: '💐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Công việc của chú bộ đội là gì?', options: [{ id: 'a', text: 'Canh giữ và bảo vệ Tổ quốc', emoji: '🇻🇳' }, { id: 'b', text: 'Đi bán hàng', emoji: '🛒' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé có yêu quý chú bộ đội không?', options: [{ id: 'a', text: 'Rất yêu quý và kính trọng', emoji: '❤️' }, { id: 'b', text: 'Không thích', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé hứa điều gì với chú bộ đội?', options: [{ id: 'a', text: 'Chăm ngoan, học giỏi', emoji: '🎓' }, { id: 'b', text: 'Hay nghịch ngợm', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3640,11 +5483,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Bác đưa thư vui tính',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Bác đưa thư mang gì đến cho mọi người?', options: [{ id: 'a', text: 'Những lá thư, bưu phẩm', emoji: '✉️' }, { id: 'b', text: 'Những chiếc bánh', emoji: '🍰' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bác đưa thư đi bằng phương tiện gì?', options: [{ id: 'a', text: 'Xe đạp/Xe máy', emoji: '🚲' }, { id: 'b', text: 'Máy bay', emoji: '✈️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Thái độ của bác đưa thư như thế nào?', options: [{ id: 'a', text: 'Vui tính và nhiệt tình', emoji: '😊' }, { id: 'b', text: 'Hay cáu gắt', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi nhận thư từ bác, bé cần làm gì?', options: [{ id: 'a', text: 'Chào hỏi và cảm ơn lễ phép', emoji: '🤲' }, { id: 'b', text: 'Giật lấy rồi chạy', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Lá thư giúp mọi người điều gì?', options: [{ id: 'a', text: 'Gửi gắm tình cảm, tin tức', emoji: '❤️' }, { id: 'b', text: 'Để làm đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bác đưa thư mang gì đến cho mọi người?', options: [{ id: 'a', text: 'Những lá thư, bưu phẩm', emoji: '✉️' }, { id: 'b', text: 'Những chiếc bánh', emoji: '🍰' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bác đưa thư đi bằng phương tiện gì?', options: [{ id: 'a', text: 'Xe đạp/Xe máy', emoji: '🚲' }, { id: 'b', text: 'Máy bay', emoji: '✈️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Thái độ của bác đưa thư như thế nào?', options: [{ id: 'a', text: 'Vui tính và nhiệt tình', emoji: '😊' }, { id: 'b', text: 'Hay cáu gắt', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi nhận thư từ bác, bé cần làm gì?', options: [{ id: 'a', text: 'Chào hỏi và cảm ơn lễ phép', emoji: '🤲' }, { id: 'b', text: 'Giật lấy rồi chạy', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Lá thư giúp mọi người điều gì?', options: [{ id: 'a', text: 'Gửi gắm tình cảm, tin tức', emoji: '❤️' }, { id: 'b', text: 'Để làm đồ chơi', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3652,11 +5505,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Lớn lên cháu lái máy cày',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Máy cày giúp ích gì cho nhà nông?', options: [{ id: 'a', text: 'Cày ruộng, làm đất tơi xốp', emoji: '🚜' }, { id: 'b', text: 'Để chở khách đi chơi', emoji: '🚌' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Tiếng máy cày kêu như thế nào?', options: [{ id: 'a', text: 'Xình xịch, rộn ràng', emoji: '🚜' }, { id: 'b', text: 'Líu lo', emoji: '🐦' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé ước mơ lớn lên làm gì trong bài hát?', options: [{ id: 'a', text: 'Lái máy cày giúp dân làng', emoji: '🚜' }, { id: 'b', text: 'Đi bán kẹo', emoji: '🍭' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Máy cày chạy ở đâu?', options: [{ id: 'a', text: 'Trên cánh đồng bao la', emoji: '🌾' }, { id: 'b', text: 'Trên mặt biển', emoji: '🌊' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Nghề nông giúp chúng ta có gì để ăn?', options: [{ id: 'a', text: 'Lúa gạo, rau củ quả', emoji: '🍚' }, { id: 'b', text: 'Chỉ có bánh kẹo', emoji: '🍬' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Máy cày giúp ích gì cho nhà nông?', options: [{ id: 'a', text: 'Cày ruộng, làm đất tơi xốp', emoji: '🚜' }, { id: 'b', text: 'Để chở khách đi chơi', emoji: '🚌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Tiếng máy cày kêu như thế nào?', options: [{ id: 'a', text: 'Xình xịch, rộn ràng', emoji: '🚜' }, { id: 'b', text: 'Líu lo', emoji: '🐦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé ước mơ lớn lên làm gì trong bài hát?', options: [{ id: 'a', text: 'Lái máy cày giúp dân làng', emoji: '🚜' }, { id: 'b', text: 'Đi bán kẹo', emoji: '🍭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Máy cày chạy ở đâu?', options: [{ id: 'a', text: 'Trên cánh đồng bao la', emoji: '🌾' }, { id: 'b', text: 'Trên mặt biển', emoji: '🌊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Nghề nông giúp chúng ta có gì để ăn?', options: [{ id: 'a', text: 'Lúa gạo, rau củ quả', emoji: '🍚' }, { id: 'b', text: 'Chỉ có bánh kẹo', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3664,11 +5527,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Chú voi con ở bản đôn',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chú voi con sống ở đâu?', options: [{ id: 'a', text: 'Ở Bản Đôn', emoji: '🐘' }, { id: 'b', text: 'Ở thành phố', emoji: '🏙️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chú voi con chưa có cái gì?', options: [{ id: 'a', text: 'Chưa có ngà', emoji: '🐘' }, { id: 'b', text: 'Chưa có chân', emoji: '🦵' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Chú voi con rất thích làm gì?', options: [{ id: 'a', text: 'Ham ăn và ham chơi', emoji: '😋' }, { id: 'b', text: 'Chỉ thích đi ngủ', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Vòi của chú voi như thế nào?', options: [{ id: 'a', text: 'Dài và khéo léo', emoji: '🐘' }, { id: 'b', text: 'Ngắn tũn', emoji: '🤏' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Voi giúp người dân Bản Đôn làm gì?', options: [{ id: 'a', text: 'Kéo gỗ, chở người', emoji: '🪵' }, { id: 'b', text: 'Đi đá bóng', emoji: '⚽' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chú voi con sống ở đâu?', options: [{ id: 'a', text: 'Ở Bản Đôn', emoji: '🐘' }, { id: 'b', text: 'Ở thành phố', emoji: '🏙️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chú voi con chưa có cái gì?', options: [{ id: 'a', text: 'Chưa có ngà', emoji: '🐘' }, { id: 'b', text: 'Chưa có chân', emoji: '🦵' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Chú voi con rất thích làm gì?', options: [{ id: 'a', text: 'Ham ăn và ham chơi', emoji: '😋' }, { id: 'b', text: 'Chỉ thích đi ngủ', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Vòi của chú voi như thế nào?', options: [{ id: 'a', text: 'Dài và khéo léo', emoji: '🐘' }, { id: 'b', text: 'Ngắn tũn', emoji: '🤏' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Voi giúp người dân Bản Đôn làm gì?', options: [{ id: 'a', text: 'Kéo gỗ, chở người', emoji: '🪵' }, { id: 'b', text: 'Đi đá bóng', emoji: '⚽' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3676,11 +5549,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Anh phi công ơi',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Anh phi công lái phương tiện gì?', options: [{ id: 'a', text: 'Máy bay', emoji: '✈️' }, { id: 'b', text: 'Tàu thủy', emoji: '🚢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Máy bay bay ở đâu?', options: [{ id: 'a', text: 'Trên bầu trời cao', emoji: '☁️' }, { id: 'b', text: 'Dưới lòng đất', emoji: '🕳️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé thấy anh phi công như thế nào?', options: [{ id: 'a', text: 'Rất dũng cảm và tài giỏi', emoji: '✨' }, { id: 'b', text: 'Rất nhút nhát', emoji: '😨' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé ước mơ sau này làm gì?', options: [{ id: 'a', text: 'Làm phi công bay cao', emoji: '👨‍✈️' }, { id: 'b', text: 'Làm con mèo', emoji: '🐱' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bầu trời có những gì đẹp?', options: [{ id: 'a', text: 'Mây trắng, nắng vàng', emoji: '☀️☁️' }, { id: 'b', text: 'Rác bẩn', emoji: '🗑️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Anh phi công lái phương tiện gì?', options: [{ id: 'a', text: 'Máy bay', emoji: '✈️' }, { id: 'b', text: 'Tàu thủy', emoji: '🚢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Máy bay bay ở đâu?', options: [{ id: 'a', text: 'Trên bầu trời cao', emoji: '☁️' }, { id: 'b', text: 'Dưới lòng đất', emoji: '🕳️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé thấy anh phi công như thế nào?', options: [{ id: 'a', text: 'Rất dũng cảm và tài giỏi', emoji: '✨' }, { id: 'b', text: 'Rất nhút nhát', emoji: '😨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé ước mơ sau này làm gì?', options: [{ id: 'a', text: 'Làm phi công bay cao', emoji: '👨‍✈️' }, { id: 'b', text: 'Làm con mèo', emoji: '🐱' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bầu trời có những gì đẹp?', options: [{ id: 'a', text: 'Mây trắng, nắng vàng', emoji: '☀️☁️' }, { id: 'b', text: 'Rác bẩn', emoji: '🗑️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3688,11 +5571,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Âm nhạc: Chị Ong Nâu và Em bé',
     ageGroups: ['5-6'],
     questions: [
-      { id: 'q1', question: 'Chị Ong Nâu bay đi đâu sớm thế?', options: [{ id: 'a', text: 'Đi tìm mật hoa', emoji: '🐝🌸' }, { id: 'b', text: 'Đi ngủ tiếp', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Chị Ong Nâu vâng lời ai dặn?', options: [{ id: 'a', text: 'Vâng lời bố mẹ', emoji: '👨‍👩' }, { id: 'b', text: 'Vâng lời con bướm', emoji: '🦋' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Tính cách của chị Ong Nâu như thế nào?', options: [{ id: 'a', text: 'Chăm chỉ và ngoan ngoãn', emoji: '✨' }, { id: 'b', text: 'Lười biếng', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé học tập chị Ong Nâu điều gì?', options: [{ id: 'a', text: 'Chăm chỉ học hành, vâng lời', emoji: '🎓' }, { id: 'b', text: 'Chỉ đi chơi suốt ngày', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Mật ong có vị gì?', options: [{ id: 'a', text: 'Vị ngọt lịm', emoji: '🍯' }, { id: 'b', text: 'Vị đắng ngắt', emoji: '💊' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chị Ong Nâu bay đi đâu sớm thế?', options: [{ id: 'a', text: 'Đi tìm mật hoa', emoji: '🐝🌸' }, { id: 'b', text: 'Đi ngủ tiếp', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Chị Ong Nâu vâng lời ai dặn?', options: [{ id: 'a', text: 'Vâng lời bố mẹ', emoji: '👨‍👩' }, { id: 'b', text: 'Vâng lời con bướm', emoji: '🦋' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Tính cách của chị Ong Nâu như thế nào?', options: [{ id: 'a', text: 'Chăm chỉ và ngoan ngoãn', emoji: '✨' }, { id: 'b', text: 'Lười biếng', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé học tập chị Ong Nâu điều gì?', options: [{ id: 'a', text: 'Chăm chỉ học hành, vâng lời', emoji: '🎓' }, { id: 'b', text: 'Chỉ đi chơi suốt ngày', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Mật ong có vị gì?', options: [{ id: 'a', text: 'Vị ngọt lịm', emoji: '🍯' }, { id: 'b', text: 'Vị đắng ngắt', emoji: '💊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   // 4-5 Year Old Social Games
@@ -3701,11 +5594,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Biết cảm ơn khi được giúp đỡ',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Khi được ai đó giúp đỡ, bé nên nói lời gì?', options: [{ id: 'a', text: 'Con cảm ơn ạ/Tớ cảm ơn bạn', emoji: '🙏' }, { id: 'b', text: 'Không nói gì cả', emoji: '🤫' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Thái độ của bé khi nói lời cảm ơn nên như thế nào?', options: [{ id: 'a', text: 'Lễ phép, mỉm cười', emoji: '😊' }, { id: 'b', text: 'Cáu kỉnh, khó chịu', emoji: '😠' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Lời cảm ơn giúp người giúp đỡ bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Bé nên cảm ơn những ai?', options: [{ id: 'a', text: 'Tất cả mọi người đã giúp bé', emoji: '🤝' }, { id: 'b', text: 'Chỉ cảm ơn bạn bè', emoji: '👫' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Biết nói lời cảm ơn chứng tỏ bé là một đứa trẻ như thế nào?', options: [{ id: 'a', text: 'Ngoan ngoãn và lịch sự', emoji: '✨' }, { id: 'b', text: 'Hay nghịch ngợm', emoji: '😜' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi được ai đó giúp đỡ, bé nên nói lời gì?', options: [{ id: 'a', text: 'Con cảm ơn ạ/Tớ cảm ơn bạn', emoji: '🙏' }, { id: 'b', text: 'Không nói gì cả', emoji: '🤫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Thái độ của bé khi nói lời cảm ơn nên như thế nào?', options: [{ id: 'a', text: 'Lễ phép, mỉm cười', emoji: '😊' }, { id: 'b', text: 'Cáu kỉnh, khó chịu', emoji: '😠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Lời cảm ơn giúp người giúp đỡ bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ và hạnh phúc', emoji: '🤩' }, { id: 'b', text: 'Thấy buồn', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Bé nên cảm ơn những ai?', options: [{ id: 'a', text: 'Tất cả mọi người đã giúp bé', emoji: '🤝' }, { id: 'b', text: 'Chỉ cảm ơn bạn bè', emoji: '👫' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Biết nói lời cảm ơn chứng tỏ bé là một đứa trẻ như thế nào?', options: [{ id: 'a', text: 'Ngoan ngoãn và lịch sự', emoji: '✨' }, { id: 'b', text: 'Hay nghịch ngợm', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3713,11 +5616,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Lịch sự nơi công cộng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Khi ở nơi công cộng (như rạp phim, thư viện), bé nên làm gì?', options: [{ id: 'a', text: 'Giữ trật tự, nói khẽ', emoji: '🤫' }, { id: 'b', text: 'Hét thật to, chạy nhảy', emoji: '📢' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi xếp hàng mua vé hoặc chờ xe buýt, bé nên làm gì?', options: [{ id: 'a', text: 'Xếp hàng ngay ngắn, không chen lấn', emoji: '🚶' }, { id: 'b', text: 'Chen lên phía trước', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có được vứt rác bừa bãi ở công viên không?', options: [{ id: 'a', text: 'Không, phải bỏ vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Có, vứt đâu cũng được', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Khi gặp người lớn tuổi nơi công cộng, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi lễ phép, nhường chỗ nếu cần', emoji: '🙏' }, { id: 'b', text: 'Ngó lơ đi chỗ khác', emoji: '🙄' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Cư xử lịch sự giúp bé điều gì?', options: [{ id: 'a', text: 'Được mọi người yêu quý', emoji: '❤️' }, { id: 'b', text: 'Được nhiều kẹo hơn', emoji: '🍬' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi ở nơi công cộng (như rạp phim, thư viện), bé nên làm gì?', options: [{ id: 'a', text: 'Giữ trật tự, nói khẽ', emoji: '🤫' }, { id: 'b', text: 'Hét thật to, chạy nhảy', emoji: '📢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi xếp hàng mua vé hoặc chờ xe buýt, bé nên làm gì?', options: [{ id: 'a', text: 'Xếp hàng ngay ngắn, không chen lấn', emoji: '🚶' }, { id: 'b', text: 'Chen lên phía trước', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có được vứt rác bừa bãi ở công viên không?', options: [{ id: 'a', text: 'Không, phải bỏ vào thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Có, vứt đâu cũng được', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Khi gặp người lớn tuổi nơi công cộng, bé nên làm gì?', options: [{ id: 'a', text: 'Chào hỏi lễ phép, nhường chỗ nếu cần', emoji: '🙏' }, { id: 'b', text: 'Ngó lơ đi chỗ khác', emoji: '🙄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Cư xử lịch sự giúp bé điều gì?', options: [{ id: 'a', text: 'Được mọi người yêu quý', emoji: '❤️' }, { id: 'b', text: 'Được nhiều kẹo hơn', emoji: '🍬' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3725,11 +5638,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Buộc dây giày',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Để buộc dây giày, bước đầu tiên bé thường làm gì?', options: [{ id: 'a', text: 'Vắt chéo hai dây và thắt nút cơ bản', emoji: '👟' }, { id: 'b', text: 'Cắt bỏ dây giày', emoji: '✂️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé tạo hình gì từ dây giày để thắt nút nơ?', options: [{ id: 'a', text: 'Hình tai thỏ', emoji: '🐰' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Buộc dây giày chặt giúp bé điều gì khi đi lại?', options: [{ id: 'a', text: 'Không bị tuột giày, tránh bị ngã', emoji: '🛡️' }, { id: 'b', text: 'Đi nhanh hơn', emoji: '⚡' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Nếu dây giày quá dài, bé nên làm gì?', options: [{ id: 'a', text: 'Buộc gọn gàng hoặc nhờ người lớn cắt bớt', emoji: '✂️' }, { id: 'b', text: 'Để mặc kệ cho nó lê thê', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Tự buộc được dây giày giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Tự tin và độc lập hơn', emoji: '🤩' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Để buộc dây giày, bước đầu tiên bé thường làm gì?', options: [{ id: 'a', text: 'Vắt chéo hai dây và thắt nút cơ bản', emoji: '👟' }, { id: 'b', text: 'Cắt bỏ dây giày', emoji: '✂️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé tạo hình gì từ dây giày để thắt nút nơ?', options: [{ id: 'a', text: 'Hình tai thỏ', emoji: '🐰' }, { id: 'b', text: 'Hình ngôi sao', emoji: '⭐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Buộc dây giày chặt giúp bé điều gì khi đi lại?', options: [{ id: 'a', text: 'Không bị tuột giày, tránh bị ngã', emoji: '🛡️' }, { id: 'b', text: 'Đi nhanh hơn', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Nếu dây giày quá dài, bé nên làm gì?', options: [{ id: 'a', text: 'Buộc gọn gàng hoặc nhờ người lớn cắt bớt', emoji: '✂️' }, { id: 'b', text: 'Để mặc kệ cho nó lê thê', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Tự buộc được dây giày giúp bé thấy thế nào?', options: [{ id: 'a', text: 'Tự tin và độc lập hơn', emoji: '🤩' }, { id: 'b', text: 'Thấy mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3737,11 +5660,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Cách sử dụng đũa',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Bé dùng đũa để làm gì trong bữa ăn?', options: [{ id: 'a', text: 'Để gắp thức ăn', emoji: '🥢' }, { id: 'b', text: 'Để gõ vào bát', emoji: '🥁' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi cầm đũa, bé dùng mấy ngón tay để điều khiển?', options: [{ id: 'a', text: 'Dùng các ngón tay linh hoạt', emoji: '🖐️' }, { id: 'b', text: 'Cầm bằng cả bàn tay', emoji: '✊' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé có nên dùng đũa để chỉ vào mặt người khác không?', options: [{ id: 'a', text: 'Không, đó là hành động không lịch sự', emoji: '🙅' }, { id: 'b', text: 'Có, để trêu bạn', emoji: '😜' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Sau khi ăn xong, bé nên đặt đũa như thế nào?', options: [{ id: 'a', text: 'Đặt ngay ngắn trên giá hoặc bát', emoji: '🥢' }, { id: 'b', text: 'Vứt lung tung trên bàn', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Sử dụng đũa thành thạo giúp bé điều gì?', options: [{ id: 'a', text: 'Tự phục vụ tốt trong bữa ăn', emoji: '🍽️' }, { id: 'b', text: 'Chạy nhanh hơn', emoji: '🏃' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Bé dùng đũa để làm gì trong bữa ăn?', options: [{ id: 'a', text: 'Để gắp thức ăn', emoji: '🥢' }, { id: 'b', text: 'Để gõ vào bát', emoji: '🥁' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi cầm đũa, bé dùng mấy ngón tay để điều khiển?', options: [{ id: 'a', text: 'Dùng các ngón tay linh hoạt', emoji: '🖐️' }, { id: 'b', text: 'Cầm bằng cả bàn tay', emoji: '✊' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé có nên dùng đũa để chỉ vào mặt người khác không?', options: [{ id: 'a', text: 'Không, đó là hành động không lịch sự', emoji: '🙅' }, { id: 'b', text: 'Có, để trêu bạn', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Sau khi ăn xong, bé nên đặt đũa như thế nào?', options: [{ id: 'a', text: 'Đặt ngay ngắn trên giá hoặc bát', emoji: '🥢' }, { id: 'b', text: 'Vứt lung tung trên bàn', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Sử dụng đũa thành thạo giúp bé điều gì?', options: [{ id: 'a', text: 'Tự phục vụ tốt trong bữa ăn', emoji: '🍽️' }, { id: 'b', text: 'Chạy nhanh hơn', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3749,11 +5682,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Cách kéo khóa áo',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Để kéo khóa áo, bước đầu tiên bé cần làm gì?', options: [{ id: 'a', text: 'Xỏ đầu khóa vào chốt khóa', emoji: '🧥' }, { id: 'b', text: 'Cầm hai vạt áo kéo mạnh', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Khi kéo khóa, bé nên kéo như thế nào?', options: [{ id: 'a', text: 'Kéo từ từ và nhẹ nhàng', emoji: '✨' }, { id: 'b', text: 'Giật thật mạnh', emoji: '⚡' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Nếu khóa áo bị kẹt vào vải, bé nên làm gì?', options: [{ id: 'a', text: 'Nhờ người lớn gỡ giúp', emoji: '👨‍👩' }, { id: 'b', text: 'Cố sức kéo tiếp', emoji: '😤' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Kéo khóa áo giúp bé điều gì vào mùa đông?', options: [{ id: 'a', text: 'Giữ ấm cơ thể', emoji: '❄️' }, { id: 'b', text: 'Làm bé thấy mát hơn', emoji: '☀️' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thể tự kéo khóa áo cho mình không?', options: [{ id: 'a', text: 'Có, bé sẽ cố gắng tập luyện', emoji: '🤩' }, { id: 'b', text: 'Không bao giờ làm được', emoji: '😢' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Để kéo khóa áo, bước đầu tiên bé cần làm gì?', options: [{ id: 'a', text: 'Xỏ đầu khóa vào chốt khóa', emoji: '🧥' }, { id: 'b', text: 'Cầm hai vạt áo kéo mạnh', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Khi kéo khóa, bé nên kéo như thế nào?', options: [{ id: 'a', text: 'Kéo từ từ và nhẹ nhàng', emoji: '✨' }, { id: 'b', text: 'Giật thật mạnh', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Nếu khóa áo bị kẹt vào vải, bé nên làm gì?', options: [{ id: 'a', text: 'Nhờ người lớn gỡ giúp', emoji: '👨‍👩' }, { id: 'b', text: 'Cố sức kéo tiếp', emoji: '😤' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Kéo khóa áo giúp bé điều gì vào mùa đông?', options: [{ id: 'a', text: 'Giữ ấm cơ thể', emoji: '❄️' }, { id: 'b', text: 'Làm bé thấy mát hơn', emoji: '☀️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thể tự kéo khóa áo cho mình không?', options: [{ id: 'a', text: 'Có, bé sẽ cố gắng tập luyện', emoji: '🤩' }, { id: 'b', text: 'Không bao giờ làm được', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3761,11 +5704,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Cách thả tăm và lấy tăm',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Khi lấy tăm mời người lớn, bé nên cầm như thế nào?', options: [{ id: 'a', text: 'Cầm nhẹ nhàng, đưa bằng hai tay', emoji: '🤲' }, { id: 'b', text: 'Ném cho người lớn', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé có được dùng tăm để đùa nghịch không?', options: [{ id: 'a', text: 'Không, vì tăm nhọn rất nguy hiểm', emoji: '🙅' }, { id: 'b', text: 'Có, để làm kiếm chơi', emoji: '🗡️' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Sau khi dùng tăm xong, nên bỏ tăm vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Để lại vào hộp tăm sạch', emoji: '📦' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Hành động lấy tăm mời ông bà thể hiện điều gì?', options: [{ id: 'a', text: 'Sự hiếu thảo và lễ phép', emoji: '❤️' }, { id: 'b', text: 'Sự lười biếng', emoji: '😴' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé nên lấy tăm vào lúc nào?', options: [{ id: 'a', text: 'Sau bữa ăn khi mọi người cần', emoji: '🍽️' }, { id: 'b', text: 'Lúc đang đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Khi lấy tăm mời người lớn, bé nên cầm như thế nào?', options: [{ id: 'a', text: 'Cầm nhẹ nhàng, đưa bằng hai tay', emoji: '🤲' }, { id: 'b', text: 'Ném cho người lớn', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé có được dùng tăm để đùa nghịch không?', options: [{ id: 'a', text: 'Không, vì tăm nhọn rất nguy hiểm', emoji: '🙅' }, { id: 'b', text: 'Có, để làm kiếm chơi', emoji: '🗡️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Sau khi dùng tăm xong, nên bỏ tăm vào đâu?', options: [{ id: 'a', text: 'Thùng rác', emoji: '🗑️' }, { id: 'b', text: 'Để lại vào hộp tăm sạch', emoji: '📦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Hành động lấy tăm mời ông bà thể hiện điều gì?', options: [{ id: 'a', text: 'Sự hiếu thảo và lễ phép', emoji: '❤️' }, { id: 'b', text: 'Sự lười biếng', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé nên lấy tăm vào lúc nào?', options: [{ id: 'a', text: 'Sau bữa ăn khi mọi người cần', emoji: '🍽️' }, { id: 'b', text: 'Lúc đang đi ngủ', emoji: '🛌' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3773,11 +5726,21 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Kỹ năng: Cách bóc vỏ trứng',
     ageGroups: ['4-5'],
     questions: [
-      { id: 'q1', question: 'Trước khi bóc vỏ trứng luộc, bé nên làm gì?', options: [{ id: 'a', text: 'Gõ nhẹ cho vỏ trứng nứt ra', emoji: '🥚' }, { id: 'b', text: 'Cho vào mồm cắn luôn', emoji: '🦷' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Bé dùng bộ phận nào để bóc vỏ trứng?', options: [{ id: 'a', text: 'Các đầu ngón tay khéo léo', emoji: '🖐️' }, { id: 'b', text: 'Dùng khuỷu tay', emoji: '💪' }], correctId: 'a', type: 'text' },
-      { id: 'q3', question: 'Bé nên bóc vỏ trứng vào đâu để không làm bẩn nhà?', options: [{ id: 'a', text: 'Vào một cái đĩa hoặc bát đựng vỏ', emoji: '🥣' }, { id: 'b', text: 'Vứt trực tiếp xuống sàn', emoji: '🧹' }], correctId: 'a', type: 'text' },
-      { id: 'q4', question: 'Sau khi bóc xong, quả trứng trông như thế nào?', options: [{ id: 'a', text: 'Trắng trẻo và nhẵn nhụi', emoji: '🥚' }, { id: 'b', text: 'Vẫn còn đầy vỏ bám vào', emoji: '🌑' }], correctId: 'a', type: 'text' },
-      { id: 'q5', question: 'Bé có thích giúp mẹ bóc vỏ trứng không?', options: [{ id: 'a', text: 'Rất thích, con sẽ giúp mẹ', emoji: '🤩' }, { id: 'b', text: 'Không thích làm', emoji: '😐' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Trước khi bóc vỏ trứng luộc, bé nên làm gì?', options: [{ id: 'a', text: 'Gõ nhẹ cho vỏ trứng nứt ra', emoji: '🥚' }, { id: 'b', text: 'Cho vào mồm cắn luôn', emoji: '🦷' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Bé dùng bộ phận nào để bóc vỏ trứng?', options: [{ id: 'a', text: 'Các đầu ngón tay khéo léo', emoji: '🖐️' }, { id: 'b', text: 'Dùng khuỷu tay', emoji: '💪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q3', question: 'Bé nên bóc vỏ trứng vào đâu để không làm bẩn nhà?', options: [{ id: 'a', text: 'Vào một cái đĩa hoặc bát đựng vỏ', emoji: '🥣' }, { id: 'b', text: 'Vứt trực tiếp xuống sàn', emoji: '🧹' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q4', question: 'Sau khi bóc xong, quả trứng trông như thế nào?', options: [{ id: 'a', text: 'Trắng trẻo và nhẵn nhụi', emoji: '🥚' }, { id: 'b', text: 'Vẫn còn đầy vỏ bám vào', emoji: '🌑' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q5', question: 'Bé có thích giúp mẹ bóc vỏ trứng không?', options: [{ id: 'a', text: 'Rất thích, con sẽ giúp mẹ', emoji: '🤩' }, { id: 'b', text: 'Không thích làm', emoji: '😐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3968,8 +5931,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['toddler'],
     category: 'social',
     questions: [
-      { id: 'stc-1', question: 'Bé có nên ăn kẹo vào buổi tối không?', options: [{ id: 'a', text: 'Có chứ! 🍭', emoji: '🍭' }, { id: 'b', text: 'Không nên đâu ❌', emoji: '❌' }], correctId: 'b', type: 'text' },
-      { id: 'stc-2', question: 'Ăn kẹo buổi tối sẽ làm răng bé như thế nào?', options: [{ id: 'a', text: 'Răng bị sâu 🦷', emoji: '🦷' }, { id: 'b', text: 'Răng trắng đẹp ✨', emoji: '✨' }], correctId: 'a', type: 'text' },
+      {
+        id: 'stc-1', question: 'Bé có nên ăn kẹo vào buổi tối không?', options: [{ id: 'a', text: 'Có chứ! 🍭', emoji: '🍭' }, { id: 'b', text: 'Không nên đâu ❌', emoji: '❌' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'stc-2', question: 'Ăn kẹo buổi tối sẽ làm răng bé như thế nào?', options: [{ id: 'a', text: 'Răng bị sâu 🦷', emoji: '🦷' }, { id: 'b', text: 'Răng trắng đẹp ✨', emoji: '✨' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3977,7 +5944,9 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Bỏ rác đúng nơi',
     ageGroups: ['toddler'],
     questions: [
-      { id: 'str-1', question: 'Bé nên bỏ rác vào đâu nhỉ?', options: [{ id: 'a', text: 'Thùng rác 🗑️', emoji: '🗑️' }, { id: 'b', text: 'Dưới sàn nhà 🏠', emoji: '🏠' }], correctId: 'a', type: 'text' },
+      {
+        id: 'str-1', question: 'Bé nên bỏ rác vào đâu nhỉ?', options: [{ id: 'a', text: 'Thùng rác 🗑️', emoji: '🗑️' }, { id: 'b', text: 'Dưới sàn nhà 🏠', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -3986,8 +5955,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34e-1', question: 'Khi được tặng quà, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ 😊', emoji: '😊' }, { id: 'b', text: 'Buồn bã 😢', emoji: '😢' }], correctId: 'a', type: 'text' },
-      { id: 's34e-2', question: 'Khi bị mẹ mắng, khuôn mặt bé như thế nào?', options: [{ id: 'a', text: 'Vui cười 😄', emoji: '😄' }, { id: 'b', text: 'Buồn bã ☹️', emoji: '☹️' }], correctId: 'b', type: 'text' },
+      {
+        id: 's34e-1', question: 'Khi được tặng quà, bé cảm thấy thế nào?', options: [{ id: 'a', text: 'Vui vẻ 😊', emoji: '😊' }, { id: 'b', text: 'Buồn bã 😢', emoji: '😢' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34e-2', question: 'Khi bị mẹ mắng, khuôn mặt bé như thế nào?', options: [{ id: 'a', text: 'Vui cười 😄', emoji: '😄' }, { id: 'b', text: 'Buồn bã ☹️', emoji: '☹️' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
     ],
     externalLink: 'https://wordwall.net/vi/embed/b3847870fc1b49d2849a0943779957ce?themeId=1&templateId=5&fontStackId=0',
   },
@@ -3996,8 +5969,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     title: 'Trò chơi: Tránh đồ vật nguy hiểm',
     ageGroups: ['3-4'],
     questions: [
-      { id: 's34d-1', question: 'Đồ vật nào dưới đây là nguy hiểm đối với bé?', options: [{ id: 'a', text: 'Con dao 🔪', emoji: '🔪' }, { id: 'b', text: 'Gấu bông 🧸', emoji: '🧸' }], correctId: 'a', type: 'text' },
-      { id: 's34d-2', question: 'Bé có được nghịch ổ cắm điện không?', options: [{ id: 'a', text: 'Được chứ 🔌', emoji: '🔌' }, { id: 'b', text: 'Tuyệt đối không! ⚡', emoji: '⚡' }], correctId: 'b', type: 'text' },
+      {
+        id: 's34d-1', question: 'Đồ vật nào dưới đây là nguy hiểm đối với bé?', options: [{ id: 'a', text: 'Con dao 🔪', emoji: '🔪' }, { id: 'b', text: 'Gấu bông 🧸', emoji: '🧸' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34d-2', question: 'Bé có được nghịch ổ cắm điện không?', options: [{ id: 'a', text: 'Được chứ 🔌', emoji: '🔌' }, { id: 'b', text: 'Tuyệt đối không! ⚡', emoji: '⚡' }], correctId: 'b', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4006,8 +5983,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34ss-1', question: 'Khi đi học về, bé nên làm gì với đồ dùng cá nhân?', options: [{ id: 'a', text: 'Cất vào đúng nơi quy định', emoji: '📍' }, { id: 'b', text: 'Vứt bừa bãi ra sàn', emoji: '🏠' }], correctId: 'a', type: 'text' },
-      { id: 's34ss-2', question: 'Bé có thể tự làm việc gì để giúp mình?', options: [{ id: 'a', text: 'Tự xúc cơm, tự đi dép', emoji: '🥄👟' }, { id: 'b', text: 'Chờ người lớn làm hộ hết', emoji: '🤐' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34ss-1', question: 'Khi đi học về, bé nên làm gì với đồ dùng cá nhân?', options: [{ id: 'a', text: 'Cất vào đúng nơi quy định', emoji: '📍' }, { id: 'b', text: 'Vứt bừa bãi ra sàn', emoji: '🏠' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34ss-2', question: 'Bé có thể tự làm việc gì để giúp mình?', options: [{ id: 'a', text: 'Tự xúc cơm, tự đi dép', emoji: '🥄👟' }, { id: 'b', text: 'Chờ người lớn làm hộ hết', emoji: '🤐' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4016,8 +5997,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34c-1', question: 'Khi cảm thấy giận dữ, bé nên làm gì để bình tĩnh lại?', options: [{ id: 'a', text: 'Hít hà thật sâu và thở ra chậm', emoji: '🌬️' }, { id: 'b', text: 'Quấy khóc và ném đồ chơi', emoji: '😭' }], correctId: 'a', type: 'text' },
-      { id: 's34c-2', question: 'Bình tĩnh giúp bé cảm thấy như thế nào?', options: [{ id: 'a', text: 'Dễ chịu và vui vẻ hơn', emoji: '😊' }, { id: 'b', text: 'Mệt mỏi và buồn bã', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34c-1', question: 'Khi cảm thấy giận dữ, bé nên làm gì để bình tĩnh lại?', options: [{ id: 'a', text: 'Hít hà thật sâu và thở ra chậm', emoji: '🌬️' }, { id: 'b', text: 'Quấy khóc và ném đồ chơi', emoji: '😭' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34c-2', question: 'Bình tĩnh giúp bé cảm thấy như thế nào?', options: [{ id: 'a', text: 'Dễ chịu và vui vẻ hơn', emoji: '😊' }, { id: 'b', text: 'Mệt mỏi và buồn bã', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4026,8 +6011,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34is-1', question: 'Bé có được tự ý sờ vào phích nước nóng không?', options: [{ id: 'a', text: 'Không, vì sẽ bị bỏng', emoji: '🔥' }, { id: 'b', text: 'Có chứ, nghịch cho vui', emoji: '🚿' }], correctId: 'a', type: 'text' },
-      { id: 's34is-2', question: 'Các thiết bị điện như tivi, quạt, bé nên làm gì?', options: [{ id: 'a', text: 'Nhờ người lớn bật giúp', emoji: '🙏' }, { id: 'b', text: 'Tự ý cắm điện', emoji: '⚡' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34is-1', question: 'Bé có được tự ý sờ vào phích nước nóng không?', options: [{ id: 'a', text: 'Không, vì sẽ bị bỏng', emoji: '🔥' }, { id: 'b', text: 'Có chứ, nghịch cho vui', emoji: '🚿' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34is-2', question: 'Các thiết bị điện như tivi, quạt, bé nên làm gì?', options: [{ id: 'a', text: 'Nhờ người lớn bật giúp', emoji: '🙏' }, { id: 'b', text: 'Tự ý cắm điện', emoji: '⚡' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4036,8 +6025,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34st-1', question: 'Khi lên xuống cầu thang, bé nên làm gì?', options: [{ id: 'a', text: 'Vịnh tay vào tay vịn', emoji: '🪜' }, { id: 'b', text: 'Chạy nhảy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 's34st-2', question: 'Bé có nên đùa nghịch trên cầu thang không?', options: [{ id: 'a', text: 'Không, vì rất dễ bị ngã', emoji: '🚫' }, { id: 'b', text: 'Có, chơi rất vui', emoji: '😄' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34st-1', question: 'Khi lên xuống cầu thang, bé nên làm gì?', options: [{ id: 'a', text: 'Vịnh tay vào tay vịn', emoji: '🪜' }, { id: 'b', text: 'Chạy nhảy thật nhanh', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34st-2', question: 'Bé có nên đùa nghịch trên cầu thang không?', options: [{ id: 'a', text: 'Không, vì rất dễ bị ngã', emoji: '🚫' }, { id: 'b', text: 'Có, chơi rất vui', emoji: '😄' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4046,8 +6039,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34bc-1', question: 'Để mở nắp chai, bé nên xoay nắp theo hướng nào?', options: [{ id: 'a', text: 'Xoay ngược chiều kim đồng hồ', emoji: '🔄' }, { id: 'b', text: 'Ấn thật mạnh xuống', emoji: '⬇️' }], correctId: 'a', type: 'text' },
-      { id: 's34bc-2', question: 'Sau khi uống nước xong, bé cần làm gì?', options: [{ id: 'a', text: 'Đóng chặt nắp chai lại', emoji: '🧴' }, { id: 'b', text: 'Cứ để nắp mở như vậy', emoji: '💧' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34bc-1', question: 'Để mở nắp chai, bé nên xoay nắp theo hướng nào?', options: [{ id: 'a', text: 'Xoay ngược chiều kim đồng hồ', emoji: '🔄' }, { id: 'b', text: 'Ấn thật mạnh xuống', emoji: '⬇️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34bc-2', question: 'Sau khi uống nước xong, bé cần làm gì?', options: [{ id: 'a', text: 'Đóng chặt nắp chai lại', emoji: '🧴' }, { id: 'b', text: 'Cứ để nắp mở như vậy', emoji: '💧' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4056,8 +6053,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34ss-1', question: 'Khi dùng kéo, bé nên làm gì để đảm bảo an toàn?', options: [{ id: 'a', text: 'Sử dụng dưới sự giám sát của người lớn', emoji: '👀' }, { id: 'b', text: 'Vừa chạy vừa cầm kéo', emoji: '🏃' }], correctId: 'a', type: 'text' },
-      { id: 's34ss-2', question: 'Kéo dùng để làm gì trong học tập?', options: [{ id: 'a', text: 'Để cắt giấy, thủ công', emoji: '✂️' }, { id: 'b', text: 'Để trêu đùa bạn bè', emoji: '😜' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34ss-1', question: 'Khi dùng kéo, bé nên làm gì để đảm bảo an toàn?', options: [{ id: 'a', text: 'Sử dụng dưới sự giám sát của người lớn', emoji: '👀' }, { id: 'b', text: 'Vừa chạy vừa cầm kéo', emoji: '🏃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34ss-2', question: 'Kéo dùng để làm gì trong học tập?', options: [{ id: 'a', text: 'Để cắt giấy, thủ công', emoji: '✂️' }, { id: 'b', text: 'Để trêu đùa bạn bè', emoji: '😜' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4066,8 +6067,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34bs-1', question: 'Để cài cúc áo đúng, bé cần làm gì?', options: [{ id: 'a', text: 'Cho cúc vào đúng lỗ khuy tương ứng', emoji: '👕' }, { id: 'b', text: 'Cài lộn xộn cái cao cái thấp', emoji: '🤪' }], correctId: 'a', type: 'text' },
-      { id: 's34bs-2', question: 'Tự cài cúc áo giúp bé điều gì?', options: [{ id: 'a', text: 'Giúp đôi tay khéo léo và tự lập hơn', emoji: '✨' }, { id: 'b', text: 'Làm bé thấy mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34bs-1', question: 'Để cài cúc áo đúng, bé cần làm gì?', options: [{ id: 'a', text: 'Cho cúc vào đúng lỗ khuy tương ứng', emoji: '👕' }, { id: 'b', text: 'Cài lộn xộn cái cao cái thấp', emoji: '🤪' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34bs-2', question: 'Tự cài cúc áo giúp bé điều gì?', options: [{ id: 'a', text: 'Giúp đôi tay khéo léo và tự lập hơn', emoji: '✨' }, { id: 'b', text: 'Làm bé thấy mệt mỏi', emoji: '😴' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4076,8 +6081,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34sw-1', question: 'Khi thấy rác trên sàn, bé dùng gì để dọn dẹp?', options: [{ id: 'a', text: 'Chổi và hót rác', emoji: '🧹' }, { id: 'b', text: 'Dùng chân gạt đi', emoji: '🦶' }], correctId: 'a', type: 'text' },
-      { id: 's34sw-2', question: 'Dọn dẹp nhà cửa giúp không gian sống như thế nào?', options: [{ id: 'a', text: 'Sạch sẽ và thoáng mát', emoji: '✨' }, { id: 'b', text: 'Bừa bộn hơn', emoji: '📦' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34sw-1', question: 'Khi thấy rác trên sàn, bé dùng gì để dọn dẹp?', options: [{ id: 'a', text: 'Chổi và hót rác', emoji: '🧹' }, { id: 'b', text: 'Dùng chân gạt đi', emoji: '🦶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34sw-2', question: 'Dọn dẹp nhà cửa giúp không gian sống như thế nào?', options: [{ id: 'a', text: 'Sạch sẽ và thoáng mát', emoji: '✨' }, { id: 'b', text: 'Bừa bộn hơn', emoji: '📦' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4086,8 +6095,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34tf-1', question: 'Để gấp khăn vuông vắn, bé nên làm gì?', options: [{ id: 'a', text: 'Trải phẳng khăn và gấp các mép trùng nhau', emoji: '🧺' }, { id: 'b', text: 'Vo tròn khăn lại', emoji: '🧶' }], correctId: 'a', type: 'text' },
-      { id: 's34tf-2', question: 'Gấp khăn gọn gàng giúp tủ đồ của bé như thế nào?', options: [{ id: 'a', text: 'Đẹp mắt và dễ tìm đồ', emoji: '🌟' }, { id: 'b', text: 'Chật chội hơn', emoji: '👗' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34tf-1', question: 'Để gấp khăn vuông vắn, bé nên làm gì?', options: [{ id: 'a', text: 'Trải phẳng khăn và gấp các mép trùng nhau', emoji: '🧺' }, { id: 'b', text: 'Vo tròn khăn lại', emoji: '🧶' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34tf-2', question: 'Gấp khăn gọn gàng giúp tủ đồ của bé như thế nào?', options: [{ id: 'a', text: 'Đẹp mắt và dễ tìm đồ', emoji: '🌟' }, { id: 'b', text: 'Chật chội hơn', emoji: '👗' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4096,8 +6109,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     ageGroups: ['3-4'],
     category: 'social',
     questions: [
-      { id: 's34sk-1', question: 'Khi đi tất, bé nên chú ý điều gì?', options: [{ id: 'a', text: 'Xoay đúng phần gót tất vào gót chân', emoji: '🧦' }, { id: 'b', text: 'Đi ngược lại cũng được', emoji: '🙃' }], correctId: 'a', type: 'text' },
-      { id: 's34sk-2', question: 'Đi tất vào mùa đông giúp bé điều gì?', options: [{ id: 'a', text: 'Giữ ấm đôi bàn chân', emoji: '🔥' }, { id: 'b', text: 'Làm chân bị lạnh', emoji: '❄️' }], correctId: 'a', type: 'text' },
+      {
+        id: 's34sk-1', question: 'Khi đi tất, bé nên chú ý điều gì?', options: [{ id: 'a', text: 'Xoay đúng phần gót tất vào gót chân', emoji: '🧦' }, { id: 'b', text: 'Đi ngược lại cũng được', emoji: '🙃' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 's34sk-2', question: 'Đi tất vào mùa đông giúp bé điều gì?', options: [{ id: 'a', text: 'Giữ ấm đôi bàn chân', emoji: '🔥' }, { id: 'b', text: 'Làm chân bị lạnh', emoji: '❄️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
@@ -4279,8 +6296,12 @@ export const MATH_GAMES_DATA: MathGame[] = [
     category: 'language',
     subcategory: 'alphabet',
     questions: [
-      { id: 'q1', question: 'Chữ cái nào đứng đầu bảng chữ cái Tiếng Việt?', options: [{ id: 'a', text: 'Chữ A', emoji: '🅰️' }, { id: 'b', text: 'Chữ B', emoji: '🅱️' }], correctId: 'a', type: 'text' },
-      { id: 'q2', question: 'Sau chữ A là chữ gì?', options: [{ id: 'a', text: 'Chữ Ă', emoji: '🅰️' }, { id: 'b', text: 'Chữ B', emoji: '🅱️' }], correctId: 'a', type: 'text' },
+      {
+        id: 'q1', question: 'Chữ cái nào đứng đầu bảng chữ cái Tiếng Việt?', options: [{ id: 'a', text: 'Chữ A', emoji: '🅰️' }, { id: 'b', text: 'Chữ B', emoji: '🅱️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
+      {
+        id: 'q2', question: 'Sau chữ A là chữ gì?', options: [{ id: 'a', text: 'Chữ Ă', emoji: '🅰️' }, { id: 'b', text: 'Chữ B', emoji: '🅱️' }], correctId: 'a', type: 'text', audioUrl: '',
+      },
     ],
   },
   {
