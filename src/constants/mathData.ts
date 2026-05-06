@@ -1,9 +1,3 @@
-import A from '../assets/a.mp3';
-import B from '../assets/b.mp3';
-import C from '../assets/c.mp3';
-import D from '../assets/d.mp3';
-import F from '../assets/f.mp3';
-
 export interface MathQuestion {
   id: string;
   question: string;
@@ -94,7 +88,6 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '1',
         type: 'text',
-        audioUrl: A,
       },
       {
         id: 'n1-5-2',
@@ -106,7 +99,6 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '2',
         type: 'text',
-        audioUrl: B,
         hint: '🍎🍎',
       },
       {
@@ -119,7 +111,6 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '3',
         type: 'text',
-        audioUrl: C,
       },
       {
         id: 'n1-5-4',
@@ -131,7 +122,6 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '4',
         type: 'text',
-        audioUrl: D,
         hint: '🐶🐶🐶🐶',
       },
       {
@@ -144,7 +134,6 @@ export const MATH_GAMES_DATA: MathGame[] = [
         ],
         correctId: '5',
         type: 'text',
-        audioUrl: F,
       },
     ],
   },
