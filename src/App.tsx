@@ -2498,40 +2498,8 @@ Nếu thiếu thông tin, hãy hỏi lại độ tuổi hoặc chủ đề của
             <label className="cursor-pointer bg-gradient-to-r from-pink-400 to-rose-500 text-white font-black text-xl py-4 px-8 rounded-full shadow-xl border-4 border-white hover:scale-105 transition-transform flex items-center gap-3">
               <input type="file" className="hidden" accept="image/*" onChange={(e) => handleFileUpload(e, 'image')} />
               <ImageIcon size={28} />
-              <span>Tải ảnh lên</span>
+              <a href="https://padlet.com/nguyenngadp91/khoanh-khac-cua-be-o5fr4eyqamcix7g7" target="_blank">Tải ảnh lên</a>
             </label>
-
-            <label className="cursor-pointer bg-gradient-to-r from-sky-400 to-blue-500 text-white font-black text-xl py-4 px-8 rounded-full shadow-xl border-4 border-white hover:scale-105 transition-transform flex items-center gap-3">
-              <input type="file" className="hidden" accept="video/*" onChange={(e) => handleFileUpload(e, 'video')} />
-              <Video size={28} />
-              <span>Tải video lên</span>
-            </label>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 w-full mt-8">
-            {uploadedFiles.map((file, index) => (
-              <motion.div
-                key={index}
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                className="aspect-square rounded-3xl overflow-hidden border-4 border-white shadow-lg relative group bg-slate-100"
-              >
-                {file.type === 'image' ? (
-                  <img src={file.url} alt={file.name} className="w-full h-full object-cover" />
-                ) : (
-                  <video src={file.url} className="w-full h-full object-cover" />
-                )}
-                <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                  <Star size={40} className="text-yellow-400 fill-yellow-400" />
-                  {file.type === 'video' && <Video size={40} className="text-white absolute top-2 right-2" />}
-                </div>
-              </motion.div>
-            ))}
-            {uploadedFiles.length === 0 && (
-              <div className="col-span-full py-12 text-center text-slate-400 font-bold italic">
-                Chưa có nội dung nào được tải lên. Bé hãy bắt đầu ghi lại những khoảnh khắc đẹp nhé!
-              </div>
-            )}
           </div>
         </div>
       </div>
